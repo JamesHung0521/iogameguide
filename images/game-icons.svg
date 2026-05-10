@@ -1,0 +1,46 @@
+<!-- ========================================
+     iogameguide.com - 游戏图标占位符 SVG
+     包含各游戏品牌的简化版图标
+     ======================================== -->
+
+<!-- Agar.io 细胞图标 -->
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="30" cy="30" r="25" fill="#00c853" opacity="0.3"/>
+    <circle cx="30" cy="30" r="18" fill="#00c853" opacity="0.5"/>
+    <circle cx="30" cy="30" r="12" fill="#00c853"/>
+</svg>
+
+<!-- Slither.io 蛇图标 -->
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="30" cy="30" r="8" fill="#7c4dff"/>
+    <circle cx="18" cy="30" r="5" fill="#7c4dff" opacity="0.8"/>
+    <circle cx="10" cy="30" r="3" fill="#7c4dff" opacity="0.6"/>
+    <circle cx="42" cy="30" r="5" fill="#7c4dff" opacity="0.8"/>
+    <circle cx="50" cy="30" r="3" fill="#7c4dff" opacity="0.6"/>
+</svg>
+
+<!-- Diep.io 坦克图标 -->
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <rect x="15" y="15" width="30" height="30" rx="5" fill="#ff5722"/>
+    <rect x="25" y="5" width="10" height="20" rx="2" fill="#ff5722"/>
+    <circle cx="30" cy="30" r="8" fill="#ff7043"/>
+</svg>
+
+<!-- Paper.io 方块图标 -->
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <rect x="20" y="20" width="20" height="20" fill="#2196f3" opacity="0.3"/>
+    <rect x="25" y="25" width="20" height="20" fill="#2196f3" opacity="0.6"/>
+    <rect x="30" y="30" width="20" height="20" fill="#2196f3"/>
+</svg>
+
+<!-- Mope.io 水滴图标 -->
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="30" cy="35" rx="18" ry="15" fill="#00bcd4"/>
+    <ellipse cx="30" cy="32" rx="10" ry="8" fill="#4dd0e1"/>
+</svg>
+
+<!-- 游戏占位符 -->
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <rect x="5" y="5" width="50" height="50" rx="8" fill="#1a1a3a" stroke="#2a2a4a" stroke-width="2"/>
+    <text x="30" y="35" text-anchor="middle" fill="#6b6b8a" font-family="Arial" font-size="20">🎮</text>
+</svg>

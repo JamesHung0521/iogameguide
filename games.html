@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO 基础标签 -->
+    <title>All .io Games - Complete Guide Directory | iogameguide.com</title>
+    <meta name="description" content="Browse our complete collection of .io game guides. Find strategies for Agar.io, Slither.io, Diep.io, Paper.io, Mope.io and more popular games.">
+    <meta name="keywords" content="io games list, agar.io, slither.io, diep.io, paper.io, mope.io, game guides, all io games">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="All .io Games - Complete Guide Directory | iogameguide.com">
+    <meta property="og:description" content="Find strategies for all popular .io games in one place.">
+    <meta property="og:url" content="https://iogameguide.com/games.html">
+    
+    <link rel="canonical" href="https://iogameguide.com/games.html">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "All .io Games Guides",
+        "description": "Complete directory of .io game guides and strategies",
+        "url": "https://iogameguide.com/games.html"
+    }
+    </script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="16" stroke="url(#grad1)" stroke-width="2"/>
+                    <path d="M12 18 L18 12 L24 18 L18 24 Z" fill="url(#grad1)"/>
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00ff88"/>
+                            <stop offset="100%" style="stop-color:#00d4ff"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>iogameguide</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html" class="active">Games</a></li>
+                <li><a href="games.html">Guides</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="hero" style="padding: 140px 0 60px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>All .io Games</h1>
+                <p class="subtitle">Explore our complete collection of game guides and strategies</p>
+                
+                <!-- 搜索框 -->
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="gameSearch" placeholder="Search games..." aria-label="Search games">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 游戏列表 -->
+    <section class="section">
+        <div class="container">
+            <!-- 筛选标签 -->
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
+                <button class="btn btn-sm btn-primary filter-btn" data-filter="all">All Games</button>
+                <button class="btn btn-sm btn-secondary filter-btn" data-filter="multiplayer">Multiplayer</button>
+                <button class="btn btn-sm btn-secondary filter-btn" data-filter="strategy">Strategy</button>
+                <button class="btn btn-sm btn-secondary filter-btn" data-filter="survival">Survival</button>
+            </div>
+            
+            <div class="game-grid" id="allGames">
+                <!-- 游戏卡片将通过 JS 动态渲染 -->
+            </div>
+            
+            <!-- 空状态提示 -->
+            <div id="noResults" style="display: none; text-align: center; padding: 3rem; color: var(--text-muted);">
+                <p style="font-size: 1.5rem; margin-bottom: 1rem;">🔍</p>
+                <p>No games found matching your search.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 全部攻略列表 -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">📚 All Guides</h2>
+                <p class="section-subtitle">Browse all our game strategy articles</p>
+            </div>
+            
+            <div class="guide-list" id="allGuides">
+                <!-- 攻略卡片将通过 JS 动态渲染 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="games.html">All Games</a></li>
+                        <li><a href="games.html">Latest Guides</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Popular Games</h4>
+                    <ul>
+                        <li><a href="guides/agar-io-guide.html">Agar.io</a></li>
+                        <li><a href="games.html">Slither.io</a></li>
+                        <li><a href="games.html">Diep.io</a></li>
+                        <li><a href="games.html">Paper.io</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@iogameguide.com">contact@iogameguide.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 iogameguide.com. All rights reserved. Not affiliated with any game developers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // 渲染所有游戏
+        const allGamesContainer = document.getElementById('allGames');
+        const noResults = document.getElementById('noResults');
+        
+        function renderGames(filter = 'all', search = '') {
+            let games = window.iogameguide.games;
+            
+            // 搜索过滤
+            if (search) {
+                search = search.toLowerCase();
+                games = games.filter(game => 
+                    game.name.toLowerCase().includes(search) ||
+                    game.description.toLowerCase().includes(search) ||
+                    game.tags.some(tag => tag.toLowerCase().includes(search))
+                );
+            }
+            
+            // 分类过滤
+            if (filter !== 'all') {
+                games = games.filter(game => 
+                    game.tags.some(tag => tag.toLowerCase().includes(filter))
+                );
+            }
+            
+            if (games.length === 0) {
+                allGamesContainer.style.display = 'none';
+                noResults.style.display = 'block';
+            } else {
+                allGamesContainer.style.display = 'grid';
+                noResults.style.display = 'none';
+                allGamesContainer.innerHTML = games.map(window.iogameguide.renderGameCard).join('');
+            }
+        }
+        
+        // 初始渲染
+        renderGames();
+        
+        // 渲染所有攻略
+        document.getElementById('allGuides').innerHTML = 
+            window.iogameguide.guides.map(window.iogameguide.renderGuideCard).join('');
+        
+        // 搜索功能
+        const searchInput = document.getElementById('gameSearch');
+        searchInput.addEventListener('input', function() {
+            renderGames('all', this.value);
+        });
+        
+        // 筛选按钮
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                // 更新按钮样式
+                document.querySelectorAll('.filter-btn').forEach(b => {
+                    b.classList.remove('btn-primary');
+                    b.classList.add('btn-secondary');
+                });
+                this.classList.remove('btn-secondary');
+                this.classList.add('btn-primary');
+                
+                // 渲染游戏
+                renderGames(this.dataset.filter, searchInput.value);
+            });
+        });
+        
+        // URL 参数搜索
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchQuery = urlParams.get('search');
+        if (searchQuery) {
+            searchInput.value = searchQuery;
+            renderGames('all', searchQuery);
+        }
+    </script>
+</body>
+</html>

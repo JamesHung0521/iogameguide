@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO 基础标签 -->
+    <title>iogameguide.com - Master Every .io Game | Free Guides & Strategies</title>
+    <meta name="description" content="Your ultimate destination for .io game guides. Learn strategies for Agar.io, Slither.io, Diep.io, Paper.io and more. Become a pro player today!">
+    <meta name="keywords" content="io games, agar.io guide, slither.io tips, diep.io strategy, paper.io, game guides, multiplayer games">
+    <meta name="author" content="iogameguide.com">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="iogameguide.com - Master Every .io Game">
+    <meta property="og:description" content="Free guides and strategies for the most popular .io games.">
+    <meta property="og:url" content="https://iogameguide.com">
+    <meta property="og:site_name" content="iogameguide.com">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="iogameguide.com - Master Every .io Game">
+    <meta name="twitter:description" content="Free guides and strategies for the most popular .io games.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://iogameguide.com">
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- 结构化数据 - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "iogameguide.com",
+        "url": "https://iogameguide.com",
+        "description": "Your ultimate destination for .io game guides and strategies",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://iogameguide.com/games.html?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <!-- Logo SVG -->
+                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="16" stroke="url(#grad1)" stroke-width="2"/>
+                    <path d="M12 18 L18 12 L24 18 L18 24 Z" fill="url(#grad1)"/>
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00ff88"/>
+                            <stop offset="100%" style="stop-color:#00d4ff"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>iogameguide</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="games.html">Guides</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <!-- 汉堡菜单按钮 -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero 区域 -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Master Every .io Game</h1>
+                <p class="subtitle">Free guides, strategies, and tips for the most popular .io games. From beginner to pro in no time.</p>
+                
+                <!-- 搜索框 -->
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" placeholder="Search guides (e.g., Agar.io strategies)..." aria-label="Search guides">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 热门游戏 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🔥 Popular Games</h2>
+                <p class="section-subtitle">Explore our guides for the hottest .io games</p>
+            </div>
+            
+            <div class="game-grid" id="popularGames">
+                <!-- 游戏卡片将通过 JS 动态渲染 -->
+            </div>
+            
+            <div class="text-center mt-xl">
+                <a href="games.html" class="btn btn-secondary">View All Games →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新攻略 -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">📚 Latest Guides</h2>
+                <p class="section-subtitle">Fresh strategies and tips to level up your game</p>
+            </div>
+            
+            <div class="guide-list" id="latestGuides">
+                <!-- 攻略卡片将通过 JS 动态渲染 -->
+            </div>
+            
+            <div class="text-center mt-xl">
+                <a href="games.html" class="btn btn-primary">Browse All Guides →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 为什么选择我们 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">💡 Why iogameguide?</h2>
+                <p class="section-subtitle">Everything you need to dominate .io games</p>
+            </div>
+            
+            <div class="game-grid">
+                <div class="game-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🎯</div>
+                    <h3>Proven Strategies</h3>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem;">Tested and refined strategies from top players</p>
+                </div>
+                
+                <div class="game-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">⚡</div>
+                    <h3>Quick to Learn</h3>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem;">Clear, concise guides anyone can understand</p>
+                </div>
+                
+                <div class="game-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🆓</div>
+                    <h3>100% Free</h3>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem;">No paywalls, no signup required</p>
+                </div>
+                
+                <div class="game-card" style="text-align: center;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🔄</div>
+                    <h3>Always Updated</h3>
+                    <p style="color: var(--text-secondary); margin-top: 0.5rem;">Guides updated with game changes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="games.html">All Games</a></li>
+                        <li><a href="games.html">Latest Guides</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Popular Games</h4>
+                    <ul>
+                        <li><a href="guides/agar-io-guide.html">Agar.io</a></li>
+                        <li><a href="games.html">Slither.io</a></li>
+                        <li><a href="games.html">Diep.io</a></li>
+                        <li><a href="games.html">Paper.io</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@iogameguide.com">contact@iogameguide.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 iogameguide.com. All rights reserved. Not affiliated with any game developers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        // 渲染热门游戏
+        document.getElementById('popularGames').innerHTML = 
+            window.iogameguide.games.slice(0, 6).map(window.iogameguide.renderGameCard).join('');
+        
+        // 渲染最新攻略
+        document.getElementById('latestGuides').innerHTML = 
+            window.iogameguide.guides.slice(0, 3).map(window.iogameguide.renderGuideCard).join('');
+    </script>
+</body>
+</html>
