@@ -220,6 +220,126 @@ const gamesData = [
         difficulty: 1,
         tags: ['Simulation', 'Physics', 'Creative'],
         description: 'Physics-based sandbox simulation game.'
+    },
+    {
+        id: 'surviv-io',
+        name: 'Surviv.io',
+        icon: '🎮',
+        iconColor: '#ff9800',
+        guideCount: 3,
+        difficulty: 3,
+        tags: ['Battle Royale', 'Shooter', 'Survival'],
+        description: '2D battle royale with weapons and tactics.'
+    },
+    {
+        id: 'bloxd-io',
+        name: 'Bloxd.io',
+        icon: '🧱',
+        iconColor: '#e91e63',
+        guideCount: 2,
+        difficulty: 3,
+        tags: ['Building', 'PvP', 'Parkour'],
+        description: 'Minecraft-style building and combat game.'
+    },
+    {
+        id: 'shell-shockers',
+        name: 'Shell Shockers',
+        icon: '🥚',
+        iconColor: '#ffeb3b',
+        guideCount: 2,
+        difficulty: 3,
+        tags: ['FPS', 'Shooter', 'Egg'],
+        description: 'First-person egg shooter combat game.'
+    },
+    {
+        id: 'venge-io',
+        name: 'Venge.io',
+        icon: '💀',
+        iconColor: '#9c27b0',
+        guideCount: 2,
+        difficulty: 4,
+        tags: ['FPS', 'Shooter', 'Class'],
+        description: 'Tactical FPS with class-based combat.'
+    },
+    {
+        id: 'taming-io',
+        name: 'Taming.io',
+        icon: '🦎',
+        iconColor: '#4caf50',
+        guideCount: 2,
+        difficulty: 2,
+        tags: ['Pets', 'Building', 'Survival'],
+        description: 'Tame pets and build your base.'
+    },
+    {
+        id: 'yohoho-io',
+        name: 'Yohoho.io',
+        icon: '🏴‍☠️',
+        iconColor: '#795548',
+        guideCount: 2,
+        difficulty: 2,
+        tags: ['Pirate', 'Battle', 'Collect'],
+        description: 'Battle royale with pirate themes.'
+    },
+    {
+        id: 'evowars-io',
+        name: 'EvoWars.io',
+        icon: '⚔️',
+        iconColor: '#f44336',
+        guideCount: 2,
+        difficulty: 2,
+        tags: ['Evolution', 'Combat', 'Sword'],
+        description: 'Evolution and combat game with weapons.'
+    },
+    {
+        id: 'skribbl-io',
+        name: 'Skribbl.io',
+        icon: '✏️',
+        iconColor: '#3f51b5',
+        guideCount: 2,
+        difficulty: 1,
+        tags: ['Drawing', 'Party', 'Guessing'],
+        description: 'Drawing and guessing party game.'
+    },
+    {
+        id: 'zombsroyale-io',
+        name: 'ZombsRoyale.io',
+        icon: '💣',
+        iconColor: '#607d8b',
+        guideCount: 2,
+        difficulty: 3,
+        tags: ['Battle Royale', 'Zombie', 'Shooter'],
+        description: 'Top-down battle royale shooter.'
+    },
+    {
+        id: 'gartic-io',
+        name: 'Gartic.io',
+        icon: '🎨',
+        iconColor: '#00bcd4',
+        guideCount: 2,
+        difficulty: 1,
+        tags: ['Drawing', 'Party', 'Guessing'],
+        description: 'Drawing and guessing multiplayer game.'
+    },
+    {
+        id: 'wings-io',
+        name: 'Wings.io',
+        icon: '✈️',
+        iconColor: '#2196f3',
+        guideCount: 2,
+        difficulty: 2,
+        tags: ['Flight', 'Combat', 'Aircraft'],
+        description: 'Aerial combat with planes and dogfights.'
+    },
+    {
+        id: 'moomoo-io',
+        name: 'MooMoo.io',
+        icon: '🐄',
+        iconColor: '#8d6e63',
+        guideCount: 2,
+        difficulty: 2,
+        tags: ['Survival', 'Building', 'Base'],
+        description: 'Survival sandbox with base building.'
     }
 ];
 
@@ -227,6 +347,86 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: 'surviv-io-guide',
+        title: 'Surviv.io Complete Guide: Master 2D Battle Royale',
+        game: 'Surviv.io',
+        gameId: 'surviv-io',
+        date: '2024-01-15',
+        readTime: '14 min',
+        excerpt: 'Learn weapons, map strategies, and survival tactics to become the last survivor.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'bloxd-io-guide',
+        title: 'Bloxd.io Complete Guide: Bedwars, Parkour & PvP',
+        game: 'Bloxd.io',
+        gameId: 'bloxd-io',
+        date: '2024-01-15',
+        readTime: '13 min',
+        excerpt: 'Master all game modes including Bedwars strategies, building mechanics, and PvP combat.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'shell-shockers-guide',
+        title: 'Shell Shockers Complete Guide: Best Classes & Weapons',
+        game: 'Shell Shockers',
+        gameId: 'shell-shockers',
+        date: '2024-01-15',
+        readTime: '12 min',
+        excerpt: 'Learn class selection, weapon comparisons, and map strategies for egg combat.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'mope-io-guide',
+        title: 'Mope.io Complete Guide: Animal Evolution & Survival',
+        game: 'Mope.io',
+        gameId: 'mope-io',
+        date: '2024-01-15',
+        readTime: '13 min',
+        excerpt: 'Master animal evolution routes, food chain strategies, and survival tips.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'venge-io-guide',
+        title: 'Venge.io Complete Guide: Best Classes & Combat',
+        game: 'Venge.io',
+        gameId: 'venge-io',
+        date: '2024-01-15',
+        readTime: '11 min',
+        excerpt: 'Learn FPS combat tactics, class selection, and weapon loadouts.',
+        difficulty: 'Advanced'
+    },
+    {
+        id: 'gartic-io-guide',
+        title: 'Gartic.io Complete Guide: Drawing & Guessing Tips',
+        game: 'Gartic.io',
+        gameId: 'gartic-io',
+        date: '2024-01-15',
+        readTime: '11 min',
+        excerpt: 'Master drawing techniques, guessing strategies, and room settings.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'wings-io-guide',
+        title: 'Wings.io Complete Guide: Master Dogfighting',
+        game: 'Wings.io',
+        gameId: 'wings-io',
+        date: '2024-01-15',
+        readTime: '10 min',
+        excerpt: 'Learn plane combat, aircraft selection, and aerial combat tactics.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'moomoo-io-guide',
+        title: 'MooMoo.io Complete Guide: Base Building & Survival',
+        game: 'MooMoo.io',
+        gameId: 'moomoo-io',
+        date: '2024-01-15',
+        readTime: '12 min',
+        excerpt: 'Master base designs, resource management, and PvP defense strategies.',
+        difficulty: 'Intermediate'
+    },
     {
         id: 'agar-io-beginner-guide',
         title: 'Agar.io Beginner\'s Guide: From Tiny Cell to Giant',
