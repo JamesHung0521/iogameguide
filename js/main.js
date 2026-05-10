@@ -192,6 +192,26 @@ const gamesData = [
         description: 'Evolve from a tiny creature to a top predator.'
     },
     {
+        id: 'hole-io',
+        name: 'Hole.io',
+        icon: '🕳️',
+        iconColor: '#1a1a2e',
+        guideCount: 3,
+        difficulty: 1,
+        tags: ['Swallow', 'City', 'Growth'],
+        description: 'Control a black hole that swallows cities and objects.'
+    },
+    {
+        id: 'krunker-io',
+        name: 'Krunker.io',
+        icon: '🎯',
+        iconColor: '#ff6b35',
+        guideCount: 4,
+        difficulty: 4,
+        tags: ['FPS', 'Shooter', 'Combat'],
+        description: 'Fast-paced first-person shooter .io game.'
+    },
+    {
         id: 'sandboxels',
         name: 'Sandboxels',
         icon: '🧪',
