@@ -340,6 +340,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Survival', 'Building', 'Base'],
         description: 'Survival sandbox with base building.'
+    },
+    {
+        id: 'smashkarts-io',
+        name: 'SmashKarts.io',
+        icon: '🏎️',
+        iconColor: '#ff6b35',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Kart', 'Combat', 'Battle'],
+        description: 'Multiplayer kart battle with weapons and power-ups.'
     }
 ];
 
@@ -347,6 +357,16 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: 'smashkarts-io-guide',
+        title: 'SmashKarts.io Guide: Master Kart Combat',
+        game: 'SmashKarts.io',
+        gameId: 'smashkarts-io',
+        date: '2026-05-12',
+        readTime: '11 min',
+        excerpt: 'Learn weapon strategies, map control, driving tips, and pro tactics to dominate the leaderboard.',
+        difficulty: 'Intermediate'
+    },
     {
         id: 'surviv-io-guide',
         title: 'Surviv.io Complete Guide: Master 2D Battle Royale',
