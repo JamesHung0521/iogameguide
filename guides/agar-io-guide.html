@@ -49,6 +49,41 @@
         }
     }
     </script>
+    
+    <!-- Play Now Button Styles (Inline for static HTML) -->
+    <style>
+        .play-now-btn {
+            display: inline-block;
+            margin: 1rem 0 1.5rem 0;
+            padding: 0.875rem 2rem;
+            background: linear-gradient(135deg, #00ff88 0%, #00d4ff 100%);
+            color: #1a1a2e;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .play-now-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(0, 255, 136, 0.5);
+            background: linear-gradient(135deg, #00ff88 0%, #00ffaa 100%);
+        }
+        .play-now-btn:active {
+            transform: translateY(0);
+        }
+        @media (max-width: 768px) {
+            .play-now-btn {
+                width: 100%;
+                text-align: center;
+                padding: 1rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- 导航栏 -->
@@ -90,6 +125,12 @@
             <header class="guide-header">
                 <span class="game-badge">🎮 Agar.io</span>
                 <h1>Agar.io Complete Guide 2024</h1>
+                
+                <!-- Play Now Button -->
+                <a href="https://agar.io" target="_blank" rel="noopener noreferrer" class="play-now-btn">
+                    🎮 Play Agar.io Now
+                </a>
+                
                 <div class="meta">
                     <span>📅 January 15, 2024</span>
                     <span>⏱️ 12 min read</span>
