@@ -881,3 +881,112 @@ a:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
 }
+/* === Contact Form Styles === */
+.contact-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: var(--neon-green);
+}
+
+.contact-form > p {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    font-family: inherit;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--neon-green);
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 255, 136, 0.2);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submit-btn {
+    width: 100%;
+    background: linear-gradient(135deg, var(--neon-green), var(--neon-blue));
+    color: #000;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 255, 136, 0.3);
+}
+
+.submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.form-status {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: var(--radius-md);
+    text-align: center;
+    font-size: 0.9rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.form-status.success {
+    color: var(--success);
+    border-color: var(--success);
+}
+
+.form-status.error {
+    color: var(--danger);
+    border-color: var(--danger);
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+}
