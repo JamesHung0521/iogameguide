@@ -350,6 +350,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Kart', 'Combat', 'Battle'],
         description: 'Multiplayer kart battle with weapons and power-ups.'
+    },
+    {
+        id: 'angry-worms-io',
+        name: 'Angry Worms.io',
+        icon: '🐛',
+        iconColor: '#e53935',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Snake', 'Worm', 'Multiplayer'],
+        description: 'Grow your worm and make opponents crash into you.'
     }
 ];
 
@@ -357,6 +367,16 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: 'angry-worms-io-guide',
+        title: 'Angry Worms.io Guide: Master the Slither-Style Arena',
+        game: 'Angry Worms.io',
+        gameId: 'angry-worms-io',
+        date: '2026-05-13',
+        readTime: '11 min',
+        excerpt: 'Learn how to grow your worm, trap opponents, use boost effectively, and dominate the leaderboard.',
+        difficulty: 'Beginner'
+    },
     {
         id: 'smashkarts-io-guide',
         title: 'SmashKarts.io Guide: Master Kart Combat',
