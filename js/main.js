@@ -360,6 +360,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Snake', 'Worm', 'Multiplayer'],
         description: 'Grow your worm and make opponents crash into you.'
+    },
+    {
+        id: 'blumgi-rocket',
+        name: 'Blumgi Rocket',
+        icon: '🚀',
+        iconColor: '#ff9800',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Rocket', 'Physics', 'Platform'],
+        description: 'Launch yourself through obstacle courses using rocket boosters.'
     }
 ];
 
@@ -367,6 +377,16 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: 'blumgi-rocket-guide',
+        title: 'Blumgi Rocket Guide: Launch, Fly & Land Perfectly',
+        game: 'Blumgi Rocket',
+        gameId: 'blumgi-rocket',
+        date: '2026-05-14',
+        readTime: '9 min',
+        excerpt: 'Master launch mechanics, trajectory prediction, boost management, and perfect landing techniques.',
+        difficulty: 'Beginner'
+    },
     {
         id: 'agar-io-advanced-guide',
         title: 'Agar.io Advanced Guide: Pro Split Tricks & Late Game Strategy',
