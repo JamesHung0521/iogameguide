@@ -368,6 +368,16 @@ const gamesData = [
    ======================================== */
 const guidesData = [
     {
+        id: 'agar-io-advanced-guide',
+        title: 'Agar.io Advanced Guide: Pro Split Tricks & Late Game Strategy',
+        game: 'Agar.io',
+        gameId: 'agar-io',
+        date: '2026-05-14',
+        readTime: '10 min',
+        excerpt: 'Master pro split tricks, micro-techniques, late game dominance, and high-level strategies.',
+        difficulty: 'Advanced'
+    },
+    {
         id: 'angry-worms-io-guide',
         title: 'Angry Worms.io Guide: Master the Slither-Style Arena',
         game: 'Angry Worms.io',
