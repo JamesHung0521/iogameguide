@@ -371,6 +371,16 @@ const gamesData = [
         tags: ['Rocket', 'Physics', 'Platform'],
         description: 'Launch yourself through obstacle courses using rocket boosters.'
     }
+    },
+    {
+        id: 'brutalmania-io',
+        name: 'BrutalMania.io',
+        icon: '⚔️',
+        iconColor: '#dc2626',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Fighting', 'Action', 'Arena'],
+        description: 'Gladiator arena combat with various weapons and upgrades.'
 ];
 
 /* ========================================
@@ -385,6 +395,16 @@ const guidesData = [
         date: '2026-05-14',
         readTime: '9 min',
         excerpt: 'Master launch mechanics, trajectory prediction, boost management, and perfect landing techniques.',
+        difficulty: 'Beginner'
+    },
+        {
+        id: 'brutalmania-io-guide',
+        title: 'BrutalMania.io Guide: Arena Combat Tips & Weapon Strategy',
+        game: 'BrutalMania.io',
+        gameId: 'brutalmania-io',
+        date: '2026-05-15',
+        readTime: '9 min',
+        excerpt: 'Master arena combat tactics, weapon selection, movement strategies, and dominate the battleground.',
         difficulty: 'Beginner'
     },
     {
