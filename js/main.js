@@ -381,6 +381,26 @@ const gamesData = [
         difficulty: 2,
         tags: ['Fighting', 'Action', 'Arena'],
         description: 'Gladiator arena combat with various weapons and upgrades.'
+    },
+    {
+        id: 'swordz-io',
+        name: 'Swordz.io',
+        icon: '⚔️',
+        iconColor: '#c0c0c0',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Sword', 'Combat', 'Medieval'],
+        description: 'Medieval sword fighting arena with dash and swing mechanics.'
+    },
+    {
+        id: 'medieval-io',
+        name: 'Medieval.io',
+        icon: '🏰',
+        iconColor: '#8b4513',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['RPG', 'Action', 'Battle'],
+        description: '8-player real-time battle arena with hero collection.'
 ];
 
 /* ========================================
@@ -405,6 +425,26 @@ const guidesData = [
         date: '2026-05-15',
         readTime: '9 min',
         excerpt: 'Master arena combat tactics, weapon selection, movement strategies, and dominate the battleground.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'swordz-io-guide',
+        title: 'Swordz.io Complete Guide: Master Medieval Combat',
+        game: 'Swordz.io',
+        gameId: 'swordz-io',
+        date: '2026-05-16',
+        readTime: '10 min',
+        excerpt: 'Master sword combat, dash mechanics, positioning, and climbing the leaderboard.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'medieval-io-guide',
+        title: 'Medieval.io Complete Guide: Battle Strategies & Hero Guide',
+        game: 'Medieval.io',
+        gameId: 'medieval-io',
+        date: '2026-05-16',
+        readTime: '11 min',
+        excerpt: 'Dominate the 8-player arena with hero selection, army management, and advanced tactics.',
         difficulty: 'Beginner'
     },
     {
