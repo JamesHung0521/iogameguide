@@ -242,6 +242,16 @@ const gamesData = [
         description: 'Minecraft-style building and combat game.'
     },
     {
+        id: 'crazysteve-io',
+        name: 'CrazySteve.io',
+        icon: '🧱',
+        iconColor: '#4caf50',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Building', 'Battle Royale', 'FPS'],
+        description: 'Minecraft-style block building battle royale shooter.'
+    },
+    {
         id: 'shell-shockers',
         name: 'Shell Shockers',
         icon: '🥚',
@@ -496,6 +506,16 @@ const guidesData = [
         readTime: '13 min',
         excerpt: 'Master all game modes including Bedwars strategies, building mechanics, and PvP combat.',
         difficulty: 'Intermediate'
+    },
+    {
+        id: 'crazysteve-io-guide',
+        title: 'CrazySteve.io Guide: Block-Building Battle Royale',
+        game: 'CrazySteve.io',
+        gameId: 'crazysteve-io',
+        date: '2026-05-16',
+        readTime: '10 min',
+        excerpt: 'Master block-building combat strategies and battle royale survival tactics in CrazySteve.io.',
+        difficulty: 'Beginner'
     },
     {
         id: 'shell-shockers-guide',
