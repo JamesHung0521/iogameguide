@@ -518,6 +518,16 @@ const guidesData = [
         difficulty: 'Beginner'
     },
     {
+        id: 'curser-io-guide',
+        title: 'Curser.io Guide: Navigate & Survive the Cursor Wars',
+        game: 'Curser.io',
+        gameId: 'curser-io',
+        date: '2026-05-17',
+        readTime: '7 min',
+        excerpt: 'Master cursor movement, survival tactics, and browser battlefield navigation in Curser.io.',
+        difficulty: 'Beginner'
+    },
+    {
         id: 'shell-shockers-guide',
         title: 'Shell Shockers Complete Guide: Best Classes & Weapons',
         game: 'Shell Shockers',
