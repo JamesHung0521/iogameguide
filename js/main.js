@@ -380,7 +380,6 @@ const gamesData = [
         difficulty: 2,
         tags: ['Rocket', 'Physics', 'Platform'],
         description: 'Launch yourself through obstacle courses using rocket boosters.'
-    }
     },
     {
         id: 'brutalmania-io',
@@ -411,6 +410,7 @@ const gamesData = [
         difficulty: 3,
         tags: ['RPG', 'Action', 'Battle'],
         description: '8-player real-time battle arena with hero collection.'
+    }
 ];
 
 /* ========================================
