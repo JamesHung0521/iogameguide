@@ -252,6 +252,16 @@ const gamesData = [
         description: 'Minecraft-style block building battle royale shooter.'
     },
     {
+        id: 'blumgi-rocket',
+        name: 'Blumgi Rocket',
+        icon: '🚀',
+        iconColor: '#ff6b35',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Platform', 'Physics', 'Rocket'],
+        description: 'Physics-based rocket platformer with precision landing.'
+    },
+    {
         id: 'shell-shockers',
         name: 'Shell Shockers',
         icon: '🥚',
@@ -526,6 +536,16 @@ const guidesData = [
         readTime: '7 min',
         excerpt: 'Master cursor movement, survival tactics, and browser battlefield navigation in Curser.io.',
         difficulty: 'Beginner'
+    },
+    {
+        id: 'blumgi-rocket-guide',
+        title: 'Blumgi Rocket Guide: Launch, Fly & Land Perfectly',
+        game: 'Blumgi Rocket',
+        gameId: 'blumgi-rocket',
+        date: '2026-05-19',
+        readTime: '9 min',
+        excerpt: 'Master rocket launch mechanics, trajectory prediction, and precision landing in Blumgi Rocket.',
+        difficulty: 'Intermediate'
     },
     {
         id: 'shell-shockers-guide',
