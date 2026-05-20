@@ -132,24 +132,6 @@
         </div>
     </section>
 
-    <!-- 最新攻略 -->
-    <section class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">📚 Latest Guides</h2>
-                <p class="section-subtitle">Fresh strategies and tips to level up your game</p>
-            </div>
-            
-            <div class="guide-list" id="latestGuides">
-                <!-- 攻略卡片将通过 JS 动态渲染 -->
-            </div>
-            
-            <div class="text-center mt-xl">
-                <a href="games.html" class="btn btn-primary">Browse All Guides →</a>
-            </div>
-        </div>
-    </section>
-
     <!-- 为什么选择我们 -->
     <section class="section">
         <div class="container">
@@ -250,10 +232,6 @@
         }).filter(Boolean);
         document.getElementById('latestUpdateGames').innerHTML = 
             latestGames.map(window.iogameguide.renderGameCard).join('');
-        
-        // 渲染最新攻略
-        document.getElementById('latestGuides').innerHTML = 
-            window.iogameguide.guides.slice(0, 3).map(window.iogameguide.renderGuideCard).join('');
     </script>
 </body>
 </html>
