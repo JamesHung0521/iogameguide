@@ -528,6 +528,16 @@ const guidesData = [
         difficulty: 'Beginner'
     },
     {
+        id: 'defly-io-guide',
+        title: 'Defly.io Guide: Build, Defend & Conquer',
+        game: 'Defly.io',
+        gameId: 'defly-io',
+        date: '2026-05-20',
+        readTime: '9 min',
+        excerpt: 'Master territory control, helicopter combat, defensive building, and top strategies to dominate the leaderboard.',
+        difficulty: 'Beginner'
+    },
+    {
         id: 'curser-io-guide',
         title: 'Curser.io Guide: Navigate & Survive the Cursor Wars',
         game: 'Curser.io',
