@@ -420,6 +420,16 @@ const gamesData = [
         difficulty: 3,
         tags: ['RPG', 'Action', 'Battle'],
         description: '8-player real-time battle arena with hero collection.'
+    },
+    {
+        id: 'defly-io',
+        name: 'Defly.io',
+        icon: '🚁',
+        iconColor: '#10b981',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Territory', 'Helicopter', 'Strategy'],
+        description: 'Helicopter combat with territory capture and base building.'
     }
 ];
 
@@ -427,6 +437,16 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: 'defly-io-guide',
+        title: 'Defly.io Guide: Build, Defend & Conquer',
+        game: 'Defly.io',
+        gameId: 'defly-io',
+        date: '2026-05-20',
+        readTime: '9 min',
+        excerpt: 'Master territory control, helicopter combat, defensive building, and top strategies to dominate the leaderboard.',
+        difficulty: 'Beginner'
+    },
     {
         id: 'blumgi-rocket-guide',
         title: 'Blumgi Rocket Guide: Launch, Fly & Land Perfectly',
@@ -525,16 +545,6 @@ const guidesData = [
         date: '2026-05-16',
         readTime: '10 min',
         excerpt: 'Master block-building combat strategies and battle royale survival tactics in CrazySteve.io.',
-        difficulty: 'Beginner'
-    },
-    {
-        id: 'defly-io-guide',
-        title: 'Defly.io Guide: Build, Defend & Conquer',
-        game: 'Defly.io',
-        gameId: 'defly-io',
-        date: '2026-05-20',
-        readTime: '9 min',
-        excerpt: 'Master territory control, helicopter combat, defensive building, and top strategies to dominate the leaderboard.',
         difficulty: 'Beginner'
     },
     {

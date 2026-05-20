@@ -114,8 +114,26 @@
         </div>
     </section>
 
-    <!-- 最新攻略 -->
+    <!-- 最新更新游戏 -->
     <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🆕 Latest Updates</h2>
+                <p class="section-subtitle">Newly published game guides, fresh off the press</p>
+            </div>
+            
+            <div class="game-grid" id="latestUpdateGames">
+                <!-- 最新3款更新游戏卡片将通过 JS 动态渲染 -->
+            </div>
+            
+            <div class="text-center mt-xl">
+                <a href="games.html" class="btn btn-primary">Browse All Games →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 最新攻略 -->
+    <section class="section">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">📚 Latest Guides</h2>
@@ -224,6 +242,14 @@
         // 渲染热门游戏
         document.getElementById('popularGames').innerHTML = 
             window.iogameguide.games.slice(0, 6).map(window.iogameguide.renderGameCard).join('');
+        
+        // 渲染最新更新游戏（按攻略日期排序，取前3）
+        const latestGames = window.iogameguide.guides.slice(0, 3).map(guide => {
+            const game = window.iogameguide.games.find(g => g.id === guide.gameId);
+            return game;
+        }).filter(Boolean);
+        document.getElementById('latestUpdateGames').innerHTML = 
+            latestGames.map(window.iogameguide.renderGameCard).join('');
         
         // 渲染最新攻略
         document.getElementById('latestGuides').innerHTML = 
