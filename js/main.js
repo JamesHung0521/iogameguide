@@ -694,10 +694,13 @@ function renderGameCard(game) {
    渲染攻略卡片
    ======================================== */
 function renderGuideCard(guide) {
+    const game = gamesData.find(g => g.id === guide.gameId);
+    const icon = game ? game.icon : '🎮';
+    const iconColor = game ? game.iconColor : '#666';
     return `
         <a href="guides/${guide.id}.html" class="guide-card">
-            <div class="guide-thumb">
-                <span style="font-size: 2rem;">🎮</span>
+            <div class="guide-thumb" style="background: ${iconColor}20; display: flex; align-items: center; justify-content: center;">
+                <span style="font-size: 2.5rem;">${icon}</span>
             </div>
             <div class="guide-content">
                 <h3>${guide.title}</h3>
