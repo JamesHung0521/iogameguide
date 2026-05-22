@@ -225,8 +225,10 @@
         document.getElementById('popularGames').innerHTML = 
             window.iogameguide.games.slice(0, 6).map(window.iogameguide.renderGameCard).join('');
         
-        // 渲染最新更新游戏（按攻略日期排序，取前3）
-        const latestGames = window.iogameguide.guides.slice(0, 3).map(guide => {
+        // 渲染最新更新游戏（按攻略日期倒序排序，取前3）
+        const latestGames = window.iogameguide.guides
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
+            .slice(0, 3).map(guide => {
             const game = window.iogameguide.games.find(g => g.id === guide.gameId);
             return game;
         }).filter(Boolean);
