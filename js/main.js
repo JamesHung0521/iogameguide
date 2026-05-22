@@ -676,6 +676,36 @@ const guidesData = [
         readTime: '12 min',
         excerpt: 'Discover the best tank builds and upgrades for domination.',
         difficulty: 'Advanced'
+    },
+    {
+        id: 'defend-io-guide',
+        title: 'Defend.io Guide: Tower Defense Strategy & Tips',
+        game: 'Defend.io',
+        gameId: 'defend-io',
+        date: '2026-05-22',
+        readTime: '8 min',
+        excerpt: 'Master tower placement, upgrade strategies, and wave defense tactics in Defend.io.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'hole-io-guide',
+        title: 'Hole.io Guide: Grow, Swallow & Dominate the City',
+        game: 'Hole.io',
+        gameId: 'hole-io',
+        date: '2026-05-21',
+        readTime: '8 min',
+        excerpt: 'Master city swallowing, vehicle chasing, map control, and absorbing smaller holes in Hole.io.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'paper-io-guide',
+        title: 'Paper.io Guide: Claim Territory & Defend Your Zone',
+        game: 'Paper.io',
+        gameId: 'paper-io',
+        date: '2026-05-20',
+        readTime: '8 min',
+        excerpt: 'Master territory claiming, zone defense, and trail-cutting strategies in Paper.io.',
+        difficulty: 'Beginner'
     }
 ];
 
