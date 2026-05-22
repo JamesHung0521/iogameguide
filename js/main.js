@@ -182,6 +182,16 @@ const gamesData = [
         description: 'Capture territory by creating enclosed areas.'
     },
     {
+        id: 'defend-io',
+        name: 'Defend.io',
+        icon: '🏰',
+        iconColor: '#4caf50',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Tower Defense', 'Strategy', 'Unity'],
+        description: 'Stop waves of enemies with strategic tower placement.'
+    },
+    {
         id: 'mope-io',
         name: 'Mope.io',
         icon: '🌊',
