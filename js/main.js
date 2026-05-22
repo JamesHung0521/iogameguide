@@ -262,6 +262,16 @@ const gamesData = [
         description: 'Minecraft-style block building battle royale shooter.'
     },
     {
+        id: 'curser-io',
+        name: 'Curser.io',
+        icon: '🖱️',
+        iconColor: '#9c27b0',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Survival', 'Cursor', 'Strategy'],
+        description: 'Navigate and survive the cursor wars in this unique browser game.'
+    },
+    {
         id: 'blumgi-rocket',
         name: 'Blumgi Rocket',
         icon: '🚀',
