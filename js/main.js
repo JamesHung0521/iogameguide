@@ -450,6 +450,16 @@ const gamesData = [
         difficulty: 3,
         tags: ['Territory', 'Helicopter', 'Strategy'],
         description: 'Helicopter combat with territory capture and base building.'
+    },
+    {
+        id: 'dogod-io',
+        name: 'Dogod.io',
+        icon: '🦎',
+        iconColor: '#f59e0b',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Evolution', 'Survival', 'Food Chain'],
+        description: 'Climb the food chain from tiny creature to apex predator.'
     }
 ];
 
@@ -705,6 +715,16 @@ const guidesData = [
         date: '2026-05-20',
         readTime: '8 min',
         excerpt: 'Master territory claiming, zone defense, and trail-cutting strategies in Paper.io.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'dogod-io-guide',
+        title: 'Dogod.io Guide: Evolve & Dominate the Food Chain',
+        game: 'Dogod.io',
+        gameId: 'dogod-io',
+        date: '2026-05-23',
+        readTime: '9 min',
+        excerpt: 'Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.',
         difficulty: 'Beginner'
     }
 ];
