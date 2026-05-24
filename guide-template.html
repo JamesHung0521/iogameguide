@@ -22,23 +22,48 @@
     <link rel="canonical" href="https://iogameguide.com/guides/[game-guide].html">
     <link rel="stylesheet" href="../css/style.css">
     
-    <!-- 结构化数据 - 请根据实际内容修改 -->
+    <!-- 
+    ========================================
+    SEO 优化说明（自动生效，无需手动修改）:
+    - IndexNow: 发布后运行 scripts/indexnow.py 自动通知搜索引擎
+    - Schema: 发布后运行 scripts/update_schema.py 更新结构化数据
+    - 内链: 发布后运行 scripts/add_internal_links.py 添加相关攻略
+    ========================================
+    -->
+    
+    <!-- 结构化数据 (VideoGame + HowTo + Article) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "[Game Name] Complete Guide 2024",
-        "description": "Master [Game Name] with our comprehensive guide covering strategies and tips.",
-        "author": {
-            "@type": "Organization",
-            "name": "iogameguide.com"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "iogameguide.com"
-        },
-        "datePublished": "2024-01-01",
-        "dateModified": "2024-01-01"
+        "@graph": [
+            {
+                "@type": "VideoGame",
+                "name": "[Game Name]",
+                "description": "Learn how to master [Game Name] with our comprehensive strategy guide.",
+                "url": "https://iogameguide.com/games/[game-id].html",
+                "author": {"@type": "Organization", "name": "iogameguide.com"},
+                "publisher": {"@type": "Organization", "name": "iogameguide.com"},
+                "datePublished": "[DATE]",
+                "gamePlatform": ["Web Browser"],
+                "genre": "Strategy"
+            },
+            {
+                "@type": "HowTo",
+                "name": "[Game Name] Complete Guide",
+                "description": "Step-by-step guide to mastering [Game Name].",
+                "author": {"@type": "Organization", "name": "iogameguide.com"},
+                "datePublished": "[DATE]",
+                "totalTime": "PT10M"
+            },
+            {
+                "@type": "Article",
+                "headline": "[Game Name] Complete Guide",
+                "description": "Comprehensive strategy guide for [Game Name].",
+                "author": {"@type": "Organization", "name": "iogameguide.com"},
+                "publisher": {"@type": "Organization", "name": "iogameguide.com"},
+                "datePublished": "[DATE]"
+            }
+        ]
     }
     </script>
 </head>
