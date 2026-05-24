@@ -460,6 +460,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Evolution', 'Survival', 'Food Chain'],
         description: 'Climb the food chain from tiny creature to apex predator.'
+    },
+    {
+        id: 'angry-worms-io',
+        name: 'Angry Worms.io',
+        icon: '🐛',
+        iconColor: '#ef4444',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Worm', 'Slither', 'Arena'],
+        description: 'Slither and grow your worm, trap opponents, dominate the leaderboard.'
     }
 ];
 
@@ -725,6 +735,16 @@ const guidesData = [
         date: '2026-05-23',
         readTime: '9 min',
         excerpt: 'Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'angry-worms-io-guide',
+        title: 'Angry Worms.io Guide: Master the Slither-Style Arena',
+        game: 'Angry Worms.io',
+        gameId: 'angry-worms-io',
+        date: '2026-05-24',
+        readTime: '11 min',
+        excerpt: 'Proven strategies to grow your worm and dominate the Angry Worms.io arena. From basic controls to advanced traps.',
         difficulty: 'Beginner'
     }
 ];
