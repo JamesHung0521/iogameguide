@@ -572,7 +572,7 @@ const guidesData = [
         title: 'Bloxd.io Complete Guide: Bedwars, Parkour & PvP',
         game: 'Bloxd.io',
         gameId: 'bloxd-io',
-        date: '2024-01-15',
+        date: '2026-05-25',
         readTime: '13 min',
         excerpt: 'Master all game modes including Bedwars strategies, building mechanics, and PvP combat.',
         difficulty: 'Intermediate'
