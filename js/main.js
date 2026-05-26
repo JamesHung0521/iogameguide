@@ -470,6 +470,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Worm', 'Slither', 'Arena'],
         description: 'Slither and grow your worm, trap opponents, dominate the leaderboard.'
+    },
+    {
+        id: 'repuls-io',
+        name: 'Repuls.io',
+        icon: '🔫',
+        iconColor: '#10b981',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['FPS', 'Shooter', 'Combat'],
+        description: 'Fast-paced FPS arena shooter with unique repulsion launcher mechanics.'
     }
 ];
 
@@ -746,6 +756,16 @@ const guidesData = [
         readTime: '11 min',
         excerpt: 'Proven strategies to grow your worm and dominate the Angry Worms.io arena. From basic controls to advanced traps.',
         difficulty: 'Beginner'
+    },
+    {
+        id: 'repuls-io-guide',
+        title: 'Repuls.io Guide: FPS Combat & Map Control',
+        game: 'Repuls.io',
+        gameId: 'repuls-io',
+        date: '2026-05-26',
+        readTime: '10 min',
+        excerpt: 'Master the unique repulsion launcher mechanics, weapon loadouts, and tactical movement in this fast-paced FPS arena shooter.',
+        difficulty: 'Intermediate'
     }
 ];
 
