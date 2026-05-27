@@ -488,6 +488,16 @@ const gamesData = [
    ======================================== */
 const guidesData = [
     {
+        id: 'diep-io-guide',
+        title: 'Diep.io Complete Guide: Master Tank Combat & Upgrades',
+        game: 'Diep.io',
+        gameId: 'diep-io',
+        date: '2026-05-27',
+        readTime: '16 min',
+        excerpt: 'Master tank combat, upgrade paths, best builds for every class, and dominate the battlefield in Diep.io.',
+        difficulty: 'Intermediate'
+    },
+    {
         id: 'defly-io-guide',
         title: 'Defly.io Guide: Build, Defend & Conquer',
         game: 'Defly.io',
