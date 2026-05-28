@@ -480,6 +480,16 @@ const gamesData = [
         difficulty: 3,
         tags: ['FPS', 'Shooter', 'Combat'],
         description: 'Fast-paced FPS arena shooter with unique repulsion launcher mechanics.'
+    },
+    {
+        id: 'spawner-io',
+        name: 'Spawner.io',
+        icon: '🎯',
+        iconColor: '#f59e0b',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Survival', 'Building', 'Tower Defense'],
+        description: 'Spawn blocks, build defenses, and survive endless enemy waves.'
     }
 ];
 
@@ -776,6 +786,16 @@ const guidesData = [
         readTime: '10 min',
         excerpt: 'Master the unique repulsion launcher mechanics, weapon loadouts, and tactical movement in this fast-paced FPS arena shooter.',
         difficulty: 'Intermediate'
+    },
+    {
+        id: 'spawner-io-guide',
+        title: 'Spawner.io Guide: Build Defenses & Survive',
+        game: 'Spawner.io',
+        gameId: 'spawner-io',
+        date: '2026-05-28',
+        readTime: '8 min',
+        excerpt: 'Master block spawning, defense building, and survival tactics in this unique tower defense .io game.',
+        difficulty: 'Beginner'
     }
 ];
 
