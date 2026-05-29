@@ -490,6 +490,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Survival', 'Building', 'Tower Defense'],
         description: 'Spawn blocks, build defenses, and survive endless enemy waves.'
+    },
+    {
+        id: 'gulper-io',
+        name: 'Gulper.io',
+        icon: '🐍',
+        iconColor: '#10b981',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Snake', 'Growth', 'Arena'],
+        description: 'Control a gulper creature, swallow food and smaller players to grow, dominate the arena.'
     }
 ];
 
@@ -796,6 +806,16 @@ const guidesData = [
         readTime: '8 min',
         excerpt: 'Master block spawning, defense building, and survival tactics in this unique tower defense .io game.',
         difficulty: 'Beginner'
+    },
+    {
+        id: 'gulper-io-guide',
+        title: 'Gulper.io Guide: Grow Big & Dominate the Arena',
+        game: 'Gulper.io',
+        gameId: 'gulper-io',
+        date: '2026-05-29',
+        readTime: '10 min',
+        excerpt: 'Master the gulper mechanics, grow your creature, eat opponents, and climb the leaderboard with proven strategies.',
+        difficulty: 'Intermediate'
     }
 ];
 
