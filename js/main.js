@@ -510,6 +510,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Snake', 'Growth', 'Arena'],
         description: 'Control a gulper creature, swallow food and smaller players to grow, dominate the arena.'
+    },
+    {
+        id: 'spinner-io',
+        name: 'Spinner.io',
+        icon: '🌀',
+        iconColor: '#06b6d4',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Battle', 'Spinning', 'Arena'],
+        description: 'Master spinning combat tactics, grow your spinner by defeating opponents, and dominate the arena.'
     }
 ];
 
@@ -825,6 +835,16 @@ const guidesData = [
         date: '2026-05-29',
         readTime: '10 min',
         excerpt: 'Master the gulper mechanics, grow your creature, eat opponents, and climb the leaderboard with proven strategies.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'spinner-io-guide',
+        title: 'Spinner.io Guide: Spin to Win in the Arena',
+        game: 'Spinner.io',
+        gameId: 'spinner-io',
+        date: '2026-05-30',
+        readTime: '9 min',
+        excerpt: 'Master spinning combat tactics, grow your spinner by defeating opponents, and dominate the arena with proven strategies.',
         difficulty: 'Intermediate'
     },
     {
