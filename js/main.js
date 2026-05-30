@@ -492,6 +492,16 @@ const gamesData = [
         description: 'Spawn blocks, build defenses, and survive endless enemy waves.'
     },
     {
+        id: 'starblast-io',
+        name: 'Starblast.io',
+        icon: '🚀',
+        iconColor: '#8b5cf6',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Space', 'Shooter', 'Upgrade'],
+        description: 'Pilot spaceships, mine asteroids for crystals, upgrade your vessel, and engage in epic space battles.'
+    },
+    {
         id: 'gulper-io',
         name: 'Gulper.io',
         icon: '🐍',
@@ -815,6 +825,16 @@ const guidesData = [
         date: '2026-05-29',
         readTime: '10 min',
         excerpt: 'Master the gulper mechanics, grow your creature, eat opponents, and climb the leaderboard with proven strategies.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'starblast-io-guide',
+        title: 'Starblast.io Guide: Mine, Upgrade & Survive in Space',
+        game: 'Starblast.io',
+        gameId: 'starblast-io',
+        date: '2026-05-30',
+        readTime: '11 min',
+        excerpt: 'Master spaceship upgrades, mining strategies, combat tactics, and survival tips in deep space battles.',
         difficulty: 'Intermediate'
     }
 ];
