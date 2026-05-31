@@ -856,6 +856,16 @@ const guidesData = [
         readTime: '11 min',
         excerpt: 'Master spaceship upgrades, mining strategies, combat tactics, and survival tips in deep space battles.',
         difficulty: 'Intermediate'
+    },
+    {
+        id: 'yohoho-io-guide',
+        title: 'Yohoho.io Guide: Master Pirate Battle Royale',
+        game: 'Yohoho.io',
+        gameId: 'yohoho-io',
+        date: '2026-05-31',
+        readTime: '10 min',
+        excerpt: 'Master pirate combat, collect coins, upgrade your ship, and become the ultimate pirate in Yohoho.io battle royale.',
+        difficulty: 'Beginner'
     }
 ];
 
