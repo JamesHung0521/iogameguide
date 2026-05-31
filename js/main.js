@@ -520,6 +520,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Battle', 'Spinning', 'Arena'],
         description: 'Master spinning combat tactics, grow your spinner by defeating opponents, and dominate the arena.'
+    },
+    {
+        id: 'snowball-io',
+        name: 'Snowball.io',
+        icon: '❄️',
+        iconColor: '#38bdf8',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Winter', 'Battle', 'Physics'],
+        description: 'Roll snowballs, knock opponents off ice platforms, and dominate winter battles.'
     }
 ];
 
@@ -865,6 +875,16 @@ const guidesData = [
         date: '2026-05-31',
         readTime: '10 min',
         excerpt: 'Master pirate combat, collect coins, upgrade your ship, and become the ultimate pirate in Yohoho.io battle royale.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'snowball-io-guide',
+        title: 'Snowball.io Guide: Roll, Throw & Knock Out',
+        game: 'Snowball.io',
+        gameId: 'snowball-io',
+        date: '2026-05-31',
+        readTime: '9 min',
+        excerpt: 'Master snowball mechanics, push opponents off platforms, and dominate winter battles with proven strategies.',
         difficulty: 'Beginner'
     }
 ];
