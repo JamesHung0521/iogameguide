@@ -530,6 +530,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Winter', 'Battle', 'Physics'],
         description: 'Roll snowballs, knock opponents off ice platforms, and dominate winter battles.'
+    },
+    {
+        id: 'duel-links-io',
+        name: 'Duel Links.io',
+        icon: '🎴',
+        iconColor: '#6366f1',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Card Battle', 'Strategy', 'Competitive'],
+        description: 'Build powerful decks, master card battle strategies, and climb the ranked ladder in Duel Links.io.'
     }
 ];
 
@@ -886,6 +896,16 @@ const guidesData = [
         readTime: '9 min',
         excerpt: 'Master snowball mechanics, push opponents off platforms, and dominate winter battles with proven strategies.',
         difficulty: 'Beginner'
+    },
+    {
+        id: 'duel-links-io-guide',
+        title: 'Duel Links.io Guide: Card Battle & Deck Strategy',
+        game: 'Duel Links.io',
+        gameId: 'duel-links-io',
+        date: '2026-06-02',
+        readTime: '10 min',
+        excerpt: 'Build powerful decks, master card battle strategies, and climb the ranked ladder in this competitive card game.',
+        difficulty: 'Intermediate'
     }
 ];
 
