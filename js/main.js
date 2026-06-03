@@ -540,6 +540,16 @@ const gamesData = [
         difficulty: 3,
         tags: ['Card Battle', 'Strategy', 'Competitive'],
         description: 'Build powerful decks, master card battle strategies, and climb the ranked ladder in Duel Links.io.'
+    },
+    {
+        id: 'goons-io',
+        name: 'Goons.io',
+        icon: '⚔️',
+        iconColor: '#10b981',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Sword Combat', 'Medieval', 'Battle'],
+        description: 'Master sword combat, block and dodge attacks, and survive medieval arena battles in Goons.io.'
     }
 ];
 
@@ -906,6 +916,16 @@ const guidesData = [
         readTime: '10 min',
         excerpt: 'Build powerful decks, master card battle strategies, and climb the ranked ladder in this competitive card game.',
         difficulty: 'Intermediate'
+    },
+    {
+        id: 'goons-io-guide',
+        title: 'Goons.io Guide: Sword Combat & Survival Tips',
+        game: 'Goons.io',
+        gameId: 'goons-io',
+        date: '2026-06-03',
+        readTime: '9 min',
+        excerpt: 'Master sword combat tactics, block and dodge attacks, and survive medieval arena battles with proven strategies.',
+        difficulty: 'Beginner'
     }
 ];
 
