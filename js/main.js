@@ -550,6 +550,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Sword Combat', 'Medieval', 'Battle'],
         description: 'Master sword combat, block and dodge attacks, and survive medieval arena battles in Goons.io.'
+    },
+    {
+        id: 'littlebigsnake-io',
+        name: 'LittleBigSnake.io',
+        icon: '🐍',
+        iconColor: '#10b981',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Snake', 'Evolution', 'Flying'],
+        description: 'Grow your snake, evolve into a flying dragonfly, and dominate the food chain in LittleBigSnake.io.'
     }
 ];
 
@@ -925,6 +935,16 @@ const guidesData = [
         date: '2026-06-03',
         readTime: '9 min',
         excerpt: 'Master sword combat tactics, block and dodge attacks, and survive medieval arena battles with proven strategies.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'littlebigsnake-io-guide',
+        title: 'LittleBigSnake.io Guide: Fly, Grow & Dominate',
+        game: 'LittleBigSnake.io',
+        gameId: 'littlebigsnake-io',
+        date: '2026-06-04',
+        readTime: '9 min',
+        excerpt: 'Master snake growth mechanics, evolve into flying dragonfly form, and dominate the food chain with proven strategies.',
         difficulty: 'Beginner'
     }
 ];
