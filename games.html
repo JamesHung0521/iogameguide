@@ -176,7 +176,13 @@
         const noResults = document.getElementById('noResults');
         
         function renderGames(filter = 'all', search = '') {
-            let games = window.iogameguide.games;
+            let games = [...window.iogameguide.games].sort((a, b) => {
+                const guideA = window.iogameguide.guides.find(g => g.gameId === a.id);
+                const guideB = window.iogameguide.guides.find(g => g.gameId === b.id);
+                const dateA = guideA ? new Date(guideA.date) : new Date(0);
+                const dateB = guideB ? new Date(guideB.date) : new Date(0);
+                return dateB - dateA;
+            });
             
             // 搜索过滤
             if (search) {
