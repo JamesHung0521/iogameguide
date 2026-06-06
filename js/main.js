@@ -226,7 +226,7 @@ const gamesData = [
         name: 'Sandboxels',
         icon: '🧪',
         iconColor: '#ffeb3b',
-        guideCount: 5,
+        guideCount: 6,
         difficulty: 1,
         tags: ['Simulation', 'Physics', 'Creative'],
         description: 'Physics-based sandbox simulation game.'
@@ -936,6 +936,16 @@ const guidesData = [
         readTime: '12 min',
         excerpt: 'Master FPS combat tactics, movement strategies, class selection, weapon tips, and dominate the battlefield in Krunker.io.',
         difficulty: 'Intermediate'
+    },
+    {
+        id: 'sandboxels-guide',
+        title: 'Sandboxels Guide: Master Physics Simulations',
+        game: 'Sandboxels',
+        gameId: 'sandboxels',
+        date: '2026-06-06',
+        readTime: '8 min',
+        excerpt: 'Master element interactions, create amazing physics simulations, and explore 500+ elements in this creative sandbox game.',
+        difficulty: 'Beginner'
     }
 ];
 
