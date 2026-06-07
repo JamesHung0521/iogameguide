@@ -558,6 +558,26 @@ const gamesData = [
    ======================================== */
 const guidesData = [
     {
+        id: 'taming-io-guide',
+        title: 'Taming.io Guide: Master Pet Taming & Base Building',
+        game: 'Taming.io',
+        gameId: 'taming-io',
+        date: '2026-06-07',
+        readTime: '10 min',
+        excerpt: 'Build your ultimate pet army! Learn pet taming mechanics, base defense, elemental combat, and climb the leaderboard.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'krunker-io-guide',
+        title: 'Krunker.io Guide: Master FPS Combat & Movement',
+        game: 'Krunker.io',
+        gameId: 'krunker-io',
+        date: '2026-06-05',
+        readTime: '12 min',
+        excerpt: 'Master FPS combat tactics, movement strategies, class selection, weapon tips, and dominate the battlefield in Krunker.io.',
+        difficulty: 'Intermediate'
+    },
+    {
         id: 'diep-io-guide',
         title: 'Diep.io Complete Guide: Master Tank Combat & Upgrades',
         game: 'Diep.io',
@@ -926,16 +946,6 @@ const guidesData = [
         readTime: '9 min',
         excerpt: 'Master snake growth mechanics, evolve into flying dragonfly form, and dominate the food chain with proven strategies.',
         difficulty: 'Beginner'
-    },
-    {
-        id: 'krunker-io-guide',
-        title: 'Krunker.io Guide: Master FPS Combat & Movement',
-        game: 'Krunker.io',
-        gameId: 'krunker-io',
-        date: '2026-06-05',
-        readTime: '12 min',
-        excerpt: 'Master FPS combat tactics, movement strategies, class selection, weapon tips, and dominate the battlefield in Krunker.io.',
-        difficulty: 'Intermediate'
     }
 ];
 
