@@ -226,7 +226,7 @@ const gamesData = [
         name: 'Sandboxels',
         icon: '🧪',
         iconColor: '#ffeb3b',
-        guideCount: 5,
+        guideCount: 6,
         difficulty: 1,
         tags: ['Simulation', 'Physics', 'Creative'],
         description: 'Physics-based sandbox simulation game.'
@@ -945,6 +945,36 @@ const guidesData = [
         date: '2026-06-04',
         readTime: '9 min',
         excerpt: 'Master snake growth mechanics, evolve into flying dragonfly form, and dominate the food chain with proven strategies.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'krunker-io-guide',
+        title: 'Krunker.io Guide: Master FPS Combat & Movement',
+        game: 'Krunker.io',
+        gameId: 'krunker-io',
+        date: '2026-06-05',
+        readTime: '12 min',
+        excerpt: 'Master FPS combat tactics, movement strategies, class selection, weapon tips, and dominate the battlefield in Krunker.io.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'sandboxels-guide',
+        title: 'Sandboxels Guide: Master Physics Simulations',
+        game: 'Sandboxels',
+        gameId: 'sandboxels',
+        date: '2026-06-06',
+        readTime: '8 min',
+        excerpt: 'Master element interactions, create amazing physics simulations, and explore 500+ elements in this creative sandbox game.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'taming-io-guide',
+        title: 'Taming.io Guide: Master Pet Taming & Base Building',
+        game: 'Taming.io',
+        gameId: 'taming-io',
+        date: '2026-06-07',
+        readTime: '10 min',
+        excerpt: 'Build your ultimate pet army! Learn pet taming mechanics, base defense, elemental combat, and climb the leaderboard.',
         difficulty: 'Beginner'
     }
 ];
