@@ -966,16 +966,6 @@ const guidesData = [
         readTime: '8 min',
         excerpt: 'Master element interactions, create amazing physics simulations, and explore 500+ elements in this creative sandbox game.',
         difficulty: 'Beginner'
-    },
-    {
-        id: 'taming-io-guide',
-        title: 'Taming.io Guide: Master Pet Taming & Base Building',
-        game: 'Taming.io',
-        gameId: 'taming-io',
-        date: '2026-06-07',
-        readTime: '10 min',
-        excerpt: 'Build your ultimate pet army! Learn pet taming mechanics, base defense, elemental combat, and climb the leaderboard.',
-        difficulty: 'Beginner'
     }
 ];
 
