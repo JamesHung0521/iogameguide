@@ -568,6 +568,16 @@ const guidesData = [
         difficulty: 'Beginner'
     },
     {
+        id: 'skribbl-io-guide',
+        title: 'Skribbl.io Complete Guide: Master Drawing \u0026 Guessing Tips',
+        game: 'Skribbl.io',
+        gameId: 'skribbl-io',
+        date: '2026-06-08',
+        readTime: '10 min',
+        excerpt: 'Master the art of drawing and guessing! Learn pro drawing techniques, guessing strategies, custom room settings, and become the ultimate Skribbl champion.',
+        difficulty: 'Beginner'
+    },
+    {
         id: 'taming-io-guide',
         title: 'Taming.io Guide: Master Pet Taming & Base Building',
         game: 'Taming.io',
