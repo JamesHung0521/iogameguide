@@ -558,6 +558,16 @@ const gamesData = [
    ======================================== */
 const guidesData = [
     {
+        id: 'evowars-io-guide',
+        title: 'EvoWars.io Complete Guide 2024: Master Evolution \u0026 Combat',
+        game: 'EvoWars.io',
+        gameId: 'evowars-io',
+        date: '2026-06-09',
+        readTime: '9 min',
+        excerpt: 'Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.',
+        difficulty: 'Beginner'
+    },
+    {
         id: 'taming-io-guide',
         title: 'Taming.io Guide: Master Pet Taming & Base Building',
         game: 'Taming.io',
