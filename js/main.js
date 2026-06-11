@@ -568,6 +568,16 @@ const gamesData = [
    ======================================== */
 const guidesData = [
     {
+        id: 'venge-io-guide',
+        title: 'Venge.io Guide: Master FPS Arena Combat',
+        game: 'Venge.io',
+        gameId: 'venge-io',
+        date: '2026-06-11',
+        readTime: '10 min',
+        excerpt: 'Master Venge.io with this complete guide. Covers controls, hero abilities, game modes, and top strategies to dominate the arena.',
+        difficulty: 'Beginner'
+    },
+    {
         id: 'zombsroyale-io-guide',
         title: 'ZombsRoyale.io Complete Guide: Battle Royale Tactics',
         game: 'ZombsRoyale.io',
