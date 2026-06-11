@@ -550,6 +550,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Snake', 'Evolution', 'Flying'],
         description: 'Grow your snake, evolve into a flying dragonfly, and dominate the food chain in LittleBigSnake.io.'
+    },
+    {
+        id: 'lordz-io',
+        name: 'Lordz.io',
+        icon: '⚔️',
+        iconColor: '#e94560',
+        guideCount: 1,
+        difficulty: 5,
+        tags: ['Strategy', 'RTS', 'Medieval'],
+        description: 'Real-time strategy game where you build armies, manage resources, and conquer territories in medieval warfare.'
     }
 ];
 
@@ -558,6 +568,16 @@ const gamesData = [
    ======================================== */
 const guidesData = [
     {
+        id: 'zombsroyale-io-guide',
+        title: 'ZombsRoyale.io Complete Guide: Battle Royale Tactics',
+        game: 'ZombsRoyale.io',
+        gameId: 'zombsroyale-io',
+        date: '2026-06-11',
+        readTime: '10 min',
+        excerpt: 'Master battle royale tactics in ZombsRoyale.io. Learn landing strategies, weapon selection, combat tips, and circle control to become the last survivor.',
+        difficulty: 'Beginner'
+    },
+    {
         id: 'evowars-io-guide',
         title: 'EvoWars.io Complete Guide 2024: Master Evolution \u0026 Combat',
         game: 'EvoWars.io',
@@ -565,6 +585,16 @@ const guidesData = [
         date: '2026-06-09',
         readTime: '9 min',
         excerpt: 'Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'lordz-io-guide',
+        title: 'Lordz.io Complete Guide: Master Medieval Strategy Combat',
+        game: 'Lordz.io',
+        gameId: 'lordz-io',
+        date: '2026-06-10',
+        readTime: '12 min',
+        excerpt: 'Master real-time strategy combat in Lordz.io. Learn unit types, base building, army composition, and become the ultimate medieval warlord.',
         difficulty: 'Beginner'
     },
     {
