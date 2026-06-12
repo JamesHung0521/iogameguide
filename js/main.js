@@ -578,6 +578,16 @@ const gamesData = [
    ======================================== */
 const guidesData = [
     {
+        id: 'nobrakes-io-guide',
+        title: 'NoBrakes.io Guide: Drift, Boost & Race to First',
+        game: 'NoBrakes.io',
+        gameId: 'nobrakes-io',
+        date: '2026-06-12',
+        readTime: '8 min',
+        excerpt: 'Master NoBrakes.io with our complete guide. Learn drift mechanics, boost timing, track shortcuts, and racing strategies to leave your opponents in the dust.',
+        difficulty: 'Beginner'
+    },
+    {
         id: 'liquid-swarm-guide',
         title: 'Liquid Swarm Guide: Master the Ultimate Consuming Force',
         game: 'Liquid Swarm',
