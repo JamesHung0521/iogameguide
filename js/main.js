@@ -578,6 +578,16 @@ const gamesData = [
    ======================================== */
 const guidesData = [
     {
+        id: 'bonk-io-guide',
+        title: 'Bonk.io Guide: Master Physics Combat & Knockouts',
+        game: 'Bonk.io',
+        gameId: 'bonk-io',
+        date: '2026-06-12',
+        readTime: '8 min',
+        excerpt: 'Master Bonk.io with our complete guide. Learn physics mechanics, heavy mode timing, map strategies, and pro tips to knock every opponent off.',
+        difficulty: 'Intermediate'
+    },
+    {
         id: 'nobrakes-io-guide',
         title: 'NoBrakes.io Guide: Drift, Boost & Race to First',
         game: 'NoBrakes.io',
