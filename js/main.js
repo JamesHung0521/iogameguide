@@ -560,6 +560,16 @@ const gamesData = [
         difficulty: 5,
         tags: ['Strategy', 'RTS', 'Medieval'],
         description: 'Real-time strategy game where you build armies, manage resources, and conquer territories in medieval warfare.'
+    },
+    {
+        id: 'liquid-swarm',
+        name: 'Liquid Swarm',
+        icon: '🌀',
+        iconColor: '#4fc3f7',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Arcade', 'Roguelite', 'Growth'],
+        description: 'Fast-paced arcade roguelite where you surround and absorb enemy swarms to grow your own.'
     }
 ];
 
@@ -567,6 +577,16 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: 'liquid-swarm-guide',
+        title: 'Liquid Swarm Guide: Master the Ultimate Consuming Force',
+        game: 'Liquid Swarm',
+        gameId: 'liquid-swarm',
+        date: '2026-06-12',
+        readTime: '8 min',
+        excerpt: 'Master Liquid Swarm with this complete guide. Learn the surround mechanic, power-up strategies, and pro tips to become the ultimate consuming force.',
+        difficulty: 'Beginner'
+    },
     {
         id: 'venge-io-guide',
         title: 'Venge.io Guide: Master FPS Arena Combat',
