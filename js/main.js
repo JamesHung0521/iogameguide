@@ -639,13 +639,14 @@ const guidesData = [
     },
     {
         id: 'lordz-io-guide',
-        title: 'Lordz.io Complete Guide: Master Medieval Strategy Combat',
+        title: 'Lordz.io Guide: Build Your Medieval Empire and Conquer the Battlefield',
         game: 'Lordz.io',
         gameId: 'lordz-io',
-        date: '2026-06-10',
-        readTime: '12 min',
-        excerpt: 'Master real-time strategy combat in Lordz.io. Learn unit types, base building, army composition, and become the ultimate medieval warlord.',
-        difficulty: 'Beginner'
+        date: '2026-06-12',
+        readTime: '8 min',
+        excerpt: 'Master Lordz.io with our complete guide. Learn unit stats, economy strategy, army composition, and pro tips to dominate the medieval battlefield.',
+        difficulty: 'Intermediate',
+        badge: '🏰'
     },
     {
         id: 'skribbl-io-guide',
