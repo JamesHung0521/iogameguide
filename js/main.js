@@ -562,6 +562,16 @@ const gamesData = [
     description: 'Real-time strategy game where you build armies, manage resources, and conquer territories in medieval warfare.'
     },
     {
+    id: 'hordes-io',
+    name: 'Hordes.io',
+    icon: '⚔️',
+    iconColor: '#8b5cf6',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ['MMORPG', 'PvP', 'Fantasy'],
+    description: '3D browser MMORPG with 4 unique classes. Master Warriors, Archers, Mages, and Shamans in epic PvP battles.'
+    },
+    {
     id: 'liquid-swarm',
     name: 'Liquid Swarm',
     icon: '🌀',
@@ -787,6 +797,17 @@ const guidesData = [
         excerpt: 'Master Lordz.io with our complete guide. Learn unit stats, economy strategy, army composition, and pro tips to dominate the medieval battlefield.',
         difficulty: 'Intermediate',
         badge: '🏰'
+    },
+    {
+        id: 'hordes-io-guide',
+        title: 'Hordes.io Guide: Master 4 Classes & PvP Combat',
+        game: 'Hordes.io',
+        gameId: 'hordes-io',
+        date: '2026-06-13',
+        readTime: '10 min',
+        excerpt: 'Master Hordes.io with our complete guide. Learn Warrior, Archer, Mage, and Shaman skills, PvP combos, and pro strategies.',
+        difficulty: 'Intermediate',
+        badge: '⚔️'
     },
     {
         id: 'skribbl-io-guide',
