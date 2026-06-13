@@ -590,7 +590,7 @@ const gamesData = [
     difficulty: 3,
     tags: ['Strategy', 'Territory', 'Grid'],
     description: 'Territory capture game where you expand your colored blocks on a shared grid while protecting your vulnerable trail.'
-    },,
+    },
     {
     id: 'superhex-io',
     name: 'Superhex.io',
