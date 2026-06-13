@@ -570,13 +570,153 @@ const gamesData = [
     difficulty: 2,
     tags: ['Arcade', 'Roguelite', 'Growth'],
     description: 'Fast-paced arcade roguelite where you surround and absorb enemy swarms to grow your own.'
-    }
+    },
+    {
+    id: 'splix-io',
+    name: 'Splix.io',
+    icon: '🟩',
+    iconColor: '#4caf50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ['Strategy', 'Territory', 'Grid'],
+    description: 'Territory capture game where you expand your colored blocks on a shared grid while protecting your vulnerable trail.'
+    },,
+    {
+    id: 'superhex-io',
+    name: 'Superhex.io',
+    icon: '⬡',
+    iconColor: '#7c4dff',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ['Territory', 'Strategy', 'Hex'],
+    description: 'Claim hexagonal territory and defend your zone in this strategic grid-based .io game.'
+    },
+    {
+    id: 'voxelim-io',
+    name: 'Voxelim.io',
+    icon: '🧱',
+    iconColor: '#795548',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ['Building', 'Combat', 'Voxel'],
+    description: 'Build structures and battle enemies in a voxel-based multiplayer world.'
+    },
+    {
+    id: 'warden-io',
+    name: 'Warden.io',
+    icon: '🗡️',
+    iconColor: '#607d8b',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ['RPG', 'Dungeon', 'Boss'],
+    description: 'Dungeon crawler with class builds, boss fights, and strategic combat in a mystical arena.'
+    },
+    {
+    id: 'wormate-io',
+    name: 'Wormate.io',
+    icon: '🐛',
+    iconColor: '#ff9800',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ['Snake', 'Growth', 'Arena'],
+    description: 'Collect sweet treats, grow your worm, and dominate the arena with upgrade strategies.'
+    },
+    {
+    id: 'wormax-io',
+    name: 'Wormax.io',
+    icon: '🪱',
+    iconColor: '#8bc34a',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ['Snake', 'Growth', 'Classic'],
+    description: 'Slither smart, use boost strategically, and grow into the biggest worm on the server.'
+    },
+    {
+    id: 'zapper-io',
+    name: 'Zapper.io',
+    icon: '⚡',
+    iconColor: '#ffc107',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ['Combat', 'Arena', 'Fast'],
+    description: 'Lightning-fast arena combat with weapon upgrades and movement-based tactics.'
+    },
 ];
 
 /* ========================================
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: 'splix-io-guide',
+        title: 'Splix.io Guide: Master Territory Capture & Dominate the Grid',
+        game: 'Splix.io',
+        gameId: 'splix-io',
+        date: '2026-06-13',
+        readTime: '10 min',
+        excerpt: 'Master Splix.io territory capture strategies, trail protection tactics, and leaderboard climbing tips to dominate the grid.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'superhex-io-guide',
+        title: 'Superhex.io Guide: Claim Territory & Defend Your Hex',
+        game: 'Superhex.io',
+        gameId: 'superhex-io',
+        date: '2026-06-13',
+        readTime: '8 min',
+        excerpt: 'Master Superhex.io territory control strategies, hex claiming mechanics, and defense tactics to dominate the map.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'voxelim-io-guide',
+        title: 'Voxelim.io Guide: Build & Battle in a Voxel World',
+        game: 'Voxelim.io',
+        gameId: 'voxelim-io',
+        date: '2026-06-13',
+        readTime: '9 min',
+        excerpt: 'Master Voxelim.io voxel building mechanics, combat strategies, and resource gathering for battlefield domination.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'warden-io-guide',
+        title: 'Warden.io Guide: Dungeon Crawler Strategy & Boss Tips',
+        game: 'Warden.io',
+        gameId: 'warden-io',
+        date: '2026-06-13',
+        readTime: '9 min',
+        excerpt: 'Master Warden.io dungeon crawling strategies, boss fight tactics, and class builds for the mystical arena.',
+        difficulty: 'Intermediate'
+    },
+    {
+        id: 'wormate-io-guide',
+        title: 'Wormate.io Guide: Sweet Treats & Giant Worms',
+        game: 'Wormate.io',
+        gameId: 'wormate-io',
+        date: '2026-06-13',
+        readTime: '8 min',
+        excerpt: 'Master Wormate.io sweet food collection, worm upgrades, and arena tactics for growth and survival.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'wormax-io-guide',
+        title: 'Wormax.io Guide: Slither Smart & Grow Massive',
+        game: 'Wormax.io',
+        gameId: 'wormax-io',
+        date: '2026-06-13',
+        readTime: '8 min',
+        excerpt: 'Master Wormax.io smart slithering, boost mastery, and strategies to become the biggest worm on the server.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'zapper-io-guide',
+        title: 'Zapper.io Guide: Lightning-Fast Combat Tips',
+        game: 'Zapper.io',
+        gameId: 'zapper-io',
+        date: '2026-06-13',
+        readTime: '8 min',
+        excerpt: 'Master Zapper.io lightning combat tactics, movement strategies, and weapon upgrades to dominate the arena.',
+        difficulty: 'Intermediate'
+    },
     {
         id: 'bonk-io-guide',
         title: 'Bonk.io Guide: Master Physics Combat & Knockouts',
