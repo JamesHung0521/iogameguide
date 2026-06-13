@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{GAME_NAME}} Guide: {{SUBTITLE}} | iogameguide.com</title>
+    <meta name="description" content="{{META_DESCRIPTION}}">
+    <meta name="keywords" content="{{GAME_NAME}}, guide, tips, tricks, strategy, {{TAGS}}">
+    <meta property="og:title" content="{{GAME_NAME}} Guide: {{SUBTITLE}}">
+    <meta property="og:description" content="{{META_DESCRIPTION}}">
+    <meta property="og:image" content="https://iogameguide.com/images/games/{{GAME_ID}}/hero.jpg">
+    <meta property="og:url" content="https://iogameguide.com/guides/{{GAME_ID}}-guide.html">
+    <link rel="canonical" href="https://iogameguide.com/guides/{{GAME_ID}}-guide.html">
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@context": "https://schema.org",
+          "@type": "VideoGame",
+          "name": "{{GAME_NAME_SCHEMA}}",
+          "description": "{{META_DESCRIPTION}}",
+          "url": "https://iogameguide.com/games/{{GAME_ID}}.html",
+          "author": { "@type": "Organization", "name": "iogameguide.com" },
+          "publisher": { "@type": "Organization", "name": "iogameguide.com" },
+          "datePublished": "{{DATE}}",
+          "gamePlatform": ["Web Browser"],
+          "genre": "{{GENRE}}",
+          "applicationCategory": "Game"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          "name": "{{GAME_NAME}} Guide 2026",
+          "description": "Complete guide for {{GAME_NAME_SCHEMA}} with strategies, tips, and step-by-step instructions.",
+          "image": { "@type": "ImageObject", "url": "https://iogameguide.com/images/games/{{GAME_ID}}/hero.jpg" },
+          "author": { "@type": "Organization", "name": "iogameguide.com" },
+          "publisher": { "@type": "Organization", "name": "iogameguide.com", "logo": { "@type": "ImageObject", "url": "https://iogameguide.com/images/logo.png" } },
+          "datePublished": "{{DATE}}",
+          "dateModified": "{{DATE}}",
+          "prepTime": "PT1M",
+          "performTime": "PT10M",
+          "totalTime": "PT11M",
+          "supply": [
+            { "@type": "HowToSupply", "name": "Web Browser" },
+            { "@type": "HowToSupply", "name": "Internet Connection" }
+          ],
+          "step": [
+            { "@type": "HowToStep", "name": "Get Started", "text": "Open your browser and navigate to the game.", "url": "https://iogameguide.com/guides/{{GAME_ID}}-guide.html" },
+            { "@type": "HowToStep", "name": "Learn the Basics", "text": "Understand the core mechanics and objectives." },
+            { "@type": "HowToStep", "name": "Practice Strategies", "text": "Apply the strategies outlined in this guide." }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "{{GAME_NAME}} Guide 2026",
+          "description": "Comprehensive strategy guide for mastering the game.",
+          "author": { "@type": "Organization", "name": "iogameguide.com" },
+          "publisher": { "@type": "Organization", "name": "iogameguide.com" },
+          "datePublished": "{{DATE}}",
+          "dateModified": "{{DATE}}",
+          "timeRequired": "PT10M",
+          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://iogameguide.com/guides/" }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SFHCK9FDP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3SFHCK9FDP');
+    </script>
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074835585646908" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation (FIXED - DO NOT MODIFY) -->
+    <nav>
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="20" fill="url(#gradient)"/>
+                    <path d="M12 14L20 10L28 14L28 26L20 30L12 26V14Z" fill="white"/>
+                    <defs>
+                        <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40">
+                            <stop offset="0%" stop-color="#10b981"/>
+                            <stop offset="100%" stop-color="#06b6d4"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                iogameguide
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../games.html">Games</a></li>
+                <li><a href="../guides.html">Guides</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="guide-page">
+        <div class="container">
+            <header class="guide-header">
+                <div class="game-badge">{{GAME_EMOJI}} {{GAME_NAME}}</div>
+                <h1>{{GAME_NAME}} Guide: {{SUBTITLE}}</h1>
+                <div class="meta">
+                    <span>📅 {{DATE_DISPLAY}}</span>
+                    <span>⏱️ {{READ_TIME}}</span>
+                    <span>👁️ {{BADGE}}</span>
+                </div>
+                <a href="{{PLAY_URL}}" target="_blank" class="play-now-btn" style="display:inline-block; padding:12px 28px; background:linear-gradient(135deg, #10b981, #06b6d4); color:#fff; text-decoration:none; border-radius:50px; font-size:1.1rem; font-weight:700; margin:16px 0 24px 0; transition:all 0.3s ease; box-shadow:0 4px 15px rgba(16,185,129,0.3);">
+                    {{PLAY_TEXT}}
+                </a>
+                <div class="game-hero">
+                    <img src="../images/games/{{GAME_ID}}/hero.jpg" alt="{{GAME_NAME}} gameplay">
+                </div>
+            </header>
+            
+            <article class="article-content">
+                <!-- ============================================ -->
+                <!-- CONTENT START: 文案组只需要写这里面的内容      -->
+                <!-- ============================================ -->
+                
+                <!-- Game Basics Section -->
+                <h2 id="basics">{{SECTION_1_TITLE}}</h2>
+                <p>{{SECTION_1_CONTENT}}</p>
+                
+                <!-- Table of Contents -->
+                <div class="tip-box">
+                    <div class="tip-title">📋 Table of Contents</div>
+                    <ul>
+                        <li><a href="#basics">1. {{TOC_1}}</a></li>
+                        <li><a href="#controls">2. {{TOC_2}}</a></li>
+                        <li><a href="#strategy">3. {{TOC_3}}</a></li>
+                        <li><a href="#tips">4. {{TOC_4}}</a></li>
+                        <li><a href="#faq">5. {{TOC_5}}</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Screenshots -->
+                <figure class="game-screenshot">
+                    <img src="../images/games/{{GAME_ID}}/screenshot-1.jpg" alt="{{GAME_NAME}} screenshot 1">
+                    <figcaption>{{SCREENSHOT_1_CAPTION}}</figcaption>
+                </figure>
+                
+                <!-- Tips Box -->
+                <div class="tip-box">
+                    <div class="tip-title">{{TIP_ICON}} {{TIP_TITLE}}</div>
+                    <p>{{TIP_CONTENT}}</p>
+                </div>
+                
+                <!-- Warning Box -->
+                <div class="tip-box warning">
+                    <div class="tip-title">⚠️ {{WARNING_TITLE}}</div>
+                    <p>{{WARNING_CONTENT}}</p>
+                </div>
+                
+                <!-- FAQ Section -->
+                <h2 id="faq">FAQ</h2>
+                <div class="faq-item">
+                    <h3>{{FAQ_1_QUESTION}}</h3>
+                    <p>{{FAQ_1_ANSWER}}</p>
+                </div>
+                
+                <!-- ============================================ -->
+                <!-- CONTENT END: 文案组不需要写下面的内容          -->
+                <!-- ============================================ -->
+            </article>
+        </div>
+    </main>
+    
+    <!-- Related Guides (UPDATE GAMES BASED ON CONTEXT) -->
+    <section class="related-guides">
+        <div class="container">
+            <h2>📚 Related Guides</h2>
+            <div class="guides-grid">
+                <!-- Guide Card 1 -->
+                <a href="agar-io-guide.html" class="guide-card">
+                    <div class="guide-thumb" style="background: #e8f5e9; border-radius: 8px;">
+                        <span style="font-size: 2rem;">🟢</span>
+                    </div>
+                    <div class="guide-content">
+                        <div class="guide-meta">🟢 Agar.io</div>
+                        <h3>Agar.io Complete Guide</h3>
+                        <p class="guide-excerpt">Master Agar.io with pro strategies for growing and dominating.</p>
+                    </div>
+                </a>
+                <!-- Guide Card 2 -->
+                <a href="slither-io-guide.html" class="guide-card">
+                    <div class="guide-thumb" style="background: #e3f2fd; border-radius: 8px;">
+                        <span style="font-size: 2rem;">🐍</span>
+                    </div>
+                    <div class="guide-content">
+                        <div class="guide-meta">🐍 Slither.io</div>
+                        <h3>Slither.io Guide</h3>
+                        <p class="guide-excerpt">Complete Slither.io strategy guide.</p>
+                    </div>
+                </a>
+                <!-- Guide Card 3 -->
+                <a href="diep-io-guide.html" class="guide-card">
+                    <div class="guide-thumb" style="background: #fff3e0; border-radius: 8px;">
+                        <span style="font-size: 2rem;">🔫</span>
+                    </div>
+                    <div class="guide-content">
+                        <div class="guide-meta">🔫 Diep.io</div>
+                        <h3>Diep.io Guide</h3>
+                        <p class="guide-excerpt">Master Diep.io with complete tank stats and builds.</p>
+                    </div>
+                </a>
+                <!-- Guide Card 4 -->
+                <a href="surviv-io-guide.html" class="guide-card">
+                    <div class="guide-thumb" style="background: #fce4ec; border-radius: 8px;">
+                        <span style="font-size: 2rem;">🎯</span>
+                    </div>
+                    <div class="guide-content">
+                        <div class="guide-meta">🎯 Surviv.io</div>
+                        <h3>Surviv.io Guide</h3>
+                        <p class="guide-excerpt">Master Surviv.io battle royale guide.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer (FIXED - DO NOT MODIFY) -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../games.html">All Games</a></li>
+                        <li><a href="../guides.html">Latest Guides</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Popular Games</h4>
+                    <ul>
+                        <li><a href="agar-io-guide.html">Agar.io</a></li>
+                        <li><a href="slither-io-guide.html">Slither.io</a></li>
+                        <li><a href="diep-io-guide.html">Diep.io</a></li>
+                        <li><a href="paper-io-guide.html">Paper.io</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="../cookie-policy.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 iogameguide.com. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="../js/main.js"></script>
+</body>
+</html>
