@@ -651,6 +651,16 @@ const gamesData = [
     tags: ['Combat', 'Arena', 'Fast'],
     description: 'Lightning-fast arena combat with weapon upgrades and movement-based tactics.'
     },
+    {
+    id: 'poxel-io',
+    name: 'Poxel.io',
+    icon: '🔫',
+    iconColor: '#ff6b35',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ['FPS', 'Multiplayer', 'Pixel'],
+    description: 'Fast-paced pixel FPS with 30+ maps, 20+ weapons, and 4 competitive game modes. Master weapons, learn maps, and dominate the leaderboard.'
+    }
 ];
 
 /* ========================================
@@ -1228,6 +1238,17 @@ const guidesData = [
         readTime: '8 min',
         excerpt: 'Master element interactions, create amazing physics simulations, and explore 500+ elements in this creative sandbox game.',
         difficulty: 'Beginner'
+    },
+    {
+        id: 'poxel-io-guide',
+        title: 'Poxel.io Guide: Master Weapons, Game Modes & Pixel FPS Tactics',
+        game: 'Poxel.io',
+        gameId: 'poxel-io',
+        date: '2026-06-14',
+        readTime: '10 min',
+        excerpt: 'Master Poxel.io with our complete guide. Learn all 4 game modes, best weapon loadouts, map strategies, and pro tips to dominate the pixel FPS battlefield.',
+        difficulty: 'Intermediate',
+        badge: '🔫'
     }
 ];
 
