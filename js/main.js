@@ -412,16 +412,6 @@ const gamesData = [
     description: 'Grow your worm and make opponents crash into you.'
     },
     {
-    id: 'blumgi-rocket',
-    name: 'Blumgi Rocket',
-    icon: '🚀',
-    iconColor: '#ff9800',
-    guideCount: 1,
-    difficulty: 2,
-    tags: ['Rocket', 'Physics', 'Platform'],
-    description: 'Launch yourself through obstacle courses using rocket boosters.'
-    },
-    {
     id: 'brutalmania-io',
     name: 'BrutalMania.io',
     icon: '⚔️',
@@ -470,16 +460,6 @@ const gamesData = [
     difficulty: 2,
     tags: ['Evolution', 'Survival', 'Food Chain'],
     description: 'Climb the food chain from tiny creature to apex predator.'
-    },
-    {
-    id: 'angry-worms-io',
-    name: 'Angry Worms.io',
-    icon: '🐛',
-    iconColor: '#ef4444',
-    guideCount: 1,
-    difficulty: 2,
-    tags: ['Worm', 'Slither', 'Arena'],
-    description: 'Slither and grow your worm, trap opponents, dominate the leaderboard.'
     },
     {
     id: 'repuls-io',
