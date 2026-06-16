@@ -1020,16 +1020,6 @@ const guidesData = [
         difficulty: 'Beginner'
     },
     {
-        id: 'venge-io-guide',
-        title: 'Venge.io Complete Guide: Best Classes & Combat',
-        game: 'Venge.io',
-        gameId: 'venge-io',
-        date: '2024-01-15',
-        readTime: '11 min',
-        excerpt: 'Learn FPS combat tactics, class selection, and weapon loadouts.',
-        difficulty: 'Advanced'
-    },
-    {
         id: 'gartic-io-guide',
         title: 'Gartic.io Complete Guide: Drawing & Guessing Tips',
         game: 'Gartic.io',
@@ -1058,16 +1048,6 @@ const guidesData = [
         readTime: '12 min',
         excerpt: 'Master base designs, resource management, and PvP defense strategies.',
         difficulty: 'Intermediate'
-    },
-    {
-        id: 'agar-io-beginner-guide',
-        title: 'Agar.io Beginner\'s Guide: From Tiny Cell to Giant',
-        game: 'Agar.io',
-        gameId: 'agar-io',
-        date: '2024-01-15',
-        readTime: '8 min',
-        excerpt: 'Learn the essential strategies to grow your cell and dominate the Agar.io arena.',
-        difficulty: 'Beginner'
     },
     {
         id: 'slither-io-boosting',
@@ -1228,16 +1208,6 @@ const guidesData = [
         readTime: '9 min',
         excerpt: 'Master snake growth mechanics, evolve into flying dragonfly form, and dominate the food chain with proven strategies.',
         difficulty: 'Beginner'
-    },
-    {
-        id: 'krunker-io-guide',
-        title: 'Krunker.io Guide: Master FPS Combat & Movement',
-        game: 'Krunker.io',
-        gameId: 'krunker-io',
-        date: '2026-06-05',
-        readTime: '12 min',
-        excerpt: 'Master FPS combat tactics, movement strategies, class selection, weapon tips, and dominate the battlefield in Krunker.io.',
-        difficulty: 'Intermediate'
     },
     {
         id: 'sandboxels-guide',
