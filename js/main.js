@@ -322,6 +322,16 @@ const gamesData = [
     description: 'Tame pets and build your base.'
     },
     {
+    id: 'stickman-hook',
+    name: 'Stickman Hook',
+    icon: '🪝',
+    iconColor: '#ff5722',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ['Physics', 'Swing', 'Arcade'],
+    description: 'Physics-based grappling hook swing game.'
+    },
+    {
     id: 'yohoho-io',
     name: 'Yohoho.io',
     icon: '🏴‍☠️',
@@ -847,6 +857,16 @@ const guidesData = [
         date: '2026-06-07',
         readTime: '10 min',
         excerpt: 'Build your ultimate pet army! Learn pet taming mechanics, base defense, elemental combat, and climb the leaderboard.',
+        difficulty: 'Beginner'
+    },
+    {
+        id: 'stickman-hook-guide',
+        title: 'Stickman Hook Guide: Master the Swing & Conquer Every Level',
+        game: 'Stickman Hook',
+        gameId: 'stickman-hook',
+        date: '2026-06-16',
+        readTime: '8 min',
+        excerpt: 'Master swinging mechanics, release timing, level strategies, and pro tips to dominate every stage in Stickman Hook.',
         difficulty: 'Beginner'
     },
     {
