@@ -899,16 +899,6 @@ const guidesData = [
         excerpt: 'Master territory control, helicopter combat, defensive building, and top strategies to dominate the leaderboard.',
         difficulty: 'Beginner'
     },
-    {
-        id: 'blumgi-rocket-guide',
-        title: 'Blumgi Rocket Guide: Launch, Fly & Land Perfectly',
-        game: 'Blumgi Rocket',
-        gameId: 'blumgi-rocket',
-        date: '2026-05-14',
-        readTime: '9 min',
-        excerpt: 'Master launch mechanics, trajectory prediction, boost management, and perfect landing techniques.',
-        difficulty: 'Beginner'
-    },
         {
         id: 'brutalmania-io-guide',
         title: 'BrutalMania.io Guide: Arena Combat Tips & Weapon Strategy',
@@ -948,16 +938,6 @@ const guidesData = [
         readTime: '10 min',
         excerpt: 'Master pro split tricks, micro-techniques, late game dominance, and high-level strategies.',
         difficulty: 'Advanced'
-    },
-    {
-        id: 'angry-worms-io-guide',
-        title: 'Angry Worms.io Guide: Master the Slither-Style Arena',
-        game: 'Angry Worms.io',
-        gameId: 'angry-worms-io',
-        date: '2026-05-13',
-        readTime: '11 min',
-        excerpt: 'Learn how to grow your worm, trap opponents, use boost effectively, and dominate the leaderboard.',
-        difficulty: 'Beginner'
     },
     {
         id: 'smashkarts-io-guide',
