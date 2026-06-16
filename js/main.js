@@ -660,6 +660,16 @@ const gamesData = [
     difficulty: 4,
     tags: ['FPS', 'Multiplayer', 'Pixel'],
     description: 'Fast-paced pixel FPS with 30+ maps, 20+ weapons, and 4 competitive game modes. Master weapons, learn maps, and dominate the leaderboard.'
+    },
+    {
+    id: 'war-brokers',
+    name: 'War Brokers',
+    icon: '🎖️',
+    iconColor: '#4a5568',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ['FPS', 'Vehicles', 'Battle Royale'],
+    description: 'Military FPS with tanks, helicopters, and 17 weapons. Master combined-arms combat across multiple game modes.'
     }
 ];
 
@@ -1249,6 +1259,17 @@ const guidesData = [
         excerpt: 'Master Poxel.io with our complete guide. Learn all 4 game modes, best weapon loadouts, map strategies, and pro tips to dominate the pixel FPS battlefield.',
         difficulty: 'Intermediate',
         badge: '🔫'
+    },
+    {
+        id: 'war-brokers-guide',
+        title: 'War Brokers Guide: Master Vehicles, Weapons & Game Modes',
+        game: 'War Brokers',
+        gameId: 'war-brokers',
+        date: '2026-06-16',
+        readTime: '12 min',
+        excerpt: 'Master War Brokers.io with our complete guide. Learn all 17 weapons, vehicle combat tactics, game modes, and battle royale strategies to dominate the battlefield.',
+        difficulty: 'Advanced',
+        badge: '🎖️'
     }
 ];
 
