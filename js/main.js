@@ -670,6 +670,16 @@ const gamesData = [
     difficulty: 4,
     tags: ['Survival', 'Crafting', 'PvP'],
     description: 'Multiplayer sandbox survival game with deep crafting, biomes, and combat.'
+    },
+    {
+    id: '1v1-lol',
+    name: '1v1.LOL',
+    icon: '🎯',
+    iconColor: '#ff5722',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ['Shooter', 'Building', 'FPS'],
+    description: 'Fortnite-style browser shooter with real-time building mechanics.'
     }
 ];
 
@@ -677,6 +687,19 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: '1v1-lol-guide',
+        title: '1v1.LOL Guide: Master Building & Shooting in Fortnite-Style Browser Game',
+        game: '1v1.LOL',
+        gameId: '1v1-lol',
+        date: '2026-06-17',
+        readTime: '12 min',
+        excerpt: 'Master building and shooting in 1v1.LOL. Learn 90-degree turns, box fighting, weapon combos, and advanced tactics.',
+        image: '/images/games/1v1-lol/hero.jpg',
+        url: '/guides/1v1-lol-guide.html',
+        difficulty: 'Intermediate',
+        tags: ['shooter', 'building', 'fps', 'fortnite']
+    },
     {
         id: 'splix-io-guide',
         title: 'Splix.io Guide: Master Territory Capture & Dominate the Grid',
