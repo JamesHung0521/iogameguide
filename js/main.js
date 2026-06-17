@@ -660,8 +660,7 @@ const gamesData = [
     difficulty: 4,
     tags: ['FPS', 'Vehicles', 'Battle Royale'],
     description: 'Military FPS with tanks, helicopters, and 17 weapons. Master combined-arms combat across multiple game modes.'
-    }
-
+    },
     {
     id: 'starve-io',
     name: 'Starve.io',
