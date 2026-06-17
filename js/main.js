@@ -661,6 +661,17 @@ const gamesData = [
     tags: ['FPS', 'Vehicles', 'Battle Royale'],
     description: 'Military FPS with tanks, helicopters, and 17 weapons. Master combined-arms combat across multiple game modes.'
     }
+
+    {
+    id: 'starve-io',
+    name: 'Starve.io',
+    icon: '⚒️',
+    iconColor: '#4caf50',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ['Survival', 'Crafting', 'PvP'],
+    description: 'Multiplayer sandbox survival game with deep crafting, biomes, and combat.'
+    }
 ];
 
 /* ========================================
@@ -1220,7 +1231,19 @@ const guidesData = [
         excerpt: 'Master War Brokers.io with our complete guide. Learn all 17 weapons, vehicle combat tactics, game modes, and battle royale strategies to dominate the battlefield.',
         difficulty: 'Advanced',
         badge: '🎖️'
+    },
+    {
+        id: 'starve-io-guide',
+        title: 'Starve.io Guide: Survival, Crafting & Biome Mastery',
+        game: 'Starve.io',
+        gameId: 'starve-io',
+        date: '2026-06-17',
+        readTime: '15 min',
+        excerpt: 'Master Starve.io with our complete survival guide. Learn crafting recipes, biome strategies, combat tips, and base building to survive and thrive.',
+        difficulty: 'Advanced',
+        badge: '⚒️'
     }
+
 ];
 
 /* ========================================
