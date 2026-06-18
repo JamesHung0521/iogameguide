@@ -170,76 +170,78 @@
   gtag('js', new Date());
   gtag('config', 'G-3SFHCK9FDP');
 </script>
-</head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="../index.html" class="logo">
-                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
-                    <circle cx="18" cy="18" r="16" stroke="url(#grad1)" stroke-width="2"/>
-                    <path d="M12 18 L18 12 L24 18 L18 24 Z" fill="url(#grad1)"/>
-                    <defs>
-                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#00ff88"/>
-                            <stop offset="100%" style="stop-color:#00d4ff"/>
-                        </linearGradient>
-                    </defs>
-                </svg>
-                <span>iogameguide</span>
-            </a>
-            
-            <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../games.html">Games</a></li>
-                <li><a href="../games.html">Guides</a></li>
-                <li><a href="../about.html">About</a></li>
-            </ul>
-            
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero-guide">
+    <!-- Play Now Button Styles -->
+    <style>
+        .play-now-btn {
+            display: inline-block;
+            margin: 1rem 0 1.5rem 0;
+            padding: 0.875rem 2rem;
+            background: linear-gradient(135deg, #00ff88 0%, #00d4ff 100%);
+            color: #1a1a2e;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .play-now-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(0, 255, 136, 0.5);
+            background: linear-gradient(135deg, #00ff88 0%, #00ffaa 100%);
+        }
+        .play-now-btn:active {
+            transform: translateY(0);
+        }
+        @media (max-width: 768px) {
+            .play-now-btn {
+                width: 100%;
+                text-align: center;
+                padding: 1rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+
+    <!-- Guide Detail Page -->
+    <main class="guide-page">
         <div class="container">
-            <div class="hero-content">
-                <span class="badge">Territory Strategy</span>
-                <h1>Hexanaut.io Guide: Master Territory Capture & King Strategy</h1>
-                <p class="hero-subtitle">Conquer the hexagonal battlefield — capture totems, outmaneuver rivals, and hold your crown to become the ultimate Hexanaut.</p>
-                <div class="guide-meta">
+            <header class="guide-header">
+                <span class="game-badge">🎮 Hexanaut.io</span>
+                <h1>Hexanaut.io Guide: Master Territory Capture &amp; King Strategy</h1>
+                
+                <!-- Play Now Button -->
+                <a href="https://hexanaut.io" target="_blank" rel="noopener noreferrer" class="play-now-btn">
+                    🎮 Play Hexanaut.io Now
+                </a>
+                
+                <div class="meta">
                     <span>📅 June 18, 2026</span>
                     <span>⏱️ 10 min read</span>
-                    <span>🎮 Exodragon Games</span>
                 </div>
-            </div>
-            <div class="hero-image">
-                <img src="../images/games/hexanaut-io/hero.jpg" alt="Hexanaut.io Gameplay Overview">
-            </div>
-        </div>
-    </section>
+            </header>
 
-    <!-- Guide Content -->
-    <div class="guide-content">
-        <div class="container">
-            <div class="content-wrapper">
-
-                <!-- What is Hexanaut.io -->
-                <section class="guide-section">
-                    <h2>🎯 What Is Hexanaut.io?</h2>
+            <article class="article-content">
+<!-- What is Hexanaut.io -->
+                
+                    <h2 id="what-is">🎯 What Is Hexanaut.io?</h2>
                     <p>Hexanaut.io is a fast-paced 3D multiplayer territory conquest game developed by <strong>Exodragon Games</strong> (the same studio behind Defly.io). Built on Unity WebGL, the game combines classic snake-style territory capture with hexagonal grid mechanics, creating a strategic battlefield unlike any other .io game.</p>
                     <p>You control a character with a trailing tail on a hexagonal map. Leave your safe territory, draw a path across the grid, and loop back to claim every hexagon enclosed within your trail. But beware — while you're outside your borders, any opponent who crosses your tail instantly eliminates you.</p>
                     <p>The ultimate goal: capture <strong>20% of the map</strong> to become the <strong>Hexanaut King</strong>, then hold that territory for <strong>2 minutes</strong> to win the match. It sounds simple, but with dozens of players and bots all competing for the same hexagons, every decision matters.</p>
 
-                    <img src="../images/games/hexanaut-io/screenshot-1.jpg" alt="Hexanaut.io gameplay showing hexagonal territories" class="screenshot">
-                </section>
+                    <figure class="game-screenshot">
+                    <img src="../images/games/hexanaut-io/screenshot-1.jpg" alt="Hexanaut.io gameplay showing hexagonal territories" loading="lazy">
+                    <figcaption>Hexanaut.io gameplay showing hexagonal territories</figcaption>
+                </figure>
 
                 <!-- Controls -->
-                <section class="guide-section">
-                    <h2>🎮 Controls & Setup</h2>
+                
+                    <h2 id="controls">🎮 Controls & Setup</h2>
                     <p>Hexanaut.io keeps controls simple so you can focus on strategy:</p>
                     <table class="controls-table">
                         <thead>
@@ -253,11 +255,10 @@
                         </tbody>
                     </table>
                     <p><strong>Pro tip:</strong> Go to Settings to enable "2-key turning" for more precise diagonal movement, or switch to virtual joystick on mobile for smoother control.</p>
-                </section>
 
                 <!-- Territory Capture Mechanics -->
-                <section class="guide-section">
-                    <h2>🗺️ Territory Capture Mechanics</h2>
+                
+                    <h2 id="territory">🗺️ Territory Capture Mechanics</h2>
                     <p>Understanding territory mechanics is the foundation of Hexanaut.io mastery. Here's how it works:</p>
                     
                     <h3>How Capturing Works</h3>
@@ -276,12 +277,14 @@
                         <li><strong>Cutting enemies:</strong> Touch an opponent's tail while they're outside their territory to eliminate them.</li>
                     </ul>
 
-                    <img src="../images/games/hexanaut-io/screenshot-2.jpg" alt="Hexanaut.io territory expansion in progress" class="screenshot">
-                </section>
+                    <figure class="game-screenshot">
+                    <img src="../images/games/hexanaut-io/screenshot-2.jpg" alt="Hexanaut.io territory expansion in progress" loading="lazy">
+                    <figcaption>Hexanaut.io territory expansion in progress</figcaption>
+                </figure>
 
                 <!-- Totems Guide -->
-                <section class="guide-section">
-                    <h2>🔮 The 5 Totems — Your Tactical Arsenal</h2>
+                
+                    <h2 id="totems">🔮 The 5 Totems — Your Tactical Arsenal</h2>
                     <p>Totems are scattered across the map and provide game-changing buffs when captured. Knowing when and how to use each totem is what separates beginners from champions.</p>
 
                     <div class="tips-grid">
@@ -306,11 +309,10 @@
                             <p>Reveals all opponent territories on your minimap. Becomes <strong>critical mid-to-late game</strong> when you need to see where enemies are attacking your borders. Full map awareness = survival.</p>
                         </div>
                     </div>
-                </section>
 
                 <!-- Game Modes -->
-                <section class="guide-section">
-                    <h2>🏟️ Game Modes</h2>
+                
+                    <h2 id="game-modes">🏟️ Game Modes</h2>
                     <p>Hexanaut.io offers three distinct modes to match your playstyle:</p>
 
                     <h3>FFA (Free-For-All)</h3>
@@ -337,12 +339,14 @@
                         </tbody>
                     </table>
 
-                    <img src="../images/games/hexanaut-io/screenshot-3.jpg" alt="Hexanaut.io competitive gameplay" class="screenshot">
-                </section>
+                    <figure class="game-screenshot">
+                    <img src="../images/games/hexanaut-io/screenshot-3.jpg" alt="Hexanaut.io competitive gameplay" loading="lazy">
+                    <figcaption>Hexanaut.io competitive gameplay</figcaption>
+                </figure>
 
                 <!-- King Victory Strategy -->
-                <section class="guide-section">
-                    <h2>👑 The King Victory — Your Path to Winning</h2>
+                
+                    <h2 id="king-victory">👑 The King Victory — Your Path to Winning</h2>
                     <p>The King mechanic is what makes Hexanaut.io unique among territory-capture .io games. Here's the complete victory path:</p>
 
                     <h3>Phase 1: Early Game Expansion (0-20% Territory)</h3>
@@ -369,11 +373,10 @@
                         <li>Use <strong>Shield</strong> (PRO mode) for critical moments when you need risky territory grabs.</li>
                         <li>Play defensively — losing your King status is devastating.</li>
                     </ul>
-                </section>
 
                 <!-- Pro Strategies -->
-                <section class="guide-section">
-                    <h2>💡 Pro Strategies & Tips</h2>
+                
+                    <h2 id="pro-strategies">💡 Pro Strategies & Tips</h2>
 
                     <div class="tips-grid">
                         <div class="tip-card">
@@ -401,11 +404,10 @@
                             <p>In PRO mode, don't waste Shield on routine captures. Save it for critical late-game territory grabs or when you need to close a large, risky loop.</p>
                         </div>
                     </div>
-                </section>
 
                 <!-- Ranking System -->
-                <section class="guide-section">
-                    <h2>🏆 Ranking System</h2>
+                
+                    <h2 id="ranking">🏆 Ranking System</h2>
                     <p>Hexanaut.io features a competitive ranking system with XP-based progression through multiple tiers:</p>
                     
                     <table class="controls-table">
@@ -424,11 +426,10 @@
                         </tbody>
                     </table>
                     <p>Win matches, eliminate opponents, and capture territory to earn XP and climb the ranks. Each tier unlocks new challenges and more skilled opponents.</p>
-                </section>
 
                 <!-- Common Mistakes -->
-                <section class="guide-section">
-                    <h2>❌ Common Mistakes to Avoid</h2>
+                
+                    <h2 id="common-mistakes">❌ Common Mistakes to Avoid</h2>
                     <ol>
                         <li><strong>Overextending early</strong> — Large loops with long trails are tempting but deadly. Build up safely first.</li>
                         <li><strong>Ignoring defense</strong> — Capturing new territory is exciting, but enemies are always looking to cut your tail. Balance offense and defense.</li>
@@ -437,11 +438,10 @@
                         <li><strong>Ignoring the shrinking arena</strong> — The map shrinks over time, forcing confrontation. Move toward center early instead of getting trapped at the edge.</li>
                         <li><strong>Forgetting the Spy Dish</strong> — Without map visibility, you're flying blind in the late game. Always prioritize Spy Dish when expanding large territories.</li>
                     </ol>
-                </section>
 
                 <!-- FAQ -->
-                <section class="guide-section">
-                    <h2>❓ Frequently Asked Questions</h2>
+                
+                    <h2 id="faq">❓ Frequently Asked Questions</h2>
                     
                     <div class="faq-section">
                         <div class="faq-item">
@@ -477,11 +477,10 @@
                             <p>Most matches last 5-10 minutes. However, highly skilled players can achieve King victory in under 3 minutes with aggressive early expansion. The shrinking arena ensures matches don't drag on.</p>
                         </div>
                     </div>
-                </section>
 
                 <!-- Related Games -->
-                <section class="guide-section">
-                    <h2>🎮 Similar Games You Might Enjoy</h2>
+                
+                    <h2 id="similar-games">🎮 Similar Games You Might Enjoy</h2>
                     <p>If you love Hexanaut.io's territory capture gameplay, check out these related .io games on our site:</p>
                     <ul>
                         <li><a href="paper-io-guide.html">Paper.io Guide</a> — The classic square-grid territory capture game that inspired Hexanaut</li>
@@ -489,11 +488,63 @@
                         <li><a href="defly-io-guide.html">Defly.io Guide</a> — Also by Exodragon Games, featuring aerial combat with territory mechanics</li>
                         <li><a href="slither-io-guide.html">Slither.io Guide</a> — The classic snake game with similar tail-dodging mechanics</li>
                     </ul>
-                </section>
+                
+            </article>
 
+            <!-- Related Guides -->
+            <section class="related-guides">
+                <div class="section-header">
+                    <h2 class="section-title">📚 Related Guides</h2>
+                </div>
+                <div class="guide-list">
+                    <a href="https://iogameguide.com/guides/paper-io-guide.html" class="guide-card">
+                        <div class="guide-thumb" style="background: #2196f315; border-radius: 8px;"><span style="font-size: 2rem;">📄</span></div>
+                        <div class="guide-content">
+                            <h3>Paper.io Guide: Claim Territory & Defend Your Zone</h3>
+                            <div class="guide-meta">
+                                <span>📄 Paper.io</span>
+                                <span>⏱️ 8 min</span>
+                            </div>
+                            <p class="guide-excerpt">Master territory claiming, zone defense, and trail-cutting strategies in Paper.io.</p>
+                        </div>
+                    </a>
+                    <a href="https://iogameguide.com/guides/defly-io-guide.html" class="guide-card">
+                        <div class="guide-thumb" style="background: #10b98115; border-radius: 8px;"><span style="font-size: 2rem;">🚁</span></div>
+                        <div class="guide-content">
+                            <h3>Defly.io Guide: Build, Defend & Conquer</h3>
+                            <div class="guide-meta">
+                                <span>🚁 Defly.io</span>
+                                <span>⏱️ 9 min</span>
+                            </div>
+                            <p class="guide-excerpt">Master territory control, helicopter combat, defensive building, and top strategies to dominate the leaderboard.</p>
+                        </div>
+                    </a>
+                    <a href="https://iogameguide.com/guides/dogod-io-guide.html" class="guide-card">
+                        <div class="guide-thumb" style="background: #f59e0b15; border-radius: 8px;"><span style="font-size: 2rem;">🦎</span></div>
+                        <div class="guide-content">
+                            <h3>Dogod.io Guide: Evolve & Dominate the Food Chain</h3>
+                            <div class="guide-meta">
+                                <span>🦎 Dogod.io</span>
+                                <span>⏱️ 9 min</span>
+                            </div>
+                            <p class="guide-excerpt">Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.</p>
+                        </div>
+                    </a>
+                    <a href="https://iogameguide.com/guides/defend-io-guide.html" class="guide-card">
+                        <div class="guide-thumb" style="background: #4caf5015; border-radius: 8px;"><span style="font-size: 2rem;">🏰</span></div>
+                        <div class="guide-content">
+                            <h3>Defend.io Guide: Tower Defense Strategy & Tips</h3>
+                            <div class="guide-meta">
+                                <span>🏰 Defend.io</span>
+                                <span>⏱️ 8 min</span>
+                            </div>
+                            <p class="guide-excerpt">Master tower placement, upgrade strategies, and wave defense tactics in Defend.io.</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
             </div>
-        </div>
-    </div>
+        </main>
 
     <footer class="footer">
         <div class="container">
@@ -540,5 +591,6 @@
             </div>
         </div>
     </footer>
+    <script src="../js/main.js?v=20260618"></script>
 </body>
 </html>
