@@ -141,7 +141,17 @@ document.head.appendChild(style);
    游戏数据（用于动态渲染）
    ======================================== */
 const gamesData = [
-    {
+        {
+        id: 'hexanaut-io',
+        name: 'Hexanaut.io',
+        description: '3D territory conquest game with hexagonal grid mechanics. Capture hexagons, grab totems, and become the King.',
+        image: '/images/games/hexanaut-io/icon.jpg',
+        url: '/guides/hexanaut-io-guide.html',
+        category: 'Territory Strategy',
+        players: '1-100+',
+        rating: 4.2
+    },
+{
     id: 'bloxd-io',
     name: 'Bloxd.io',
     icon: '🧱',
@@ -687,7 +697,21 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
-    {
+        {
+        id: 'hexanaut-io-guide',
+        title: 'Hexanaut.io Guide: Master Territory Capture & King Strategy',
+        game: 'Hexanaut.io',
+        gameId: 'hexanaut-io',
+        date: '2026-06-18',
+        readTime: '10 min',
+        excerpt: 'Conquer the hexagonal battlefield in Hexanaut.io. Master territory capture, totem strategies, and King victory tactics.',
+        image: '/images/games/hexanaut-io/hero.jpg',
+        url: '/guides/hexanaut-io-guide.html',
+        difficulty: 'Intermediate',
+        category: 'Territory Strategy',
+        tags: ['territory', 'strategy', 'multiplayer', 'hexagon', '3D']
+    },
+{
         id: '1v1-lol-guide',
         title: '1v1.LOL Guide: Master Building & Shooting in Fortnite-Style Browser Game',
         game: '1v1.LOL',
