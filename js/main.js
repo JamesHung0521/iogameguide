@@ -141,16 +141,7 @@ document.head.appendChild(style);
    游戏数据（用于动态渲染）
    ======================================== */
 const gamesData = [
-    {
-        id: 'hexanaut-io',
-        name: 'Hexanaut.io',
-        icon: '⬡',
-        iconColor: '#00d4ff',
-        guideCount: 1,
-        difficulty: 3,
-        tags: ['Territory', 'Strategy', 'Hexagon'],
-        description: '3D territory conquest game with hexagonal grid mechanics. Capture hexagons, grab totems, and become the King.'
-    },
+    
 {
     id: 'bloxd-io',
     name: 'Bloxd.io',
@@ -210,6 +201,16 @@ const gamesData = [
     difficulty: 3,
     tags: ['Battle Royale', 'Zombie', 'Shooter'],
     description: 'Top-down battle royale shooter.'
+    },
+{
+        id: 'hexanaut-io',
+        name: 'Hexanaut.io',
+        icon: '⬡',
+        iconColor: '#00d4ff',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Territory', 'Strategy', 'Hexagon'],
+        description: '3D territory conquest game with hexagonal grid mechanics. Capture hexagons, grab totems, and become the King.'
     },
     {
     id: 'diep-io',
@@ -1356,3 +1357,4 @@ window.iogameguide = {
     renderGameCard: renderGameCard,
     renderGuideCard: renderGuideCard
 };
+
