@@ -691,6 +691,16 @@ const gamesData = [
     difficulty: 3,
     tags: ['Shooter', 'Building', 'FPS'],
     description: 'Fortnite-style browser shooter with real-time building mechanics.'
+    },
+    {
+    id: 'deadshot-io',
+    name: 'DeadShot.io',
+    icon: '🔫',
+    iconColor: '#2196f3',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ['FPS', 'Shooter', 'Arena'],
+    description: 'Fast-paced browser FPS with slide-jump movement. Master weapons, aim for headshots, dominate every map.'
     }
 ];
 
@@ -698,6 +708,20 @@ const gamesData = [
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+    {
+        id: 'deadshot-io-guide',
+        title: 'DeadShot.io Guide: Master Movement, Weapons & Dominate Every Match',
+        game: 'DeadShot.io',
+        gameId: 'deadshot-io',
+        date: '2026-06-18',
+        readTime: '9 min',
+        excerpt: 'Master DeadShot.io with our complete guide. Learn slide jumping, weapon stats, map strategies, and pro tips to climb the leaderboard.',
+        image: '/images/games/deadshot-io/hero.jpg',
+        url: '/guides/deadshot-io-guide.html',
+        difficulty: 'Advanced',
+        category: 'FPS',
+        tags: ['fps', 'shooter', 'browser', 'deadshot', 'movement']
+    },
         {
         id: 'hexanaut-io-guide',
         title: 'Hexanaut.io Guide: Master Territory Capture & King Strategy',
