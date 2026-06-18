@@ -141,15 +141,15 @@ document.head.appendChild(style);
    游戏数据（用于动态渲染）
    ======================================== */
 const gamesData = [
-        {
+    {
         id: 'hexanaut-io',
         name: 'Hexanaut.io',
-        description: '3D territory conquest game with hexagonal grid mechanics. Capture hexagons, grab totems, and become the King.',
-        image: '/images/games/hexanaut-io/icon.jpg',
-        url: '/guides/hexanaut-io-guide.html',
-        category: 'Territory Strategy',
-        players: '1-100+',
-        rating: 4.2
+        icon: '⬡',
+        iconColor: '#00d4ff',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Territory', 'Strategy', 'Hexagon'],
+        description: '3D territory conquest game with hexagonal grid mechanics. Capture hexagons, grab totems, and become the King.'
     },
 {
     id: 'bloxd-io',
