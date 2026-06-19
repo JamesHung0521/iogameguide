@@ -702,12 +702,37 @@ const gamesData = [
     tags: ['FPS', 'Shooter', 'Arena'],
     description: 'Fast-paced browser FPS with slide-jump movement. Master weapons, aim for headshots, dominate every map.'
     }
+,
+{
+    id: 'curve-fever-pro',
+    name: 'Curve Fever Pro',
+    icon: '🌀',
+    iconColor: '#ff6b35',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ['Arcade', 'Multiplayer', 'Powers'],
+    description: 'Fast-paced multiplayer browser game with 30 unique powers. Control a ship, leave deadly trails, and dominate the arena.'
+    },
 ];
 
 /* ========================================
    攻略数据（用于动态渲染）
    ======================================== */
 const guidesData = [
+{
+    id: 'curve-fever-pro-guide',
+    title: 'Curve Fever Pro Guide: Master Trail Combat & Powers',
+    game: 'Curve Fever Pro',
+    gameId: 'curve-fever-pro',
+    date: '2026-06-19',
+    readTime: '13 min',
+    excerpt: 'Master Curve Fever Pro with our complete guide. Learn trail combat tactics, power strategies, and arena domination tips.',
+    image: '/images/games/curve-fever-pro/hero.jpg',
+    url: '/guides/curve-fever-pro-guide.html',
+    difficulty: 'Advanced',
+    category: 'Arcade',
+    tags: ['arcade', 'multiplayer', 'powers', 'trail', 'strategy']
+    },
     {
         id: 'deadshot-io-guide',
         title: 'DeadShot.io Guide: Master Movement, Weapons & Dominate Every Match',
