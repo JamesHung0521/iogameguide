@@ -183,6 +183,16 @@ const gamesData = [
     description: 'Fast-paced first-person shooter .io game.'
     },
     {
+    id: 'deeeep-io',
+    name: 'Deeeep.io',
+    icon: '🐟',
+    iconColor: '#0077b6',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ['Evolution', 'Survival', 'Ocean'],
+    description: 'Underwater evolution game with 100+ sea creatures.'
+    },
+    {
     id: 'venge-io',
     name: 'Venge.io',
     icon: '💀',
@@ -1339,6 +1349,17 @@ const guidesData = [
         difficulty: 'Advanced',
         badge: '⚒️'
     }
+    {
+        id: 'deeeep-io-guide',
+        title: 'Deeeep.io Guide: Master Ocean Evolution & Survival',
+        game: 'Deeeep.io',
+        gameId: 'deeeep-io',
+        date: '2026-06-20',
+        readTime: '14 min',
+        excerpt: 'Master Deeeep.io with evolution paths, creature abilities, biome strategies, and survival tactics to become the apex predator.',
+        difficulty: 'Intermediate',
+        badge: '🐟'
+    },
 
 ];
 
