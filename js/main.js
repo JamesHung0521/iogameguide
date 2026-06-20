@@ -723,6 +723,26 @@ const gamesData = [
     tags: ['Arcade', 'Multiplayer', 'Powers'],
     description: 'Fast-paced multiplayer browser game with 30 unique powers. Control a ship, leave deadly trails, and dominate the arena.'
     },
+    {
+    id: 'kirka-io',
+    name: 'Kirka.io',
+    icon: '🧱',
+    iconColor: '#4caf50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ['FPS', 'Pixel', 'Arena'],
+    description: 'Voxel FPS browser game. Master wall climbing, dashing, and pixel-perfect combat.'
+    },
+    {
+    id: 'kour-io',
+    name: 'Kour.io',
+    icon: '🏃',
+    iconColor: '#ff9800',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ['FPS', 'Parkour', 'Class-based'],
+    description: 'Class-based FPS with parkour movement. Master 13 unique classes and dominate every match.'
+    },
 ];
 
 /* ========================================
@@ -1360,7 +1380,28 @@ const guidesData = [
         difficulty: 'Intermediate',
         badge: '🐟'
     },
-
+    {
+        id: 'kirka-io-guide',
+        title: 'Kirka.io Guide: Master Voxel FPS Combat & Weapons',
+        game: 'Kirka.io',
+        gameId: 'kirka-io',
+        date: '2026-06-20',
+        readTime: '9 min',
+        excerpt: 'Master Kirka.io with our complete guide. Learn weapon stats, game modes, wall climbing, and pro tips to dominate the voxel arena.',
+        difficulty: 'Intermediate',
+        badge: '🧱'
+    },
+    {
+        id: 'kour-io-guide',
+        title: 'Kour.io Guide: Master 13 Classes, Parkour & Gun Game',
+        game: 'Kour.io',
+        gameId: 'kour-io',
+        date: '2026-06-20',
+        readTime: '9 min',
+        excerpt: 'Master Kour.io with our complete guide. Learn all 13 classes, parkour movement, game modes, and pro tips to dominate every match.',
+        difficulty: 'Advanced',
+        badge: '🏃'
+    },
 ];
 
 /* ========================================
