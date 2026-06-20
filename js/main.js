@@ -1348,7 +1348,7 @@ const guidesData = [
         excerpt: 'Master Starve.io with our complete survival guide. Learn crafting recipes, biome strategies, combat tips, and base building to survive and thrive.',
         difficulty: 'Advanced',
         badge: '⚒️'
-    }
+    },
     {
         id: 'deeeep-io-guide',
         title: 'Deeeep.io Guide: Master Ocean Evolution & Survival',
