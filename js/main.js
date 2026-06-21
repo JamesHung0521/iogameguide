@@ -744,6 +744,8 @@ const gamesData = [
     description: 'Class-based FPS with parkour movement. Master 13 unique classes and dominate every match.'
     },
     {name:"Ninja.io",slug:"ninja-io",icon:"🥷",iconColor:"#4A0E4E",guideCount:1,difficulty:"困难",tags:["动作","多人","射击"]},
+    {name:"Arrow Arena",slug:"arrow-arena",icon:"🏹",iconColor:"#FF6B35",guideCount:1,difficulty:"Easy",tags:["Archery","IO","Pixel"],description:"Pixel archery combat with skill upgrades and leaderboard ranking."},
+    {name:"Bonk.io",slug:"bonk-io",icon:"⚽",iconColor:"#2196F3",guideCount:1,difficulty:"Medium",tags:["Physics","Multiplayer","Classic"],description:"Physics-based multiplayer ball combat game."},
 ];
 
 /* ========================================
@@ -1404,6 +1406,8 @@ const guidesData = [
         badge: '🏃'
     },
     {slug:"ninja-io-guide",name:"Ninja.io",title:"Ninja.io Guide: Master Weapons, Movement & Game Modes",date:"2026-06-21",difficulty:"Advanced",readTime:11,url:"https://iogameguide.com/guides/ninja-io-guide",image:"https://iogameguide.com/images/games/ninja-io/hero.jpg"},
+    {slug:"arrow-arena-guide",name:"Arrow Arena",title:"Arrow Arena Guide: Master Archery Combat",date:"2026-06-21",difficulty:"Easy",readTime:8,url:"https://iogameguide.com/guides/arrow-arena-guide",image:"https://iogameguide.com/images/games/arrow-arena/hero.jpg"},
+    {slug:"bonk-io-guide",name:"Bonk.io",title:"Bonk.io Guide: Master Physics Combat",date:"2026-06-21",difficulty:"Medium",readTime:8,url:"https://iogameguide.com/guides/bonk-io-guide",image:"https://iogameguide.com/images/games/bonk-io/hero.jpg"},
 ];
 
 /* ========================================
