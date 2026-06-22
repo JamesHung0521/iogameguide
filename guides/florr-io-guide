@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florr.io Complete Guide 2026 | iogameguide</title>
+    <meta name="description" content="Florr.io complete guide: tips, tricks, strategies and advanced techniques.">
+    <link rel="stylesheet" href="../css/style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Florr.io Complete Guide",
+        "author": {"@type": "Organization", "name": "iogameguide"},
+        "datePublished": "2026-06-22",
+        "image": "https://iogameguide.com/images/games/florr-io/hero.jpg"
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <svg width="36" height="36" viewBox="0 0 36 36">
+                    <defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#6366f1;stop-opacity:1"/><stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1"/></linearGradient></defs>
+                    <circle cx="18" cy="18" r="16" stroke="url(#grad1)" stroke-width="2" fill="none"/>
+                    <path d="M12 18 L18 12 L24 18 L18 24 Z" fill="url(#grad1)"/>
+                </svg>
+                <span>iogameguide</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../games.html">All Games</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="guide-page">
+        <div class="container">
+            <header class="guide-header">
+                <span class="game-badge">🌸 Florr.io</span>
+                <h1>Florr.io Complete Guide</h1>
+                <p class="guide-meta"><span>Updated: 06/22 週日</span><span>•</span><span>12 min read</span></p>
+                <a href="https://florr.io" class="play-now-btn" target="_blank" rel="noopener">🎮 Play Florr.io Now</a>
+            </header>
+            <div class="game-hero">
+                <img src="../images/games/florr-io/hero.jpg" alt="Florr.io gameplay" loading="lazy">
+            </div>
+            <article class="article-content">
+                <h2 id="introduction">Introduction</h2>
+                <p>Florr.io is a unique multiplayer .io game from the creator of Diep.io where you play as a flower with orbiting petals that serve as both weapons and shields. Set in a vibrant, colorful world divided into distinct biomes, Florr.io combines elements of farming, crafting, PvP combat, and exploration into one deeply addictive experience. Your goal is to collect petals, defeat mobs, craft stronger loadouts, and become the most powerful flower on the server. With its 7 rarity tiers, dozens of petal types, and complex build system, Florr.io offers incredible depth that keeps players coming back for hundreds of hours.</p>
+
+                <h2 id="getting-started">Getting Started</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/florr-io/screenshot-1.jpg" alt="Florr.io crafting interface" loading="lazy">
+                    <figcaption>The crafting system where you combine 5 petals of the same rarity to upgrade</figcaption>
+                </figure>
+                <p>When you first spawn into Florr.io, you begin in the Centralia Fields with 5 Basic (Common) petals orbiting your flower. Your flower follows your mouse cursor by default, though you can switch to keyboard controls (WASD/Arrow keys) in the Settings. Here are the essential first steps:</p>
+                <p><strong>1. Movement & Controls:</strong> Move your mouse to navigate. Press <strong>Left Click / Space</strong> for offensive position (petals extend outward). Press <strong>Right Click / Shift</strong> for defensive position (petals pull closer to your flower). Use <strong>Q/E</strong> to adjust petal rotation speed.</p>
+                <p><strong>2. Farm Mobs:</strong> Start by defeating weak mobs in the Centralia Fields. Each mob drops XP and has a chance to drop petals. Absorbing XP petals levels you up, while petal drops go into your inventory.</p>
+                <p><strong>3. Upgrade Petals:</strong> Open crafting with <strong>C</strong> key. Combine 5 petals of the same type and rarity to craft 1 petal of the next rarity tier. Success rates decrease at higher rarities — failed crafts destroy 1-4 petals.</p>
+                <p><strong>4. Level Up Talents:</strong> Each level up gives you 1 Talent Point. Open the talent tree with <strong>X</strong> and invest in stats like health, body damage, attack reach, reload speed, and crafting bonuses.</p>
+
+                <h2 id="biomes-guide">Biomes Guide</h2>
+                <p>Florr.io's map is divided into several interconnected biomes, each with unique mobs, petal drops, and difficulty levels. Progressing through biomes is the core gameplay loop:</p>
+                <p><strong>🌿 Centralia Fields (Starting Area):</strong> The safest zone with weak mobs. Drop Common and Uncommon petals. Perfect for early-game farming and learning combat basics. Mobs here include basic creatures that pose minimal threat.</p>
+                <p><strong>🏜️ Desert:</strong> As you move right from spawn, you enter the Desert biome with stronger mobs. Mobs here drop Rare and Epic petals. The terrain is open with fewer obstacles, making it good for hit-and-run tactics but dangerous if surrounded.</p>
+                <p><strong>🌊 Ocean:</strong> The ocean biome features aquatic mobs with unique petal drops. Navigation is different here — some pets perform differently in water. The ocean connects to the deep Trench area, which is extremely dangerous but drops Legendary+ petals.</p>
+                <p><strong>🔥 Sand/Poison Zones:</strong> High-level areas with powerful mobs that drop Mythic petals. These zones require well-crafted loadouts to survive. The Poison biome adds environmental damage, so healing petals become essential.</p>
+                <p><strong>⚔️ PvP Arena:</strong> A dedicated combat zone where players fight each other. No mobs here — pure PvP action. The best place to test your build against other flowers and practice advanced combat techniques.</p>
+
+                <h2 id="petal-system">The Petal System</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/florr-io/screenshot-2.jpg" alt="Florr.io petal combat" loading="lazy">
+                    <figcaption>Your flower with orbiting petals — the core combat mechanic</figcaption>
+                </figure>
+                <p>Petals are the heart of Florr.io. They orbit your flower and act as both your offense and defense. Understanding the petal system is crucial to success:</p>
+                <p><strong>Rarity Tiers (7 levels):</strong> Common → Uncommon → Rare → Epic → Legendary → Mythic → Super. Each upgrade makes petals significantly more powerful but harder to craft.</p>
+                <p><strong>Key Petal Types:</strong></p>
+                <p>• <strong>Rose:</strong> High damage melee petal. The bread and butter of most builds. Stack multiple Roses for devastating close-range damage.</p>
+                <p>• <strong>Light:</strong> Increases your flower's speed. Essential for mobility builds. More Light petals = faster movement.</p>
+                <p>• <strong>Bubble:</strong> Ranged projectile petal. Good for kiting enemies and dealing damage from a distance. Popular in "Pea Shooter" builds.</p>
+                <p>• <strong>Disc:</strong> Boomerang-style petal that returns after being thrown. Excellent for area control and hitting multiple targets.</p>
+                <p>• <strong>Leaf:</strong> Defensive petal with healing properties. Leaf-heavy builds (called "Leaf Wheel") are great for grinding mobs sustainably.</p>
+                <p>• <strong>Missile:</strong> Homing projectile that locks onto enemies. Expensive to craft but devastating in combat.</p>
+                <p>• <strong>Sponge:</strong> Absorbs incoming damage. Critical for tank builds that need to survive focused fire.</p>
+                <p>• <strong>Iris:</strong> Poison damage over time petal. "Full Iris" builds are popular for their sustained DPS against tough mobs and bosses.</p>
+                <p>• <strong>Uranium:</strong> Extreme damage but also damages your own flower. High risk, high reward — only for experienced players.</p>
+                <p><strong>Loadout System:</strong> You have 10 petal slots and can save/load builds. Use <strong>R</strong> to swap between primary and secondary loadouts. Save different builds for farming (defense-focused) vs. PvP (damage-focused). Press <strong>O</strong> to save current build, <strong>L + number</strong> to load.</p>
+
+                <h2 id="crafting-strategy">Crafting Strategy</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/florr-io/screenshot-3.jpg" alt="Florr.io gameplay" loading="lazy">
+                    <figcaption>Exploring different biomes and collecting petals</figcaption>
+                </figure>
+                <p>Crafting is where Florr.io's depth really shines. Here are the key strategies:</p>
+                <p><strong>1. The 5-to-1 Rule:</strong> Always craft in batches. 5 Common → 1 Uncommon, 5 Uncommon → 1 Rare, etc. The success rate drops at higher tiers, so save up large quantities before attempting Mythic or Super crafts.</p>
+                <p><strong>2. Farm Efficiently:</strong> Focus on biomes that drop the petal types you need. Don't waste time in low-level biomes once you've outgrown them — the XP and drop rates won't justify the time.</p>
+                <p><strong>3. Build Around Synergy:</strong> The best builds combine complementary petals. For example: Rose (damage) + Light (speed) + Sponge (defense) creates a balanced "Rice Ram" build. Leaf + Bubble creates a "Pea Shooter" for safe ranged farming.</p>
+                <p><strong>4. Don't Over-Craft:</strong> Sometimes it's better to run a build with mixed rarities than to spend hours trying to craft all-Super petals. A well-balanced Rare/Epic build can outperform a poorly built Super build.</p>
+                <p><strong>5. Save Resources:</strong> Always keep backup petals in your inventory. If you die, you keep your inventory but lose your equipped petals temporarily. Having backups lets you quickly re-equip without farming from scratch.</p>
+
+                <h2 id="combat-tactics">Combat Tactics</h2>
+                <p>Combat in Florr.io is all about positioning and timing. Your petals rotate around your flower, so the angle of engagement matters enormously:</p>
+                <p><strong>Offensive Position:</strong> Press Space/Left Click to extend your petals outward. This maximizes your damage output but exposes your flower's center. Use this when you have the advantage or need burst damage.</p>
+                <p><strong>Defensive Position:</strong> Press Shift/Right Click to pull petals closer. This reduces damage output but protects your flower. Use when retreating, when low on health, or when facing multiple enemies.</p>
+                <p><strong>Simultaneous Mode:</strong> You can press both attack and defense simultaneously — this triggers petals that work in both modes and defaults to defensive stance. Advanced players use this to maintain pressure while staying protected.</p>
+                <p><strong>Kiting Mobs:</strong> For farming, keep mobs at the edge of your petal range. Move in a circle so your rotating petals continuously hit them while they struggle to reach your flower center. This is the safest way to farm tough mobs.</p>
+                <p><strong>PvP Positioning:</strong> In player fights, try to approach from angles where your strongest petals face the opponent. If you have a Rose-heavy build, close the distance. If you have Bubble/Missile, maintain range. Always be aware of your retreat path.</p>
+
+                <h2 id="best-builds">Best Builds for Beginners & Pros</h2>
+                <p>Here are proven builds for different playstyles and progression stages:</p>
+                <p><strong>🌱 Beginner Farm Build (Common/Uncommon):</strong></p>
+                <p>3 Basic + 2 Light petals. Simple but effective for early-game. The Basic petals provide decent damage while Light petals give you escape speed. Focus on farming in Centralia Fields until you can craft at least Rare petals.</p>
+                <p><strong>🌿 Leaf Wheel (Rare/Epic):</strong></p>
+                <p>6-8 Leaf petals + 2 Light. The Leaf Wheel is the classic sustainable farming build. Leaves provide constant damage and minor healing, letting you farm indefinitely without dying. Add Light for mobility to dodge tough mobs.</p>
+                <p><strong>🔫 Pea Shooter (Rare/Epic):</strong></p>
+                <p>Bubble/Peas as main damage + Light for speed + basic defensive petals. This build fights from maximum range, kiting enemies while dealing consistent projectile damage. Excellent for desert farming.</p>
+                <p><strong>💀 Death Wheel (Epic/Legendary):</strong></p>
+                <p>Heavy + Disc + Cutter + Light combination. The Death Wheel specializes in destroying mobs quickly through the garden biomes. It trades some defense for massive damage output. Not ideal against high-level PvP opponents.</p>
+                <p><strong>🍚 Rice Ram (Mythic):</strong></p>
+                <p>4 Rice + Bur + Cutter + Disc + Sponge + 2 Light. The endgame farming build used by experienced players to farm Super mobs. High burst damage with enough survivability to handle tough encounters. Use Bandage in secondary loadout for emergency healing.</p>
+                <p><strong>☢️ Full Iris (Mythic/Super):</strong></p>
+                <p>10 Iris petals. Maximum poison damage over time. Melts bosses and high-HP mobs. Extremely expensive to craft but unmatched sustained DPS. Vulnerable to fast-attacking builds that can close distance quickly.</p>
+
+                <h2 id="pro-tips">Pro Tips</h2>
+                <p>Take your time progressing through biomes. Rushing into high-level areas without proper petals wastes time because you'll die repeatedly. Instead, farm the current biome thoroughly until you have a solid Rare or Epic loadout.</p>
+                <p>Use the <strong>secondary loadout</strong> strategically. Keep a farming build as primary and a combat/PvP build as secondary. Swap with R key when you encounter other players or enter PvP zones.</p>
+                <p><strong>Alliance with distant players</strong> for trade routes. If you and an ally both have ports, trade ships generate more gold the farther apart you are. This passive income is crucial for funding expensive crafts.</p>
+                <p>Watch your <strong>petal rotation speed</strong> (Q/E keys). Slower rotation means each petal stays on the attack side longer, maximizing damage per hit. Faster rotation spreads damage more evenly but hits less hard per contact.</p>
+                <p><strong>Always use Compass</strong> when farming Super mobs. Spread out your Fangs for consistent healing coverage. Battery is the best damage source against Ultra Leech bosses, followed by Lightning petals.</p>
+                <p>Don't neglect <strong>Sharp Edges talent</strong> — it dramatically improves both Rice Ram and Heal Ram builds by adding contact damage that works even when your petals are on cooldown.</p>
+                <p><strong>Save before risky crafts.</strong> If you're attempting Mythic or Super crafting, make sure you have enough backup petals to re-equip if the craft fails. A failed Mythic craft can destroy up to 4 petals, potentially setting you back hours of farming.</p>
+
+                <h2 id="faq">FAQ</h2>
+                <p><strong>Q: What is the best petal in Florr.io?</strong><br>A: There's no single "best" petal — it depends on your build. Rose is the most versatile damage petal, Light is essential for mobility, and Iris dominates against high-HP targets. The best approach is building synergy between complementary petals.</p>
+                <p><strong>Q: How do I get Super rarity petals?</strong><br>A: Super petals drop from Ultra-level mobs in the most dangerous areas of the map. You'll need a Mythic-level build to survive these fights. Alternatively, you can craft 5 Mythic petals of the same type, but the success rate is very low.</p>
+                <p><strong>Q: Is Florr.io still active in 2026?</strong><br>A: Yes! Florr.io remains one of the most popular .io games with a dedicated player base and active development. The Fandom wiki is regularly updated with new content, and the game continues to receive balance updates and new features.</p>
+                <p><strong>Q: Can I play Florr.io on mobile?</strong><br>A: Florr.io is primarily designed for desktop browsers with mouse controls. While some mobile browsers can load the game, the mouse-based controls make desktop play strongly recommended for the best experience.</p>
+                <p><strong>Q: How do I save my progress?</strong><br>A: Click "Sign in with Discord" to link your account and save your progress. Without an account, your progress is stored locally and may be lost if you clear browser data.</p>
+
+                <h2 id="conclusion">Conclusion</h2>
+                <p>Florr.io is one of the deepest and most rewarding .io games available today. Its unique petal system, complex crafting mechanics, and diverse biome exploration create a gameplay experience that rivals many full-fledged games. Whether you're casually farming in the Centralia Fields or engaging in intense PvP battles with a Mythic loadout, Florr.io always has something new to offer. The key to success is patience — take your time building up petals, experiment with different loadouts, and don't be afraid to lose a few crafts along the way. The satisfaction of finally crafting that Super rarity petal or defeating a Ultra mob makes every moment of grinding worthwhile. Start your floral adventure today and bloom into the strongest flower on the server!</p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section"><h4>iogameguide</h4><p>Your ultimate .io game guide</p></div>
+            <div class="footer-section"><h4>Links</h4><ul><li><a href="../index.html">Home</a></li><li><a href="../games.html">All Games</a></li><li><a href="../about.html">About</a></li></ul></div>
+            <div class="footer-section"><h4>Legal</h4><ul><li><a href="../privacy-policy.html">Privacy</a></li><li><a href="../terms-of-service.html">Terms</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 iogameguide</p></div>
+    </footer>
+    <script src="../js/main.js?v=20260622"></script>
+</body>
+</html>
