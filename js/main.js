@@ -748,7 +748,19 @@ const gamesData = [
     {name:"Bonk.io",slug:"bonk-io",icon:"⚽",iconColor:"#2196F3",guideCount:1,difficulty:"Medium",tags:["Physics","Multiplayer","Classic"],description:"Physics-based multiplayer ball combat game."},
     {name:"Ev.io",slug:"ev-io",icon:"🔫",iconColor:"#00BCD4",guideCount:1,difficulty:"Medium",tags:["FPS","Cyberpunk","Blockchain"],description:"Cyberpunk browser FPS with play-to-earn mechanics. Choose weapons, customize abilities, and dominate the arena."},
     {name:"SchoolBreak.io",slug:"schoolbreak-io",icon:"🎒",iconColor:"#FF9800",guideCount:1,difficulty:"Easy",tags:["Asymmetric","Party","Multiplayer"],description:"Student vs Teacher chaos! Cause mayhem or enforce discipline in this unique asymmetric multiplayer game."},
-    {name:"Florr.io",slug:"florr-io",icon:"🌸",iconColor:"#E91E63",guideCount:1,difficulty:"Hard",tags:["Flower","Crafting","PvP","Farming"],description:"Unique multiplayer .io game where you play as a flower with orbiting petals. Collect, craft, and battle through diverse biomes."},
+    {name:"Florr.io",slug:"florr-io",icon:"🌸",iconColor:"#E91E63",guideCount:1,difficulty:"Hard",tags:["Flower","Crafting","PvP","Farming"],description:"Unique multiplayer .io game where you play as a flower with orbiting petals. Collect, craft, and battle through diverse biomes."},,
+    {
+        id: 'tetr-io',
+        name: 'TETR.IO',
+        icon: '🧩',
+        iconColor: '#6366f1',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Puzzle', 'Competitive', 'Multiplayer'],
+        description: 'Competitive online Tetris with ranked play, T-spins, and advanced mechanics.',
+        url: 'https://tetr.io',
+        image: 'tetr-io'
+    }
 ];
 
 /* ========================================
@@ -756,6 +768,16 @@ const gamesData = [
    ======================================== */
 const guidesData = [
 {
+    id: 'tetr-io-guide',
+    title: 'TETR.IO Guide: Master Competitive Online Tetris & Ranked Play',
+    game: 'TETR.IO',
+    gameId: 'tetr-io',
+    date: '2026-06-23',
+    url: 'tetr-io-guide',
+    image: 'tetr-io',
+    description: 'Complete guide to TETR.IO: T-spins, combos, B2B chains, Tetra League ranked strategies, and all game modes explained.'
+},
+    {
     id: 'curve-fever-pro-guide',
     title: 'Curve Fever Pro Guide: Master Trail Combat & Powers',
     game: 'Curve Fever Pro',
