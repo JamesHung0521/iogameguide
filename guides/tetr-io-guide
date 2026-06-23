@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETR.IO Complete Guide 2026 | iogameguide</title>
+    <meta name="description" content="TETR.IO complete guide: tips, tricks, strategies and advanced techniques for competitive online Tetris.">
+    <link rel="stylesheet" href="../css/style.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "TETR.IO Complete Guide",
+        "author": {"@type": "Organization", "name": "iogameguide"},
+        "datePublished": "2026-06-23",
+        "image": "https://iogameguide.com/images/games/tetr-io/hero.jpg"
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <svg width="36" height="36" viewBox="0 0 36 36">
+                    <defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#6366f1;stop-opacity:1"/><stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1"/></linearGradient></defs>
+                    <circle cx="18" cy="18" r="16" stroke="url(#grad1)" stroke-width="2" fill="none"/>
+                    <path d="M12 18 L18 12 L24 18 L18 24 Z" fill="url(#grad1)"/>
+                </svg>
+                <span>iogameguide</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../games.html">All Games</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="guide-page">
+        <div class="container">
+            <header class="guide-header">
+                <span class="game-badge">🧩 TETR.IO</span>
+                <h1>TETR.IO Complete Guide</h1>
+                <p class="guide-meta"><span>Updated: 2026-06-23</span><span>•</span><span>12 min read</span></p>
+                <a href="https://tetr.io" class="play-now-btn" target="_blank" rel="noopener" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">🎮 Play TETR.IO Now</a>
+            </header>
+            <div class="game-hero">
+                <img src="../images/games/tetr-io/hero.jpg" alt="TETR.IO gameplay" loading="lazy">
+            </div>
+            <article class="article-content">
+                <h2 id="introduction">Introduction</h2>
+                <p>TETR.IO is the premier competitive online Tetris platform that has redefined how millions of players experience the world's most iconic puzzle game. With over 9.9 million registered players and more than 1 billion games played, TETR.IO combines the classic Tetris formula you know and love with modern competitive features including ranked leagues, advanced mechanics, and lightning-fast online multiplayer. Whether you're a casual player looking to improve your skills or a competitive veteran chasing the coveted X rank, this guide covers everything you need to dominate in TETR.IO.</p>
+                <p>Developed by OSK and his dedicated team, TETR.IO runs directly in your browser with no downloads required, though a desktop client is available for enhanced performance. The game features multiple modes including 40 Lines sprint, Blitz time attack, Zen endless mode, Quick Play tower climbing, and the highly competitive Tetra League ranked system.</p>
+
+                <h2 id="getting-started">Getting Started</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/tetr-io/screenshot-1.jpg" alt="TETR.IO Zen mode gameplay" loading="lazy">
+                    <figcaption>TETR.IO Zen mode with the game board, hold queue, and next piece preview</figcaption>
+                </figure>
+                <p>When you first launch TETR.IO, you'll be greeted by a clean, minimalist interface. Here's what you need to know to get started:</p>
+                <p><strong>Creating an Account:</strong> Visit tetr.io and click "Tetra Channel" to create a free account. This unlocks ranked play, leaderboards, achievements, and replay saving. You can also play without an account in solo modes.</p>
+                <p><strong>Understanding the Interface:</strong> The game board is a standard 10×20 grid (with 20 additional hidden rows above for piece entry). On the left side, you'll find the Hold Queue where you can store one piece for later use. On the right, the Next Queue displays up to 5 upcoming pieces, giving you plenty of time to plan your strategy.</p>
+                <p><strong>Basic Controls:</strong> Use the left and right arrow keys to move pieces horizontally, the up arrow or X key to rotate clockwise, Z key for counter-clockwise rotation, and the down arrow for soft drop. Press Space for a hard drop (instant placement). The C key or Shift activates the Hold function. All controls are fully customizable in the Config menu.</p>
+                <p><strong>Your First Game:</strong> Start with Quick Play mode to get a feel for the mechanics. You'll climb a 10-floor tower against increasingly challenging opponents. This mode teaches you the core competitive concepts including garbage line management, attack speed, and survival techniques.</p>
+
+                <h2 id="basic-tips">Basic Tips</h2>
+                <p>Mastering TETR.IO begins with building solid fundamentals. These tips will help you progress from a beginner to a competent player:</p>
+                <p><strong>1. Always Keep Your Surface Flat:</strong> The most important skill in any Tetris game is maintaining a flat, even surface. Avoid creating holes (empty cells buried under blocks) as they force you to waste pieces filling gaps. Build consistently across the width of the board.</p>
+                <p><strong>2. Reserve the Right Column for Tetris:</strong> The classic strategy of stacking pieces with a slight slope toward the right column, leaving it open for the I-piece to score a 4-line clear (Tetris), remains highly effective. A Tetris sends 4 garbage lines to your opponent in multiplayer, making it the most efficient attack per piece.</p>
+                <p><strong>3. Use the Hold Queue Wisely:</strong> The Hold function lets you store one piece for later. Save I-pieces for when you need a Tetris, or use them to clear a critical double. Don't be afraid to switch between your current piece and held piece to find the optimal placement.</p>
+                <p><strong>4. Learn to Downstack:</strong> When garbage lines fill your board, prioritize clearing them efficiently. Downstacking means removing garbage lines to prevent topping out. Focus on creating line clears that remove multiple garbage rows simultaneously rather than just building higher.</p>
+                <p><strong>5. Practice Speed Gradually:</strong> Don't sacrifice accuracy for speed. Start by placing pieces correctly, then gradually increase your speed as muscle memory develops. TETR.IO's Zen mode is perfect for this — it's endless, stress-free, and awards experience points.</p>
+                <p><strong>6. Watch the Next Queue:</strong> With 5 pieces visible in the preview, you can plan several moves ahead. Look for opportunities to set up T-spins, combos, or Tetris clears by anticipating which pieces are coming.</p>
+
+                <h2 id="advanced-strategies">Advanced Strategies</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/tetr-io/screenshot-2.jpg" alt="TETR.IO multiplayer battle" loading="lazy">
+                    <figcaption>Intense multiplayer duel showing attack stats, combo counters, and piece speed metrics</figcaption>
+                </figure>
+                <p>Once you've mastered the basics, it's time to explore the advanced mechanics that separate good players from great ones:</p>
+                <p><strong>T-Spins: The Ultimate Weapon</strong></p>
+                <p>T-spins are among the most powerful techniques in TETR.IO. A T-spin occurs when you rotate a T-piece into a tight space using wall kicks, and the resulting line clear earns bonus attack power. A T-Spin Double sends 4 lines (equivalent to a Tetris), while a T-Spin Triple sends 6 lines. Back-to-back T-spins earn additional bonuses, making them devastating in ranked play.</p>
+                <p>To perform a T-spin: create an overhang (a block extending over an empty space), then rotate the T-piece into the gap using the corner detection system. Practice in Zen mode until the movement becomes second nature.</p>
+                <p><strong>Back-to-Back (B2B) Chains</strong></p>
+                <p>TETR.IO features a sophisticated B2B system. When you perform consecutive "special" clears (Tetrises, T-spins, or all-spins), each successive clear earns +1 bonus attack. At B2B count 4 or higher, the system begins charging a "Surge Attack" — a powerful delayed attack that can overwhelm opponents. Mastering B2B chains means consistently alternating between Tetrises and T-spins to maximize attack output.</p>
+                <p><strong>Combo Stacking</strong></p>
+                <p>Combos occur when you clear lines with consecutive pieces without a miss. Each successive combo sends increasing amounts of garbage. A 10-combo can send over 50 lines in a single burst! The key to effective combos is creating a "well" (a narrow column, usually 1 wide) that you can continuously clear with different piece shapes. The 2-wide and 4-wide are popular combo setups that balance risk and reward.</p>
+                <p><strong>Opening Strategies</strong></p>
+                <p>In competitive Tetra League matches, your opening moves set the tone. Popular openers include:</p>
+                <p>• <strong>Perfect Clear Opener (PCO):</strong> A precisely arranged sequence of the first few pieces that clears the entire board, sending a powerful initial attack and establishing early momentum.</p>
+                <p>• <strong>TKI Opening:</strong> A classic opening that quickly transitions into a Tetris stack while maintaining flexibility for T-spins.</p>
+                <p>• <strong>DT Cannon:</strong> A T-spin setup that can be repeated multiple times, generating consistent attack pressure.</p>
+                <p><strong>Passthrough Mechanic</strong></p>
+                <p>TETR.IO's unique "passthrough" (or "穿甲弹") mechanic allows you to counter-attack through incoming garbage. If you perform an attack within a very short window (default 333ms) after receiving garbage, your attack bypasses the garbage blocking system and hits your opponent directly. This creates incredible comeback potential and rewards fast reflexes.</p>
+
+                <h2 id="pro-tips">Pro Tips</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/tetr-io/screenshot-3.jpg" alt="TETR.IO versus mode" loading="lazy">
+                    <figcaption>High-level versus match demonstrating advanced piece placement and attack management</figcaption>
+                </figure>
+                <p>For players aiming to reach the highest ranks (A through X), here are the techniques that define top-level play:</p>
+                <p><strong>1. Master the SRS+ Rotation System:</strong> TETR.IO uses SRS+ (Super Rotation System Plus) as its default rotation system, which includes symmetrical I-piece wall kicks and 180-degree rotation support. Understanding every kick in the SRS+ table allows you to fit pieces into seemingly impossible spaces. Spend time in Zen mode experimenting with unconventional rotations.</p>
+                <p><strong>2. Optimize Your PPS (Pieces Per Second):</strong> Top players maintain 3-5 PPS consistently while making optimal placements. Practice placing pieces quickly without looking at them directly — use peripheral vision and spatial awareness. The goal is to develop "blind" placement muscle memory.</p>
+                <p><strong>3. All-Spin Techniques:</strong> Beyond T-spins, TETR.IO recognizes spins with other pieces (S, Z, L, J) as "all-spins" that sustain B2B chains. These advanced techniques expand your attack toolkit significantly. For example, an S-spin or Z-spin can clear lines that a normal placement cannot, while still counting as a special clear for B2B purposes.</p>
+                <p><strong>4. Garbage Management and Targeting:</strong> In Tetra League, understanding how garbage targeting works is crucial. The system considers factors like attack speed, total damage dealt, and recent activity. Focus your attacks on players who are struggling rather than those who can easily downstack. When receiving garbage, immediately identify the most efficient clear to reduce your stack height.</p>
+                <p><strong>5. Performance Optimization:</strong> For competitive play, every frame matters. Use Chrome or the TETR.IO Desktop client for best performance. Set Graphics to at least "Good" and ensure your GPU is being utilized. Enable "Render at Low Resolution" if you experience frame drops. Close unnecessary browser tabs and applications. The desktop client applies performance patches that significantly improve consistency.</p>
+                <p><strong>6. Study Replays:</strong> TETR.IO has an excellent replay system. After each multiplayer match, save and review your replay. Look for wasted pieces, missed opportunities for T-spins, and moments where your stacking could have been more efficient. Compare your play against higher-ranked opponents to identify specific areas for improvement.</p>
+                <p><strong>7. Warm-Up Routine:</strong> Before ranked sessions, warm up with 2-3 games of Quick Play or a few minutes of Zen mode. Practice specific techniques like T-spin doubles, perfect clear openers, and combo setups. A proper warm-up improves your consistency by 20-30% in ranked matches.</p>
+                <p><strong>8. Understand the Ranking System:</strong> TETR.IO's rank system spans from D (beginner) through X (elite). Each rank has sub-divisions that track your progress. Your rank is determined by your TR (Tetra Rating), which increases with wins and decreases with losses. The amount of TR gained or lost depends on the relative skill of your opponent — beating higher-ranked players gives more TR.</p>
+
+                <h2 id="game-modes">Game Modes Overview</h2>
+                <p>TETR.IO offers a diverse range of game modes to suit every playstyle:</p>
+                <p><strong>40 Lines:</strong> The ultimate sprint mode. Clear 40 lines as fast as possible and compete on global leaderboards. The current world records are in the low 30-second range. Focus on consistent Tetris stacking with minimal hesitation.</p>
+                <p><strong>Blitz:</strong> You have 2 minutes to score as many points as possible. The game speed increases as you clear lines, with progressively faster piece drops. The speed level system requires you to clear more lines per level, creating escalating pressure. Top scores exceed 9 million points.</p>
+                <p><strong>Zen:</strong> The relaxation mode with no time limit and no top-out condition (the board resets if you fill it, but your score and level continue). Perfect for practice, warming up, or simply enjoying the beautiful parallax backgrounds as you climb through visual layers.</p>
+                <p><strong>Quick Play:</strong> Climb a 10-floor tower in this single-player progression mode. Each floor introduces new challenges including opponents with increasing skill, environmental modifiers, and unique gameplay mods. Achievements provide additional challenges like completing runs with No Hold or Invisible pieces.</p>
+                <p><strong>Tetra League:</strong> The competitive ranked mode. You're matched against players of similar skill in head-to-head duels. First to win a set number of rounds advances. This is where all the advanced strategies come into play — B2B chains, combos, T-spins, and garbage management determine your fate.</p>
+                <p><strong>Custom Games:</strong> Create public or private rooms with fully customizable rules. Adjust garbage settings, piece speed, rotation systems, and enable experimental features. Perfect for playing with friends or practicing specific scenarios.</p>
+
+                <h2 id="conclusion">Conclusion</h2>
+                <p>TETR.IO represents the pinnacle of competitive Tetris in the browser. Its combination of polished gameplay mechanics, robust online infrastructure, and active community of nearly 10 million players makes it an essential destination for anyone who loves Tetris. Whether you're grinding through the ranks in Tetra League, chasing world records in 40 Lines, or simply enjoying a relaxing Zen session, TETR.IO offers something for every skill level.</p>
+                <p>Remember that improvement takes time. Focus on building consistent fundamentals before attempting advanced techniques, and don't get discouraged by losses — every match is a learning opportunity. The TETR.IO community is incredibly welcoming, and the official Discord server is an excellent resource for finding practice partners, strategy discussions, and tournament information.</p>
+                <p>The game's developer OSK continues to update TETR.IO with new features, balance adjustments, and quality-of-life improvements, ensuring it remains at the forefront of competitive puzzle gaming. Jump in, start climbing that tower, and discover why TETR.IO has become the go-to platform for competitive Tetris worldwide!</p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section"><h4>iogameguide</h4><p>Your ultimate .io game guide</p></div>
+            <div class="footer-section"><h4>Links</h4><ul><li><a href="../index.html">Home</a></li><li><a href="../games.html">All Games</a></li><li><a href="../about.html">About</a></li></ul></div>
+            <div class="footer-section"><h4>Legal</h4><ul><li><a href="../privacy-policy.html">Privacy</a></li><li><a href="../terms-of-service.html">Terms</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 iogameguide</p></div>
+    </footer>
+    <script src="../js/main.js?v=1750676400"></script>
+</body>
+</html>
