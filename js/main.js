@@ -743,7 +743,7 @@ const gamesData = [
     tags: ['FPS', 'Parkour', 'Class-based'],
     description: 'Class-based FPS with parkour movement. Master 13 unique classes and dominate every match.'
     },
-    {name:"Ninja.io",id:"ninja-io",slug:"ninja-io",icon:"🥷",iconColor:"#4A0E4E",guideCount:1,difficulty:5,tags:["动作","多人","射击"]},
+    {name:"Ninja.io",id:"ninja-io",slug:"ninja-io",icon:"🥷",iconColor:"#4A0E4E",guideCount:1,difficulty:5,tags:["动作","多人","射击"],description:"Fast-paced multiplayer shooting game with ninja-themed combat, weapons, and agile movement."},
     {name:"Arrow Arena",id:"arrow-arena",slug:"arrow-arena",icon:"🏹",iconColor:"#FF6B35",guideCount:1,difficulty:2,tags:["Archery","IO","Pixel"],description:"Pixel archery combat with skill upgrades and leaderboard ranking."},
     {name:"Bonk.io",id:"bonk-io",slug:"bonk-io",icon:"⚽",iconColor:"#2196F3",guideCount:1,difficulty:3,tags:["Physics","Multiplayer","Classic"],description:"Physics-based multiplayer ball combat game."},
     {name:"Ev.io",id:"ev-io",slug:"ev-io",icon:"🔫",iconColor:"#00BCD4",guideCount:1,difficulty:3,tags:["FPS","Cyberpunk","Blockchain"],description:"Cyberpunk browser FPS with play-to-earn mechanics. Choose weapons, customize abilities, and dominate the arena."},
