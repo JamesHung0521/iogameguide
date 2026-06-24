@@ -9,8 +9,8 @@
     <meta property="og:title" content="{{GAME_NAME}} Guide: {{SUBTITLE}}">
     <meta property="og:description" content="{{META_DESCRIPTION}}">
     <meta property="og:image" content="https://iogameguide.com/images/games/{{GAME_ID}}/hero.jpg">
-    <meta property="og:url" content="https://iogameguide.com/guides/{{GAME_ID}}-guide.html">
-    <link rel="canonical" href="https://iogameguide.com/guides/{{GAME_ID}}-guide.html">
+    <meta property="og:url" content="https://iogameguide.com/guides/{{GAME_ID}}-guide">
+    <link rel="canonical" href="https://iogameguide.com/guides/{{GAME_ID}}-guide">
     <link rel="stylesheet" href="../css/style.css">
     
     <!-- Schema.org JSON-LD -->
@@ -23,7 +23,7 @@
           "@type": "VideoGame",
           "name": "{{GAME_NAME_SCHEMA}}",
           "description": "{{META_DESCRIPTION}}",
-          "url": "https://iogameguide.com/games/{{GAME_ID}}.html",
+          "url": "https://iogameguide.com/games/{{GAME_ID}}",
           "author": { "@type": "Organization", "name": "iogameguide.com" },
           "publisher": { "@type": "Organization", "name": "iogameguide.com" },
           "datePublished": "{{DATE}}",
@@ -49,7 +49,7 @@
             { "@type": "HowToSupply", "name": "Internet Connection" }
           ],
           "step": [
-            { "@type": "HowToStep", "name": "Get Started", "text": "Open your browser and navigate to the game.", "url": "https://iogameguide.com/guides/{{GAME_ID}}-guide.html" },
+            { "@type": "HowToStep", "name": "Get Started", "text": "Open your browser and navigate to the game.", "url": "https://iogameguide.com/guides/{{GAME_ID}}-guide" },
             { "@type": "HowToStep", "name": "Learn the Basics", "text": "Understand the core mechanics and objectives." },
             { "@type": "HowToStep", "name": "Practice Strategies", "text": "Apply the strategies outlined in this guide." }
           ]
@@ -86,7 +86,7 @@
     <!-- Navigation (FIXED - DO NOT MODIFY) -->
     <nav>
         <div class="container">
-            <a href="../index.html" class="logo">
+            <a href="../index" class="logo">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="20" cy="20" r="20" fill="url(#gradient)"/>
                     <path d="M12 14L20 10L28 14L28 26L20 30L12 26V14Z" fill="white"/>
@@ -100,10 +100,10 @@
                 iogameguide
             </a>
             <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../games.html">Games</a></li>
-                <li><a href="../guides.html">Guides</a></li>
-                <li><a href="../about.html">About</a></li>
+                <li><a href="../index">Home</a></li>
+                <li><a href="../games">Games</a></li>
+                <li><a href="../guides">Guides</a></li>
+                <li><a href="../about">About</a></li>
             </ul>
             <div class="hamburger" onclick="toggleMenu()">
                 <span></span>
@@ -191,7 +191,7 @@
             <h2>📚 Related Guides</h2>
             <div class="guides-grid">
                 <!-- Guide Card 1 -->
-                <a href="agar-io-guide.html" class="guide-card">
+                <a href="agar-io-guide" class="guide-card">
                     <div class="guide-thumb" style="background: #e8f5e9; border-radius: 8px;">
                         <span style="font-size: 2rem;">🟢</span>
                     </div>
@@ -202,7 +202,7 @@
                     </div>
                 </a>
                 <!-- Guide Card 2 -->
-                <a href="slither-io-guide.html" class="guide-card">
+                <a href="slither-io-guide" class="guide-card">
                     <div class="guide-thumb" style="background: #e3f2fd; border-radius: 8px;">
                         <span style="font-size: 2rem;">🐍</span>
                     </div>
@@ -213,7 +213,7 @@
                     </div>
                 </a>
                 <!-- Guide Card 3 -->
-                <a href="diep-io-guide.html" class="guide-card">
+                <a href="diep-io-guide" class="guide-card">
                     <div class="guide-thumb" style="background: #fff3e0; border-radius: 8px;">
                         <span style="font-size: 2rem;">🔫</span>
                     </div>
@@ -224,7 +224,7 @@
                     </div>
                 </a>
                 <!-- Guide Card 4 -->
-                <a href="surviv-io-guide.html" class="guide-card">
+                <a href="surviv-io-guide" class="guide-card">
                     <div class="guide-thumb" style="background: #fce4ec; border-radius: 8px;">
                         <span style="font-size: 2rem;">🎯</span>
                     </div>
@@ -245,27 +245,27 @@
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../games.html">All Games</a></li>
-                        <li><a href="../guides.html">Latest Guides</a></li>
-                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../index">Home</a></li>
+                        <li><a href="../games">All Games</a></li>
+                        <li><a href="../guides">Latest Guides</a></li>
+                        <li><a href="../about">About Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Popular Games</h4>
                     <ul>
-                        <li><a href="agar-io-guide.html">Agar.io</a></li>
-                        <li><a href="slither-io-guide.html">Slither.io</a></li>
-                        <li><a href="diep-io-guide.html">Diep.io</a></li>
-                        <li><a href="paper-io-guide.html">Paper.io</a></li>
+                        <li><a href="agar-io-guide">Agar.io</a></li>
+                        <li><a href="slither-io-guide">Slither.io</a></li>
+                        <li><a href="diep-io-guide">Diep.io</a></li>
+                        <li><a href="paper-io-guide">Paper.io</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="../terms-of-service.html">Terms of Service</a></li>
-                        <li><a href="../cookie-policy.html">Cookie Policy</a></li>
+                        <li><a href="../privacy-policy">Privacy Policy</a></li>
+                        <li><a href="../terms-of-service">Terms of Service</a></li>
+                        <li><a href="../cookie-policy">Cookie Policy</a></li>
                     </ul>
                 </div>
             </div>
