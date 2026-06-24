@@ -761,6 +761,17 @@ const gamesData = [
         url: 'https://tetr.io',
         image: 'tetr-io'
     }
+,
+    {
+        id: 'devast-io',
+        name: 'Devast.io',
+        icon: '☢️',
+        iconColor: '#4CAF50',
+        guideCount: 1,
+        difficulty: 4,
+        tags: ['Survival', 'Crafting', 'Base Building', 'PvP'],
+        description: 'Post-apocalyptic survival io game with resource gathering, base building, crafting, and radioactive wasteland combat.'
+    }
 ];
 
 /* ========================================
@@ -1436,6 +1447,17 @@ const guidesData = [
     {slug:"ev-io-guide",name:"Ev.io",title:"Ev.io Guide: Master Weapons, Abilities & Arena Combat",date:"2026-06-22",difficulty:3,readTime:8,url:"https://iogameguide.com/guides/ev-io-guide",image:"https://iogameguide.com/images/games/ev-io/hero.jpg"},
     {slug:"schoolbreak-io-guide",name:"SchoolBreak.io",title:"SchoolBreak.io Guide: Master Chaos & Discipline",date:"2026-06-22",difficulty:2,readTime:8,url:"https://iogameguide.com/guides/schoolbreak-io-guide",image:"https://iogameguide.com/images/games/schoolbreak-io/hero.jpg"},
     {slug:"florr-io-guide",name:"Florr.io",title:"Florr.io Guide: Master Petals, Crafting & Biome Combat",date:"2026-06-22",difficulty:4,readTime:12,url:"https://iogameguide.com/guides/florr-io-guide",image:"https://iogameguide.com/images/games/florr-io/hero.jpg"},
+,
+    {
+        slug: 'devast-io-guide',
+        name: 'Devast.io',
+        title: 'Devast.io Guide: Master Survival, Crafting & Base Building',
+        date: '2026-06-24',
+        difficulty: 4,
+        readTime: 12,
+        url: 'https://iogameguide.com/guides/devast-io-guide',
+        image: 'https://iogameguide.com/images/games/devast-io/hero.jpg'
+    }
 ];
 
 /* ========================================

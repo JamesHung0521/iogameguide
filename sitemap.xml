@@ -493,4 +493,9 @@
     <loc>https://iogameguide.com/guides/tetr-io-guide</loc>
     <lastmod>2026-06-23</lastmod>
   </url>
+  <url>
+    <loc>https://iogameguide.com/guides/devast-io-guide</loc>
+    <lastmod>2026-06-24</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>

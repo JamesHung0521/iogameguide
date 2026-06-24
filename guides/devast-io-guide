@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074835585646908" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devast.io Complete Guide 2026 | iogameguide</title>
+    <meta name="description" content="Devast.io complete guide: tips, tricks, strategies and advanced techniques.">
+    <meta name="keywords" content="devast io guide, devast.io tips, devast.io strategy, devast.io crafting, devast.io base building, devast.io weapons, devast.io survival">
+    <meta name="author" content="iogameguide.com">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Devast.io Complete Guide: Survival, Crafting & Base Building">
+    <meta property="og:description" content="Master Devast.io with our complete guide covering resource gathering, base building, crafting weapons, combat tactics and survival strategies.">
+    <meta property="og:url" content="https://iogameguide.com/guides/devast-io-guide">
+    <link rel="canonical" href="https://iogameguide.com/guides/devast-io-guide">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@context": "https://schema.org",
+                "@type": "VideoGame",
+                "name": "Devast.io",
+                "description": "Master Devast.io with our complete survival guide.",
+                "url": "https://iogameguide.com/guides/devast-io-guide",
+                "author": {"@type": "Organization", "name": "iogameguide.com"},
+                "publisher": {"@type": "Organization", "name": "iogameguide.com"},
+                "datePublished": "2026-06-24",
+                "gamePlatform": ["Web Browser"],
+                "genre": "Survival",
+                "applicationCategory": "Game"
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": "Devast.io Complete Guide",
+                "author": {"@type": "Organization", "name": "iogameguide"},
+                "datePublished": "2026-06-24",
+                "image": "https://iogameguide.com/images/games/devast-io/hero.jpg"
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <svg width="36" height="36" viewBox="0 0 36 36">
+                    <defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#6366f1;stop-opacity:1"/><stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1"/></linearGradient></defs>
+                    <circle cx="18" cy="18" r="16" stroke="url(#grad1)" stroke-width="2" fill="none"/>
+                    <path d="M12 18 L18 12 L24 18 L18 24 Z" fill="url(#grad1)"/>
+                </svg>
+                <span>iogameguide</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../games.html">All Games</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="guide-page">
+        <div class="container">
+            <header class="guide-header">
+                <span class="game-badge">☢️ Devast.io</span>
+                <h1>Devast.io Complete Guide</h1>
+                <p class="guide-meta"><span>Updated: 2026-06-24</span><span>•</span><span>12 min read</span></p>
+                <a href="https://devast.io" class="play-now-btn" target="_blank" rel="noopener">🎮 Play Devast.io Now</a>
+            </header>
+            <div class="game-hero">
+                <img src="../images/games/devast-io/hero.jpg" alt="Devast.io gameplay" loading="lazy">
+            </div>
+            <article class="article-content">
+                <h2 id="introduction">Introduction</h2>
+                <p>Devast.io is a post-apocalyptic survival multiplayer .io game where you scavenge for resources, craft powerful weapons, build fortified bases, and fight both ghouls and other players in a radioactive wasteland. Created by LapaMauve (the developer behind Starve.io), this browser-based survival game combines resource management, base building, crafting progression, and PvP combat into an intense experience. Whether you are trying to survive your first night or aiming to dominate the leaderboard with Tesla armor and laser weapons, this guide covers everything you need to know.</p>
+
+                <h2 id="getting-started">Getting Started</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/devast-io/screenshot-1.jpg" alt="Devast.io base building and resource gathering" loading="lazy">
+                    <figcaption>Base building and resource management are key to survival</figcaption>
+                </figure>
+                <p><strong>Controls:</strong> Use WASD or Arrow Keys to move, Mouse to aim, Left Click to attack/gather, Right Click to drop items, Shift to sprint, C to open crafting, E/F to pick up items, Enter to chat.</p>
+                <p><strong>Survival Stats:</strong> You have five core stats to manage — <strong>Health</strong> (depletes when attacked or hungry), <strong>Hunger</strong> (drains at 1.2 units/sec, replenished by food), <strong>Cold</strong> (drains only at night without campfire), <strong>Stamina</strong> (used for sprinting and attacking), and <strong>Radiation</strong> (increases near uranium or in the city). Understanding these stats is crucial for survival.</p>
+                <p><strong>Resources:</strong> The main resource types are Wood (from trees), Stone (from rocks), Iron (smelted into shaped metal), Sulfur (from fridges, safes, or ore), and Uranium (for endgame gear). Food includes Oranges, Tomatoes, Raw/Cooked Steak, and Tomato Soup. Always prioritize gathering wood and stone first.</p>
+
+                <h2 id="basic-tips">Basic Tips</h2>
+                <p><strong>1. Optimize Your First 60 Seconds:</strong> As soon as you spawn, immediately start gathering wood (20-30) and stone (10-15) while moving toward a defensible position near water and metal nodes. Craft a stone hatchet first, then a campfire for warmth at night.</p>
+                <p><strong>2. Build Your Base Before Night Falls:</strong> You have approximately 16 minutes before ghouls become hostile. Build a base with at least 3 doors, 2 firepits (for food storage), and floors inside to prevent enemies or ores from spawning inside. Keep your base compact — a 9×9 layout works well.</p>
+                <p><strong>3. Prioritize the Workbench and Research Bench:</strong> Place 2-3 workbenches early and unlock stone walls/doors. Your next major goal should be the Research Bench, which unlocks Metal Axe, Metal Pickaxe, and eventually the Smelter for processing iron into shaped metal.</p>
+                <p><strong>4. Manage Your Inventory Carefully:</strong> Your limited inventory slots are your most valuable asset. Store low-value items at base and keep slots free for high-value materials (Metal, Sulfur, Uranium). Cook meat immediately and discard rotten food.</p>
+                <p><strong>5. Door Trick for Defense:</strong> When ghouls attack at night, open a door, stand inside, then close it. This lets you fight one ghoul at a time through the doorway — a critical early-game survival technique.</p>
+
+                <h2 id="advanced-strategies">Advanced Strategies</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/devast-io/screenshot-2.jpg" alt="Devast.io advanced base with workshop" loading="lazy">
+                    <figcaption>Advanced base setup with multiple workstations</figcaption>
+                </figure>
+                <p><strong>The Resource Gambit:</strong> Most players prioritize weapons first. Instead, invest your first Metal/Copper into reinforced walls and doors. This seems suboptimal, but advanced defense lets you safely AFK at night while your furnaces and collectors run passively, giving you a massive resource advantage over aggressive players who skip base defenses.</p>
+                <p><strong>Zone Denial Strategy:</strong> Claim a chokepoint location (narrow land bridge or ridge with high-value nodes) and build a wide, horizontally-spread fortified zone rather than tall walls. Place traps and barricades on approaches leading to your zone. Patrol the perimeter regularly to eliminate threats before they consolidate.</p>
+                <p><strong>Lapabot Defense:</strong> Once you craft Alloys (from Sulfur + Iron via Smelter), craft Lapabots to auto-repair your walls. Place them in a trapped square so they repair walls without blocking your movement. This completely neutralizes ghoul attacks.</p>
+                <p><strong>Progression Timeline:</strong> Follow this day-by-day plan: Day 1 — Build base, get workbenches. Day 2 — Get Metal Axe/Pickaxe via Research Bench. Day 3 — Build Smelter, craft Alloys and Lapabots. Day 4 — Craft Sniper rifle and Radiation Mask. Day 5 — Raid the Tesla room in the city for Laser Submachine. Day 6 — Craft Tesla Armor.</p>
+
+                <h2 id="pro-tips">Pro Tips</h2>
+                <figure class="game-screenshot">
+                    <img src="../images/games/devast-io/screenshot-3.jpg" alt="Devast.io combat and exploration" loading="lazy">
+                    <figcaption>Exploring the wasteland requires preparation and awareness</figcaption>
+                </figure>
+                <p><strong>Tesla Room Raid:</strong> The Tesla room is in the top-middle building of the city. Use a spear to breach in, break the two logic gates in the center, plant dynamite, and get out quickly. If you have high ping, use a Radiation Suit and hammer instead. This unlocks access to Tesla Armor and Laser weapons.</p>
+                <p><strong>Weapon Progression:</strong> Start with Stone Pickaxe → Metal Axe → Sniper Rifle → Laser Submachine. The Laser Submachine requires a powered Tesla Bench (4+ Energy Cells) to craft. Pair it with SWAT Suit before going for full Tesla Armor.</p>
+                <p><strong>Gasoline Management:</strong> Each Gasoline in the Smelter produces 4 Alloys, 2 Shaped Uranium, and 13 Shaped Metal. Always put one Gasoline in the Smelter first, then do other tasks while it processes. Find Gasoline in barrels on city outskirts where fewer players venture.</p>
+                <p><strong>SWAT Suit Priority:</strong> Many new players think getting a laser gun makes them invincible. It does not. You can still be killed by skilled players with conventional guns or teams of savages. Always craft the SWAT Suit before going full aggressive.</p>
+                <p><strong>Battle Royale Mode:</strong> The BR mode features a shrinking zone that forces encounters. Weapons spawn much more frequently from buildings in this mode. Focus on positioning and loot priority rather than base building.</p>
+
+                <h2 id="faq">FAQ</h2>
+                <p><strong>How do I deal with radiation?</strong> Craft a Radiation Mask (requires Uranium) or full Radiation Suit for extended city exploration. Radaway items can also reduce radiation levels quickly.</p>
+                <p><strong>When do ghouls become aggressive?</strong> Normal ghouls become hostile after 16 minutes (Day 2). Fast ghouls after 32 minutes (Day 3). Armored ghouls arrive around Day 4. Always have your base defenses ready before these timers.</p>
+                <p><strong>What is the best base location?</strong> Near water sources, close to metal/sulfur nodes, ideally using the map border as part of your walls. Avoid building inside abandoned houses as they attract savages.</p>
+                <p><strong>How do I get shaped metal?</strong> Break fridges, safes, and sinks in abandoned houses for instant shaped metal. Alternatively, mine iron ore and smelt it in a firepit.</p>
+                <p><strong>Can I play with friends?</strong> Yes! Use the chat (Enter key) to communicate. Teaming up is strongly recommended for mid-to-late game progression, especially for raiding the Tesla room.</p>
+
+                <h2 id="conclusion">Conclusion</h2>
+                <p>Devast.io rewards patient, methodical players who prioritize defense and resource efficiency over aggressive early-game combat. Follow the day-by-day progression plan, master the door defense trick, and invest in your base before chasing endgame weapons. Once you have Lapabots auto-repairing your walls and a Laser Submachine in hand, you will be ready to dominate the wasteland. Good luck, survivor!</p>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section"><h4>iogameguide</h4><p>Your ultimate .io game guide</p></div>
+            <div class="footer-section"><h4>Links</h4><ul><li><a href="../index.html">Home</a></li><li><a href="../games.html">All Games</a></li><li><a href="../about.html">About</a></li></ul></div>
+            <div class="footer-section"><h4>Legal</h4><ul><li><a href="../privacy-policy.html">Privacy</a></li><li><a href="../terms-of-service.html">Terms</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 iogameguide</p></div>
+    </footer>
+    <script src="../js/main.js?v=20260624"></script>
+</body>
+</html>
