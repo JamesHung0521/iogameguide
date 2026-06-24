@@ -711,8 +711,8 @@ const gamesData = [
     difficulty: 4,
     tags: ['FPS', 'Shooter', 'Arena'],
     description: 'Fast-paced browser FPS with slide-jump movement. Master weapons, aim for headshots, dominate every map.'
-    }
-,
+    },
+
 {
     id: 'curve-fever-pro',
     name: 'Curve Fever Pro',
@@ -761,8 +761,8 @@ const gamesData = [
         description: 'Competitive online Tetris with ranked play, T-spins, and advanced mechanics.',
         url: 'https://tetr.io',
         image: 'tetr-io'
-    }
-,
+    },
+
     {
         id: 'devast-io',
         name: 'Devast.io',
@@ -772,7 +772,7 @@ const gamesData = [
         difficulty: 4,
         tags: ['Survival', 'Crafting', 'Base Building', 'PvP'],
         description: 'Post-apocalyptic survival io game with resource gathering, base building, crafting, and radioactive wasteland combat.'
-    }
+    },
 ];
 
 /* ========================================
@@ -1444,11 +1444,11 @@ const guidesData = [
     },
     {id:"ninja-io-guide",gameId:"ninja-io",name:"Ninja.io",title:"Ninja.io Guide: Master Weapons, Movement & Game Modes",date:"2026-06-21",difficulty:"Advanced",readTime:11,url:"https://iogameguide.com/guides/ninja-io-guide",image:"https://iogameguide.com/images/games/ninja-io/hero.jpg"},
     {id:"arrow-arena-guide",gameId:"arrow-arena",name:"Arrow Arena",title:"Arrow Arena Guide: Master Archery Combat",date:"2026-06-21",difficulty:2,readTime:8,url:"https://iogameguide.com/guides/arrow-arena-guide",image:"https://iogameguide.com/images/games/arrow-arena/hero.jpg"},
-    {id:"bonk-io-guide",gameId:"bonk-io",name:"Bonk.io",title:"Bonk.io Guide: Master Physics Combat",date:"2026-06-21",difficulty:3,readTime:8,url:"https://iogameguide.com/guides/bonk-io-guide",image:"https://iogameguide.com/images/games/bonk-io/hero.jpg"},
+    
     {id:"ev-io-guide",gameId:"ev-io",name:"Ev.io",title:"Ev.io Guide: Master Weapons, Abilities & Arena Combat",date:"2026-06-22",difficulty:3,readTime:8,url:"https://iogameguide.com/guides/ev-io-guide",image:"https://iogameguide.com/images/games/ev-io/hero.jpg"},
     {id:"schoolbreak-io-guide",gameId:"schoolbreak-io",name:"SchoolBreak.io",title:"SchoolBreak.io Guide: Master Chaos & Discipline",date:"2026-06-22",difficulty:2,readTime:8,url:"https://iogameguide.com/guides/schoolbreak-io-guide",image:"https://iogameguide.com/images/games/schoolbreak-io/hero.jpg"},
     {id:"florr-io-guide",gameId:"florr-io",name:"Florr.io",title:"Florr.io Guide: Master Petals, Crafting & Biome Combat",date:"2026-06-22",difficulty:4,readTime:12,url:"https://iogameguide.com/guides/florr-io-guide",image:"https://iogameguide.com/images/games/florr-io/hero.jpg"},
-,
+
     {
         slug: 'devast-io-guide',
         gameId: 'devast-io',
