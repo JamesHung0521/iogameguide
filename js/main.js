@@ -140,6 +140,21 @@ document.head.appendChild(style);
 /* ========================================
    游戏数据（用于动态渲染）
    ======================================== */
+/* ========================================
+   游戏数据 - 标准格式模板
+   新增游戏必须严格按此格式，9个字段缺一不可
+   
+   {
+       id: 'xxx',                 // 游戏ID（slug格式，如 tetr-io）
+       name: 'Game Name',         // 游戏名
+       icon: '🎮',                // emoji图标
+       iconColor: '#xxxxxx',      // 品牌色（hex）
+       guideCount: 1,             // 攻略数量
+       difficulty: 3,             // 数字 1-5
+       tags: ['tag1', 'tag2'],    // 标签数组
+       description: '...',        // 英文描述（必填！缺失会导致页面崩溃）
+   }
+   ======================================== */
 const gamesData = [
     
 {
@@ -778,6 +793,26 @@ const gamesData = [
 /* ========================================
    攻略数据（用于动态渲染）
    ======================================== */
+/* ========================================
+   攻略数据 - 标准格式模板
+   新增攻略必须严格按此格式，严禁使用 slug/单引号/字符串difficulty
+   
+   必填字段（缺一不可）:
+   {
+       id: 'xxx-guide',           // 攻略ID，格式: {游戏slug}-guide
+       title: '...',              // 英文标题
+       gameId: 'xxx',             // 对应 gamesData 中的 id
+       date: 'YYYY-MM-DD',        // 发布日期
+   }
+   
+   推荐字段:
+       name: 'Game Name',         // 游戏名
+       difficulty: 1-5,           // 数字！1=Beginner, 3=Intermediate, 5=Advanced
+       readTime: 8,               // 数字（分钟）
+       excerpt: '...',            // 英文摘要
+       url: '/guides/xxx-guide',  // 相对路径
+       image: '/images/games/xxx/hero.jpg',  // 相对路径
+   ======================================== */
 const guidesData = [
 {
     id: 'tetr-io-guide',
@@ -799,7 +834,7 @@ const guidesData = [
     excerpt: 'Master Curve Fever Pro with our complete guide. Learn trail combat tactics, power strategies, and arena domination tips.',
     image: '/images/games/curve-fever-pro/hero.jpg',
     url: '/guides/curve-fever-pro-guide',
-    difficulty: 'Advanced',
+    difficulty: 5,
     category: 'Arcade',
     tags: ['arcade', 'multiplayer', 'powers', 'trail', 'strategy']
     },
@@ -813,7 +848,7 @@ const guidesData = [
         excerpt: 'Master DeadShot.io with our complete guide. Learn slide jumping, weapon stats, map strategies, and pro tips to climb the leaderboard.',
         image: '/images/games/deadshot-io/hero.jpg',
         url: '/guides/deadshot-io-guide',
-        difficulty: 'Advanced',
+        difficulty: 5,
         category: 'FPS',
         tags: ['fps', 'shooter', 'browser', 'deadshot', 'movement']
     },
@@ -827,7 +862,7 @@ const guidesData = [
         excerpt: 'Conquer the hexagonal battlefield in Hexanaut.io. Master territory capture, totem strategies, and King victory tactics.',
         image: '/images/games/hexanaut-io/hero.jpg',
         url: '/guides/hexanaut-io-guide',
-        difficulty: 'Intermediate',
+        difficulty: 3,
         category: 'Territory Strategy',
         tags: ['territory', 'strategy', 'multiplayer', 'hexagon', '3D']
     },
@@ -841,7 +876,7 @@ const guidesData = [
         excerpt: 'Master building and shooting in 1v1.LOL. Learn 90-degree turns, box fighting, weapon combos, and advanced tactics.',
         image: '/images/games/1v1-lol/hero.jpg',
         url: '/guides/1v1-lol-guide',
-        difficulty: 'Intermediate',
+        difficulty: 3,
         tags: ['shooter', 'building', 'fps', 'fortnite']
     },
     {
@@ -852,7 +887,7 @@ const guidesData = [
         date: '2026-06-13',
         readTime: '10 min',
         excerpt: 'Master Splix.io territory capture strategies, trail protection tactics, and leaderboard climbing tips to dominate the grid.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'superhex-io-guide',
@@ -862,7 +897,7 @@ const guidesData = [
         date: '2026-06-13',
         readTime: '8 min',
         excerpt: 'Master Superhex.io territory control strategies, hex claiming mechanics, and defense tactics to dominate the map.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'voxelim-io-guide',
@@ -872,7 +907,7 @@ const guidesData = [
         date: '2026-06-13',
         readTime: '9 min',
         excerpt: 'Master Voxelim.io voxel building mechanics, combat strategies, and resource gathering for battlefield domination.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'warden-io-guide',
@@ -882,7 +917,7 @@ const guidesData = [
         date: '2026-06-13',
         readTime: '9 min',
         excerpt: 'Master Warden.io dungeon crawling strategies, boss fight tactics, and class builds for the mystical arena.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'wormate-io-guide',
@@ -892,7 +927,7 @@ const guidesData = [
         date: '2026-06-13',
         readTime: '8 min',
         excerpt: 'Master Wormate.io sweet food collection, worm upgrades, and arena tactics for growth and survival.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'wormax-io-guide',
@@ -902,7 +937,7 @@ const guidesData = [
         date: '2026-06-13',
         readTime: '8 min',
         excerpt: 'Master Wormax.io smart slithering, boost mastery, and strategies to become the biggest worm on the server.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'zapper-io-guide',
@@ -912,7 +947,7 @@ const guidesData = [
         date: '2026-06-13',
         readTime: '8 min',
         excerpt: 'Master Zapper.io lightning combat tactics, movement strategies, and weapon upgrades to dominate the arena.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'bonk-io-guide',
@@ -922,7 +957,7 @@ const guidesData = [
         date: '2026-06-12',
         readTime: '8 min',
         excerpt: 'Master Bonk.io with our complete guide. Learn physics mechanics, heavy mode timing, map strategies, and pro tips to knock every opponent off.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'nobrakes-io-guide',
@@ -932,7 +967,7 @@ const guidesData = [
         date: '2026-06-12',
         readTime: '8 min',
         excerpt: 'Master NoBrakes.io with our complete guide. Learn drift mechanics, boost timing, track shortcuts, and racing strategies to leave your opponents in the dust.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'liquid-swarm-guide',
@@ -942,7 +977,7 @@ const guidesData = [
         date: '2026-06-12',
         readTime: '8 min',
         excerpt: 'Master Liquid Swarm with this complete guide. Learn the surround mechanic, power-up strategies, and pro tips to become the ultimate consuming force.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'venge-io-guide',
@@ -952,7 +987,7 @@ const guidesData = [
         date: '2026-06-11',
         readTime: '10 min',
         excerpt: 'Master Venge.io with this complete guide. Covers controls, hero abilities, game modes, and top strategies to dominate the arena.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'zombsroyale-io-guide',
@@ -962,7 +997,7 @@ const guidesData = [
         date: '2026-06-11',
         readTime: '10 min',
         excerpt: 'Master battle royale tactics in ZombsRoyale.io. Learn landing strategies, weapon selection, combat tips, and circle control to become the last survivor.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'evowars-io-guide',
@@ -972,7 +1007,7 @@ const guidesData = [
         date: '2026-06-09',
         readTime: '9 min',
         excerpt: 'Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'lordz-io-guide',
@@ -982,7 +1017,7 @@ const guidesData = [
         date: '2026-06-12',
         readTime: '8 min',
         excerpt: 'Master Lordz.io with our complete guide. Learn unit stats, economy strategy, army composition, and pro tips to dominate the medieval battlefield.',
-        difficulty: 'Intermediate',
+        difficulty: 3,
         badge: '🏰'
     },
     {
@@ -993,7 +1028,7 @@ const guidesData = [
         date: '2026-06-13',
         readTime: '10 min',
         excerpt: 'Master Hordes.io with our complete guide. Learn Warrior, Archer, Mage, and Shaman skills, PvP combos, and pro strategies.',
-        difficulty: 'Intermediate',
+        difficulty: 3,
         badge: '⚔️'
     },
     {
@@ -1004,7 +1039,7 @@ const guidesData = [
         date: '2026-06-08',
         readTime: '10 min',
         excerpt: 'Master the art of drawing and guessing! Learn pro drawing techniques, guessing strategies, custom room settings, and become the ultimate Skribbl champion.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'taming-io-guide',
@@ -1014,7 +1049,7 @@ const guidesData = [
         date: '2026-06-07',
         readTime: '10 min',
         excerpt: 'Build your ultimate pet army! Learn pet taming mechanics, base defense, elemental combat, and climb the leaderboard.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'stickman-hook-guide',
@@ -1024,7 +1059,7 @@ const guidesData = [
         date: '2026-06-16',
         readTime: '8 min',
         excerpt: 'Master swinging mechanics, release timing, level strategies, and pro tips to dominate every stage in Stickman Hook.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'krunker-io-guide',
@@ -1034,7 +1069,7 @@ const guidesData = [
         date: '2026-06-05',
         readTime: '12 min',
         excerpt: 'Master FPS combat tactics, movement strategies, class selection, weapon tips, and dominate the battlefield in Krunker.io.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'diep-io-guide',
@@ -1044,7 +1079,7 @@ const guidesData = [
         date: '2026-05-27',
         readTime: '16 min',
         excerpt: 'Master tank combat, upgrade paths, best builds for every class, and dominate the battlefield in Diep.io.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'defly-io-guide',
@@ -1054,7 +1089,7 @@ const guidesData = [
         date: '2026-05-20',
         readTime: '9 min',
         excerpt: 'Master territory control, helicopter combat, defensive building, and top strategies to dominate the leaderboard.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
         {
         id: 'brutalmania-io-guide',
@@ -1064,7 +1099,7 @@ const guidesData = [
         date: '2026-05-15',
         readTime: '9 min',
         excerpt: 'Master arena combat tactics, weapon selection, movement strategies, and dominate the battleground.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'swordz-io-guide',
@@ -1074,7 +1109,7 @@ const guidesData = [
         date: '2026-05-16',
         readTime: '10 min',
         excerpt: 'Master sword combat, dash mechanics, positioning, and climbing the leaderboard.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'medieval-io-guide',
@@ -1084,7 +1119,7 @@ const guidesData = [
         date: '2026-05-16',
         readTime: '11 min',
         excerpt: 'Dominate the 8-player arena with hero selection, army management, and advanced tactics.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'agar-io-advanced-guide',
@@ -1094,7 +1129,7 @@ const guidesData = [
         date: '2026-05-14',
         readTime: '10 min',
         excerpt: 'Master pro split tricks, micro-techniques, late game dominance, and high-level strategies.',
-        difficulty: 'Advanced'
+        difficulty: 5
     },
     {
         id: 'smashkarts-io-guide',
@@ -1104,7 +1139,7 @@ const guidesData = [
         date: '2026-05-12',
         readTime: '11 min',
         excerpt: 'Learn weapon strategies, map control, driving tips, and pro tactics to dominate the leaderboard.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'surviv-io-guide',
@@ -1114,7 +1149,7 @@ const guidesData = [
         date: '2024-01-15',
         readTime: '14 min',
         excerpt: 'Learn weapons, map strategies, and survival tactics to become the last survivor.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'bloxd-io-guide',
@@ -1124,7 +1159,7 @@ const guidesData = [
         date: '2026-05-25',
         readTime: '13 min',
         excerpt: 'Master all game modes including Bedwars strategies, building mechanics, and PvP combat.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'crazysteve-io-guide',
@@ -1134,7 +1169,7 @@ const guidesData = [
         date: '2026-05-16',
         readTime: '10 min',
         excerpt: 'Master block-building combat strategies and battle royale survival tactics in CrazySteve.io.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'curser-io-guide',
@@ -1144,7 +1179,7 @@ const guidesData = [
         date: '2026-05-17',
         readTime: '7 min',
         excerpt: 'Master cursor movement, survival tactics, and browser battlefield navigation in Curser.io.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'blumgi-rocket-guide',
@@ -1154,7 +1189,7 @@ const guidesData = [
         date: '2026-05-19',
         readTime: '9 min',
         excerpt: 'Master rocket launch mechanics, trajectory prediction, and precision landing in Blumgi Rocket.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'shell-shockers-guide',
@@ -1164,7 +1199,7 @@ const guidesData = [
         date: '2024-01-15',
         readTime: '12 min',
         excerpt: 'Learn class selection, weapon comparisons, and map strategies for egg combat.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'mope-io-guide',
@@ -1174,7 +1209,7 @@ const guidesData = [
         date: '2024-01-15',
         readTime: '13 min',
         excerpt: 'Master animal evolution routes, food chain strategies, and survival tips.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'gartic-io-guide',
@@ -1184,7 +1219,7 @@ const guidesData = [
         date: '2024-01-15',
         readTime: '11 min',
         excerpt: 'Master drawing techniques, guessing strategies, and room settings.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'wings-io-guide',
@@ -1194,7 +1229,7 @@ const guidesData = [
         date: '2024-01-15',
         readTime: '10 min',
         excerpt: 'Learn plane combat, aircraft selection, and aerial combat tactics.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'moomoo-io-guide',
@@ -1204,7 +1239,7 @@ const guidesData = [
         date: '2024-01-15',
         readTime: '12 min',
         excerpt: 'Master base designs, resource management, and PvP defense strategies.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'slither-io-boosting',
@@ -1214,7 +1249,7 @@ const guidesData = [
         date: '2024-01-12',
         readTime: '6 min',
         excerpt: 'The complete guide to using boost strategically without crashing.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'diep-io-tanks',
@@ -1224,7 +1259,7 @@ const guidesData = [
         date: '2024-01-10',
         readTime: '12 min',
         excerpt: 'Discover the best tank builds and upgrades for domination.',
-        difficulty: 'Advanced'
+        difficulty: 5
     },
     {
         id: 'defend-io-guide',
@@ -1234,7 +1269,7 @@ const guidesData = [
         date: '2026-05-22',
         readTime: '8 min',
         excerpt: 'Master tower placement, upgrade strategies, and wave defense tactics in Defend.io.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'hole-io-guide',
@@ -1244,7 +1279,7 @@ const guidesData = [
         date: '2026-05-21',
         readTime: '8 min',
         excerpt: 'Master city swallowing, vehicle chasing, map control, and absorbing smaller holes in Hole.io.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'paper-io-guide',
@@ -1254,7 +1289,7 @@ const guidesData = [
         date: '2026-05-20',
         readTime: '8 min',
         excerpt: 'Master territory claiming, zone defense, and trail-cutting strategies in Paper.io.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'dogod-io-guide',
@@ -1264,7 +1299,7 @@ const guidesData = [
         date: '2026-05-23',
         readTime: '9 min',
         excerpt: 'Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'angry-worms-io-guide',
@@ -1274,7 +1309,7 @@ const guidesData = [
         date: '2026-05-24',
         readTime: '11 min',
         excerpt: 'Proven strategies to grow your worm and dominate the Angry Worms.io arena. From basic controls to advanced traps.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'repuls-io-guide',
@@ -1284,7 +1319,7 @@ const guidesData = [
         date: '2026-05-26',
         readTime: '10 min',
         excerpt: 'Master the unique repulsion launcher mechanics, weapon loadouts, and tactical movement in this fast-paced FPS arena shooter.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'spawner-io-guide',
@@ -1294,7 +1329,7 @@ const guidesData = [
         date: '2026-05-28',
         readTime: '8 min',
         excerpt: 'Master block spawning, defense building, and survival tactics in this unique tower defense .io game.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'gulper-io-guide',
@@ -1304,7 +1339,7 @@ const guidesData = [
         date: '2026-05-29',
         readTime: '10 min',
         excerpt: 'Master the gulper mechanics, grow your creature, eat opponents, and climb the leaderboard with proven strategies.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'spinner-io-guide',
@@ -1314,7 +1349,7 @@ const guidesData = [
         date: '2026-05-30',
         readTime: '9 min',
         excerpt: 'Master spinning combat tactics, grow your spinner by defeating opponents, and dominate the arena with proven strategies.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'starblast-io-guide',
@@ -1324,7 +1359,7 @@ const guidesData = [
         date: '2026-05-30',
         readTime: '11 min',
         excerpt: 'Master spaceship upgrades, mining strategies, combat tactics, and survival tips in deep space battles.',
-        difficulty: 'Intermediate'
+        difficulty: 3
     },
     {
         id: 'yohoho-io-guide',
@@ -1334,7 +1369,7 @@ const guidesData = [
         date: '2026-05-31',
         readTime: '10 min',
         excerpt: 'Master pirate combat, collect coins, upgrade your ship, and become the ultimate pirate in Yohoho.io battle royale.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'snowball-io-guide',
@@ -1344,7 +1379,7 @@ const guidesData = [
         date: '2026-05-31',
         readTime: '9 min',
         excerpt: 'Master snowball mechanics, push opponents off platforms, and dominate winter battles with proven strategies.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'goons-io-guide',
@@ -1354,7 +1389,7 @@ const guidesData = [
         date: '2026-06-03',
         readTime: '9 min',
         excerpt: 'Master sword combat tactics, block and dodge attacks, and survive medieval arena battles with proven strategies.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'littlebigsnake-io-guide',
@@ -1364,7 +1399,7 @@ const guidesData = [
         date: '2026-06-04',
         readTime: '9 min',
         excerpt: 'Master snake growth mechanics, evolve into flying dragonfly form, and dominate the food chain with proven strategies.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'sandboxels-guide',
@@ -1374,7 +1409,7 @@ const guidesData = [
         date: '2026-06-06',
         readTime: '8 min',
         excerpt: 'Master element interactions, create amazing physics simulations, and explore 500+ elements in this creative sandbox game.',
-        difficulty: 'Beginner'
+        difficulty: 1
     },
     {
         id: 'poxel-io-guide',
@@ -1384,7 +1419,7 @@ const guidesData = [
         date: '2026-06-14',
         readTime: '10 min',
         excerpt: 'Master Poxel.io with our complete guide. Learn all 4 game modes, best weapon loadouts, map strategies, and pro tips to dominate the pixel FPS battlefield.',
-        difficulty: 'Intermediate',
+        difficulty: 3,
         badge: '🔫'
     },
     {
@@ -1395,7 +1430,7 @@ const guidesData = [
         date: '2026-06-16',
         readTime: '12 min',
         excerpt: 'Master War Brokers.io with our complete guide. Learn all 17 weapons, vehicle combat tactics, game modes, and battle royale strategies to dominate the battlefield.',
-        difficulty: 'Advanced',
+        difficulty: 5,
         badge: '🎖️'
     },
     {
@@ -1406,7 +1441,7 @@ const guidesData = [
         date: '2026-06-17',
         readTime: '15 min',
         excerpt: 'Master Starve.io with our complete survival guide. Learn crafting recipes, biome strategies, combat tips, and base building to survive and thrive.',
-        difficulty: 'Advanced',
+        difficulty: 5,
         badge: '⚒️'
     },
     {
@@ -1417,7 +1452,7 @@ const guidesData = [
         date: '2026-06-20',
         readTime: '14 min',
         excerpt: 'Master Deeeep.io with evolution paths, creature abilities, biome strategies, and survival tactics to become the apex predator.',
-        difficulty: 'Intermediate',
+        difficulty: 3,
         badge: '🐟'
     },
     {
@@ -1428,7 +1463,7 @@ const guidesData = [
         date: '2026-06-20',
         readTime: '9 min',
         excerpt: 'Master Kirka.io with our complete guide. Learn weapon stats, game modes, wall climbing, and pro tips to dominate the voxel arena.',
-        difficulty: 'Intermediate',
+        difficulty: 3,
         badge: '🧱'
     },
     {
@@ -1439,10 +1474,10 @@ const guidesData = [
         date: '2026-06-20',
         readTime: '9 min',
         excerpt: 'Master Kour.io with our complete guide. Learn all 13 classes, parkour movement, game modes, and pro tips to dominate every match.',
-        difficulty: 'Advanced',
+        difficulty: 5,
         badge: '🏃'
     },
-    {id:"ninja-io-guide",gameId:"ninja-io",name:"Ninja.io",title:"Ninja.io Guide: Master Weapons, Movement & Game Modes",date:"2026-06-21",difficulty:"Advanced",readTime:11,url:"https://iogameguide.com/guides/ninja-io-guide",image:"https://iogameguide.com/images/games/ninja-io/hero.jpg"},
+    {id:"ninja-io-guide",gameId:"ninja-io",name:"Ninja.io",title:"Ninja.io Guide: Master Weapons, Movement & Game Modes",date:"2026-06-21",difficulty: 5,readTime:11,url:"https://iogameguide.com/guides/ninja-io-guide",image:"https://iogameguide.com/images/games/ninja-io/hero.jpg"},
     {id:"arrow-arena-guide",gameId:"arrow-arena",name:"Arrow Arena",title:"Arrow Arena Guide: Master Archery Combat",date:"2026-06-21",difficulty:2,readTime:8,url:"https://iogameguide.com/guides/arrow-arena-guide",image:"https://iogameguide.com/images/games/arrow-arena/hero.jpg"},
     
     {id:"ev-io-guide",gameId:"ev-io",name:"Ev.io",title:"Ev.io Guide: Master Weapons, Abilities & Arena Combat",date:"2026-06-22",difficulty:3,readTime:8,url:"https://iogameguide.com/guides/ev-io-guide",image:"https://iogameguide.com/images/games/ev-io/hero.jpg"},
@@ -1450,7 +1485,7 @@ const guidesData = [
     {id:"florr-io-guide",gameId:"florr-io",name:"Florr.io",title:"Florr.io Guide: Master Petals, Crafting & Biome Combat",date:"2026-06-22",difficulty:4,readTime:12,url:"https://iogameguide.com/guides/florr-io-guide",image:"https://iogameguide.com/images/games/florr-io/hero.jpg"},
 
     {
-        slug: 'devast-io-guide',
+        id: 'devast-io-guide',
         gameId: 'devast-io',
         name: 'Devast.io',
         title: 'Devast.io Guide: Master Survival, Crafting & Base Building',
