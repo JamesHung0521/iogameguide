@@ -54,7 +54,7 @@ function initSearch() {
             const query = this.value.trim();
             if (query) {
                 // 跳转到游戏列表页并传递搜索参数
-                window.location.href = `games.html?search=${encodeURIComponent(query)}`;
+                window.location.href = `games?search=${encodeURIComponent(query)}`;
             }
         }
     });
@@ -797,7 +797,7 @@ const guidesData = [
     readTime: '13 min',
     excerpt: 'Master Curve Fever Pro with our complete guide. Learn trail combat tactics, power strategies, and arena domination tips.',
     image: '/images/games/curve-fever-pro/hero.jpg',
-    url: '/guides/curve-fever-pro-guide.html',
+    url: '/guides/curve-fever-pro-guide',
     difficulty: 'Advanced',
     category: 'Arcade',
     tags: ['arcade', 'multiplayer', 'powers', 'trail', 'strategy']
@@ -811,7 +811,7 @@ const guidesData = [
         readTime: '9 min',
         excerpt: 'Master DeadShot.io with our complete guide. Learn slide jumping, weapon stats, map strategies, and pro tips to climb the leaderboard.',
         image: '/images/games/deadshot-io/hero.jpg',
-        url: '/guides/deadshot-io-guide.html',
+        url: '/guides/deadshot-io-guide',
         difficulty: 'Advanced',
         category: 'FPS',
         tags: ['fps', 'shooter', 'browser', 'deadshot', 'movement']
@@ -825,7 +825,7 @@ const guidesData = [
         readTime: '10 min',
         excerpt: 'Conquer the hexagonal battlefield in Hexanaut.io. Master territory capture, totem strategies, and King victory tactics.',
         image: '/images/games/hexanaut-io/hero.jpg',
-        url: '/guides/hexanaut-io-guide.html',
+        url: '/guides/hexanaut-io-guide',
         difficulty: 'Intermediate',
         category: 'Territory Strategy',
         tags: ['territory', 'strategy', 'multiplayer', 'hexagon', '3D']
@@ -839,7 +839,7 @@ const guidesData = [
         readTime: '12 min',
         excerpt: 'Master building and shooting in 1v1.LOL. Learn 90-degree turns, box fighting, weapon combos, and advanced tactics.',
         image: '/images/games/1v1-lol/hero.jpg',
-        url: '/guides/1v1-lol-guide.html',
+        url: '/guides/1v1-lol-guide',
         difficulty: 'Intermediate',
         tags: ['shooter', 'building', 'fps', 'fortnite']
     },
@@ -1471,7 +1471,7 @@ function renderGameCard(game) {
     const tags = game.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
     
     return `
-        <a href="guides/${game.id}-guide.html" class="game-card">
+        <a href="guides/${game.id}-guide" class="game-card">
             <div class="game-card-header">
                 <div class="game-icon" style="background: ${game.iconColor}20; color: ${game.iconColor};">
                     ${game.icon}
@@ -1499,7 +1499,7 @@ function renderGuideCard(guide) {
     const icon = game ? game.icon : '🎮';
     const iconColor = game ? game.iconColor : '#666';
     return `
-        <a href="guides/${guide.id}.html" class="guide-card">
+        <a href="guides/${guide.id}" class="guide-card">
             <div class="guide-thumb" style="background: ${iconColor}20; display: flex; align-items: center; justify-content: center;">
                 <span style="font-size: 2.5rem;">${icon}</span>
             </div>
