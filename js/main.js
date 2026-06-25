@@ -157,7 +157,6 @@ document.head.appendChild(style);
    ======================================== */
 const gamesData = [
 
-{name:"Betrayal.io",id:"betrayal-io",slug:"betrayal-io",icon:"🕵️",iconColor:"#673AB7",guideCount:1,difficulty:3,tags:["Social Deduction","Multiplayer","Party","Deception"],description:"Browser-based social deduction game where crewmates complete tasks while betrayers sabotage and deceive."},
     
 {
     id: 'bloxd-io',
@@ -789,6 +788,16 @@ const gamesData = [
         difficulty: 4,
         tags: ['Survival', 'Crafting', 'Base Building', 'PvP'],
         description: 'Post-apocalyptic survival io game with resource gathering, base building, crafting, and radioactive wasteland combat.'
+    },
+    {
+        id: 'betrayal-io',
+        name: 'Betrayal.io',
+        icon: '🕵️',
+        iconColor: '#673AB7',
+        guideCount: 1,
+        difficulty: 3,
+        tags: ['Social Deduction', 'Multiplayer', 'Party', 'Deception'],
+        description: 'Browser-based social deduction game where crewmates complete tasks while betrayers sabotage and deceive.'
     },
 ];
 
