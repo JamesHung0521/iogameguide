@@ -156,6 +156,8 @@ document.head.appendChild(style);
    }
    ======================================== */
 const gamesData = [
+
+{name:"Betrayal.io",id:"betrayal-io",slug:"betrayal-io",icon:"🕵️",iconColor:"#673AB7",guideCount:1,difficulty:3,tags:["Social Deduction","Multiplayer","Party","Deception"],description:"Browser-based social deduction game where crewmates complete tasks while betrayers sabotage and deceive."},
     
 {
     id: 'bloxd-io',
@@ -814,6 +816,19 @@ const gamesData = [
        image: '/images/games/xxx/hero.jpg',  // 相对路径
    ======================================== */
 const guidesData = [
+{
+    id: 'betrayal-io-guide',
+    title: 'Betrayal.io Guide: Roles, Tasks, Deception & Voting Strategies',
+    game: 'Betrayal.io',
+    gameId: 'betrayal-io',
+    date: '2026-06-25',
+    url: 'betrayal-io-guide',
+    image: 'betrayal-io',
+    difficulty: 3,
+    readTime: '10 min',
+    excerpt: 'Master Betrayal.io: crewmate tasks, betrayer deception, voting tactics, special roles, and map strategies.',
+    description: 'Complete guide to Betrayal.io covering all roles, task strategies, voting tactics, special roles (Sheriff & Jester), and advanced deception techniques.'
+},
 {
     id: 'tetr-io-guide',
     title: 'TETR.IO Guide: Master Competitive Online Tetris & Ranked Play',
