@@ -798,7 +798,17 @@ const gamesData = [
         difficulty: 3,
         tags: ['Social Deduction', 'Multiplayer', 'Party', 'Deception'],
         description: 'Browser-based social deduction game where crewmates complete tasks while betrayers sabotage and deceive.'
-    },
+    },,
+    {
+    id: 'snake-io',
+    name: 'Snake.io',
+    icon: '🐍',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Arcade", "Casual"],
+    description: 'Classic snake game where you grow by eating pellets and avoid collisions.'
+    }
 ];
 
 /* ========================================
@@ -1518,6 +1528,18 @@ const guidesData = [
         readTime: 12,
         url: 'https://iogameguide.com/guides/devast-io-guide',
         image: 'https://iogameguide.com/images/games/devast-io/hero.jpg'
+    },
+    {
+        id: 'snake-io-guide',
+        title: 'Snake.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Snake.io',
+        gameId: 'snake-io',
+        date: '2026-06-26',
+        url: 'snake-io-guide',
+        image: 'snake-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Snake.io is a real-time multiplayer snake battle game that transforms the classic Nokia-era snake game into an intense o...'
     }
 ];
 
