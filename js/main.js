@@ -838,6 +838,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["arcade", "multiplayer", "action"],
     description: 'Control a slithery snake to collect snowballs and grow longer while avoiding other players in this winter-themed arena.'
+    },
+    {
+    id: 'aipaperanimals-io',
+    name: 'AIPaperAnimals.io',
+    icon: '🐰',
+    iconColor: '#FFB6C1',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["casual", "multiplayer", "paper"],
+    description: 'Control adorable AI-powered paper animals in a competitive arena where you collect supplies and avoid elimination.'
     }
 ];
 
@@ -1606,6 +1616,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'A Slithery Snake and Snowball.io is a winter-themed multiplayer arena game where you control a colorful snake sliding ac...'
+    },
+    {
+        id: 'aipaperanimals-io-guide',
+        title: 'AIPaperAnimals.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'AIPaperAnimals.io',
+        gameId: 'aipaperanimals-io',
+        date: '2026-06-26',
+        url: 'aipaperanimals-io-guide',
+        image: 'aipaperanimals-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'AIPaperAnimals.io is a competitive multiplayer arena game where players control adorable AI-powered paper animals in a v...'
     }
 ];
 
