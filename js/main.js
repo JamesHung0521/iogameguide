@@ -868,6 +868,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Multiplayer", "Action"],
     description: 'A multiplayer browser game where players complete tasks and identify impostors among them.'
+    },
+    {
+    id: 'agma-io',
+    name: 'Agma.io',
+    icon: '🧬',
+    iconColor: '#7B68EE',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Survival", "Multiplayer", "Cellular"],
+    description: 'A multiplayer browser game where players control cells or organisms, consume resources, and grow larger while avoiding predators in a competitive arena.'
     }
 ];
 
@@ -1672,6 +1682,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Amogus.io is a browser‑based multiplayer arena that fuses the social deduction chaos of Among Us with the territory‑capt...'
+    },
+    {
+        id: 'agma-io-guide',
+        title: 'Agma.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Agma.io',
+        gameId: 'agma-io',
+        date: '2026-06-26',
+        url: 'agma-io-guide',
+        image: 'agma-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Agma.io is a browser‑based multiplayer arena where players control microscopic cells or organisms in a constantly evolvi...'
     }
 ];
 
