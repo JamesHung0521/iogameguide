@@ -848,6 +848,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["casual", "multiplayer", "paper"],
     description: 'Control adorable AI-powered paper animals in a competitive arena where you collect supplies and avoid elimination.'
+    },
+    {
+    id: 'arras-io',
+    name: 'Arras.io',
+    icon: '🔫',
+    iconColor: '#FF6B6B',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Tank Game", "Multiplayer", "Action"],
+    description: 'Control a tank in an arena and battle against other players in this top-down shooter.'
     }
 ];
 
@@ -1628,6 +1638,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'AIPaperAnimals.io is a competitive multiplayer arena game where players control adorable AI-powered paper animals in a v...'
+    },
+    {
+        id: 'arras-io-guide',
+        title: 'Arras.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Arras.io',
+        gameId: 'arras-io',
+        date: '2026-06-26',
+        url: 'arras-io-guide',
+        image: 'arras-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Arras.io is a top‑down, multiplayer tank arena game that pits you against other players and AI‑controlled polygons. Deve...'
     }
 ];
 
