@@ -798,7 +798,7 @@ const gamesData = [
         difficulty: 3,
         tags: ['Social Deduction', 'Multiplayer', 'Party', 'Deception'],
         description: 'Browser-based social deduction game where crewmates complete tasks while betrayers sabotage and deceive.'
-    },,
+    },
     {
     id: 'snake-io',
     name: 'Snake.io',
