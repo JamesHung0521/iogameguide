@@ -818,6 +818,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Survival", "Multiplayer", "Arcade"],
     description: 'Start as a fly and evolve into stronger creatures in this multiplayer survival game.'
+    },
+    {
+    id: 'limax-io',
+    name: 'Limax.io',
+    icon: '🐍',
+    iconColor: '#7B68EE',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Arena", "PvP", "Action"],
+    description: 'A competitive arena game where players control neon snakes and battle for dominance.'
     }
 ];
 
@@ -1562,6 +1572,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'FlyOrDie.io, now known as EvoWorld.io, is a browser‑based multiplayer survival game where you begin as a tiny fly and cl...'
+    },
+    {
+        id: 'limax-io-guide',
+        title: 'Limax.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Limax.io',
+        gameId: 'limax-io',
+        date: '2026-06-26',
+        url: 'limax-io-guide',
+        image: 'limax-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Limax.io is a multiplayer arena game where players control glowing neon worm‑like snakes in a constantly moving battlefi...'
     }
 ];
 
