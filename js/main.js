@@ -808,6 +808,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Arcade", "Casual"],
     description: 'Classic snake game where you grow by eating pellets and avoid collisions.'
+    },
+    {
+    id: 'flyordie-io',
+    name: 'FlyOrDie.io',
+    icon: '🪰',
+    iconColor: '#FF6F00',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Survival", "Multiplayer", "Arcade"],
+    description: 'Start as a fly and evolve into stronger creatures in this multiplayer survival game.'
     }
 ];
 
@@ -1540,6 +1550,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Snake.io is a real-time multiplayer snake battle game that transforms the classic Nokia-era snake game into an intense o...'
+    },
+    {
+        id: 'flyordie-io-guide',
+        title: 'FlyOrDie.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'FlyOrDie.io',
+        gameId: 'flyordie-io',
+        date: '2026-06-26',
+        url: 'flyordie-io-guide',
+        image: 'flyordie-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'FlyOrDie.io, now known as EvoWorld.io, is a browser‑based multiplayer survival game where you begin as a tiny fly and cl...'
     }
 ];
 
