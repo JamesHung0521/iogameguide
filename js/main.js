@@ -828,6 +828,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Arena", "PvP", "Action"],
     description: 'A competitive arena game where players control neon snakes and battle for dominance.'
+    },
+    {
+    id: 'a-slithery-snake-and-snowball-io',
+    name: 'A Slithery Snake and Snowball.io',
+    icon: '🐍',
+    iconColor: '#87CEEB',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["arcade", "multiplayer", "action"],
+    description: 'Control a slithery snake to collect snowballs and grow longer while avoiding other players in this winter-themed arena.'
     }
 ];
 
@@ -1584,6 +1594,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Limax.io is a multiplayer arena game where players control glowing neon worm‑like snakes in a constantly moving battlefi...'
+    },
+    {
+        id: 'a-slithery-snake-and-snowball-io-guide',
+        title: 'A Slithery Snake and Snowball.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'A Slithery Snake and Snowball.io',
+        gameId: 'a-slithery-snake-and-snowball-io',
+        date: '2026-06-26',
+        url: 'a-slithery-snake-and-snowball-io-guide',
+        image: 'a-slithery-snake-and-snowball-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'A Slithery Snake and Snowball.io is a winter-themed multiplayer arena game where you control a colorful snake sliding ac...'
     }
 ];
 
