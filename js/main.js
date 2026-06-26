@@ -858,6 +858,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Tank Game", "Multiplayer", "Action"],
     description: 'Control a tank in an arena and battle against other players in this top-down shooter.'
+    },
+    {
+    id: 'amogus-io',
+    name: 'Amogus.io',
+    icon: '🚀',
+    iconColor: '#FF3D3D',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Multiplayer", "Action"],
+    description: 'A multiplayer browser game where players complete tasks and identify impostors among them.'
     }
 ];
 
@@ -1650,6 +1660,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Arras.io is a top‑down, multiplayer tank arena game that pits you against other players and AI‑controlled polygons. Deve...'
+    },
+    {
+        id: 'amogus-io-guide',
+        title: 'Amogus.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Amogus.io',
+        gameId: 'amogus-io',
+        date: '2026-06-26',
+        url: 'amogus-io-guide',
+        image: 'amogus-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Amogus.io is a browser‑based multiplayer arena that fuses the social deduction chaos of Among Us with the territory‑capt...'
     }
 ];
 
