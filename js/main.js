@@ -878,6 +878,11 @@ const gamesData = [
     difficulty: 3,
     tags: ["Survival", "Multiplayer", "Cellular"],
     description: 'A multiplayer browser game where players control cells or organisms, consume resources, and grow larger while avoiding predators in a competitive arena.'
+    },
+    {
+        name: "AquaPark.io",
+        slug: "aquapark-io",
+        category: "racing"
     }
 ];
 
