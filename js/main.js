@@ -880,9 +880,14 @@ const gamesData = [
     description: 'A multiplayer browser game where players control cells or organisms, consume resources, and grow larger while avoiding predators in a competitive arena.'
     },
     {
-        name: "AquaPark.io",
-        slug: "aquapark-io",
-        category: "racing"
+        id: 'aquapark-io',
+        name: 'AquaPark.io',
+        icon: '🌊',
+        iconColor: '#00bcd4',
+        guideCount: 1,
+        difficulty: 2,
+        tags: ['Racing', 'Water', 'Multiplayer'],
+        description: 'Race down giant water slides, bump rivals, and master shortcut jumps.'
     }
 ];
 
@@ -1699,7 +1704,19 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Agma.io is a browser‑based multiplayer arena where players control microscopic cells or organisms in a constantly evolvi...'
+    },
+    {
+        id: 'aquapark-io-guide',
+        title: 'AquaPark.io Guide: Tips, Strategies & How to Win Every Race',
+        game: 'AquaPark.io',
+        gameId: 'aquapark-io',
+        date: '2026-06-27',
+        url: 'aquapark-io',
+        image: 'aquapark-io',
+        readTime: '6 min',
+        excerpt: 'Master AquaPark.io with shortcut jumps, bumping tactics, power-up strategies, and race-winning tips.'
     }
+
 ];
 
 /* ========================================
