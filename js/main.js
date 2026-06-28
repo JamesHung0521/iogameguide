@@ -888,6 +888,16 @@ const gamesData = [
         difficulty: 2,
         tags: ['Racing', 'Water', 'Multiplayer'],
         description: 'Race down giant water slides, bump rivals, and master shortcut jumps.'
+    },
+    {
+    id: 'arena-io',
+    name: 'Arena.io',
+    icon: '⚔️',
+    iconColor: '#E74C3C',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["action", "multiplayer", "battle"],
+    description: 'Battle against other players in a fast-paced arena, collecting power-ups and eliminating opponents to become the last one standing.'
     }
 ];
 
@@ -1716,7 +1726,19 @@ const guidesData = [
         readTime: '6 min',
         excerpt: 'Master AquaPark.io with shortcut jumps, bumping tactics, power-up strategies, and race-winning tips.'
     }
-
+,
+    {
+        id: 'arena-io-guide',
+        title: 'Arena.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Arena.io',
+        gameId: 'arena-io',
+        date: '2026-06-28',
+        url: 'arena-io-guide',
+        image: 'arena-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Arena.io is a fast-paced multiplayer online arena game where players battle against each other in intense combat scenari...'
+    }
 ];
 
 /* ========================================

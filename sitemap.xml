@@ -549,4 +549,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://iogameguide.com/guides/arena-io-guide</loc>
+    <lastmod>2026-06-28</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
