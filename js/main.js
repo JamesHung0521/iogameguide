@@ -898,6 +898,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["action", "multiplayer", "battle"],
     description: 'Battle against other players in a fast-paced arena, collecting power-ups and eliminating opponents to become the last one standing.'
+    },
+    {
+    id: 'brutal-io',
+    name: 'Brutal.io',
+    icon: '⚔️',
+    iconColor: '#E74C3C',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Action", "Multiplayer", "Combat"],
+    description: 'Battle other players using melee weapons in a fast-paced arena combat game.'
     }
 ];
 
@@ -1738,6 +1748,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Arena.io is a fast-paced multiplayer online arena game where players battle against each other in intense combat scenari...'
+    },
+    {
+        id: 'brutal-io-guide',
+        title: 'Brutal.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Brutal.io',
+        gameId: 'brutal-io',
+        date: '2026-06-29',
+        url: 'brutal-io-guide',
+        image: 'brutal-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Brutal.io is a fast‑paced, physics‑driven arena brawler where players pilot neon‑lit cars and swing massive spiked flail...'
     }
 ];
 
