@@ -908,6 +908,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Action", "Multiplayer", "Combat"],
     description: 'Battle other players using melee weapons in a fast-paced arena combat game.'
+    },
+    {
+    id: 'battledudes-io',
+    name: 'BattleDudes.io',
+    icon: '⚔️',
+    iconColor: '#FF6B6B',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["battle", "multiplayer", "action"],
+    description: 'Battle against other players in fast-paced arena combat with customizable characters and weapons.'
     }
 ];
 
@@ -1760,6 +1770,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Brutal.io is a fast‑paced, physics‑driven arena brawler where players pilot neon‑lit cars and swing massive spiked flail...'
+    },
+    {
+        id: 'battledudes-io-guide',
+        title: 'BattleDudes.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BattleDudes.io',
+        gameId: 'battledudes-io',
+        date: '2026-06-30',
+        url: 'battledudes-io-guide',
+        image: 'battledudes-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'BattleDudes.io is an action-packed 2D multiplayer .io battle game where chaos and strategy collide on the battlefield. R...'
     }
 ];
 
