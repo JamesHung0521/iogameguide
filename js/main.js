@@ -919,7 +919,7 @@ const gamesData = [
     tags: ["battle", "multiplayer", "action"],
     description: 'Battle against other players in fast-paced arena combat with customizable characters and weapons.'
     },
-    ];
+];
 
 /* ========================================
    攻略数据（用于动态渲染）
