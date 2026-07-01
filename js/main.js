@@ -1783,7 +1783,8 @@ const guidesData = [
         readTime: '8 min',
         excerpt: 'BattleDudes.io is an action-packed 2D multiplayer .io battle game where chaos and strategy collide on the battlefield. R...'
     },
-    ];
+
+];
 
 /* ========================================
    渲染游戏卡片
