@@ -919,16 +919,7 @@ const gamesData = [
     tags: ["battle", "multiplayer", "action"],
     description: 'Battle against other players in fast-paced arena combat with customizable characters and weapons.'
     },
-    {
-    id: 'aggie-io',
-    name: 'Aggie.io',
-    icon: '🎨',
-    iconColor: '#9B59B6',
-    guideCount: 1,
-    difficulty: 1,
-    tags: ["drawing", "guessing", "multiplayer"],
-    description: 'A multiplayer drawing and word-guessing party game where players sketch prompts while others race to identify the drawings.'
-    }
+    
 ];
 
 /* ========================================
@@ -1794,18 +1785,7 @@ const guidesData = [
         excerpt: 'BattleDudes.io is an action-packed 2D multiplayer .io battle game where chaos and strategy collide on the battlefield. R...'
     },
 
-    {
-        id: 'aggie-io-guide',
-        title: 'Aggie.io Guide: Tips, Strategies & Advanced Techniques',
-        game: 'Aggie.io',
-        gameId: 'aggie-io',
-        date: '2026-07-01',
-        url: 'aggie-io-guide',
-        image: 'aggie-io',
-        difficulty: 1,
-        readTime: '8 min',
-        excerpt: 'Aggie.io is a free, browser‑based collaborative drawing canvas that lets multiple players create artwork together in rea...'
-    }
+    
 ];
 
 /* ========================================
