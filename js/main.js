@@ -918,6 +918,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["battle", "multiplayer", "action"],
     description: 'Battle against other players in fast-paced arena combat with customizable characters and weapons.'
+    },
+    {
+    id: 'aggie-io',
+    name: 'Aggie.io',
+    icon: '🌾',
+    iconColor: '#8B4513',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["casual", "multiplayer", "action"],
+    description: 'A multiplayer .io game where players compete in real-time battles for territory and dominance.'
     }
 ];
 
@@ -1782,6 +1792,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BattleDudes.io is an action-packed 2D multiplayer .io battle game where chaos and strategy collide on the battlefield. R...'
+    },
+    {
+        id: 'aggie-io-guide',
+        title: 'Aggie.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Aggie.io',
+        gameId: 'aggie-io',
+        date: '2026-07-01',
+        url: 'aggie-io-guide',
+        image: 'aggie-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Aggie.io is a browser‑based multiplayer .io game where each player controls a colorful cell in a shared arena. The objec...'
     }
 ];
 
