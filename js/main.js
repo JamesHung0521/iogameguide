@@ -920,6 +920,16 @@ const gamesData = [
     description: 'Battle against other players in fast-paced arena combat with customizable characters and weapons.'
     },
     
+    {
+    id: 'archers-io',
+    name: 'Archers.io',
+    icon: '🏹',
+    iconColor: '#E74C3C',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["action", "multiplayer", "archery"],
+    description: 'Control an archer in an arena, shoot arrows at opponents, and survive as long as possible.'
+    }
 ];
 
 /* ========================================
@@ -1786,6 +1796,18 @@ const guidesData = [
     },
 
     
+    {
+        id: 'archers-io-guide',
+        title: 'Archers.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Archers.io',
+        gameId: 'archers-io',
+        date: '2026-07-01',
+        url: 'archers-io-guide',
+        image: 'archers-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Archers.io is a fast‑paced multiplayer arena game where you control a lone archer and gradually build an entire army of ...'
+    }
 ];
 
 /* ========================================
