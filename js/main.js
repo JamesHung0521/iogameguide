@@ -929,6 +929,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["action", "multiplayer", "archery"],
     description: 'Control an archer in an arena, shoot arrows at opponents, and survive as long as possible.'
+    },
+    {
+    id: 'basketball-io',
+    name: 'Basketball.io',
+    icon: '🏀',
+    iconColor: '#FF6B35',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Sports", "Multiplayer", "Action"],
+    description: 'Compete against other players in fast-paced basketball matches to score baskets and dominate the arena.'
     }
 ];
 
@@ -1807,6 +1817,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Archers.io is a fast‑paced multiplayer arena game where you control a lone archer and gradually build an entire army of ...'
+    },
+    {
+        id: 'basketball-io-guide',
+        title: 'Basketball.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Basketball.io',
+        gameId: 'basketball-io',
+        date: '2026-07-02',
+        url: 'basketball-io-guide',
+        image: 'basketball-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Basketball.io is a free, browser‑based multiplayer basketball arena where you jump into quick 3‑on‑3 matches, pick a cus...'
     }
 ];
 
