@@ -939,6 +939,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Sports", "Multiplayer", "Action"],
     description: 'Compete against other players in fast-paced basketball matches to score baskets and dominate the arena.'
+    },
+    {
+    id: 'boxer-io',
+    name: 'Boxer.io',
+    icon: '🥊',
+    iconColor: '#DC143C',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["multiplayer", "action", "fighting"],
+    description: 'A fast-paced multiplayer boxing game where you battle against other players to become the ultimate champion.'
     }
 ];
 
@@ -1829,6 +1839,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Basketball.io is a free, browser‑based multiplayer basketball arena where you jump into quick 3‑on‑3 matches, pick a cus...'
+    },
+    {
+        id: 'boxer-io-guide',
+        title: 'Boxer.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Boxer.io',
+        gameId: 'boxer-io',
+        date: '2026-07-03',
+        url: 'boxer-io-guide',
+        image: 'boxer-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Boxer.io is a fast‑paced multiplayer boxing game where stick‑style fighters clash in a vibrant arena. Unlike traditional...'
     }
 ];
 
