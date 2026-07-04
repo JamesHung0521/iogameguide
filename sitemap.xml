@@ -180,6 +180,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+<url>
+    <loc>https://iogameguide.com/guides/lordz-io-guide</loc>
+    <lastmod>2026-06-24</lastmod>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://iogameguide.com/guides/medieval-io-guide</loc>
     <lastmod>2026-06-24</lastmod>
