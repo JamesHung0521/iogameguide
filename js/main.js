@@ -949,6 +949,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["multiplayer", "action", "fighting"],
     description: 'A fast-paced multiplayer boxing game where you battle against other players to become the ultimate champion.'
+    },
+    {
+    id: 'axes-io',
+    name: 'AXES.io',
+    icon: '🪓',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["action", "battle-royale", "multiplayer"],
+    description: 'Throw axes at opponents in fast-paced arena combat as you try to survive and become the last player standing.'
     }
 ];
 
@@ -1851,6 +1861,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Boxer.io is a fast‑paced multiplayer boxing game where stick‑style fighters clash in a vibrant arena. Unlike traditional...'
+    },
+    {
+        id: 'axes-io-guide',
+        title: 'AXES.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'AXES.io',
+        gameId: 'axes-io',
+        date: '2026-07-04',
+        url: 'axes-io-guide',
+        image: 'axes-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'AXES.io is a fast-paced mobile battle royale where players compete in arena combat by throwing axes at opponents to beco...'
     }
 ];
 
