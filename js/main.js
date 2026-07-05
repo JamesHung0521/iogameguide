@@ -959,6 +959,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["action", "battle-royale", "multiplayer"],
     description: 'Throw axes at opponents in fast-paced arena combat as you try to survive and become the last player standing.'
+    },
+    {
+    id: 'axe-io',
+    name: 'Axe.io',
+    icon: '🪓',
+    iconColor: '#8B5A2B',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["multiplayer", "action", "battle"],
+    description: 'Throw axes at opponents in fast-paced multiplayer arena combat.'
     }
 ];
 
@@ -1873,6 +1883,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'AXES.io is a fast-paced mobile battle royale where players compete in arena combat by throwing axes at opponents to beco...'
+    },
+    {
+        id: 'axe-io-guide',
+        title: 'Axe.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Axe.io',
+        gameId: 'axe-io',
+        date: '2026-07-05',
+        url: 'axe-io-guide',
+        image: 'axe-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Axe.io is a fast‑paced multiplayer .io arena where each player wields a single throwing axe and battles to dominate the ...'
     }
 ];
 
