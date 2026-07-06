@@ -969,6 +969,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["multiplayer", "action", "battle"],
     description: 'Throw axes at opponents in fast-paced multiplayer arena combat.'
+    },
+    {
+    id: 'bighole-io',
+    name: 'BigHole.io',
+    icon: '🕳️',
+    iconColor: '#2C3E50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["casual", "arcade", "consumption"],
+    description: 'Control a growing black hole that swallows objects and debris to become the biggest hole on the map.'
     }
 ];
 
@@ -1895,6 +1905,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Axe.io is a fast‑paced multiplayer .io arena where each player wields a single throwing axe and battles to dominate the ...'
+    },
+    {
+        id: 'bighole-io-guide',
+        title: 'BigHole.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BigHole.io',
+        gameId: 'bighole-io',
+        date: '2026-07-06',
+        url: 'bighole-io-guide',
+        image: 'bighole-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'BigHole.io is a competitive multiplayer game where you control a growing black hole that devours objects, buildings, and...'
     }
 ];
 
