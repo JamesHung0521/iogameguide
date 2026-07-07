@@ -979,6 +979,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["casual", "arcade", "consumption"],
     description: 'Control a growing black hole that swallows objects and debris to become the biggest hole on the map.'
+    },
+    {
+    id: 'bruh-io',
+    name: 'Bruh.io',
+    icon: '😎',
+    iconColor: '#FFD93D',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["casual", "multiplayer", "action"],
+    description: 'A casual multiplayer action game where players compete to survive and outplay opponents in fast-paced matches.'
     }
 ];
 
@@ -1917,6 +1927,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'BigHole.io is a competitive multiplayer game where you control a growing black hole that devours objects, buildings, and...'
+    },
+    {
+        id: 'bruh-io-guide',
+        title: 'Bruh.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Bruh.io',
+        gameId: 'bruh-io',
+        date: '2026-07-07',
+        url: 'bruh-io-guide',
+        image: 'bruh-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Bruh.io is a fast‑paced, browser‑based multiplayer battle royale where you drop onto a shrinking arena, scavenge weapons...'
     }
 ];
 
