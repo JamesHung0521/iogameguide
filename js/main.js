@@ -989,6 +989,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["casual", "multiplayer", "action"],
     description: 'A casual multiplayer action game where players compete to survive and outplay opponents in fast-paced matches.'
+    },
+    {
+    id: 'brosswordz-io',
+    name: 'BrosSwordz.io',
+    icon: '⚔️',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Combat", "Fighting", "Multiplayer"],
+    description: 'Fast-paced multiplayer sword battle arena where players fight against each other using various sword weapons.'
     }
 ];
 
@@ -1939,6 +1949,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Bruh.io is a fast‑paced, browser‑based multiplayer battle royale where you drop onto a shrinking arena, scavenge weapons...'
+    },
+    {
+        id: 'brosswordz-io-guide',
+        title: 'BrosSwordz.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BrosSwordz.io',
+        gameId: 'brosswordz-io',
+        date: '2026-07-08',
+        url: 'brosswordz-io-guide',
+        image: 'brosswordz-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'BrosSwordz.io is a fast‑paced, browser‑based multiplayer sword battle arena where players choose from a roster of swords...'
     }
 ];
 
