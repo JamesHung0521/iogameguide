@@ -999,6 +999,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Combat", "Fighting", "Multiplayer"],
     description: 'Fast-paced multiplayer sword battle arena where players fight against each other using various sword weapons.'
+    },
+    {
+    id: 'basketbros-io',
+    name: 'BasketBros.io',
+    icon: '🏀',
+    iconColor: '#FF8C00',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Sports", "Basketball", "Multiplayer"],
+    description: 'Compete in fast-paced 1v1 or 2v2 arcade basketball matches against players from around the world.'
     }
 ];
 
@@ -1961,6 +1971,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BrosSwordz.io is a fast‑paced, browser‑based multiplayer sword battle arena where players choose from a roster of swords...'
+    },
+    {
+        id: 'basketbros-io-guide',
+        title: 'BasketBros.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BasketBros.io',
+        gameId: 'basketbros-io',
+        date: '2026-07-09',
+        url: 'basketbros-io-guide',
+        image: 'basketbros-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'BasketBros.io is a fast-paced, browser-based arcade basketball game developed by Blue Wizard Digital LP that strips away...'
     }
 ];
 
