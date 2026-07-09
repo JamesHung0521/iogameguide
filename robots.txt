@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /*.html$
+Disallow: /index
 
 Sitemap: https://iogameguide.com/sitemap.xml
