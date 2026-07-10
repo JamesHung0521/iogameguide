@@ -1009,6 +1009,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Sports", "Basketball", "Multiplayer"],
     description: 'Compete in fast-paced 1v1 or 2v2 arcade basketball matches against players from around the world.'
+    },
+    {
+    id: 'buildroyale-io',
+    name: 'BuildRoyale.io',
+    icon: '🏗️',
+    iconColor: '#FF9800',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Building", "Battle Royale", "Shooter"],
+    description: 'Build structures to defend yourself and fight to be the last player standing in this browser-based battle royale game.'
     }
 ];
 
@@ -1983,6 +1993,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'BasketBros.io is a fast-paced, browser-based arcade basketball game developed by Blue Wizard Digital LP that strips away...'
+    },
+    {
+        id: 'buildroyale-io-guide',
+        title: 'BuildRoyale.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BuildRoyale.io',
+        gameId: 'buildroyale-io',
+        date: '2026-07-10',
+        url: 'buildroyale-io-guide',
+        image: 'buildroyale-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'BuildRoyale.io is a fast-paced, browser-based battle royale game where building and shooting seamlessly blend. Unlike tr...'
     }
 ];
 
