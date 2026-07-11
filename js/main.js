@@ -1019,6 +1019,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Building", "Battle Royale", "Shooter"],
     description: 'Build structures to defend yourself and fight to be the last player standing in this browser-based battle royale game.'
+    },
+    {
+    id: 'copter-io',
+    name: 'Copter.io',
+    icon: '🚁',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["arcade", "endless-runner", "skill"],
+    description: 'Navigate a helicopter through an endless, obstacle-filled cave while collecting coins and avoiding crashes.'
     }
 ];
 
@@ -2005,6 +2015,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BuildRoyale.io is a fast-paced, browser-based battle royale game where building and shooting seamlessly blend. Unlike tr...'
+    },
+    {
+        id: 'copter-io-guide',
+        title: 'Copter.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Copter.io',
+        gameId: 'copter-io',
+        date: '2026-07-11',
+        url: 'copter-io-guide',
+        image: 'copter-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Copter.io is a thrilling multiplayer .io game that drops you into an intense aerial battlefield as the pilot of a custom...'
     }
 ];
 
