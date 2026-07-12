@@ -1029,6 +1029,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["arcade", "endless-runner", "skill"],
     description: 'Navigate a helicopter through an endless, obstacle-filled cave while collecting coins and avoiding crashes.'
+    },
+    {
+    id: 'battlepoint-io',
+    name: 'Battlepoint.io',
+    icon: '🎯',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Shooter", "Action", "Multiplayer"],
+    description: 'A fast-paced multiplayer top-down shooter where players battle to dominate the arena.'
     }
 ];
 
@@ -2027,6 +2037,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Copter.io is a thrilling multiplayer .io game that drops you into an intense aerial battlefield as the pilot of a custom...'
+    },
+    {
+        id: 'battlepoint-io-guide',
+        title: 'Battlepoint.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Battlepoint.io',
+        gameId: 'battlepoint-io',
+        date: '2026-07-12',
+        url: 'battlepoint-io-guide',
+        image: 'battlepoint-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Battlepoint.io is a fast-paced, multiplayer top-down shooter that drops you into an explosive, shrinking arena. Unlike t...'
     }
 ];
 
