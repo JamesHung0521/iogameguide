@@ -1039,6 +1039,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Shooter", "Action", "Multiplayer"],
     description: 'A fast-paced multiplayer top-down shooter where players battle to dominate the arena.'
+    },
+    {
+    id: 'braains-io',
+    name: 'Braains.io',
+    icon: '🧠',
+    iconColor: '#D32F2F',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Zombie", "Survival", "Multiplayer"],
+    description: 'Play as a zombie hunting humans for their brains or survive the horde as a human in this multiplayer game.'
     }
 ];
 
@@ -2049,6 +2059,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Battlepoint.io is a fast-paced, multiplayer top-down shooter that drops you into an explosive, shrinking arena. Unlike t...'
+    },
+    {
+        id: 'braains-io-guide',
+        title: 'Braains.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Braains.io',
+        gameId: 'braains-io',
+        date: '2026-07-13',
+        url: 'braains-io-guide',
+        image: 'braains-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Braains.io is a thrilling multiplayer zombie survival arena where players choose their destiny: fight for survival as a ...'
     }
 ];
 
