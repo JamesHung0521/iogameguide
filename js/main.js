@@ -1049,6 +1049,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Zombie", "Survival", "Multiplayer"],
     description: 'Play as a zombie hunting humans for their brains or survive the horde as a human in this multiplayer game.'
+    },
+    {
+    id: 'aquar-io',
+    name: 'Aquar.io',
+    icon: '🐠',
+    iconColor: '#00BFFF',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["aquarium", "evolution", "casual"],
+    description: 'Feed smaller fish to grow and evolve into larger marine creatures in a competitive aquarium ecosystem.'
     }
 ];
 
@@ -2071,6 +2081,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Braains.io is a thrilling multiplayer zombie survival arena where players choose their destiny: fight for survival as a ...'
+    },
+    {
+        id: 'aquar-io-guide',
+        title: 'Aquar.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Aquar.io',
+        gameId: 'aquar-io',
+        date: '2026-07-14',
+        url: 'aquar-io-guide',
+        image: 'aquar-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Aquar.io is the highly anticipated sequel to Oceanar.io, offering a fascinating multiplayer underwater ecosystem where y...'
     }
 ];
 
