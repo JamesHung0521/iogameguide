@@ -1059,6 +1059,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["aquarium", "evolution", "casual"],
     description: 'Feed smaller fish to grow and evolve into larger marine creatures in a competitive aquarium ecosystem.'
+    },
+    {
+    id: 'babyshark-io',
+    name: 'BabyShark.io',
+    icon: '🦈',
+    iconColor: '#00B4D8',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["arcade", "multiplayer", "animal"],
+    description: 'Swim around the ocean as a baby shark, eating smaller fish to grow while avoiding larger predators.'
     }
 ];
 
@@ -2093,6 +2103,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Aquar.io is the highly anticipated sequel to Oceanar.io, offering a fascinating multiplayer underwater ecosystem where y...'
+    },
+    {
+        id: 'babyshark-io-guide',
+        title: 'BabyShark.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BabyShark.io',
+        gameId: 'babyshark-io',
+        date: '2026-07-15',
+        url: 'babyshark-io-guide',
+        image: 'babyshark-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'BabyShark.io is a vibrant, browser-based multiplayer survival game that puts a playful twist on the classic eat-and-grow...'
     }
 ];
 
