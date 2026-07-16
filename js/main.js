@@ -1069,6 +1069,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["arcade", "multiplayer", "animal"],
     description: 'Swim around the ocean as a baby shark, eating smaller fish to grow while avoiding larger predators.'
+    },
+    {
+    id: 'bombom-io',
+    name: 'BomBom.io',
+    icon: '💣',
+    iconColor: '#FF5722',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Action", "Multiplayer", "Arcade"],
+    description: 'Place bombs strategically to eliminate other players and be the last one standing in an explosive multiplayer arena.'
     }
 ];
 
@@ -2115,6 +2125,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'BabyShark.io is a vibrant, browser-based multiplayer survival game that puts a playful twist on the classic eat-and-grow...'
+    },
+    {
+        id: 'bombom-io-guide',
+        title: 'BomBom.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BomBom.io',
+        gameId: 'bombom-io',
+        date: '2026-07-16',
+        url: 'bombom-io-guide',
+        image: 'bombom-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'BomBom.io is a fast-paced, explosive multiplayer arena game that puts a thrilling spin on the classic bomberman formula....'
     }
 ];
 
