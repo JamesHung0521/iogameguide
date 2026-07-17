@@ -1079,6 +1079,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Action", "Multiplayer", "Arcade"],
     description: 'Place bombs strategically to eliminate other players and be the last one standing in an explosive multiplayer arena.'
+    },
+    {
+    id: 'block-io',
+    name: 'Block.io',
+    icon: '🧱',
+    iconColor: '#2ECC71',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["arcade", "multiplayer", "sandbox"],
+    description: 'Compete against other players to build structures and capture territory in a blocky voxel arena.'
     }
 ];
 
@@ -2137,6 +2147,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BomBom.io is a fast-paced, explosive multiplayer arena game that puts a thrilling spin on the classic bomberman formula....'
+    },
+    {
+        id: 'block-io-guide',
+        title: 'Block.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Block.io',
+        gameId: 'block-io',
+        date: '2026-07-17',
+        url: 'block-io-guide',
+        image: 'block-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Block.io is a thrilling free-to-play multiplayer browser game that combines the addictive nature of classic IO titles wi...'
     }
 ];
 
