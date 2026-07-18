@@ -1089,6 +1089,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["arcade", "multiplayer", "sandbox"],
     description: 'Compete against other players to build structures and capture territory in a blocky voxel arena.'
+    },
+    {
+    id: 'animal-io',
+    name: 'Animal.io',
+    icon: '🐾',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["casual", "multiplayer", "animal"],
+    description: 'Evolve your animal by eating smaller creatures and avoiding predators in a massive multiplayer ecosystem.'
     }
 ];
 
@@ -2159,6 +2169,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Block.io is a thrilling free-to-play multiplayer browser game that combines the addictive nature of classic IO titles wi...'
+    },
+    {
+        id: 'animal-io-guide',
+        title: 'Animal.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Animal.io',
+        gameId: 'animal-io',
+        date: '2026-07-18',
+        url: 'animal-io-guide',
+        image: 'animal-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Animal.io is a chaotic multiplayer arena game where players evolve their animals by consuming food and knocking opponent...'
     }
 ];
 
