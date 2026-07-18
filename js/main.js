@@ -1089,16 +1089,6 @@ const gamesData = [
     difficulty: 2,
     tags: ["arcade", "multiplayer", "sandbox"],
     description: 'Compete against other players to build structures and capture territory in a blocky voxel arena.'
-    },
-    {
-    id: 'agario-io',
-    name: 'Agario.io',
-    icon: '🟢',
-    iconColor: '#4CAF50',
-    guideCount: 1,
-    difficulty: 2,
-    tags: ["multiplayer", "arcade", "io"],
-    description: 'Control a growing cell to consume smaller pellets and players while avoiding being eaten by larger ones.'
     }
 ];
 
@@ -2169,18 +2159,6 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Block.io is a thrilling free-to-play multiplayer browser game that combines the addictive nature of classic IO titles wi...'
-    },
-    {
-        id: 'agario-io-guide',
-        title: 'Agario.io Guide: Tips, Strategies & Advanced Techniques',
-        game: 'Agario.io',
-        gameId: 'agario-io',
-        date: '2026-07-18',
-        url: 'agario-io-guide',
-        image: 'agario-io',
-        difficulty: 2,
-        readTime: '8 min',
-        excerpt: 'Agar.io is the pioneering multiplayer online .io game created by Matheus Valadares, where players control a simple cell ...'
     }
 ];
 
