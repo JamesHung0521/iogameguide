@@ -1099,6 +1099,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["casual", "multiplayer", "animal"],
     description: 'Evolve your animal by eating smaller creatures and avoiding predators in a massive multiplayer ecosystem.'
+    },
+    {
+    id: 'battle-io',
+    name: 'Battle.io',
+    icon: '⚔️',
+    iconColor: '#FF5722',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Action", "Shooter", "Battle Royale"],
+    description: 'A fast-paced multiplayer battle arena where players fight with weapons and vehicles to be the last one standing.'
     }
 ];
 
@@ -2181,6 +2191,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Animal.io is a chaotic multiplayer arena game where players evolve their animals by consuming food and knocking opponent...'
+    },
+    {
+        id: 'battle-io-guide',
+        title: 'Battle.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Battle.io',
+        gameId: 'battle-io',
+        date: '2026-07-19',
+        url: 'battle-io-guide',
+        image: 'battle-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Battle.io is a thrilling, fast-paced multiplayer battle arena that drops you into a chaotic top-down battlefield where o...'
     }
 ];
 
