@@ -1109,6 +1109,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Action", "Shooter", "Battle Royale"],
     description: 'A fast-paced multiplayer battle arena where players fight with weapons and vehicles to be the last one standing.'
+    },
+    {
+    id: 'battle-royale-io',
+    name: 'Battle Royale.io',
+    icon: '🪂',
+    iconColor: '#E74C3C',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ["Shooter", "Battle Royale", "Action"],
+    description: 'Drop into a shrinking arena, scavenge for weapons, and be the last player standing in this fast-paced multiplayer shooter.'
     }
 ];
 
@@ -2203,6 +2213,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Battle.io is a thrilling, fast-paced multiplayer battle arena that drops you into a chaotic top-down battlefield where o...'
+    },
+    {
+        id: 'battle-royale-io-guide',
+        title: 'Battle Royale.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Battle Royale.io',
+        gameId: 'battle-royale-io',
+        date: '2026-07-20',
+        url: 'battle-royale-io-guide',
+        image: 'battle-royale-io',
+        difficulty: 4,
+        readTime: '8 min',
+        excerpt: 'Battle Royale.io is a thrilling evolution of the battle royale genre, fusing last-man-standing survival with classic, gr...'
     }
 ];
 
