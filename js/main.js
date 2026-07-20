@@ -1111,14 +1111,14 @@ const gamesData = [
     description: 'A fast-paced multiplayer battle arena where players fight with weapons and vehicles to be the last one standing.'
     },
     {
-    id: 'battle-royale-io',
-    name: 'Battle Royale.io',
+    id: 'zombs-royale-io',
+    name: 'ZombsRoyale.io',
     icon: '🪂',
-    iconColor: '#E74C3C',
+    iconColor: '#ff6b35',
     guideCount: 1,
     difficulty: 4,
     tags: ["Shooter", "Battle Royale", "Action"],
-    description: 'Drop into a shrinking arena, scavenge for weapons, and be the last player standing in this fast-paced multiplayer shooter.'
+    description: '100-player 2D top-down battle royale. Parachute in, loot weapons, survive the gas, and be the last one standing.'
     }
 ];
 
@@ -2215,16 +2215,16 @@ const guidesData = [
         excerpt: 'Battle.io is a thrilling, fast-paced multiplayer battle arena that drops you into a chaotic top-down battlefield where o...'
     },
     {
-        id: 'battle-royale-io-guide',
-        title: 'Battle Royale.io Guide: Tips, Strategies & Advanced Techniques',
-        game: 'Battle Royale.io',
-        gameId: 'battle-royale-io',
+        id: 'zombs-royale-io-guide',
+        title: 'ZombsRoyale.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'ZombsRoyale.io',
+        gameId: 'zombs-royale-io',
         date: '2026-07-20',
-        url: 'battle-royale-io-guide',
-        image: 'battle-royale-io',
+        url: 'zombs-royale-io-guide',
+        image: 'zombs-royale-io',
         difficulty: 4,
         readTime: '8 min',
-        excerpt: 'Battle Royale.io is a thrilling evolution of the battle royale genre, fusing last-man-standing survival with classic, gr...'
+        excerpt: 'ZombsRoyale.io is a fast-paced 2D top-down battle royale dropping 100 players onto an island. Loot weapons, survive the gas...'
     }
 ];
 
