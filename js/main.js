@@ -1119,6 +1119,16 @@ const gamesData = [
     difficulty: 4,
     tags: ["Shooter", "Battle Royale", "Action"],
     description: '100-player 2D top-down battle royale. Parachute in, loot weapons, survive the gas, and be the last one standing.'
+    },
+    {
+    id: 'battletabs-io',
+    name: 'BattleTabs.io',
+    icon: '⚔️',
+    iconColor: '#8A2BE2',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Auto-Battler", "RPG", "Idle"],
+    description: 'Collect and upgrade unique characters to automatically battle enemies and conquer realms.'
     }
 ];
 
@@ -2225,6 +2235,18 @@ const guidesData = [
         difficulty: 4,
         readTime: '8 min',
         excerpt: 'ZombsRoyale.io is a fast-paced 2D top-down battle royale dropping 100 players onto an island. Loot weapons, survive the gas...'
+    },
+    {
+        id: 'battletabs-io-guide',
+        title: 'BattleTabs.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BattleTabs.io',
+        gameId: 'battletabs-io',
+        date: '2026-07-21',
+        url: 'battletabs-io-guide',
+        image: 'battletabs-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'BattleTabs.io reimagines classic Battleship as a fast, asynchronous PvP naval combat game. Instead of waiting for oppone...'
     }
 ];
 
