@@ -1139,6 +1139,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Battle Royale", "Shooter", "Survival"],
     description: 'Drop into a shrinking map, scavenge for weapons, and be the last player standing in this fast-paced multiplayer shooter.'
+    },
+    {
+    id: 'bloxdhop-io',
+    name: 'BloxdHop.io',
+    icon: '🧱',
+    iconColor: '#FF9800',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Platformer", "Parkour", "Arcade"],
+    description: 'Jump across blocky platforms and avoid obstacles in this fast-paced parkour game.'
     }
 ];
 
@@ -2269,6 +2279,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Battle Royale.io reimagines the classic last-man-standing genre by fusing intense survival mechanics with the chaotic, g...'
+    },
+    {
+        id: 'bloxdhop-io-guide',
+        title: 'BloxdHop.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BloxdHop.io',
+        gameId: 'bloxdhop-io',
+        date: '2026-07-22',
+        url: 'bloxdhop-io-guide',
+        image: 'bloxdhop-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'BloxdHop.io is a captivating, Minecraft-inspired multiplayer parkour game that challenges players to navigate treacherou...'
     }
 ];
 
