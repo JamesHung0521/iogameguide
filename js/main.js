@@ -1129,6 +1129,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Auto-Battler", "RPG", "Idle"],
     description: 'Collect and upgrade unique characters to automatically battle enemies and conquer realms.'
+    },
+    {
+    id: 'battle-royale-io',
+    name: 'Battle Royale.io',
+    icon: '🪂',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Battle Royale", "Shooter", "Survival"],
+    description: 'Drop into a shrinking map, scavenge for weapons, and be the last player standing in this fast-paced multiplayer shooter.'
     }
 ];
 
@@ -2247,6 +2257,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'BattleTabs.io reimagines classic Battleship as a fast, asynchronous PvP naval combat game. Instead of waiting for oppone...'
+    },
+    {
+        id: 'battle-royale-io-guide',
+        title: 'Battle Royale.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Battle Royale.io',
+        gameId: 'battle-royale-io',
+        date: '2026-07-22',
+        url: 'battle-royale-io-guide',
+        image: 'battle-royale-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Battle Royale.io reimagines the classic last-man-standing genre by fusing intense survival mechanics with the chaotic, g...'
     }
 ];
 
