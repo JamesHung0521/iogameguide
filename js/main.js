@@ -1139,6 +1139,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Platformer", "Parkour", "Arcade"],
     description: 'Jump across blocky platforms and avoid obstacles in this fast-paced parkour game.'
+    },
+    {
+    id: 'brainrots-io',
+    name: 'Brainrots.io',
+    icon: '🧠',
+    iconColor: '#FF00FF',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Meme", "Casual", "Arcade"],
+    description: 'Absorb smaller meme entities and grow your brainrot collection in a chaotic multiplayer arena.'
     }
 ];
 
@@ -2269,6 +2279,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BloxdHop.io is a captivating, Minecraft-inspired multiplayer parkour game that challenges players to navigate treacherou...'
+    },
+    {
+        id: 'brainrots-io-guide',
+        title: 'Brainrots.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Brainrots.io',
+        gameId: 'brainrots-io',
+        date: '2026-07-23',
+        url: 'brainrots-io-guide',
+        image: 'brainrots-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Brainrots.io is a chaotic multiplayer arena game that blends classic .io snake mechanics with the absurd, viral humor of...'
     }
 ];
 
