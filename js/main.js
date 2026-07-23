@@ -1139,16 +1139,6 @@ const gamesData = [
     difficulty: 3,
     tags: ["Platformer", "Parkour", "Arcade"],
     description: 'Jump across blocky platforms and avoid obstacles in this fast-paced parkour game.'
-    },
-    {
-    id: 'all-io-gamesev-io',
-    name: 'ev.io',
-    icon: '🔫',
-    iconColor: '#FF4500',
-    guideCount: 1,
-    difficulty: 4,
-    tags: ["FPS", "Shooter", "Multiplayer"],
-    description: 'A fast-paced 3D multiplayer first-person shooter playable directly in your web browser.'
     }
 ];
 
@@ -2279,18 +2269,6 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BloxdHop.io is a captivating, Minecraft-inspired multiplayer parkour game that challenges players to navigate treacherou...'
-    },
-    {
-        id: 'all-io-gamesev-io-guide',
-        title: 'ev.io Guide: Tips, Strategies & Advanced Techniques',
-        game: 'ev.io',
-        gameId: 'all-io-gamesev-io',
-        date: '2026-07-23',
-        url: 'all-io-gamesev-io-guide',
-        image: 'all-io-gamesev-io',
-        difficulty: 4,
-        readTime: '8 min',
-        excerpt: 'ev.io is a revolutionary, fast-paced 3D multiplayer first-person shooter that runs entirely in your web browser without ...'
     }
 ];
 
