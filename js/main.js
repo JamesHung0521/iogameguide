@@ -1139,6 +1139,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Platformer", "Parkour", "Arcade"],
     description: 'Jump across blocky platforms and avoid obstacles in this fast-paced parkour game.'
+    },
+    {
+    id: 'ants-io',
+    name: 'Ants.io',
+    icon: '🐜',
+    iconColor: '#8B4513',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["multiplayer", "strategy", "simulation"],
+    description: 'Control your ant to gather food, build a massive colony, and defeat rival insects in this multiplayer survival game.'
     }
 ];
 
@@ -2269,6 +2279,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BloxdHop.io is a captivating, Minecraft-inspired multiplayer parkour game that challenges players to navigate treacherou...'
+    },
+    {
+        id: 'ants-io-guide',
+        title: 'Ants.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Ants.io',
+        gameId: 'ants-io',
+        date: '2026-07-23',
+        url: 'ants-io-guide',
+        image: 'ants-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Ants.io is a thrilling multiplayer survival game by wavegame that drops you into a microscopic battleground where every ...'
     }
 ];
 
