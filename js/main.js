@@ -1149,6 +1149,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Meme", "Casual", "Arcade"],
     description: 'Absorb smaller meme entities and grow your brainrot collection in a chaotic multiplayer arena.'
+    },
+    {
+    id: 'battleboats-io',
+    name: 'Battleboats.io',
+    icon: '🚢',
+    iconColor: '#1E90FF',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Multiplayer", "Strategy", "Naval"],
+    description: 'Sink your opponents\' fleets in a real-time multiplayer naval strategy game based on the classic game of Battleship.'
     }
 ];
 
@@ -2291,6 +2301,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Brainrots.io is a chaotic multiplayer arena game that blends classic .io snake mechanics with the absurd, viral humor of...'
+    },
+    {
+        id: 'battleboats-io-guide',
+        title: 'Battleboats.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Battleboats.io',
+        gameId: 'battleboats-io',
+        date: '2026-07-24',
+        url: 'battleboats-io-guide',
+        image: 'battleboats-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Battleboats.io is a thrilling real-time multiplayer naval strategy game that reinvents the classic Battleship experience...'
     }
 ];
 
