@@ -1159,6 +1159,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Multiplayer", "Strategy", "Naval"],
     description: 'Sink your opponents\' fleets in a real-time multiplayer naval strategy game based on the classic game of Battleship.'
+    },
+    {
+    id: 'adventuremoomoo-io',
+    name: 'AdventureMoomoo.io',
+    icon: '🐮',
+    iconColor: '#8B4513',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Survival", "Crafting", "Multiplayer"],
+    description: 'Gather resources, craft weapons, and build villages to survive in a multiplayer animal sandbox world.'
     }
 ];
 
@@ -2313,6 +2323,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Battleboats.io is a thrilling real-time multiplayer naval strategy game that reinvents the classic Battleship experience...'
+    },
+    {
+        id: 'adventuremoomoo-io-guide',
+        title: 'AdventureMoomoo.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'AdventureMoomoo.io',
+        gameId: 'adventuremoomoo-io',
+        date: '2026-07-25',
+        url: 'adventuremoomoo-io-guide',
+        image: 'adventuremoomoo-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'AdventureMoomoo.io is a thrilling multiplayer animal sandbox survival game where players gather resources, craft powerfu...'
     }
 ];
 
