@@ -1169,6 +1169,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Survival", "Crafting", "Multiplayer"],
     description: 'Gather resources, craft weapons, and build villages to survive in a multiplayer animal sandbox world.'
+    },
+    {
+    id: 'badegg-io',
+    name: 'Badegg.io',
+    icon: '🥚',
+    iconColor: '#FFD700',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Physics", "Arena", "Action"],
+    description: 'Push other eggs out of the arena using physics-based collisions to be the last egg standing.'
     }
 ];
 
@@ -2335,6 +2345,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'AdventureMoomoo.io is a thrilling multiplayer animal sandbox survival game where players gather resources, craft powerfu...'
+    },
+    {
+        id: 'badegg-io-guide',
+        title: 'Badegg.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Badegg.io',
+        gameId: 'badegg-io',
+        date: '2026-07-26',
+        url: 'badegg-io-guide',
+        image: 'badegg-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Badegg.io is a chaotic, physics-based multiplayer arena game where your ultimate goal is to be the last egg standing. Un...'
     }
 ];
 
