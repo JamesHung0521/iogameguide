@@ -1179,6 +1179,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Physics", "Arena", "Action"],
     description: 'Push other eggs out of the arena using physics-based collisions to be the last egg standing.'
+    },
+    {
+    id: 'battles-io',
+    name: 'Battles.io',
+    icon: '⚔️',
+    iconColor: '#E74C3C',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Action", "Multiplayer", "Arena"],
+    description: 'Engage in fast-paced multiplayer combat and battle against players worldwide in an arena.'
     }
 ];
 
@@ -2357,6 +2367,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Badegg.io is a chaotic, physics-based multiplayer arena game where your ultimate goal is to be the last egg standing. Un...'
+    },
+    {
+        id: 'battles-io-guide',
+        title: 'Battles.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Battles.io',
+        gameId: 'battles-io',
+        date: '2026-07-27',
+        url: 'battles-io-guide',
+        image: 'battles-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Battles.io is a fast-paced, browser-based multiplayer strategy game where quick thinking meets fierce competition. Unlik...'
     }
 ];
 
