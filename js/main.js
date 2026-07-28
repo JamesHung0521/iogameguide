@@ -1189,6 +1189,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Action", "Multiplayer", "Arena"],
     description: 'Engage in fast-paced multiplayer combat and battle against players worldwide in an arena.'
+    },
+    {
+    id: 'battlefields-io',
+    name: 'Battlefields.io',
+    icon: '🪖',
+    iconColor: '#556B2F',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Action", "Multiplayer", "Strategy"],
+    description: 'Engage in intense multiplayer combat, commanding tanks and troops to conquer territories and defeat rival players.'
     }
 ];
 
@@ -2379,6 +2389,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Battles.io is a fast-paced, browser-based multiplayer strategy game where quick thinking meets fierce competition. Unlik...'
+    },
+    {
+        id: 'battlefields-io-guide',
+        title: 'Battlefields.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Battlefields.io',
+        gameId: 'battlefields-io',
+        date: '2026-07-28',
+        url: 'battlefields-io-guide',
+        image: 'battlefields-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Battlefields.io is a fast-paced, multiplayer browser strategy game where you step into the boots of a battle-hardened lo...'
     }
 ];
 
