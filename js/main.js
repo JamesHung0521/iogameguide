@@ -1199,6 +1199,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Action", "Multiplayer", "Strategy"],
     description: 'Engage in intense multiplayer combat, commanding tanks and troops to conquer territories and defeat rival players.'
+    },
+    {
+    id: 'alis-io',
+    name: 'Alis.io',
+    icon: '🪽',
+    iconColor: '#4A90E2',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Arcade", "Multiplayer", "Action"],
+    description: 'Fly through the sky and battle other players in this fast-paced aerial combat arena.'
     }
 ];
 
@@ -2401,6 +2411,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Battlefields.io is a fast-paced, multiplayer browser strategy game where you step into the boots of a battle-hardened lo...'
+    },
+    {
+        id: 'alis-io-guide',
+        title: 'Alis.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Alis.io',
+        gameId: 'alis-io',
+        date: '2026-07-29',
+        url: 'alis-io-guide',
+        image: 'alis-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Alis.io is a thrilling multiplayer online arena game that combines the classic cell-eating mechanics of Agar.io with fas...'
     }
 ];
 
