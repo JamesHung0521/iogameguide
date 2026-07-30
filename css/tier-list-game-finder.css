@@ -109,7 +109,7 @@
 
 .tierlist-widget {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0;
     background: var(--bg-secondary);
     border-radius: 16px;
     padding: 1.5rem;
@@ -364,16 +364,10 @@
     box-shadow: 0 4px 12px rgba(0,255,136,0.3);
 }
 
-/* Two-column layout for tier list section */
+/* Stacked layout for tier list section - intro on top, list below, left-aligned */
 .tierlist-layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: center;
-}
-
-@media (max-width: 768px) {
-    .tierlist-layout {
-        grid-template-columns: 1fr;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
 }
