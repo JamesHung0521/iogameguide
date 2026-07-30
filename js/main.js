@@ -1209,6 +1209,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Arcade", "Multiplayer", "Action"],
     description: 'Fly through the sky and battle other players in this fast-paced aerial combat arena.'
+    },
+    {
+    id: 'bladers-io',
+    name: 'Bladers.io',
+    icon: '🛼',
+    iconColor: '#4FC3F7',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["io", "action", "skating"],
+    description: 'Skate on ice, perform tricks, and battle other players in a fast-paced multiplayer arena.'
     }
 ];
 
@@ -2423,6 +2433,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Alis.io is a thrilling multiplayer online arena game that combines the classic cell-eating mechanics of Agar.io with fas...'
+    },
+    {
+        id: 'bladers-io-guide',
+        title: 'Bladers.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Bladers.io',
+        gameId: 'bladers-io',
+        date: '2026-07-30',
+        url: 'bladers-io-guide',
+        image: 'bladers-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Bladers.io is an exhilarating online multiplayer arena game where players control high-speed spinning tops in intense ba...'
     }
 ];
 
