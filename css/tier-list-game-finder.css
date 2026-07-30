@@ -108,9 +108,9 @@
 }
 
 .tierlist-widget {
-    max-width: 500px;
+    width: 100%;
     margin: 0;
-    background: var(--bg-secondary);
+    background: var(--bg-primary);
     border-radius: 16px;
     padding: 1.5rem;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
@@ -364,10 +364,24 @@
     box-shadow: 0 4px 12px rgba(0,255,136,0.3);
 }
 
-/* Stacked layout for tier list section - intro on top, list below, right-aligned */
-.tierlist-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: flex-end;
+/* Two-column layout: Featured Guides left, Top 10 sidebar right */
+.featured-tierlist-layout {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 2rem;
+    align-items: start;
+}
+
+.tierlist-sidebar {
+    position: sticky;
+    top: 80px;
+}
+
+@media (max-width: 1024px) {
+    .featured-tierlist-layout {
+        grid-template-columns: 1fr;
+    }
+    .tierlist-sidebar {
+        position: static;
+    }
 }
