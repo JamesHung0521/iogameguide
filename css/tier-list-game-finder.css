@@ -42,14 +42,14 @@
 }
 
 .quiz-question-title {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     margin-bottom: 0.5rem;
 }
 
 .quiz-question-subtitle {
     color: var(--text-secondary);
     margin-bottom: 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .quiz-options {
@@ -68,7 +68,7 @@
     border-radius: 12px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: var(--text-primary);
     text-align: left;
     width: 100%;
@@ -81,7 +81,7 @@
 }
 
 .quiz-option-icon {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     flex-shrink: 0;
 }
 
