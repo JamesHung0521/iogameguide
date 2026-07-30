@@ -1,0 +1,379 @@
+/* ========================================
+   Game Finder Quiz Styles
+   ======================================== */
+
+.quiz-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: var(--bg-secondary);
+    border-radius: 16px;
+}
+
+.quiz-progress-wrap {
+    margin-bottom: 2rem;
+}
+
+.quiz-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.quiz-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #00ff88, #00d4ff);
+    transition: width 0.4s ease;
+    border-radius: 4px;
+}
+
+.quiz-progress-text {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.quiz-question {
+    text-align: center;
+}
+
+.quiz-question-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.quiz-question-subtitle {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.quiz-option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem 1.5rem;
+    background: var(--bg-primary);
+    border: 2px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    text-align: left;
+    width: 100%;
+}
+
+.quiz-option:hover {
+    border-color: var(--primary);
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,255,136,0.15);
+}
+
+.quiz-option-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+}
+
+.quiz-option-text {
+    flex-grow: 1;
+}
+
+.animate-in {
+    animation: fadeInUp 0.4s ease;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ========================================
+   Tier List Top 10 Widget Styles
+   ======================================== */
+
+.tierlist-section {
+    padding: 3rem 0;
+    background: var(--bg-primary);
+}
+
+.tierlist-widget {
+    max-width: 500px;
+    margin: 0 auto;
+    background: var(--bg-secondary);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.tierlist-widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.tierlist-widget-title {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.tierlist-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.tierlist-item:hover {
+    transform: translateX(3px);
+}
+
+.tierlist-item:last-child {
+    border-bottom: none;
+}
+
+.tierlist-rank {
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    min-width: 30px;
+    text-align: center;
+}
+
+.tierlist-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.tierlist-name {
+    flex-grow: 1;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.tierlist-name:hover {
+    color: var(--primary);
+}
+
+.tierlist-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+/* ========================================
+   Vote Modal Styles
+   ======================================== */
+
+.vote-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.vote-modal-content {
+    background: var(--bg-primary);
+    border-radius: 16px;
+    max-width: 600px;
+    width: 100%;
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.vote-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.vote-modal-header h3 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.vote-modal-close {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    line-height: 1;
+    padding: 0;
+}
+
+.vote-modal-close:hover {
+    color: var(--text-primary);
+}
+
+.vote-modal-body {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem 1.5rem;
+}
+
+.vote-game-row {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.vote-game-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+
+.vote-game-name {
+    flex-grow: 1;
+    font-size: 0.9rem;
+}
+
+.vote-buttons {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.vote-btn {
+    width: 32px;
+    height: 32px;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 0;
+}
+
+.vote-btn:hover {
+    transform: scale(1.1);
+    border-color: var(--primary);
+}
+
+.vote-btn.voted {
+    color: #fff;
+    border-color: transparent;
+}
+
+.vote-modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.vote-nav-btn {
+    padding: 0.5rem 1rem;
+    background: var(--bg-secondary);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.vote-nav-btn:hover:not(:disabled) {
+    background: var(--primary);
+    color: #000;
+}
+
+.vote-nav-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.vote-page-info {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+/* Tier List CTA Button */
+.tierlist-cta {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.tierlist-cta-btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(135deg, #00ff88, #00d4ff);
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tierlist-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,255,136,0.3);
+}
+
+/* Two-column layout for tier list section */
+.tierlist-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .tierlist-layout {
+        grid-template-columns: 1fr;
+    }
+}
