@@ -29,6 +29,7 @@
     
     <!-- 样式表 -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tier-list-game-finder.css">
     
     <!-- 结构化数据 - Organization -->
     <script type="application/ld+json">
@@ -76,6 +77,7 @@
             <ul class="nav-links">
                 <li><a href="index" class="active">Home</a></li>
                 <li><a href="games">Games</a></li>
+                <li><a href="game-finder">GameFinder</a></li>
                 <li><a href="about">About</a></li>
             </ul>
             
@@ -193,6 +195,38 @@
         </div>
     </section>
 
+    <!-- Community Tier List Top 10 -->
+    <section class="section tierlist-section">
+        <div class="container">
+            <div class="tierlist-layout">
+                <div>
+                    <div class="section-header" style="text-align: left;">
+                        <h2 class="section-title">🏆 Community Top 10</h2>
+                        <p class="section-subtitle">Real-time ranking voted by .io game players</p>
+                    </div>
+                    <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 0.95rem;">
+                        Help rank your favorite .io games! Click "Rate Games" to assign S/A/B/C/D tiers.
+                        Community average scores determine the Top 10 ranking.
+                    </p>
+                    <button class="tierlist-cta-btn" onclick="TierList.openVoteModal()">⚖️ Rate Games</button>
+                </div>
+                <div class="tierlist-widget">
+                    <div class="tierlist-widget-header">
+                        <h3 class="tierlist-widget-title">Top 10 .io Games</h3>
+                    </div>
+                    <div id="tierListTop10">
+                        <p style="color: var(--text-secondary); text-align: center; padding: 2rem 0;">Loading rankings...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vote Modal Overlay -->
+    <div class="vote-modal-overlay" id="voteModalOverlay">
+        <div id="voteModalContent"></div>
+    </div>
+
     <!-- 最新更新游戏 -->
     <section class="section" style="background: var(--bg-secondary);">
         <div class="container">
@@ -290,6 +324,7 @@
                     <ul>
                         <li><a href="index">Home</a></li>
                         <li><a href="games">All Games</a></li>
+                        <li><a href="game-finder">Game Finder</a></li>
                         <li><a href="games">Latest Guides</a></li>
                         <li><a href="about">About Us</a></li>
                     </ul>
@@ -335,6 +370,19 @@
 
     <!-- JavaScript -->
     <script src="js/main.js?v=20260625c"></script>
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/12.16.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.16.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.16.0/firebase-auth-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script>
+        // Initialize Top 10 widget after page load
+        document.addEventListener('DOMContentLoaded', function() {
+            if (window.TierList) {
+                TierList.renderTop10('tierListTop10');
+            }
+        });
+    </script>
     <script>
         // 渲染热门游戏
         document.getElementById('popularGames').innerHTML = 
