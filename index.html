@@ -110,6 +110,8 @@
     <!-- 热门攻略Top6 with thumbnails -->
     <section class="section" style="background: var(--bg-secondary);">
         <div class="container">
+          <div class="featured-tierlist-layout">
+           <div>
             <div class="section-header">
                 <h2 class="section-title">📚 Featured Guides</h2>
                 <p class="section-subtitle">Our most-read strategy guides</p>
@@ -170,6 +172,24 @@
                     </div>
                 </a>
             </div>
+           </div>
+           <!-- Right: Top 10 Sidebar -->
+           <div class="tierlist-sidebar">
+                <div style="margin-bottom: 1rem;">
+                    <h3 style="margin:0 0 0.3rem; font-size:1.2rem;">🏆 Community Top 10</h3>
+                    <p style="color:var(--text-secondary); font-size:0.8rem; margin:0 0 0.8rem;">Real-time ranking voted by players</p>
+                    <button class="tierlist-cta-btn" onclick="TierList.openVoteModal()">⚖️ Rate Games</button>
+                </div>
+                <div class="tierlist-widget">
+                    <div class="tierlist-widget-header">
+                        <h3 class="tierlist-widget-title">Top 10 .io Games</h3>
+                    </div>
+                    <div id="tierListTop10">
+                        <p style="color: var(--text-secondary); text-align: center; padding: 2rem 0;">Loading rankings...</p>
+                    </div>
+                </div>
+           </div>
+          </div>
         </div>
     </section>
 
@@ -191,33 +211,6 @@
             
             <div class="text-center mt-xl">
                 <a href="games" class="btn btn-secondary">View All Games →</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Community Tier List Top 10 -->
-    <section class="section tierlist-section">
-        <div class="container">
-            <div class="tierlist-layout">
-                <div style="text-align: right;">
-                    <div class="section-header" style="text-align: right;">
-                        <h2 class="section-title">🏆 Community Top 10</h2>
-                        <p class="section-subtitle">Real-time ranking voted by .io game players</p>
-                    </div>
-                    <p style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 0.95rem;">
-                        Help rank your favorite .io games! Click "Rate Games" to assign S/A/B/C/D tiers.
-                        Community average scores determine the Top 10 ranking.
-                    </p>
-                    <button class="tierlist-cta-btn" onclick="TierList.openVoteModal()">⚖️ Rate Games</button>
-                </div>
-                <div class="tierlist-widget">
-                    <div class="tierlist-widget-header">
-                        <h3 class="tierlist-widget-title">Top 10 .io Games</h3>
-                    </div>
-                    <div id="tierListTop10">
-                        <p style="color: var(--text-secondary); text-align: center; padding: 2rem 0;">Loading rankings...</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
