@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1074835585646908" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Finder - Find Your Perfect .io Game | iogameguide.com</title>
+    <meta name="description" content="Answer 5 quick questions and get personalized .io game recommendations. Find the perfect game for your playstyle and preferences.">
+    <meta name="keywords" content="io game finder, io game quiz, io game recommendation, which io game should I play">
+    <meta name="author" content="iogameguide.com">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Game Finder - Find Your Perfect .io Game">
+    <meta property="og:description" content="Answer 5 quick questions and get personalized .io game recommendations.">
+    <meta property="og:url" content="https://iogameguide.com/game-finder">
+    <link rel="canonical" href="https://iogameguide.com/game-finder">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": ".io Game Finder",
+      "url": "https://iogameguide.com/game-finder",
+      "description": "Interactive tool that recommends .io games based on your playstyle and preferences",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Web Browser"
+    }
+    </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3SFHCK9FDP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3SFHCK9FDP');
+</script>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index" class="logo">
+                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
+                    <circle cx="18" cy="18" r="16" stroke="url(#grad1)" stroke-width="2"/>
+                    <path d="M12 18 L18 12 L24 18 L18 24 Z" fill="url(#grad1)"/>
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#00ff88"/>
+                            <stop offset="100%" style="stop-color:#00d4ff"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span>iogameguide</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index">Home</a></li>
+                <li><a href="games">Games</a></li>
+                <li><a href="game-finder" class="active">GameFinder</a></li>
+                <li><a href="about">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Game Finder Main Section -->
+    <section class="hero" style="padding: 3rem 0 2rem;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>🎮 Game Finder</h1>
+                <p class="subtitle">Answer 5 quick questions and discover your perfect .io game match</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="section" style="padding-top: 2rem;">
+        <div class="container">
+            <div id="quizContainer" class="quiz-container">
+                <!-- Progress bar -->
+                <div class="quiz-progress-wrap">
+                    <div class="quiz-progress-bar">
+                        <div class="quiz-progress-fill" id="progressFill" style="width: 0%"></div>
+                    </div>
+                    <span class="quiz-progress-text" id="progressText">Question 1 of 5</span>
+                </div>
+
+                <!-- Questions will be rendered here -->
+                <div id="questionArea"></div>
+            </div>
+
+            <!-- Results area (hidden initially) -->
+            <div id="resultsArea" style="display: none;">
+                <div class="section-header">
+                    <h2 class="section-title">🎯 Your Top 3 Matches</h2>
+                    <p class="section-subtitle">Based on your answers, here are the .io games we think you'll love</p>
+                </div>
+                <div id="resultsGrid" class="game-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;"></div>
+                <div class="text-center mt-xl">
+                    <button class="btn btn-primary" onclick="GameFinder.restart()">🔄 Take Quiz Again</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="games">All Games</a></li>
+                        <li><a href="game-finder">Game Finder</a></li>
+                        <li><a href="about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Popular Games</h4>
+                    <ul>
+                        <li><a href="guides/agar-io-guide">Agar.io Guide</a></li>
+                        <li><a href="guides/slither-io-guide">Slither.io</a></li>
+                        <li><a href="guides/diep-io-guide">Diep.io</a></li>
+                        <li><a href="guides/krunker-io-guide">Krunker.io</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="terms-of-service">Terms of Service</a></li>
+                        <li><a href="cookie-policy">Cookie Policy</a></li>
+                        <li><a href="editorial-policy">Editorial Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@iogameguide.com">contact@iogameguide.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 iogameguide.com. All rights reserved. Not affiliated with any game developers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js?v=20260625c"></script>
+    <script>
+    const GameFinder = {
+      currentQuestion: 0,
+      answers: [],
+      
+      questions: [
+        {
+          title: "What pace do you prefer?",
+          subtitle: "Do you like to chill or feel the adrenaline?",
+          options: [
+            { text: "🐢 Slow & Relaxing", value: "slow", icon: "🐢" },
+            { text: "⚖️ Moderate", value: "moderate", icon: "⚖️" },
+            { text: "🔥 Fast & Intense", value: "fast", icon: "🔥" }
+          ]
+        },
+        {
+          title: "What's your playstyle?",
+          subtitle: "How do you like to play?",
+          options: [
+            { text: "🧠 Strategy & Planning", value: "strategy", icon: "🧠" },
+            { text: "⚔️ Pure Action", value: "action", icon: "⚔️" },
+            { text: "🏗️ Building & Creating", value: "building", icon: "🏗️" },
+            { text: "🏕️ Survival", value: "survival", icon: "🏕️" }
+          ]
+        },
+        {
+          title: "Compete or Cooperate?",
+          subtitle: "What's your social style?",
+          options: [
+            { text: "🏆 Competitive PvP", value: "pvp", icon: "🏆" },
+            { text: "🤝 Cooperative", value: "coop", icon: "🤝" },
+            { text: "🚶 Solo Experience", value: "solo", icon: "🚶" }
+          ]
+        },
+        {
+          title: "How long are your sessions?",
+          subtitle: "How much time do you usually spend?",
+          options: [
+            { text: "⚡ 5 minutes", value: "short", icon: "⚡" },
+            { text: "🕑 15 minutes", value: "medium", icon: "🕑" },
+            { text: "🏔️ 30+ minutes", value: "long", icon: "🏔️" }
+          ]
+        },
+        {
+          title: "What vibe appeals to you?",
+          subtitle: "What visual style do you enjoy?",
+          options: [
+            { text: "🌈 Cute & Colorful", value: "cute", icon: "🌈" },
+            { text: "🌑 Dark & Gritty", value: "dark", icon: "🌑" },
+            { text: "🚀 Sci-Fi", value: "scifi", icon: "🚀" },
+            { text: "🎨 Realistic", value: "realistic", icon: "🎨" }
+          ]
+        }
+      ],
+
+      tagMapping: {
+        'strategy': ['Strategy', 'Territory', 'RTS', 'Tower Defense', 'Grid', 'Hex', 'Hexagon'],
+        'action': ['FPS', 'Shooter', 'Combat', 'Shooting', 'Fighting', 'Sword', 'Battle', 'PvP', 'Arena'],
+        'building': ['Building', 'Creative', 'Crafting', 'Sandbox', 'Simulation', 'Physics'],
+        'survival': ['Survival', 'Battle Royale', 'Zombie', 'Evolution'],
+        'pvp': ['PvP', 'Multiplayer', 'Competitive', 'Combat', 'Arena', 'Battle'],
+        'coop': ['Party', 'Multiplayer'],
+        'cute': ['Cell', 'Snake', 'Growth', 'Nature', 'Pets', 'Animal', 'Food Chain'],
+        'dark': ['Zombie', 'Combat', 'Battle Royale', 'Deception'],
+        'scifi': ['Space', 'FPS', 'Tank', 'Cyberpunk', 'Flight', 'Helicopter']
+      },
+
+      init: function() {
+        this.currentQuestion = 0;
+        this.answers = [];
+        this.renderQuestion();
+      },
+
+      renderQuestion: function() {
+        const q = this.questions[this.currentQuestion];
+        const progress = ((this.currentQuestion) / this.questions.length) * 100;
+        
+        document.getElementById('progressFill').style.width = progress + '%';
+        document.getElementById('progressText').textContent = `Question ${this.currentQuestion + 1} of ${this.questions.length}`;
+        
+        document.getElementById('questionArea').innerHTML = `
+          <div class="quiz-question animate-in">
+            <h2 class="quiz-question-title">${q.title}</h2>
+            <p class="quiz-question-subtitle">${q.subtitle}</p>
+            <div class="quiz-options">
+              ${q.options.map((opt, i) => `
+                <button class="quiz-option" onclick="GameFinder.selectAnswer('${opt.value}')">
+                  <span class="quiz-option-icon">${opt.icon}</span>
+                  <span class="quiz-option-text">${opt.text}</span>
+                </button>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      },
+
+      selectAnswer: function(value) {
+        this.answers[this.currentQuestion] = value;
+        this.currentQuestion++;
+        
+        if (this.currentQuestion >= this.questions.length) {
+          this.showResults();
+        } else {
+          this.renderQuestion();
+        }
+      },
+
+      showResults: function() {
+        document.getElementById('progressFill').style.width = '100%';
+        document.getElementById('progressText').textContent = 'Complete!';
+        document.getElementById('quizContainer').style.display = 'none';
+        document.getElementById('resultsArea').style.display = 'block';
+
+        const recommendations = this.calculateMatches();
+        const grid = document.getElementById('resultsGrid');
+        
+        grid.innerHTML = recommendations.map((game, index) => {
+          const matchPercent = Math.round(game.matchScore);
+          const guideLink = `guides/${game.id}-guide`;
+          const reasons = game.reasons.slice(0, 2).map(r => `<li>${r}</li>`).join('');
+          
+          return `
+            <div class="game-card" style="padding: 1.5rem; position: relative; overflow: hidden;">
+              <div style="position: absolute; top: 0; right: 0; background: var(--primary); color: #000; padding: 0.3rem 0.8rem; font-weight: bold; font-size: 0.85rem; border-bottom-left-radius: 12px;">
+                ${matchPercent}% Match
+              </div>
+              <div style="font-size: 2.5rem; margin-bottom: 0.5rem; display: inline-block; width: 50px; height: 50px; line-height: 50px; text-align: center; border-radius: 50%; background: ${game.iconColor};">${game.icon || '🎮'}</div>
+              <h3 style="margin: 0.5rem 0;">${game.name}</h3>
+              <p style="color: var(--text-secondary); font-size: 0.9rem; margin: 0.5rem 0;">${game.description}</p>
+              <div style="margin: 1rem 0;">
+                <strong style="font-size: 0.85rem;">Why we recommend this:</strong>
+                <ul style="margin: 0.3rem 0; padding-left: 1.2rem; font-size: 0.85rem; color: var(--text-secondary);">
+                  ${reasons}
+                </ul>
+              </div>
+              <div style="margin: 0.5rem 0; font-size: 0.8rem; color: var(--text-secondary);">
+                ${game.tags.map(t => `<span style="display: inline-block; background: var(--bg-secondary); padding: 2px 8px; border-radius: 4px; margin: 2px;">${t}</span>`).join('')}
+              </div>
+              <a href="${guideLink}" class="btn btn-primary" style="display: inline-block; margin-top: 0.5rem; text-decoration: none;">📖 Read Guide</a>
+            </div>
+          `;
+        }).join('');
+      },
+
+      calculateMatches: function() {
+        if (!window.iogameguide || !window.iogameguide.games) return [];
+        
+        const games = window.iogameguide.games;
+        const [pace, playstyle, social, session, vibe] = this.answers;
+        
+        const scored = games.map(game => {
+          let score = 0;
+          let reasons = [];
+          const tags = game.tags || [];
+          const tagLower = tags.map(t => t.toLowerCase());
+          
+          // Pace matching (difficulty)
+          if (pace === 'slow' && game.difficulty <= 2) {
+            score += 25; reasons.push('Easy to pick up and play casually');
+          } else if (pace === 'moderate' && game.difficulty >= 2 && game.difficulty <= 3) {
+            score += 25; reasons.push('Balanced difficulty that rewards practice');
+          } else if (pace === 'fast' && game.difficulty >= 3) {
+            score += 25; reasons.push('Fast-paced action that keeps you on your toes');
+          } else {
+            score += 5;
+          }
+          
+          // Playstyle matching (tags)
+          const styleTags = this.tagMapping[playstyle] || [];
+          const styleMatch = tags.some(t => styleTags.includes(t));
+          if (styleMatch) {
+            score += 30;
+            reasons.push(`Perfect for ${playstyle} players`);
+          } else {
+            score += 3;
+          }
+          
+          // Social matching (tags)
+          if (social === 'pvp') {
+            if (tags.some(t => this.tagMapping['pvp'].includes(t))) {
+              score += 20; reasons.push('Competitive PvP gameplay');
+            } else { score += 3; }
+          } else if (social === 'coop') {
+            if (tags.includes('Party') || tags.includes('Multiplayer')) {
+              score += 20; reasons.push('Great for playing with friends');
+            } else { score += 5; }
+          } else {
+            score += 12; reasons.push('Enjoyable solo experience');
+          }
+          
+          // Session length matching (difficulty as proxy)
+          if (session === 'short' && game.difficulty <= 2) {
+            score += 15; reasons.push('Quick matches, perfect for short sessions');
+          } else if (session === 'medium' && game.difficulty >= 2 && game.difficulty <= 4) {
+            score += 15;
+          } else if (session === 'long' && game.difficulty >= 3) {
+            score += 15; reasons.push('Deep gameplay that keeps you engaged');
+          } else {
+            score += 5;
+          }
+          
+          // Vibe matching (tags)
+          const vibeTags = this.tagMapping[vibe] || [];
+          const vibeMatch = tags.some(t => vibeTags.includes(t));
+          if (vibeMatch) {
+            score += 10;
+          }
+          
+          // Bonus for having guides
+          if (game.guideCount > 0) {
+            score += 5;
+          }
+          
+          // Clamp score
+          score = Math.min(score, 100);
+          
+          return { ...game, matchScore: score, reasons };
+        });
+        
+        // Sort by score descending and return top 3
+        scored.sort((a, b) => b.matchScore - a.matchScore);
+        
+        // Ensure at least some variety - if top 3 all have same score, pick different tag groups
+        const top3 = scored.slice(0, 3);
+        
+        // If all 3 have very similar descriptions, try to diversify
+        return top3;
+      },
+
+      restart: function() {
+        document.getElementById('quizContainer').style.display = 'block';
+        document.getElementById('resultsArea').style.display = 'none';
+        this.init();
+      }
+    };
+
+    // Initialize when page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      GameFinder.init();
+    });
+    </script>
+</body>
+</html>
