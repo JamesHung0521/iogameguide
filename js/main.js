@@ -1219,6 +1219,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["io", "action", "skating"],
     description: 'Skate on ice, perform tricks, and battle other players in a fast-paced multiplayer arena.'
+    },
+    {
+    id: 'antwar-io',
+    name: 'AntWar.io',
+    icon: '🐜',
+    iconColor: '#8B4513',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Strategy", "Multiplayer", "Action"],
+    description: 'Build and manage your ant colony while battling other players to control the territory.'
     }
 ];
 
@@ -2445,6 +2455,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Bladers.io is an exhilarating online multiplayer arena game where players control high-speed spinning tops in intense ba...'
+    },
+    {
+        id: 'antwar-io-guide',
+        title: 'AntWar.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'AntWar.io',
+        gameId: 'antwar-io',
+        date: '2026-07-31',
+        url: 'antwar-io-guide',
+        image: 'antwar-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'AntWar.io is a highly strategic multiplayer browser game where you build, manage, and defend your ant colony while battl...'
     }
 ];
 
