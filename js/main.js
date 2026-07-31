@@ -1219,6 +1219,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["io", "action", "skating"],
     description: 'Skate on ice, perform tricks, and battle other players in a fast-paced multiplayer arena.'
+    },
+    {
+    id: 'brawls-io',
+    name: 'Brawls.io',
+    icon: '🥊',
+    iconColor: '#E74C3C',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["action", "multiplayer", "fighting"],
+    description: 'Engage in chaotic multiplayer arena combat, punching and kicking other players to become the ultimate brawler.'
     }
 ];
 
@@ -2445,6 +2455,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Bladers.io is an exhilarating online multiplayer arena game where players control high-speed spinning tops in intense ba...'
+    },
+    {
+        id: 'brawls-io-guide',
+        title: 'Brawls.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Brawls.io',
+        gameId: 'brawls-io',
+        date: '2026-07-31',
+        url: 'brawls-io-guide',
+        image: 'brawls-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Brawls.io is a chaotic 3D multiplayer arena fighter that drops you into intense street-style brawls. Unlike traditional ...'
     }
 ];
 
