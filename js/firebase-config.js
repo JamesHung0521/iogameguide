@@ -196,7 +196,7 @@ const TierList = {
 
     const games = window.iogameguide.games;
     const pageSize = 10;
-    let currentPage = 0;
+    currentPage = 0;  // Use global variable
 
     const renderPage = () => {
       const start = currentPage * pageSize;
