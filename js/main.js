@@ -1229,6 +1229,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Strategy", "Multiplayer", "Action"],
     description: 'Build and manage your ant colony while battling other players to control the territory.'
+    },
+    {
+    id: 'bopz-io',
+    name: 'BOPZ.io',
+    icon: '👊',
+    iconColor: '#FF5722',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["action", "arena", "multiplayer"],
+    description: 'Hit and knock out other players in a fast-paced multiplayer arena to claim the top spot on the leaderboard.'
     }
 ];
 
@@ -2467,6 +2477,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'AntWar.io is a highly strategic multiplayer browser game where you build, manage, and defend your ant colony while battl...'
+    },
+    {
+        id: 'bopz-io-guide',
+        title: 'BOPZ.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BOPZ.io',
+        gameId: 'bopz-io',
+        date: '2026-08-01',
+        url: 'bopz-io-guide',
+        image: 'bopz-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'BOPZ.io is a highly competitive, top-down 2D tactical shooter engineered by End Game Interactive, the creators of ZombsR...'
     }
 ];
 
