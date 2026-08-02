@@ -1239,6 +1239,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["action", "arena", "multiplayer"],
     description: 'Hit and knock out other players in a fast-paced multiplayer arena to claim the top spot on the leaderboard.'
+    },
+    {
+    id: 'battlegrounds-io',
+    name: 'Battlegrounds.io',
+    icon: '🎯',
+    iconColor: '#556B2F',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["battle-royale", "shooter", "multiplayer"],
+    description: 'A fast-paced multiplayer battle royale where players scavenge for weapons and fight to be the last one standing.'
     }
 ];
 
@@ -2489,6 +2499,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BOPZ.io is a highly competitive, top-down 2D tactical shooter engineered by End Game Interactive, the creators of ZombsR...'
+    },
+    {
+        id: 'battlegrounds-io-guide',
+        title: 'Battlegrounds.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Battlegrounds.io',
+        gameId: 'battlegrounds-io',
+        date: '2026-08-02',
+        url: 'battlegrounds-io-guide',
+        image: 'battlegrounds-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Battlegrounds.io is a fast-paced, pixel-art multiplayer battle royale that drops you into a shrinking arena where only o...'
     }
 ];
 
