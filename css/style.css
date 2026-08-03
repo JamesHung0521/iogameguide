@@ -133,7 +133,7 @@ a:hover {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 0 6px rgba(0, 255, 136, 0.6)) drop-shadow(0 0 14px rgba(0, 212, 255, 0.35));
-    animation: neonFlickerLogo 5s infinite;
+    animation: neonFlickerLogo 3s infinite;
 }
 
 /* 导航链接 */
@@ -226,7 +226,7 @@ a:hover {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     filter: drop-shadow(0 0 12px rgba(0, 255, 136, 0.5)) drop-shadow(0 0 28px rgba(0, 212, 255, 0.3));
-    animation: neonFlickerHero 6s infinite;
+    animation: neonFlickerHero 3s infinite;
 }
 
 .hero .subtitle {
