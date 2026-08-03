@@ -1249,6 +1249,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["battle-royale", "shooter", "multiplayer"],
     description: 'A fast-paced multiplayer battle royale where players scavenge for weapons and fight to be the last one standing.'
+    },
+    {
+    id: 'bighero-io',
+    name: 'BigHero.io',
+    icon: '🦸',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["action", "superhero", "arena"],
+    description: 'Battle other players in a superhero arena using unique abilities and power-ups to become the ultimate hero.'
     }
 ];
 
@@ -2511,6 +2521,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Battlegrounds.io is a fast-paced, pixel-art multiplayer battle royale that drops you into a shrinking arena where only o...'
+    },
+    {
+        id: 'bighero-io-guide',
+        title: 'BigHero.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BigHero.io',
+        gameId: 'bighero-io',
+        date: '2026-08-03',
+        url: 'bighero-io-guide',
+        image: 'bighero-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'BigHero.io is a fast-paced multiplayer superhero arena game where players battle to become the ultimate hero. What makes...'
     }
 ];
 
