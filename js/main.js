@@ -1259,6 +1259,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["action", "superhero", "arena"],
     description: 'Battle other players in a superhero arena using unique abilities and power-ups to become the ultimate hero.'
+    },
+    {
+    id: 'airwings-io',
+    name: 'AirWings.io',
+    icon: '✈️',
+    iconColor: '#4A90E2',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["action", "shooter", "multiplayer"],
+    description: 'Engage in intense aerial dogfights and dominate the skies in this fast-paced multiplayer combat game.'
     }
 ];
 
@@ -2533,6 +2543,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'BigHero.io is a fast-paced multiplayer superhero arena game where players battle to become the ultimate hero. What makes...'
+    },
+    {
+        id: 'airwings-io-guide',
+        title: 'AirWings.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'AirWings.io',
+        gameId: 'airwings-io',
+        date: '2026-08-04',
+        url: 'airwings-io-guide',
+        image: 'airwings-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'AirWings.io is a thrilling, fast-paced multiplayer aerial combat game that drops you right into the cockpit of a fighter...'
     }
 ];
 
