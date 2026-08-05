@@ -1269,6 +1269,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["action", "shooter", "multiplayer"],
     description: 'Engage in intense aerial dogfights and dominate the skies in this fast-paced multiplayer combat game.'
+    },
+    {
+    id: 'bombhopper-io',
+    name: 'BombHopper.io',
+    icon: '💣',
+    iconColor: '#FF5722',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Physics", "Platformer", "Action"],
+    description: 'Use the recoil from exploding bombs to blast yourself through physics-based platforming levels and reach the goal.'
     }
 ];
 
@@ -2555,6 +2565,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'AirWings.io is a thrilling, fast-paced multiplayer aerial combat game that drops you right into the cockpit of a fighter...'
+    },
+    {
+        id: 'bombhopper-io-guide',
+        title: 'BombHopper.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BombHopper.io',
+        gameId: 'bombhopper-io',
+        date: '2026-08-05',
+        url: 'bombhopper-io-guide',
+        image: 'bombhopper-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'BombHopper.io is a brilliant physics-based platformer that completely reimagines movement. Developed by Julien Mourer, t...'
     }
 ];
 
