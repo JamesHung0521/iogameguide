@@ -1299,6 +1299,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Action", "Survival", "Multiplayer"],
     description: 'Control a beetle, eat to grow, and defeat other players in a competitive insect survival arena.'
+    },
+    {
+    id: 'carfight-io',
+    name: 'CarFight.io',
+    icon: '🏎️',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["action", "combat", "multiplayer"],
+    description: 'Battle other players in explosive vehicular combat arenas to destroy opponents and dominate the battlefield.'
     }
 ];
 
@@ -2621,6 +2631,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Beetles.io is a fast-paced multiplayer survival arena where you control a baby beetle, eat to grow, and battle other ins...'
+    },
+    {
+        id: 'carfight-io-guide',
+        title: 'CarFight.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'CarFight.io',
+        gameId: 'carfight-io',
+        date: '2026-08-06',
+        url: 'carfight-io-guide',
+        image: 'carfight-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'You keep plummeting off the roof. I see you out there, driving straight into the center of a 2v1 and wondering why your ...'
     }
 ];
 
