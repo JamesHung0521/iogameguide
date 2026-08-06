@@ -1279,6 +1279,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Physics", "Platformer", "Action"],
     description: 'Use the recoil from exploding bombs to blast yourself through physics-based platforming levels and reach the goal.'
+    },
+    {
+    id: 'armedforces-io',
+    name: 'ArmedForces.io',
+    icon: '🪖',
+    iconColor: '#4B5320',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Shooter", "Multiplayer", "Action"],
+    description: 'A team-based military shooter where you select your class and battle against other players in fast-paced arenas.'
     }
 ];
 
@@ -2577,6 +2587,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'BombHopper.io is a brilliant physics-based platformer that completely reimagines movement. Developed by Julien Mourer, t...'
+    },
+    {
+        id: 'armedforces-io-guide',
+        title: 'ArmedForces.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'ArmedForces.io',
+        gameId: 'armedforces-io',
+        date: '2026-08-06',
+        url: 'armedforces-io-guide',
+        image: 'armedforces-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'ArmedForces.io is a fast-paced, browser-based military first-person shooter that drops you directly into intense, team-b...'
     }
 ];
 
