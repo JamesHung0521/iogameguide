@@ -1289,6 +1289,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Shooter", "Multiplayer", "Action"],
     description: 'A team-based military shooter where you select your class and battle against other players in fast-paced arenas.'
+    },
+    {
+    id: 'beetles-io',
+    name: 'Beetles.io',
+    icon: '🪲',
+    iconColor: '#2E8B57',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Action", "Survival", "Multiplayer"],
+    description: 'Control a beetle, eat to grow, and defeat other players in a competitive insect survival arena.'
     }
 ];
 
@@ -2599,6 +2609,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'ArmedForces.io is a fast-paced, browser-based military first-person shooter that drops you directly into intense, team-b...'
+    },
+    {
+        id: 'beetles-io-guide',
+        title: 'Beetles.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Beetles.io',
+        gameId: 'beetles-io',
+        date: '2026-08-06',
+        url: 'beetles-io-guide',
+        image: 'beetles-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Beetles.io is a fast-paced multiplayer survival arena where you control a baby beetle, eat to grow, and battle other ins...'
     }
 ];
 
