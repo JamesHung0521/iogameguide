@@ -1309,6 +1309,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["action", "combat", "multiplayer"],
     description: 'Battle other players in explosive vehicular combat arenas to destroy opponents and dominate the battlefield.'
+    },
+    {
+    id: 'bist-io',
+    name: 'Bist.io',
+    icon: '🦖',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Survival", "Action", "Multiplayer"],
+    description: 'Hunt and evolve your creature in a wild multiplayer survival arena.'
     }
 ];
 
@@ -2643,6 +2653,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'You keep plummeting off the roof. I see you out there, driving straight into the center of a 2v1 and wondering why your ...'
+    },
+    {
+        id: 'bist-io-guide',
+        title: 'Bist.io: 6 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Bist.io',
+        gameId: 'bist-io',
+        date: '2026-08-07',
+        url: 'bist-io-guide',
+        image: 'bist-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'You keep dying in the first five minutes. You spawn, run blindly into the desert, get roasted by a tier 3 predator, and ...'
     }
 ];
 
