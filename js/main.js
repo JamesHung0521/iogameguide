@@ -1313,12 +1313,12 @@ const gamesData = [
     {
     id: 'bist-io',
     name: 'Bist.io',
-    icon: '🦖',
+    icon: '🎖️',
     iconColor: '#4CAF50',
     guideCount: 1,
     difficulty: 3,
-    tags: ["Survival", "Action", "Multiplayer"],
-    description: 'Hunt and evolve your creature in a wild multiplayer survival arena.'
+    tags: ["Tank", "Action", "Multiplayer"],
+    description: 'Drive your tank, collect stars, and dominate the multiplayer battle arena.'
     }
 ];
 
