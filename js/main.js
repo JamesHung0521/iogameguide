@@ -1319,6 +1319,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Tank", "Action", "Multiplayer"],
     description: 'Drive your tank, collect stars, and dominate the multiplayer battle arena.'
+    },
+    {
+    id: 'cavegame-io',
+    name: 'Cavegame.io',
+    icon: '⛰️',
+    iconColor: '#8B4513',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Survival", "Crafting", "Multiplayer"],
+    description: 'A 2D multiplayer survival game inspired by Minecraft where players mine resources, craft weapons, build bases, and engage in PvP combat.'
     }
 ];
 
@@ -2665,6 +2675,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'You keep dying in the first five minutes. You spawn, run blindly into the desert, get roasted by a tier 3 predator, and ...'
+    },
+    {
+        id: 'cavegame-io-guide',
+        title: 'Cavegame.io: 6 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Cavegame.io',
+        gameId: 'cavegame-io',
+        date: '2026-08-08',
+        url: 'cavegame-io-guide',
+        image: 'cavegame-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'You keep dying in the caves. You spawn, you mine, you get jumped by a guy with diamond gear, and you lose everything. St...'
     }
 ];
 
