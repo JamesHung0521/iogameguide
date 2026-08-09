@@ -1329,6 +1329,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Survival", "Crafting", "Multiplayer"],
     description: 'A 2D multiplayer survival game inspired by Minecraft where players mine resources, craft weapons, build bases, and engage in PvP combat.'
+    },
+    {
+    id: 'bubbleman-io',
+    name: 'Bubbleman.io',
+    icon: '🫧',
+    iconColor: '#FF6B6B',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Action", "IO", "Arcade"],
+    description: 'Players drag left and right to control their character, punching colorful enemies to score points and gain time within 30-second rounds, while collecting orbs to grow bigger.'
     }
 ];
 
@@ -2687,6 +2697,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'You keep dying in the caves. You spawn, you mine, you get jumped by a guy with diamond gear, and you lose everything. St...'
+    },
+    {
+        id: 'bubbleman-io-guide',
+        title: 'Bubbleman.io: Every Play Style Ranking Ranked — Which One Actually Wins?',
+        game: 'Bubbleman.io',
+        gameId: 'bubbleman-io',
+        date: '2026-08-09',
+        url: 'bubbleman-io-guide',
+        image: 'bubbleman-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'What is up, .io fans! Everyone in the Bubbleman.io community is arguing about the best way to dominate those chaotic 30-...'
     }
 ];
 
