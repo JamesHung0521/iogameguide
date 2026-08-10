@@ -1339,6 +1339,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Action", "IO", "Arcade"],
     description: 'Players drag left and right to control their character, punching colorful enemies to score points and gain time within 30-second rounds, while collecting orbs to grow bigger.'
+    },
+    {
+    id: 'anguis-io',
+    name: 'Anguis.io',
+    icon: '🐍',
+    iconColor: '#9D4EDD',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["snake", "multiplayer", "io"],
+    description: 'A competitive multiplayer snake game where you control a growing snake in a shared arena, collecting orbs to get bigger while avoiding collisions with other players.'
     }
 ];
 
@@ -2709,6 +2719,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'What is up, .io fans! Everyone in the Bubbleman.io community is arguing about the best way to dominate those chaotic 30-...'
+    },
+    {
+        id: 'anguis-io-guide',
+        title: 'Anguis.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Anguis.io',
+        gameId: 'anguis-io',
+        date: '2026-08-10',
+        url: 'anguis-io-guide',
+        image: 'anguis-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Anguis.io is a highly competitive multiplayer snake game that challenges you to slither your way to supremacy in a vibra...'
     }
 ];
 
