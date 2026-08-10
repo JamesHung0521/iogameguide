@@ -1,9 +1,9 @@
-/* Value Blocks - Editorial supplementary content (Dark theme) */
+/* Value Blocks - Editorial supplementary content */
 .value-blocks-section {
-    background: var(--bg-card);
+    background: #f8f9fa;
     padding: 2.5rem 0;
     margin-top: 2rem;
-    border-top: 3px solid var(--accent-color, #10b981);
+    border-top: 3px solid #e0e0e0;
 }
 .value-blocks-container {
     max-width: 800px;
@@ -19,16 +19,16 @@
 .value-block-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #e0e0f0;
+    color: #1a1a2e;
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid rgba(255,255,255,0.1);
+    border-bottom: 2px solid #e0e0e0;
 }
 /* Our Verdict */
 .verdict-text {
     font-size: 1rem;
     line-height: 1.6;
-    color: #c0c0d0;
+    color: #333;
     margin-bottom: 0.75rem;
     font-style: italic;
 }
@@ -43,7 +43,7 @@
     letter-spacing: 2px;
 }
 .rating-text {
-    color: #9999bb;
+    color: #666;
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -55,16 +55,15 @@
 }
 .similar-games-list li {
     padding: 0.6rem 0;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+    border-bottom: 1px solid #eee;
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #b0b0c0;
 }
 .similar-games-list li:last-child {
     border-bottom: none;
 }
 .similar-games-list a {
-    color: #4db8ff;
+    color: #0066cc;
     font-weight: 600;
     text-decoration: none;
 }
@@ -79,24 +78,22 @@
     margin-top: 0.5rem;
 }
 .comparison-table th {
-    background: rgba(255,255,255,0.08);
-    color: #e0e0f0;
+    background: #1a1a2e;
+    color: #fff;
     padding: 0.75rem;
     text-align: left;
     font-weight: 600;
     font-size: 0.85rem;
-    border: 1px solid rgba(255,255,255,0.1);
 }
 .comparison-table td {
     padding: 0.6rem 0.75rem;
-    border: 1px solid rgba(255,255,255,0.08);
-    color: #c0c0d0;
+    border: 1px solid #e0e0e0;
 }
 .comparison-table tbody tr:nth-child(odd) {
-    background: rgba(255,255,255,0.03);
+    background: #f0f0f5;
 }
 .comparison-table tbody tr:nth-child(even) {
-    background: transparent;
+    background: #fff;
 }
 /* Common Mistakes */
 .mistakes-list {
@@ -110,12 +107,11 @@
     padding: 0.75rem 0.75rem 0.75rem 2.75rem;
     border-left: 4px solid #ff6b6b;
     margin-bottom: 0.6rem;
-    background: rgba(255,107,107,0.08);
+    background: #fff5f5;
     border-radius: 0 4px 4px 0;
     position: relative;
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #c0c0d0;
 }
 .mistakes-list li::before {
     content: counter(mistake-counter);
@@ -127,17 +123,17 @@
     font-size: 1.1rem;
 }
 .mistakes-list li strong {
-    color: #ff8a8a;
+    color: #c0392b;
 }
 /* Last Updated */
 .last-updated-block {
     margin-top: 1.5rem;
     padding-top: 1rem;
-    border-top: 1px solid rgba(255,255,255,0.08);
+    border-top: 1px solid #eee;
 }
 .last-updated {
     font-size: 0.8rem;
-    color: #7777aa;
+    color: #999;
     text-align: right;
     margin: 0;
 }
