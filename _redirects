@@ -1,5 +1,6 @@
 https://www.iogameguide.com/* https://iogameguide.com/:splat 301
 /*.html /:splat 301
 /games/guides/:splat /guides/:splat 301
+/games/:splat /guides/:splat-guide 301
 /guides/agar-io-advanced /guides/agar-io-advanced-guide 301
 /surve-io-all-skins-hack-names-list-for-free/games / 301
