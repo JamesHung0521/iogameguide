@@ -1359,6 +1359,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["obstacle-course", "multiplayer", "racing"],
     description: 'Control a tiny astronaut in a chaotic multiplayer obstacle course survival race, navigating hazards like pitfalls and swinging bats to be the last one standing.'
+    },
+    {
+    id: 'cellcraft-io',
+    name: 'Cellcraft.io',
+    icon: '🦠',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["io", "multiplayer", "arcade"],
+    description: 'Control a blob to consume food and other players to grow, earn XP, and collect coins to craft powerful upgrades in a competitive arena.'
     }
 ];
 
@@ -2753,6 +2763,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'You keep dying in the first thirty seconds. I see you. You spawn in, panic, and immediately faceplant into a pit trap or...'
+    },
+    {
+        id: 'cellcraft-io-guide',
+        title: 'Cellcraft.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Cellcraft.io',
+        gameId: 'cellcraft-io',
+        date: '2026-08-11',
+        url: 'cellcraft-io-guide',
+        image: 'cellcraft-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'You keep dying in the first five minutes, don\'t you? You spawn, you eat a few pellets, and then some veteran turns you i...'
     }
 ];
 
