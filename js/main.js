@@ -1349,6 +1349,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["snake", "multiplayer", "io"],
     description: 'A competitive multiplayer snake game where you control a growing snake in a shared arena, collecting orbs to get bigger while avoiding collisions with other players.'
+    },
+    {
+    id: 'astrodud-io',
+    name: 'Astrodud.io',
+    icon: '🧑‍🚀',
+    iconColor: '#0B3D91',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["obstacle-course", "multiplayer", "racing"],
+    description: 'Control a tiny astronaut in a chaotic multiplayer obstacle course survival race, navigating hazards like pitfalls and swinging bats to be the last one standing.'
     }
 ];
 
@@ -2731,6 +2741,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Anguis.io is a highly competitive multiplayer snake game that challenges you to slither your way to supremacy in a vibra...'
+    },
+    {
+        id: 'astrodud-io-guide',
+        title: 'Astrodud.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Astrodud.io',
+        gameId: 'astrodud-io',
+        date: '2026-08-11',
+        url: 'astrodud-io-guide',
+        image: 'astrodud-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'You keep dying in the first thirty seconds. I see you. You spawn in, panic, and immediately faceplant into a pit trap or...'
     }
 ];
 
