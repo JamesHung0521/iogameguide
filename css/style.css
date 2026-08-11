@@ -709,6 +709,9 @@ a:hover {
 /* 相关攻略 */
 .related-guides {
     margin-top: var(--spacing-2xl);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ========================================
