@@ -1,4 +1,4 @@
-/* Value Blocks - Editorial supplementary content - Dark Theme */
+/* Value Blocks - Editorial supplementary content */
 .value-blocks-section {
     background: #12122a;
     padding: 2.5rem 0;
@@ -56,9 +56,9 @@
 .similar-games-list li {
     padding: 0.6rem 0;
     border-bottom: 1px solid #252550;
+    color: #c0c0d8;
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #c0c0d8;
 }
 .similar-games-list li:last-child {
     border-bottom: none;
@@ -110,11 +110,11 @@
     border-left: 4px solid #ff6b6b;
     margin-bottom: 0.6rem;
     background: #1a1520;
+    color: #c0c0d8;
     border-radius: 0 4px 4px 0;
     position: relative;
     font-size: 0.95rem;
     line-height: 1.5;
-    color: #c0c0d8;
 }
 .mistakes-list li::before {
     content: counter(mistake-counter);
