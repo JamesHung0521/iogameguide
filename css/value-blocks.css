@@ -1,9 +1,9 @@
-/* Value Blocks - Editorial supplementary content */
+/* Value Blocks - Editorial supplementary content - Dark Theme */
 .value-blocks-section {
-    background: #f8f9fa;
+    background: #12122a;
     padding: 2.5rem 0;
     margin-top: 2rem;
-    border-top: 3px solid #e0e0e0;
+    border-top: 3px solid #252550;
 }
 .value-blocks-container {
     max-width: 800px;
@@ -19,16 +19,16 @@
 .value-block-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: #1a1a2e;
+    color: #e0e0f0;
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 2px solid #252550;
 }
 /* Our Verdict */
 .verdict-text {
     font-size: 1rem;
     line-height: 1.6;
-    color: #333;
+    color: #b0b0c8;
     margin-bottom: 0.75rem;
     font-style: italic;
 }
@@ -43,7 +43,7 @@
     letter-spacing: 2px;
 }
 .rating-text {
-    color: #666;
+    color: #8888aa;
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -55,15 +55,16 @@
 }
 .similar-games-list li {
     padding: 0.6rem 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #252550;
     font-size: 0.95rem;
     line-height: 1.5;
+    color: #c0c0d8;
 }
 .similar-games-list li:last-child {
     border-bottom: none;
 }
 .similar-games-list a {
-    color: #0066cc;
+    color: #6b9eff;
     font-weight: 600;
     text-decoration: none;
 }
@@ -78,8 +79,8 @@
     margin-top: 0.5rem;
 }
 .comparison-table th {
-    background: #1a1a2e;
-    color: #fff;
+    background: #1a1a3a;
+    color: #e0e0f0;
     padding: 0.75rem;
     text-align: left;
     font-weight: 600;
@@ -87,13 +88,14 @@
 }
 .comparison-table td {
     padding: 0.6rem 0.75rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #252550;
+    color: #c0c0d8;
 }
 .comparison-table tbody tr:nth-child(odd) {
-    background: #f0f0f5;
+    background: #0f0f23;
 }
 .comparison-table tbody tr:nth-child(even) {
-    background: #fff;
+    background: #1a1a3a;
 }
 /* Common Mistakes */
 .mistakes-list {
@@ -107,11 +109,12 @@
     padding: 0.75rem 0.75rem 0.75rem 2.75rem;
     border-left: 4px solid #ff6b6b;
     margin-bottom: 0.6rem;
-    background: #fff5f5;
+    background: #1a1520;
     border-radius: 0 4px 4px 0;
     position: relative;
     font-size: 0.95rem;
     line-height: 1.5;
+    color: #c0c0d8;
 }
 .mistakes-list li::before {
     content: counter(mistake-counter);
@@ -123,17 +126,17 @@
     font-size: 1.1rem;
 }
 .mistakes-list li strong {
-    color: #c0392b;
+    color: #ff9999;
 }
 /* Last Updated */
 .last-updated-block {
     margin-top: 1.5rem;
     padding-top: 1rem;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #252550;
 }
 .last-updated {
     font-size: 0.8rem;
-    color: #999;
+    color: #666688;
     text-align: right;
     margin: 0;
 }
