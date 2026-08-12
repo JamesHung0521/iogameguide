@@ -1369,6 +1369,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["io", "multiplayer", "arcade"],
     description: 'Control a blob to consume food and other players to grow, earn XP, and collect coins to craft powerful upgrades in a competitive arena.'
+    },
+    {
+    id: 'candy-io',
+    name: 'Candy.io',
+    icon: '🍬',
+    iconColor: '#FF69B4',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["io", "casual"],
+    description: 'The search results provided are empty, and there is no widely documented .io game specifically titled \'Candy.io\' with verifiable mechanics, so the actual core gameplay cannot be described without guessing.'
     }
 ];
 
@@ -2775,6 +2785,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'You keep dying in the first five minutes, don\'t you? You spawn, you eat a few pellets, and then some veteran turns you i...'
+    },
+    {
+        id: 'candy-io-guide',
+        title: 'Candy.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Candy.io',
+        gameId: 'candy-io',
+        date: '2026-08-12',
+        url: 'candy-io-guide',
+        image: 'candy-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Candy.io is a vibrant, slithering survival game set in a colorful candy-themed world. Unlike standard io games, it immer...'
     }
 ];
 
