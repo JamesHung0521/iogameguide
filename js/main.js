@@ -1379,6 +1379,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["io", "casual"],
     description: 'The search results provided are empty, and there is no widely documented .io game specifically titled \'Candy.io\' with verifiable mechanics, so the actual core gameplay cannot be described without guessing.'
+    },
+    {
+    id: 'bball-io',
+    name: 'BBall.io',
+    icon: '🏀',
+    iconColor: '#FF8C00',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Sports", "Multiplayer", "Basketball"],
+    description: 'A fast-paced 3D multiplayer basketball game where you control a single player to sprint, dribble, pass, and dunk against live opponents on a small-sided court.'
     }
 ];
 
@@ -2797,6 +2807,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Candy.io is a vibrant, slithering survival game set in a colorful candy-themed world. Unlike standard io games, it immer...'
+    },
+    {
+        id: 'bball-io-guide',
+        title: 'BBall.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'BBall.io',
+        gameId: 'bball-io',
+        date: '2026-08-13',
+        url: 'bball-io-guide',
+        image: 'bball-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'BBall.io is a fast-paced, 3D multiplayer basketball game that brings the thrill of the court directly to your browser. U...'
     }
 ];
 
