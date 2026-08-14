@@ -1389,6 +1389,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Sports", "Multiplayer", "Basketball"],
     description: 'A fast-paced 3D multiplayer basketball game where you control a single player to sprint, dribble, pass, and dunk against live opponents on a small-sided court.'
+    },
+    {
+    id: 'basketballmoomoo-io',
+    name: 'BasketballMoomoo.io',
+    icon: '🐮',
+    iconColor: '#8B4513',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Survival", "Base Building", "Multiplayer"],
+    description: 'The search results do not contain information about BasketballMoomoo.io, but describe Moomoo.io as a survival game where players collect resources, build villages, and defend windmills.'
     }
 ];
 
@@ -2819,6 +2829,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'BBall.io is a fast-paced, 3D multiplayer basketball game that brings the thrill of the court directly to your browser. U...'
+    },
+    {
+        id: 'basketballmoomoo-io-guide',
+        title: 'BasketballMoomoo.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'BasketballMoomoo.io',
+        gameId: 'basketballmoomoo-io',
+        date: '2026-08-14',
+        url: 'basketballmoomoo-io-guide',
+        image: 'basketballmoomoo-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'You keep getting robbed blind and watching your score flatline because you play like a total casual. I have over two tho...'
     }
 ];
 
