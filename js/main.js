@@ -1390,55 +1390,6 @@ const gamesData = [
     tags: ["Sports", "Multiplayer", "Basketball"],
     description: 'A fast-paced 3D multiplayer basketball game where you control a single player to sprint, dribble, pass, and dunk against live opponents on a small-sided court.'
     },
-    {
-    id: 'basketballmoomoo-io',
-    name: 'BasketballMoomoo.io',
-    icon: '🐮',
-    iconColor: '#8B4513',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["Survival", "Base Building", "Multiplayer"],
-    description: 'The search results do not contain information about BasketballMoomoo.io, but describe Moomoo.io as a survival game where players collect resources, build villages, and defend windmills.'
-    }
-];
-
-/* ========================================
-   攻略数据（用于动态渲染）
-   ======================================== */
-/* ========================================
-   攻略数据 - 标准格式模板
-   新增攻略必须严格按此格式，严禁使用 slug/单引号/字符串difficulty
-   
-   必填字段（缺一不可）:
-   {
-       id: 'xxx-guide',           // 攻略ID，格式: {游戏slug}-guide
-       title: '...',              // 英文标题
-       gameId: 'xxx',             // 对应 gamesData 中的 id
-       date: 'YYYY-MM-DD',        // 发布日期
-   }
-   
-   推荐字段:
-       name: 'Game Name',         // 游戏名
-       difficulty: 1-5,           // 数字！1=Beginner, 3=Intermediate, 5=Advanced
-       readTime: 8,               // 数字（分钟）
-       excerpt: '...',            // 英文摘要
-       url: '/guides/xxx-guide',  // 相对路径
-       image: '/images/games/xxx/hero.jpg',  // 相对路径
-   ======================================== */
-const guidesData = [
-{
-    id: 'betrayal-io-guide',
-    title: 'Betrayal.io Guide: Roles, Tasks, Deception & Voting Strategies',
-    game: 'Betrayal.io',
-    gameId: 'betrayal-io',
-    date: '2026-06-25',
-    url: 'betrayal-io-guide',
-    image: 'betrayal-io',
-    difficulty: 3,
-    readTime: '10 min',
-    excerpt: 'Master Betrayal.io: crewmate tasks, betrayer deception, voting tactics, special roles, and map strategies.',
-    description: 'Complete guide to Betrayal.io covering all roles, task strategies, voting tactics, special roles (Sheriff & Jester), and advanced deception techniques.'
-},
 {
     id: 'tetr-io-guide',
     title: 'TETR.IO Guide: Master Competitive Online Tetris & Ranked Play',
