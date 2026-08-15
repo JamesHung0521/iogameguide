@@ -1799,12 +1799,12 @@ const gamesData = [
     },
     {
         id: 'wings-io-guide',
-        title: 'Wings.io Complete Guide: Master Dogfighting',
+        title: 'Wings.io: 6 Fatal Mistakes Killing Your Dogfights (And How to Fix Them)',
         game: 'Wings.io',
         gameId: 'wings-io',
-        date: '2024-01-15',
+        date: '2026-08-15',
         readTime: '10 min',
-        excerpt: 'Learn plane combat, aircraft selection, and aerial combat tactics.',
+        excerpt: 'Stop dying early in Wings.io. A competitive veteran breaks down the 6 fatal mistakes ruining your aerial runs and exactly how to fix each one.',
         difficulty: 3
     },
     {
