@@ -2792,6 +2792,28 @@ const gamesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'You keep getting robbed blind and watching your score flatline because you play like a total casual. I have over two tho...'
+    },
+    {
+    id: 'castlesiege-io',
+    name: 'Castlesiege.io',
+    icon: '🏰',
+    iconColor: '#f59e0b',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["multiplayer", "strategy", "action"],
+    description: 'Play Castlesiege.io online - a multiplayer browser strategy game.'
+    },
+    {
+        id: 'castlesiege-io-guide',
+        title: 'Castlesiege.io: Every Upgrade Build Strategies Ranked — Which One Actually Wins?',
+        game: 'Castlesiege.io',
+        gameId: 'castlesiege-io',
+        date: '2026-08-16',
+        url: 'castlesiege-io-guide',
+        image: 'castlesiege-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Everyone in the Castlesiege.io community argues about the best way to spend your hard-earned upgrade points. Some say yo...'
     }
 ];
 
