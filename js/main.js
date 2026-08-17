@@ -2814,6 +2814,28 @@ const gamesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Everyone in the Castlesiege.io community argues about the best way to spend your hard-earned upgrade points. Some say yo...'
+    },
+    {
+    id: 'chompers-io',
+    name: 'Chompers.io',
+    icon: '🦖',
+    iconColor: '#FFC107',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["io", "battle", "strategy"],
+    description: 'Lead a magical creature to eat treats, fight other players with various weapons, and grow to become the largest in a competitive multiplayer arena.'
+    },
+    {
+        id: 'chompers-io-guide',
+        title: 'Chompers.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Chompers.io',
+        gameId: 'chompers-io',
+        date: '2026-08-17',
+        url: 'chompers-io-guide',
+        image: 'chompers-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Chompers.io is an intense, evolution-based multiplayer arena game where you control a magical creature competing to beco...'
     }
 ];
 
