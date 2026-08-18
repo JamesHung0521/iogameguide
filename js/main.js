@@ -2836,6 +2836,28 @@ const gamesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Chompers.io is an intense, evolution-based multiplayer arena game where you control a magical creature competing to beco...'
+    },
+    {
+    id: 'colonist-io',
+    name: 'Colonist.io',
+    icon: '🏝️',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Board Game", "Strategy", "Multiplayer"],
+    description: 'Inspired by Catan, this online board game has players collect resources, trade, and build settlements and cities on a hexagonal map to be the first to reach 10 victory points.'
+    },
+    {
+        id: 'colonist-io-guide',
+        title: 'Colonist.io: 6 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Colonist.io',
+        gameId: 'colonist-io',
+        date: '2026-08-18',
+        url: 'colonist-io-guide',
+        image: 'colonist-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'You keep losing because you play like a tourist. I have over two thousand hours in Colonist.io. I have watched you throw...'
     }
 ];
 
