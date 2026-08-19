@@ -2858,6 +2858,28 @@ const gamesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'You keep losing because you play like a tourist. I have over two thousand hours in Colonist.io. I have watched you throw...'
+    },
+    {
+    id: 'catac-io',
+    name: 'Catac.io',
+    icon: '🐱',
+    iconColor: '#FF4B4B',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["IO", "Action", "Multiplayer"],
+    description: 'Battle as an astronaut cat in a space arena, using melee weapons to eliminate others, collect coins, and upgrade your gear in this fast-paced multiplayer survival game.'
+    },
+    {
+        id: 'catac-io-guide',
+        title: 'Catac.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Catac.io',
+        gameId: 'catac-io',
+        date: '2026-08-19',
+        url: 'catac-io-guide',
+        image: 'catac-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Catac.io is a fast-paced multiplayer .io action game where you battle as an astronaut cat in a space arena. Inspired by ...'
     }
 ];
 
