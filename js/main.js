@@ -2880,6 +2880,28 @@ const gamesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Catac.io is a fast-paced multiplayer .io action game where you battle as an astronaut cat in a space arena. Inspired by ...'
+    },
+    {
+    id: 'browser-minecraft-clone-io',
+    name: 'Mine-Craft.io',
+    icon: '⛏️',
+    iconColor: '#7CB342',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Sandbox", "Crafting", "Multiplayer"],
+    description: 'Mine-Craft.io is a free-to-play multiplayer browser game that brings a Minecraft-like building and crafting experience directly to your web browser.'
+    },
+    {
+        id: 'browser-minecraft-clone-io-guide',
+        title: 'Mine-Craft.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Mine-Craft.io',
+        gameId: 'browser-minecraft-clone-io',
+        date: '2026-08-20',
+        url: 'browser-minecraft-clone-io-guide',
+        image: 'browser-minecraft-clone-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Mine-Craft.io is a free-to-play multiplayer browser game that delivers a comprehensive Minecraft-like building and craft...'
     }
 ];
 
