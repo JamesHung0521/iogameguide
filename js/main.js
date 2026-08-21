@@ -2902,6 +2902,28 @@ const gamesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Mine-Craft.io is a free-to-play multiplayer browser game that delivers a comprehensive Minecraft-like building and craft...'
+    },
+    {
+    id: 'arenapoxel-io',
+    name: 'Poxel.io',
+    icon: '🔫',
+    iconColor: '#FF5733',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ["FPS", "Shooter", "Multiplayer"],
+    description: 'Poxel.io is a fast-paced, skill-driven 3D voxel first-person shooter featuring intense arena combat with modes like Free-For-All, Team Deathmatch, and Domination.'
+    },
+    {
+        id: 'arenapoxel-io-guide',
+        title: 'Poxel.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Poxel.io',
+        gameId: 'arenapoxel-io',
+        date: '2026-08-21',
+        url: 'arenapoxel-io-guide',
+        image: 'arenapoxel-io',
+        difficulty: 4,
+        readTime: '8 min',
+        excerpt: 'You keep spawning, dying, and staring at the leaderboard at the bottom. It is embarrassing. I have over 2000 hours in Po...'
     }
 ];
 
