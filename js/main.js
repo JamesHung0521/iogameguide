@@ -2924,6 +2924,28 @@ const gamesData = [
         difficulty: 4,
         readTime: '8 min',
         excerpt: 'You keep spawning, dying, and staring at the leaderboard at the bottom. It is embarrassing. I have over 2000 hours in Po...'
+    },
+    {
+    id: 'cryzen-io',
+    name: 'Cryzen.io',
+    icon: '🔫',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["FPS", "Shooter", "Multiplayer"],
+    description: 'A fast-paced multiplayer first-person shooter where players engage in Deathmatch and Team Deathmatch battles using precise aiming and tactical movement to survive and dominate the arena.'
+    },
+    {
+        id: 'cryzen-io-guide',
+        title: 'Cryzen.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Cryzen.io',
+        gameId: 'cryzen-io',
+        date: '2026-08-22',
+        url: 'cryzen-io-guide',
+        image: 'cryzen-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'You keep dying in the spawn hallway. Again. I have over 2000 hours in Cryzen.io, and I watch new players make the exact ...'
     }
 ];
 
