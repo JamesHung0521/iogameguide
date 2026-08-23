@@ -2946,6 +2946,28 @@ const gamesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'You keep dying in the spawn hallway. Again. I have over 2000 hours in Cryzen.io, and I watch new players make the exact ...'
+    },
+    {
+    id: 'browser-minecraft-modes-io',
+    name: 'Vectaria.io',
+    icon: '⛏️',
+    iconColor: '#5D9E5A',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Action", "Adventure", "Multiplayer"],
+    description: 'A 3D multiplayer .io game where players mine resources, craft items, build structures, and fight others across Survival, Creative, and PvP modes.'
+    },
+    {
+        id: 'browser-minecraft-modes-io-guide',
+        title: 'Vectaria.io: Every Vectaria Play Styles Ranked — Which One Actually Wins?',
+        game: 'Vectaria.io',
+        gameId: 'browser-minecraft-modes-io',
+        date: '2026-08-23',
+        url: 'browser-minecraft-modes-io-guide',
+        image: 'browser-minecraft-modes-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'What’s up, guys! Today we’re diving deep into Vectaria.io. Everyone argues about the \'best\' way to play this game. Do yo...'
     }
 ];
 
