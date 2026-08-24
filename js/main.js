@@ -2968,6 +2968,28 @@ const gamesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'What’s up, guys! Today we’re diving deep into Vectaria.io. Everyone argues about the \'best\' way to play this game. Do yo...'
+    },
+    {
+    id: 'craftnite-io',
+    name: 'Craftnite.io',
+    icon: '🧱',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["FPS", "Battle Royale", "Crafting"],
+    description: 'A browser-based FPS battle royale where players gather resources, craft weapons, and build structures to survive a shrinking map and defeat opponents.'
+    },
+    {
+        id: 'craftnite-io-guide',
+        title: 'Craftnite.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Craftnite.io',
+        gameId: 'craftnite-io',
+        date: '2026-08-24',
+        url: 'craftnite-io-guide',
+        image: 'craftnite-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Craftnite.io is an exciting browser-based FPS battle royale that combines fast-paced shooting with deep survival and bui...'
     }
 ];
 
