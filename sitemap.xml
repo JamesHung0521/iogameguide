@@ -855,5 +855,10 @@
     <loc>https://iogameguide.com/guides/zombs-royale-io-guide.html</loc>
     <lastmod>2026-08-23</lastmod>
   </url>
+  <url>
+    <loc>https://iogameguide.com/guides/craftnite-io-guide</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
 
