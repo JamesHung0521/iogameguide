@@ -2990,6 +2990,28 @@ const gamesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Craftnite.io is an exciting browser-based FPS battle royale that combines fast-paced shooting with deep survival and bui...'
+    },
+    {
+    id: 'arcadestarblast-io',
+    name: 'Starblast.io',
+    icon: '🚀',
+    iconColor: '#0F172A',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["io", "space", "shooter"],
+    description: 'Mine asteroids to collect gems, upgrade your spaceship\'s abilities, and battle other players in a multiplayer space arena.'
+    },
+    {
+        id: 'arcadestarblast-io-guide',
+        title: 'Starblast.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Starblast.io',
+        gameId: 'arcadestarblast-io',
+        date: '2026-08-26',
+        url: 'arcadestarblast-io-guide',
+        image: 'arcadestarblast-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Starblast.io is a high-octane multiplayer arcade space shooter developed by Neuronality that seamlessly blends survival ...'
     }
 ];
 
