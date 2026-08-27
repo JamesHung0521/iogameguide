@@ -512,7 +512,56 @@
             </article>
 
                         <!-- 相关攻略 -->
-            <section class="related-guides">
+            
+                            <h2 id="controls-mechanics-deep-dive">🎮 Controls & Mechanics Deep Dive</h2>
+
+                            <p>Let’s get into the weeds of how Slither.io actually handles movement, because it’s not as simple as just pointing and clicking. Your snake’s movement is governed by a surprisingly deep physics engine that rewards muscle memory and spatial awareness. Unlike games where your character turns instantly, your snake in Slither.io follows your cursor with a slight delay. This turning radius is your biggest friend and your worst enemy. If you try to make a sharp 90-degree turn at high speeds, you’ll overshoot your target and likely crash into your own tail or an enemy.</p>
+
+                            <p>One of the most crucial mechanics to understand is the <strong>hitbox discrepancy</strong>. The visual sprite of your snake is actually wider than its true collision hitbox. Pro players use this to their advantage by "threading the needle"—slipping through impossibly tight gaps between enemy bodies because the game registers their snake as slightly thinner than it looks. Conversely, don't assume you can squeeze through a gap that looks just big enough; if the visual gap is tight, the hitbox might still clip.</p>
+
+                            <p>Then there’s the scoring and mass system. You don't just gain points; you gain physical mass. Every orb you eat adds a segment to your tail, increasing your overall length and maximum potential score. But here's the catch: the longer you get, the slower your base movement speed becomes. When you activate your boost, you aren't just speeding up; you are actively shedding mass (dropping small orbs behind you) to fuel the acceleration. If you boost while you're tiny, you'll burn through your mass and die in seconds. You need to maintain a healthy mass-to-speed ratio, using your boost only when you have the bulk to sustain it.</p>
+
+                            <h2 id="game-modes-breakdown">🎯 Game Modes Breakdown</h2>
+
+                            <p>While the classic browser version is famous for its massive, chaotic Free-For-All, the broader Slither.io ecosystem—especially the official mobile app and popular community servers—offers a few distinct ways to play. Understanding the rules of each mode is key to adjusting your playstyle.</p>
+
+                            <ul>
+                                <li><strong>Classic FFA (Free-For-All):</strong> This is the bread and butter. Up to 500 players drop into a massive map with one simple goal: become the longest snake. There are no teams, no rules, and no mercy. It’s a pure battle royale of attrition where patience and map awareness usually beat raw aggression.</li>
+                                <li><strong>Team Mode (2v2v2 / 3v3v3):</strong> Often found in the mobile app or private servers, this mode groups you with allies. You share a collective team score, and you cannot kill or collide with your teammates. This completely changes the meta. You can use your teammates as literal meat shields, set up complex pincer movements, and safely farm orbs while your larger teammates hold off enemies. Communication is key here.</li>
+                                <li><strong>Battle Royale / Arcade:</strong> Some community servers and app variations feature a shrinking play area. As the timer ticks down, the edges of the map become lethal, forcing all remaining players into a tighter and tighter circle. This mode heavily favors aggressive, highly mobile players who are comfortable with close-quarters combat and quick reflexes.</li>
+                                <li><strong>Solo / Practice Mode:</strong> Perfect for warming up. You can play against basic AI bots or on an empty map. Use this to test your boost limits, practice your turning radius, and figure out exactly how much mass you can safely burn before you start shrinking.</li>
+                            </ul>
+
+                            <h2 id="advanced-strategies-pro-tips">🚀 Advanced Strategies & Pro Tips</h2>
+
+                            <p>You’ve got the basics down, you know how to boost without dying, but now you want to consistently hit the top of the leaderboard. Here’s where we separate the casuals from the tryhards with some macro-level strategies and psychological plays.</p>
+
+                            <p><strong>Master the "Fake-Out" (The Pike Maneuver):</strong> This is a psychological play designed to make aggressive players crash into you. When a smaller, faster snake is chasing you, suddenly activate your boost to make them think you're going for a head-on collision. Right before you connect, release the boost and sharply turn. The chasing player, expecting you to keep going straight, will often overcommit and crash into your side. You just turned a pursuit into a free kill.</p>
+
+                            <p><strong>Macro-Positioning and Edge Farming:</strong> Don't just wander aimlessly. In the early game, hug the outer edges of the map. It limits the angles from which you can be attacked and gives you a clear view of the center. Once you reach a medium size, start slowly migrating toward the center. The center of the map is where the biggest snakes fight and die, dropping massive clusters of orbs. You want to be on the periphery of these massive fights, waiting to swoop in and clean up the leftovers once the giants have eliminated each other.</p>
+
+                            <p><strong>Control Your Mass-to-Agility Ratio:</strong> Many players make the mistake of trying to get as big as possible as fast. But massive snakes are incredibly slow to turn. If you're hovering around the top 10 on the leaderboard, consider intentionally stopping your growth and focusing purely on hunting. A mid-sized snake with high agility can easily outmaneuver a massive, sluggish top-1 snake. Use your speed to wrap around them rather than trying to out-mass them.</p>
+
+                            <p><strong>Minimap Awareness:</strong> The minimap isn't just for seeing where people are; it's for predicting where they're going. If you see a massive snake on the edge of the minimap moving toward the center, you know exactly where the next big orb cluster will spawn. Position yourself along their predicted path, but keep your distance until they make a mistake.</p>
+
+                            <h2 id="frequently-asked-questions">❓ Frequently Asked Questions</h2>
+
+                            <p><strong>How do I consistently reach the top of the leaderboard?</strong><br>
+                            Patience is your best friend. Don't rush into the center of the map in the first two minutes. Farm the edges, build up a solid medium size, and watch the minimap. Wait for the massive snakes to fight each other, then swoop in to eat the massive orb clusters they leave behind. Avoid unnecessary risks until you're in the top 20.</p>
+
+                            <p><strong>Is Slither.io completely free, or are there pay-to-win elements?</strong><br>
+                            The game is 100% free to play on both web browsers and mobile devices. There are absolutely no pay-to-win mechanics. You can buy cosmetic skins or remove ads in the mobile version, but these have zero impact on your snake's speed, size, or hitbox. Everyone plays on a perfectly level playing field.</p>
+
+                            <p><strong>Can I play on the same server as my friends?</strong><br>
+                            Yes! If you're playing on the official mobile app, you can create a private party and share a code with your friends so you can all join the same server. On the web browser version, you'll need to use a third-party private server or a modded client that allows custom lobbies, as the official web servers don't have a native "party up" feature.</p>
+
+                            <p><strong>What are the minimum system requirements to run the game smoothly?</strong><br>
+                            Slither.io is incredibly lightweight. If you have a device made in the last decade with a modern web browser (Chrome, Firefox, Safari, Edge) and a stable internet connection, you can play it. It runs perfectly fine on low-end laptops, older smartphones, and even tablets. The main requirement is a stable connection, as lag will ruin your turning precision.</p>
+
+                            <p><strong>Why does my snake shrink when I boost, and how do I stop it?</strong><br>
+                            Boosting converts your physical mass into forward momentum. Every second you hold the boost button, your snake drops small orbs behind it, literally shrinking your length. To stop shrinking, just release the mouse button or your finger from the screen. Always make sure you have enough mass built up before you hold down the boost, or you'll shrink down to nothing and die.</p>
+                
+<section class="related-guides">
                 <div class="section-header">
                     <h2 class="section-title">📚 Related Guides</h2>
                 </div>
