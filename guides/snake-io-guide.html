@@ -141,7 +141,59 @@
                     <figcaption>Pro techniques</figcaption>
                 </figure>
                 <p>Elite players utilize 'head fake' techniques—briefly moving toward a direction before immediately turning away to trick pursuing enemies into oversteering. They also exploit server latency by positioning their snake so opponents' client-side predictions miscalculate collision boundaries. Pro players maintain a 'danger awareness' system: any snake within 45 degrees of their heading angle receives constant monitoring. Finally, successful players know when to abandon a boost—incomplete boost trails are vulnerable shortcuts others will exploit if you're careless.</p>
-                <h2 id="conclusion">Conclusion</h2>
+                
+                                <h2 id="controls-mechanics-deep-dive">🎮 Controls & Mechanics Deep Dive</h2>
+
+                                <p>Let's get into the nitty-gritty of how Snake.io actually feels under the hood, because understanding the physics is what separates the casuals from the leaderboard regulars. On desktop, you've got two main control schemes: keyboard (WASD or Arrow keys) and mouse. While keyboard controls are fine for beginners, mouse tracking is vastly superior. It allows for micro-adjustments and incredibly smooth, sweeping turns that are practically impossible to pull off with rigid directional keys.</p>
+
+                                <p>The movement physics in Snake.io rely heavily on momentum. You can't just snap into a 90-degree turn when you're moving at top speed. Your snake has a turning radius that tightens up when you slow down but widens out when you're boosting. This means if you're flying across the screen and try to make a sharp pivot, you're gonna overshoot and likely clip your own body or crash into a wall.</p>
+
+                                <p>Then there's the boost mechanic, which is the true heart of the game's risk-reward system. Holding the left mouse button or spacebar makes you surge forward, but it literally burns your own length. You're trading mass for speed. This isn't just for chasing down smaller snakes; it's a vital escape tool. If a massive snake is trying to cage you, a well-timed boost through a tiny gap in their body can save your life. Just remember, if your boost meter drains completely, you'll be left sluggish and vulnerable.</p>
+
+                                <p>Finally, let's talk hitboxes. The game's collision detection is incredibly strict, but it only registers hits on the very front tip of your snake's head. The rest of your body is completely harmless. This means you can intentionally graze the side of another snake's body without dying, as long as your head doesn't cross their path. Knowing exactly where your hitbox ends is crucial for threading the needle through tight spaces.</p>
+
+                                <h2 id="game-modes-breakdown">🎯 Game Modes Breakdown</h2>
+
+                                <p>While the core gameplay loop of eating and growing remains the same, the mode you pick completely changes the vibe and the strategies you need to employ. Here’s a breakdown of what you’ll face in the arena.</p>
+
+                                <ul>
+                                <li><strong>Free For All (FFA):</strong> This is the classic, pure chaos mode. It’s every snake for themselves in a massive arena. The objective is simple: survive, eat, and become the biggest snake on the server. FFA is highly unpredictable because you have to watch your 360-degree perimeter. It’s the best mode for practicing your general survival instincts and learning how to read the movements of random players.</li>
+                                <li><strong>Team Battle:</strong> Usually played in 2v2 or 3v3 formats, this mode shifts the focus from individual glory to squad synergy. Friendly fire is typically turned off, meaning you can safely slither through your teammates' bodies. The real strategy here involves sacrificing. If your teammate is massive and carrying the team, your job as a smaller snake is to act as a scout, block enemies, or even intentionally crash into an opponent to clear a path for your heavy hitter. Communication is key here.</li>
+                                <li><strong>Shrinking Arena (Battle Royale):</strong> This mode takes the tension and dials it up to eleven. The map boundaries slowly and continuously close in, forcing all surviving players into a tighter and tighter space. You can't just camp in the corners and farm pellets anymore. The shrinking zone forces late-game aggression and guarantees massive, multi-snake pile-ups in the final minutes. Positioning in the center early on is critical, as getting pushed to the edge by the closing walls is a death sentence.</li>
+                                </ul>
+
+                                <p>Each mode requires a different mindset. FFA is about patience and opportunism, Teams require selflessness and coordination, and the Shrinking Arena is all about aggressive positioning and late-game clutch plays.</p>
+
+                                <h2 id="advanced-strategies-pro-tips">🚀 Advanced Strategies & Pro Tips</h2>
+
+                                <p>Okay, you know how to move and you know the modes. Now let's talk about how to actually dominate the leaderboard and make those sweaty veterans rage quit. These are the advanced techniques that will completely change how you approach the game.</p>
+
+                                <p><strong>The Herd Technique:</strong> Don't just mindlessly eat pellets. If you're a medium-sized snake, use your body to gently funnel smaller snakes toward clusters of food. They'll think they're getting a free meal, but you're actually positioning them exactly where you want them. Once they're grouped up and distracted, you can easily trap them or pick them off when they make a mistake.</p>
+
+                                <p><strong>The Fake-Out Boost:</strong> This is a brilliant psychological play. When a slightly larger snake is trying to cut you off, boost directly at them like you're going for a head-on collision. 99% of players will panic and swerve to avoid you. The moment they turn, cut your boost and immediately turn in the opposite direction. They'll crash into their own body or fly right past you, leaving you in a prime position to counter-attack.</p>
+
+                                <p><strong>Edge Camping vs. Center Control:</strong> Beginners love to hug the walls because it protects their back. But in the mid-to-late game, the edges are death traps. If a bigger snake pushes you against the wall, you have nowhere to run. Pro players control the center of the map. It’s more dangerous because you have to watch all directions, but it gives you the maximum amount of space to maneuver, boost, and escape traps. Only hug the edge if you're actively setting a trap for someone else.</p>
+
+                                <p><strong>Boost Economy Management:</strong> Stop boosting just because you're bored. Every time you boost, you're literally throwing away your score. Only use your boost when the mathematical advantage is clear: either to secure a kill, to escape a guaranteed death, or to grab a massive cluster of pellets left behind by a dead snake. Treat your boost meter like a limited resource, not an infinite sprint.</p>
+
+                                <h2 id="frequently-asked-questions">❓ Frequently Asked Questions</h2>
+
+                                <p><strong>Is Snake.io completely free to play?</strong><br>
+                                Yes, 100% free. The game is supported by non-intrusive banner ads on the main menu and between matches. There are no pay-to-win mechanics, and you don't need to buy anything to unlock core gameplay features, though you can purchase cosmetic skins if you want to flex.</p>
+
+                                <p><strong>Can I play with my friends in a private match?</strong><br>
+                                Absolutely. When you're in the main lobby, look for the "Create Private Room" option. You can set a custom room name or password, and then just share the room code or link with your friends. It’s a great way to practice team strategies or just mess around without random players ruining the vibe.</p>
+
+                                <p><strong>What are the system requirements to run the game smoothly?</strong><br>
+                                Because it's a browser-based .io game, the system requirements are incredibly low. Any modern laptop or desktop from the last decade can run it. As long as you have a stable internet connection and a browser with hardware acceleration enabled (Chrome, Edge, or Firefox), you'll get a buttery smooth 60 FPS experience. </p>
+
+                                <p><strong>Is the mobile version the same as the browser version?</strong><br>
+                                They are virtually identical in terms of core gameplay, mechanics, and progression. The main difference is the control scheme. The mobile app uses a virtual joystick on the left side of the screen for steering and a dedicated button on the right for boosting. Many players actually prefer the mobile version because the joystick allows for incredibly precise, fluid turning.</p>
+
+                                <p><strong>How do I unlock new skins and customizations?</strong><br>
+                                You unlock new snake skins, eye styles, and hats primarily by leveling up your account, which happens automatically as you accumulate mass and score points in matches. You can also earn in-game currency by completing daily quests and achieving high leaderboard placements, which can be spent in the shop on premium cosmetic items.</p>
+                
+<h2 id="conclusion">Conclusion</h2>
                 <p>Snake.io delivers addictive, accessible gameplay that rewards both quick reflexes and strategic planning. Whether you're competing for leaderboard dominance or simply enjoying quick sessions, the game's intuitive controls and dynamic multiplayer battles ensure every match feels fresh. Try Snake.io today and experience why millions of players are hooked on this modern take on the classic snake game.</p>
             </article><section class="value-blocks-section">
   <div class="value-blocks-container">
