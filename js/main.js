@@ -3012,6 +3012,28 @@ const gamesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'Starblast.io is a high-octane multiplayer arcade space shooter developed by Neuronality that seamlessly blends survival ...'
+    },
+    {
+    id: 'colorwars-io',
+    name: 'ColorWars.io',
+    icon: '🎨',
+    iconColor: '#FF6B6B',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["IO", "Strategy", "Multiplayer"],
+    description: 'Players control a colorful tank to shoot pixel trails and capture territory in a Paper.io-style arena, while managing a gold economy to deploy defenses and eliminate rivals by targeting their trails.'
+    },
+    {
+        id: 'colorwars-io-guide',
+        title: 'ColorWars.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'ColorWars.io',
+        gameId: 'colorwars-io',
+        date: '2026-08-27',
+        url: 'colorwars-io-guide',
+        image: 'colorwars-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'ColorWars.io is a fast-paced, competitive multiplayer territory-control game published by Kepler Yazilim that blends Pap...'
     }
 ];
 
