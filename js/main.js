@@ -3034,6 +3034,28 @@ const gamesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'ColorWars.io is a fast-paced, competitive multiplayer territory-control game published by Kepler Yazilim that blends Pap...'
+    },
+    {
+    id: 'conquer-io',
+    name: 'Conquer.io',
+    icon: '🟩',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Territory", "Strategy", ".io"],
+    description: 'Control a cube to draw paths and expand your territory on a shared board while defending your zones and eliminating opponents by cutting their trails.'
+    },
+    {
+        id: 'conquer-io-guide',
+        title: 'Conquer.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Conquer.io',
+        gameId: 'conquer-io',
+        date: '2026-08-28',
+        url: 'conquer-io-guide',
+        image: 'conquer-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'You keep dying in the first two minutes. You stare at the screen, watching your cube get wiped out for the tenth time, b...'
     }
 ];
 
