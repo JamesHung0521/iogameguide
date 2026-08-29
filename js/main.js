@@ -3056,6 +3056,28 @@ const gamesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'You keep dying in the first two minutes. You stare at the screen, watching your cube get wiped out for the tenth time, b...'
+    },
+    {
+    id: 'evoworld-io',
+    name: 'Evoworld.io',
+    icon: '🦅',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Survival", "Multiplayer", ".io"],
+    description: 'Start as a tiny fly and eat to evolve through dozens of animal stages in a multiplayer survival world where you must hunt smaller creatures while avoiding larger predators.'
+    },
+    {
+        id: 'evoworld-io-guide',
+        title: 'Evoworld.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Evoworld.io',
+        gameId: 'evoworld-io',
+        date: '2026-08-29',
+        url: 'evoworld-io-guide',
+        image: 'evoworld-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'You think you are ready to dominate the skies just because you clicked a few green pixels. You are completely wrong. I h...'
     }
 ];
 
