@@ -3078,6 +3078,28 @@ const gamesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'You think you are ready to dominate the skies just because you clicked a few green pixels. You are completely wrong. I h...'
+    },
+    {
+    id: 'brutes-io',
+    name: 'Brutal.io',
+    icon: '⛓️',
+    iconColor: '#39FF14',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Action", "Multiplayer", "Physics"],
+    description: 'Note: The search results describe \'Brutal.io\' rather than \'Brutes.io\'. In this game, you control a vehicle dragging a spiky flail on a chain, consuming energy and green monsters to grow your weapon and destroy other players in a physics-based neon arena.'
+    },
+    {
+        id: 'brutes-io-guide',
+        title: 'Brutal.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Brutal.io',
+        gameId: 'brutes-io',
+        date: '2026-08-31',
+        url: 'brutes-io-guide',
+        image: 'brutes-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Brutal.io is a fast-paced, physics-based multiplayer arena game where you control a neon vehicle dragging a massive, spi...'
     }
 ];
 
