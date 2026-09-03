@@ -324,6 +324,32 @@ a:hover {
     background: var(--bg-card-hover);
 }
 
+
+.game-card-static {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-color);
+    transition: var(--transition-normal);
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+    min-height: 80px;
+    text-align: center;
+}
+
+.game-card-static:hover {
+    transform: translateY(-5px);
+    border-color: var(--neon-green);
+    box-shadow: var(--shadow-neon);
+    background: var(--bg-card-hover);
+}
+
 .game-card-header {
     display: flex;
     align-items: center;
@@ -1060,3 +1086,4 @@ a:hover {
         animation: none;
     }
 }
+
