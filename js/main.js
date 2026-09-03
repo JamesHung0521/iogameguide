@@ -157,7 +157,6 @@ document.head.appendChild(style);
    ======================================== */
 const gamesData = [
 
-    
 {
     id: 'bloxd-io',
     name: 'Bloxd.io',
@@ -168,7 +167,8 @@ const gamesData = [
     tags: ['Building', 'PvP', 'Parkour'],
     description: 'Minecraft-style building and combat game.'
     },
-    {
+
+{
     id: 'agar-io',
     name: 'Agar.io',
     icon: '🟢',
@@ -178,7 +178,8 @@ const gamesData = [
     tags: ['Multiplayer', 'Cell', 'Growth'],
     description: 'Consume smaller cells to grow, avoid bigger ones.'
     },
-    {
+
+{
     id: 'slither-io',
     name: 'Slither.io',
     icon: '🐍',
@@ -188,7 +189,8 @@ const gamesData = [
     tags: ['Snake', 'Multiplayer', 'Arena'],
     description: 'Grow your snake by collecting pellets, outsmart others.'
     },
-    {
+
+{
     id: 'krunker-io',
     name: 'Krunker.io',
     icon: '🎯',
@@ -198,7 +200,8 @@ const gamesData = [
     tags: ['FPS', 'Shooter', 'Combat'],
     description: 'Fast-paced first-person shooter .io game.'
     },
-    {
+
+{
     id: 'deeeep-io',
     name: 'Deeeep.io',
     icon: '🐟',
@@ -208,7 +211,8 @@ const gamesData = [
     tags: ['Evolution', 'Survival', 'Ocean'],
     description: 'Underwater evolution game with 100+ sea creatures.'
     },
-    {
+
+{
     id: 'venge-io',
     name: 'Venge.io',
     icon: '💀',
@@ -218,7 +222,8 @@ const gamesData = [
     tags: ['FPS', 'Shooter', 'Class'],
     description: 'Tactical FPS with class-based combat.'
     },
-    {
+
+{
     id: 'zombsroyale-io',
     name: 'ZombsRoyale.io',
     icon: '💣',
@@ -228,6 +233,7 @@ const gamesData = [
     tags: ['Battle Royale', 'Zombie', 'Shooter'],
     description: 'Top-down battle royale shooter.'
     },
+
 {
         id: 'hexanaut-io',
         name: 'Hexanaut.io',
@@ -238,7 +244,8 @@ const gamesData = [
         tags: ['Territory', 'Strategy', 'Hexagon'],
         description: '3D territory conquest game with hexagonal grid mechanics. Capture hexagons, grab totems, and become the King.'
     },
-    {
+
+{
     id: 'diep-io',
     name: 'Diep.io',
     icon: '🎯',
@@ -248,7 +255,8 @@ const gamesData = [
     tags: ['Tank', 'Shooting', 'Strategy'],
     description: 'Control a tank, destroy shapes, evolve your build.'
     },
-    {
+
+{
     id: 'paper-io',
     name: 'Paper.io',
     icon: '📄',
@@ -258,7 +266,8 @@ const gamesData = [
     tags: ['Territory', 'Strategy', 'Grid'],
     description: 'Capture territory by creating enclosed areas.'
     },
-    {
+
+{
     id: 'defend-io',
     name: 'Defend.io',
     icon: '🏰',
@@ -268,7 +277,8 @@ const gamesData = [
     tags: ['Tower Defense', 'Strategy', 'Unity'],
     description: 'Stop waves of enemies with strategic tower placement.'
     },
-    {
+
+{
     id: 'mope-io',
     name: 'Mope.io',
     icon: '🌊',
@@ -278,7 +288,8 @@ const gamesData = [
     tags: ['Evolution', 'Nature', 'Survival'],
     description: 'Evolve from a tiny creature to a top predator.'
     },
-    {
+
+{
     id: 'hole-io',
     name: 'Hole.io',
     icon: '🕳️',
@@ -288,7 +299,8 @@ const gamesData = [
     tags: ['Swallow', 'City', 'Growth'],
     description: 'Control a black hole that swallows cities and objects.'
     },
-    {
+
+{
     id: 'sandboxels',
     name: 'Sandboxels',
     icon: '🧪',
@@ -298,7 +310,8 @@ const gamesData = [
     tags: ['Simulation', 'Physics', 'Creative'],
     description: 'Physics-based sandbox simulation game.'
     },
-    {
+
+{
     id: 'surviv-io',
     name: 'Surviv.io',
     icon: '🎮',
@@ -308,7 +321,8 @@ const gamesData = [
     tags: ['Battle Royale', 'Shooter', 'Survival'],
     description: '2D battle royale with weapons and tactics.'
     },
-    {
+
+{
     id: 'crazysteve-io',
     name: 'CrazySteve.io',
     icon: '🧱',
@@ -318,7 +332,8 @@ const gamesData = [
     tags: ['Building', 'Battle Royale', 'FPS'],
     description: 'Minecraft-style block building battle royale shooter.'
     },
-    {
+
+{
     id: 'curser-io',
     name: 'Curser.io',
     icon: '🖱️',
@@ -328,7 +343,8 @@ const gamesData = [
     tags: ['Survival', 'Cursor', 'Strategy'],
     description: 'Navigate and survive the cursor wars in this unique browser game.'
     },
-    {
+
+{
     id: 'blumgi-rocket',
     name: 'Blumgi Rocket',
     icon: '🚀',
@@ -338,7 +354,8 @@ const gamesData = [
     tags: ['Platform', 'Physics', 'Rocket'],
     description: 'Physics-based rocket platformer with precision landing.'
     },
-    {
+
+{
     id: 'shell-shockers',
     name: 'Shell Shockers',
     icon: '🥚',
@@ -348,7 +365,8 @@ const gamesData = [
     tags: ['FPS', 'Shooter', 'Egg'],
     description: 'First-person egg shooter combat game.'
     },
-    {
+
+{
     id: 'taming-io',
     name: 'Taming.io',
     icon: '🦎',
@@ -358,7 +376,8 @@ const gamesData = [
     tags: ['Pets', 'Building', 'Survival'],
     description: 'Tame pets and build your base.'
     },
-    {
+
+{
     id: 'stickman-hook',
     name: 'Stickman Hook',
     icon: '🪝',
@@ -368,7 +387,8 @@ const gamesData = [
     tags: ['Physics', 'Swing', 'Arcade'],
     description: 'Physics-based grappling hook swing game.'
     },
-    {
+
+{
     id: 'yohoho-io',
     name: 'Yohoho.io',
     icon: '🏴‍☠️',
@@ -378,7 +398,8 @@ const gamesData = [
     tags: ['Pirate', 'Battle', 'Collect'],
     description: 'Battle royale with pirate themes.'
     },
-    {
+
+{
     id: 'evowars-io',
     name: 'EvoWars.io',
     icon: '⚔️',
@@ -388,7 +409,8 @@ const gamesData = [
     tags: ['Evolution', 'Combat', 'Sword'],
     description: 'Evolution and combat game with weapons.'
     },
-    {
+
+{
     id: 'skribbl-io',
     name: 'Skribbl.io',
     icon: '✏️',
@@ -398,7 +420,8 @@ const gamesData = [
     tags: ['Drawing', 'Party', 'Guessing'],
     description: 'Drawing and guessing party game.'
     },
-    {
+
+{
     id: 'gartic-io',
     name: 'Gartic.io',
     icon: '🎨',
@@ -408,7 +431,8 @@ const gamesData = [
     tags: ['Drawing', 'Party', 'Guessing'],
     description: 'Drawing and guessing multiplayer game.'
     },
-    {
+
+{
     id: 'wings-io',
     name: 'Wings.io',
     icon: '✈️',
@@ -418,7 +442,8 @@ const gamesData = [
     tags: ['Flight', 'Combat', 'Aircraft'],
     description: 'Aerial combat with planes and dogfights.'
     },
-    {
+
+{
     id: 'moomoo-io',
     name: 'MooMoo.io',
     icon: '🐄',
@@ -428,7 +453,8 @@ const gamesData = [
     tags: ['Survival', 'Building', 'Base'],
     description: 'Survival sandbox with base building.'
     },
-    {
+
+{
     id: 'smashkarts-io',
     name: 'SmashKarts.io',
     icon: '🏎️',
@@ -438,7 +464,8 @@ const gamesData = [
     tags: ['Kart', 'Combat', 'Battle'],
     description: 'Multiplayer kart battle with weapons and power-ups.'
     },
-    {
+
+{
     id: 'angry-worms-io',
     name: 'Angry Worms.io',
     icon: '🐛',
@@ -448,7 +475,8 @@ const gamesData = [
     tags: ['Snake', 'Worm', 'Multiplayer'],
     description: 'Grow your worm and make opponents crash into you.'
     },
-    {
+
+{
     id: 'brutalmania-io',
     name: 'BrutalMania.io',
     icon: '⚔️',
@@ -458,7 +486,8 @@ const gamesData = [
     tags: ['Fighting', 'Action', 'Arena'],
     description: 'Gladiator arena combat with various weapons and upgrades.'
     },
-    {
+
+{
     id: 'swordz-io',
     name: 'Swordz.io',
     icon: '⚔️',
@@ -468,7 +497,8 @@ const gamesData = [
     tags: ['Sword', 'Combat', 'Medieval'],
     description: 'Medieval sword fighting arena with dash and swing mechanics.'
     },
-    {
+
+{
     id: 'medieval-io',
     name: 'Medieval.io',
     icon: '🏰',
@@ -478,7 +508,8 @@ const gamesData = [
     tags: ['RPG', 'Action', 'Battle'],
     description: '8-player real-time battle arena with hero collection.'
     },
-    {
+
+{
     id: 'defly-io',
     name: 'Defly.io',
     icon: '🚁',
@@ -488,7 +519,8 @@ const gamesData = [
     tags: ['Territory', 'Helicopter', 'Strategy'],
     description: 'Helicopter combat with territory capture and base building.'
     },
-    {
+
+{
     id: 'dogod-io',
     name: 'Dogod.io',
     icon: '🦎',
@@ -498,7 +530,8 @@ const gamesData = [
     tags: ['Evolution', 'Survival', 'Food Chain'],
     description: 'Climb the food chain from tiny creature to apex predator.'
     },
-    {
+
+{
     id: 'repuls-io',
     name: 'Repuls.io',
     icon: '🔫',
@@ -508,7 +541,8 @@ const gamesData = [
     tags: ['FPS', 'Shooter', 'Combat'],
     description: 'Fast-paced FPS arena shooter with unique repulsion launcher mechanics.'
     },
-    {
+
+{
     id: 'spawner-io',
     name: 'Spawner.io',
     icon: '🎯',
@@ -518,7 +552,8 @@ const gamesData = [
     tags: ['Survival', 'Building', 'Tower Defense'],
     description: 'Spawn blocks, build defenses, and survive endless enemy waves.'
     },
-    {
+
+{
     id: 'starblast-io',
     name: 'Starblast.io',
     icon: '🚀',
@@ -528,7 +563,8 @@ const gamesData = [
     tags: ['Space', 'Shooter', 'Upgrade'],
     description: 'Pilot spaceships, mine asteroids for crystals, upgrade your vessel, and engage in epic space battles.'
     },
-    {
+
+{
     id: 'gulper-io',
     name: 'Gulper.io',
     icon: '🐍',
@@ -538,7 +574,8 @@ const gamesData = [
     tags: ['Snake', 'Growth', 'Arena'],
     description: 'Control a gulper creature, swallow food and smaller players to grow, dominate the arena.'
     },
-    {
+
+{
     id: 'spinner-io',
     name: 'Spinner.io',
     icon: '🌀',
@@ -548,7 +585,8 @@ const gamesData = [
     tags: ['Battle', 'Spinning', 'Arena'],
     description: 'Master spinning combat tactics, grow your spinner by defeating opponents, and dominate the arena.'
     },
-    {
+
+{
     id: 'snowball-io',
     name: 'Snowball.io',
     icon: '❄️',
@@ -558,7 +596,8 @@ const gamesData = [
     tags: ['Winter', 'Battle', 'Physics'],
     description: 'Roll snowballs, knock opponents off ice platforms, and dominate winter battles.'
     },
-    {
+
+{
     id: 'goons-io',
     name: 'Goons.io',
     icon: '⚔️',
@@ -568,7 +607,8 @@ const gamesData = [
     tags: ['Sword Combat', 'Medieval', 'Battle'],
     description: 'Master sword combat, block and dodge attacks, and survive medieval arena battles in Goons.io.'
     },
-    {
+
+{
     id: 'littlebigsnake-io',
     name: 'LittleBigSnake.io',
     icon: '🐍',
@@ -578,7 +618,8 @@ const gamesData = [
     tags: ['Snake', 'Evolution', 'Flying'],
     description: 'Grow your snake, evolve into a flying dragonfly, and dominate the food chain in LittleBigSnake.io.'
     },
-    {
+
+{
     id: 'lordz-io',
     name: 'Lordz.io',
     icon: '⚔️',
@@ -588,7 +629,8 @@ const gamesData = [
     tags: ['Strategy', 'RTS', 'Medieval'],
     description: 'Real-time strategy game where you build armies, manage resources, and conquer territories in medieval warfare.'
     },
-    {
+
+{
     id: 'hordes-io',
     name: 'Hordes.io',
     icon: '⚔️',
@@ -598,7 +640,8 @@ const gamesData = [
     tags: ['MMORPG', 'PvP', 'Fantasy'],
     description: '3D browser MMORPG with 4 unique classes. Master Warriors, Archers, Mages, and Shamans in epic PvP battles.'
     },
-    {
+
+{
     id: 'liquid-swarm',
     name: 'Liquid Swarm',
     icon: '🌀',
@@ -608,7 +651,8 @@ const gamesData = [
     tags: ['Arcade', 'Roguelite', 'Growth'],
     description: 'Fast-paced arcade roguelite where you surround and absorb enemy swarms to grow your own.'
     },
-    {
+
+{
     id: 'splix-io',
     name: 'Splix.io',
     icon: '🟩',
@@ -618,7 +662,8 @@ const gamesData = [
     tags: ['Strategy', 'Territory', 'Grid'],
     description: 'Territory capture game where you expand your colored blocks on a shared grid while protecting your vulnerable trail.'
     },
-    {
+
+{
     id: 'superhex-io',
     name: 'Superhex.io',
     icon: '⬡',
@@ -628,7 +673,8 @@ const gamesData = [
     tags: ['Territory', 'Strategy', 'Hex'],
     description: 'Claim hexagonal territory and defend your zone in this strategic grid-based .io game.'
     },
-    {
+
+{
     id: 'voxelim-io',
     name: 'Voxelim.io',
     icon: '🧱',
@@ -638,7 +684,8 @@ const gamesData = [
     tags: ['Building', 'Combat', 'Voxel'],
     description: 'Build structures and battle enemies in a voxel-based multiplayer world.'
     },
-    {
+
+{
     id: 'warden-io',
     name: 'Warden.io',
     icon: '🗡️',
@@ -648,7 +695,8 @@ const gamesData = [
     tags: ['RPG', 'Dungeon', 'Boss'],
     description: 'Dungeon crawler with class builds, boss fights, and strategic combat in a mystical arena.'
     },
-    {
+
+{
     id: 'wormate-io',
     name: 'Wormate.io',
     icon: '🐛',
@@ -658,7 +706,8 @@ const gamesData = [
     tags: ['Snake', 'Growth', 'Arena'],
     description: 'Collect sweet treats, grow your worm, and dominate the arena with upgrade strategies.'
     },
-    {
+
+{
     id: 'wormax-io',
     name: 'Wormax.io',
     icon: '🪱',
@@ -668,7 +717,8 @@ const gamesData = [
     tags: ['Snake', 'Growth', 'Classic'],
     description: 'Slither smart, use boost strategically, and grow into the biggest worm on the server.'
     },
-    {
+
+{
     id: 'zapper-io',
     name: 'Zapper.io',
     icon: '⚡',
@@ -678,7 +728,8 @@ const gamesData = [
     tags: ['Combat', 'Arena', 'Fast'],
     description: 'Lightning-fast arena combat with weapon upgrades and movement-based tactics.'
     },
-    {
+
+{
     id: 'poxel-io',
     name: 'Poxel.io',
     icon: '🔫',
@@ -688,7 +739,8 @@ const gamesData = [
     tags: ['FPS', 'Multiplayer', 'Pixel'],
     description: 'Fast-paced pixel FPS with 30+ maps, 20+ weapons, and 4 competitive game modes. Master weapons, learn maps, and dominate the leaderboard.'
     },
-    {
+
+{
     id: 'war-brokers',
     name: 'War Brokers',
     icon: '🎖️',
@@ -698,7 +750,8 @@ const gamesData = [
     tags: ['FPS', 'Vehicles', 'Battle Royale'],
     description: 'Military FPS with tanks, helicopters, and 17 weapons. Master combined-arms combat across multiple game modes.'
     },
-    {
+
+{
     id: 'starve-io',
     name: 'Starve.io',
     icon: '⚒️',
@@ -708,7 +761,8 @@ const gamesData = [
     tags: ['Survival', 'Crafting', 'PvP'],
     description: 'Multiplayer sandbox survival game with deep crafting, biomes, and combat.'
     },
-    {
+
+{
     id: '1v1-lol',
     name: '1v1.LOL',
     icon: '🎯',
@@ -718,7 +772,8 @@ const gamesData = [
     tags: ['Shooter', 'Building', 'FPS'],
     description: 'Fortnite-style browser shooter with real-time building mechanics.'
     },
-    {
+
+{
     id: 'deadshot-io',
     name: 'DeadShot.io',
     icon: '🔫',
@@ -739,7 +794,8 @@ const gamesData = [
     tags: ['Arcade', 'Multiplayer', 'Powers'],
     description: 'Fast-paced multiplayer browser game with 30 unique powers. Control a ship, leave deadly trails, and dominate the arena.'
     },
-    {
+
+{
     id: 'kirka-io',
     name: 'Kirka.io',
     icon: '🧱',
@@ -749,7 +805,8 @@ const gamesData = [
     tags: ['FPS', 'Pixel', 'Arena'],
     description: 'Voxel FPS browser game. Master wall climbing, dashing, and pixel-perfect combat.'
     },
-    {
+
+{
     id: 'kour-io',
     name: 'Kour.io',
     icon: '🏃',
@@ -759,14 +816,22 @@ const gamesData = [
     tags: ['FPS', 'Parkour', 'Class-based'],
     description: 'Class-based FPS with parkour movement. Master 13 unique classes and dominate every match.'
     },
-    {name:"NoBrakes.io",id:"nobrakes-io",slug:"nobrakes-io",icon:"🏎️",iconColor:"#E63946",guideCount:1,difficulty:2,tags:["竞速","漂移","多人"],description:"Drift-based multiplayer racing game with boost mechanics and track shortcuts."},
-    {gameId:"ninja-io",name:"Ninja.io",id:"ninja-io",slug:"ninja-io",icon:"🥷",iconColor:"#4A0E4E",guideCount:1,difficulty:5,tags:["动作","多人","射击"],description:"Fast-paced multiplayer shooting game with ninja-themed combat, weapons, and agile movement."},
-    {gameId:"arrow-arena",name:"Arrow Arena",id:"arrow-arena",slug:"arrow-arena",icon:"🏹",iconColor:"#FF6B35",guideCount:1,difficulty:2,tags:["Archery","IO","Pixel"],description:"Pixel archery combat with skill upgrades and leaderboard ranking."},
-    {gameId:"bonk-io",name:"Bonk.io",id:"bonk-io",slug:"bonk-io",icon:"⚽",iconColor:"#2196F3",guideCount:1,difficulty:3,tags:["Physics","Multiplayer","Classic"],description:"Physics-based multiplayer ball combat game."},
-    {gameId:"ev-io",name:"Ev.io",id:"ev-io",slug:"ev-io",icon:"🔫",iconColor:"#00BCD4",guideCount:1,difficulty:3,tags:["FPS","Cyberpunk","Blockchain"],description:"Cyberpunk browser FPS with play-to-earn mechanics. Choose weapons, customize abilities, and dominate the arena."},
-    {gameId:"schoolbreak-io",name:"SchoolBreak.io",id:"schoolbreak-io",slug:"schoolbreak-io",icon:"🎒",iconColor:"#FF9800",guideCount:1,difficulty:2,tags:["Asymmetric","Party","Multiplayer"],description:"Student vs Teacher chaos! Cause mayhem or enforce discipline in this unique asymmetric multiplayer game."},
-    {gameId:"florr-io",name:"Florr.io",id:"florr-io",slug:"florr-io",icon:"🌸",iconColor:"#E91E63",guideCount:1,difficulty:4,tags:["Flower","Crafting","PvP","Farming"],description:"Unique multiplayer .io game where you play as a flower with orbiting petals. Collect, craft, and battle through diverse biomes."},
-    {
+
+{name:"NoBrakes.io",id:"nobrakes-io",slug:"nobrakes-io",icon:"🏎️",iconColor:"#E63946",guideCount:1,difficulty:2,tags:["竞速","漂移","多人"],description:"Drift-based multiplayer racing game with boost mechanics and track shortcuts."},
+
+{gameId:"ninja-io",name:"Ninja.io",id:"ninja-io",slug:"ninja-io",icon:"🥷",iconColor:"#4A0E4E",guideCount:1,difficulty:5,tags:["动作","多人","射击"],description:"Fast-paced multiplayer shooting game with ninja-themed combat, weapons, and agile movement."},
+
+{gameId:"arrow-arena",name:"Arrow Arena",id:"arrow-arena",slug:"arrow-arena",icon:"🏹",iconColor:"#FF6B35",guideCount:1,difficulty:2,tags:["Archery","IO","Pixel"],description:"Pixel archery combat with skill upgrades and leaderboard ranking."},
+
+{gameId:"bonk-io",name:"Bonk.io",id:"bonk-io",slug:"bonk-io",icon:"⚽",iconColor:"#2196F3",guideCount:1,difficulty:3,tags:["Physics","Multiplayer","Classic"],description:"Physics-based multiplayer ball combat game."},
+
+{gameId:"ev-io",name:"Ev.io",id:"ev-io",slug:"ev-io",icon:"🔫",iconColor:"#00BCD4",guideCount:1,difficulty:3,tags:["FPS","Cyberpunk","Blockchain"],description:"Cyberpunk browser FPS with play-to-earn mechanics. Choose weapons, customize abilities, and dominate the arena."},
+
+{gameId:"schoolbreak-io",name:"SchoolBreak.io",id:"schoolbreak-io",slug:"schoolbreak-io",icon:"🎒",iconColor:"#FF9800",guideCount:1,difficulty:2,tags:["Asymmetric","Party","Multiplayer"],description:"Student vs Teacher chaos! Cause mayhem or enforce discipline in this unique asymmetric multiplayer game."},
+
+{gameId:"florr-io",name:"Florr.io",id:"florr-io",slug:"florr-io",icon:"🌸",iconColor:"#E91E63",guideCount:1,difficulty:4,tags:["Flower","Crafting","PvP","Farming"],description:"Unique multiplayer .io game where you play as a flower with orbiting petals. Collect, craft, and battle through diverse biomes."},
+
+{
         id: 'tetr-io',
         name: 'TETR.IO',
         icon: '🧩',
@@ -779,7 +844,7 @@ const gamesData = [
         image: 'tetr-io'
     },
 
-    {
+{
         id: 'devast-io',
         name: 'Devast.io',
         icon: '☢️',
@@ -789,7 +854,8 @@ const gamesData = [
         tags: ['Survival', 'Crafting', 'Base Building', 'PvP'],
         description: 'Post-apocalyptic survival io game with resource gathering, base building, crafting, and radioactive wasteland combat.'
     },
-    {
+
+{
         id: 'betrayal-io',
         name: 'Betrayal.io',
         icon: '🕵️',
@@ -799,7 +865,8 @@ const gamesData = [
         tags: ['Social Deduction', 'Multiplayer', 'Party', 'Deception'],
         description: 'Browser-based social deduction game where crewmates complete tasks while betrayers sabotage and deceive.'
     },
-    {
+
+{
     id: 'snake-io',
     name: 'Snake.io',
     icon: '🐍',
@@ -809,7 +876,8 @@ const gamesData = [
     tags: ["Arcade", "Casual"],
     description: 'Classic snake game where you grow by eating pellets and avoid collisions.'
     },
-    {
+
+{
     id: 'flyordie-io',
     name: 'FlyOrDie.io',
     icon: '🪰',
@@ -819,7 +887,8 @@ const gamesData = [
     tags: ["Survival", "Multiplayer", "Arcade"],
     description: 'Start as a fly and evolve into stronger creatures in this multiplayer survival game.'
     },
-    {
+
+{
     id: 'limax-io',
     name: 'Limax.io',
     icon: '🐍',
@@ -829,7 +898,8 @@ const gamesData = [
     tags: ["Arena", "PvP", "Action"],
     description: 'A competitive arena game where players control neon snakes and battle for dominance.'
     },
-    {
+
+{
     id: 'a-slithery-snake-and-snowball-io',
     name: 'A Slithery Snake and Snowball.io',
     icon: '🐍',
@@ -839,7 +909,8 @@ const gamesData = [
     tags: ["arcade", "multiplayer", "action"],
     description: 'Control a slithery snake to collect snowballs and grow longer while avoiding other players in this winter-themed arena.'
     },
-    {
+
+{
     id: 'aipaperanimals-io',
     name: 'AIPaperAnimals.io',
     icon: '🐰',
@@ -849,7 +920,8 @@ const gamesData = [
     tags: ["casual", "multiplayer", "paper"],
     description: 'Control adorable AI-powered paper animals in a competitive arena where you collect supplies and avoid elimination.'
     },
-    {
+
+{
     id: 'arras-io',
     name: 'Arras.io',
     icon: '🔫',
@@ -859,7 +931,8 @@ const gamesData = [
     tags: ["Tank Game", "Multiplayer", "Action"],
     description: 'Control a tank in an arena and battle against other players in this top-down shooter.'
     },
-    {
+
+{
     id: 'amogus-io',
     name: 'Amogus.io',
     icon: '🚀',
@@ -869,7 +942,8 @@ const gamesData = [
     tags: ["Multiplayer", "Action"],
     description: 'A multiplayer browser game where players complete tasks and identify impostors among them.'
     },
-    {
+
+{
     id: 'agma-io',
     name: 'Agma.io',
     icon: '🧬',
@@ -879,7 +953,8 @@ const gamesData = [
     tags: ["Survival", "Multiplayer", "Cellular"],
     description: 'A multiplayer browser game where players control cells or organisms, consume resources, and grow larger while avoiding predators in a competitive arena.'
     },
-    {
+
+{
         id: 'aquapark-io',
         name: 'AquaPark.io',
         icon: '🌊',
@@ -889,7 +964,8 @@ const gamesData = [
         tags: ['Racing', 'Water', 'Multiplayer'],
         description: 'Race down giant water slides, bump rivals, and master shortcut jumps.'
     },
-    {
+
+{
     id: 'arena-io',
     name: 'Arena.io',
     icon: '⚔️',
@@ -899,7 +975,8 @@ const gamesData = [
     tags: ["action", "multiplayer", "battle"],
     description: 'Battle against other players in a fast-paced arena, collecting power-ups and eliminating opponents to become the last one standing.'
     },
-    {
+
+{
     id: 'brutal-io',
     name: 'Brutal.io',
     icon: '⚔️',
@@ -909,7 +986,8 @@ const gamesData = [
     tags: ["Action", "Multiplayer", "Combat"],
     description: 'Battle other players using melee weapons in a fast-paced arena combat game.'
     },
-    {
+
+{
     id: 'battledudes-io',
     name: 'BattleDudes.io',
     icon: '⚔️',
@@ -919,8 +997,8 @@ const gamesData = [
     tags: ["battle", "multiplayer", "action"],
     description: 'Battle against other players in fast-paced arena combat with customizable characters and weapons.'
     },
-    
-    {
+
+{
     id: 'archers-io',
     name: 'Archers.io',
     icon: '🏹',
@@ -930,7 +1008,8 @@ const gamesData = [
     tags: ["action", "multiplayer", "archery"],
     description: 'Control an archer in an arena, shoot arrows at opponents, and survive as long as possible.'
     },
-    {
+
+{
     id: 'basketball-io',
     name: 'Basketball.io',
     icon: '🏀',
@@ -940,7 +1019,8 @@ const gamesData = [
     tags: ["Sports", "Multiplayer", "Action"],
     description: 'Compete against other players in fast-paced basketball matches to score baskets and dominate the arena.'
     },
-    {
+
+{
     id: 'boxer-io',
     name: 'Boxer.io',
     icon: '🥊',
@@ -950,7 +1030,8 @@ const gamesData = [
     tags: ["multiplayer", "action", "fighting"],
     description: 'A fast-paced multiplayer boxing game where you battle against other players to become the ultimate champion.'
     },
-    {
+
+{
     id: 'axes-io',
     name: 'AXES.io',
     icon: '🪓',
@@ -960,7 +1041,8 @@ const gamesData = [
     tags: ["action", "battle-royale", "multiplayer"],
     description: 'Throw axes at opponents in fast-paced arena combat as you try to survive and become the last player standing.'
     },
-    {
+
+{
     id: 'axe-io',
     name: 'Axe.io',
     icon: '🪓',
@@ -970,7 +1052,8 @@ const gamesData = [
     tags: ["multiplayer", "action", "battle"],
     description: 'Throw axes at opponents in fast-paced multiplayer arena combat.'
     },
-    {
+
+{
     id: 'bighole-io',
     name: 'BigHole.io',
     icon: '🕳️',
@@ -980,7 +1063,8 @@ const gamesData = [
     tags: ["casual", "arcade", "consumption"],
     description: 'Control a growing black hole that swallows objects and debris to become the biggest hole on the map.'
     },
-    {
+
+{
     id: 'bruh-io',
     name: 'Bruh.io',
     icon: '😎',
@@ -990,7 +1074,8 @@ const gamesData = [
     tags: ["casual", "multiplayer", "action"],
     description: 'A casual multiplayer action game where players compete to survive and outplay opponents in fast-paced matches.'
     },
-    {
+
+{
     id: 'brosswordz-io',
     name: 'BrosSwordz.io',
     icon: '⚔️',
@@ -1000,7 +1085,8 @@ const gamesData = [
     tags: ["Combat", "Fighting", "Multiplayer"],
     description: 'Fast-paced multiplayer sword battle arena where players fight against each other using various sword weapons.'
     },
-    {
+
+{
     id: 'basketbros-io',
     name: 'BasketBros.io',
     icon: '🏀',
@@ -1010,7 +1096,8 @@ const gamesData = [
     tags: ["Sports", "Basketball", "Multiplayer"],
     description: 'Compete in fast-paced 1v1 or 2v2 arcade basketball matches against players from around the world.'
     },
-    {
+
+{
     id: 'buildroyale-io',
     name: 'BuildRoyale.io',
     icon: '🏗️',
@@ -1020,7 +1107,8 @@ const gamesData = [
     tags: ["Building", "Battle Royale", "Shooter"],
     description: 'Build structures to defend yourself and fight to be the last player standing in this browser-based battle royale game.'
     },
-    {
+
+{
     id: 'copter-io',
     name: 'Copter.io',
     icon: '🚁',
@@ -1030,7 +1118,8 @@ const gamesData = [
     tags: ["arcade", "endless-runner", "skill"],
     description: 'Navigate a helicopter through an endless, obstacle-filled cave while collecting coins and avoiding crashes.'
     },
-    {
+
+{
     id: 'battlepoint-io',
     name: 'Battlepoint.io',
     icon: '🎯',
@@ -1040,7 +1129,8 @@ const gamesData = [
     tags: ["Shooter", "Action", "Multiplayer"],
     description: 'A fast-paced multiplayer top-down shooter where players battle to dominate the arena.'
     },
-    {
+
+{
     id: 'braains-io',
     name: 'Braains.io',
     icon: '🧠',
@@ -1050,7 +1140,8 @@ const gamesData = [
     tags: ["Zombie", "Survival", "Multiplayer"],
     description: 'Play as a zombie hunting humans for their brains or survive the horde as a human in this multiplayer game.'
     },
-    {
+
+{
     id: 'aquar-io',
     name: 'Aquar.io',
     icon: '🐠',
@@ -1060,7 +1151,8 @@ const gamesData = [
     tags: ["aquarium", "evolution", "casual"],
     description: 'Feed smaller fish to grow and evolve into larger marine creatures in a competitive aquarium ecosystem.'
     },
-    {
+
+{
     id: 'babyshark-io',
     name: 'BabyShark.io',
     icon: '🦈',
@@ -1070,7 +1162,8 @@ const gamesData = [
     tags: ["arcade", "multiplayer", "animal"],
     description: 'Swim around the ocean as a baby shark, eating smaller fish to grow while avoiding larger predators.'
     },
-    {
+
+{
     id: 'bombom-io',
     name: 'BomBom.io',
     icon: '💣',
@@ -1080,7 +1173,8 @@ const gamesData = [
     tags: ["Action", "Multiplayer", "Arcade"],
     description: 'Place bombs strategically to eliminate other players and be the last one standing in an explosive multiplayer arena.'
     },
-    {
+
+{
     id: 'block-io',
     name: 'Block.io',
     icon: '🧱',
@@ -1090,7 +1184,8 @@ const gamesData = [
     tags: ["arcade", "multiplayer", "sandbox"],
     description: 'Compete against other players to build structures and capture territory in a blocky voxel arena.'
     },
-    {
+
+{
     id: 'animal-io',
     name: 'Animal.io',
     icon: '🐾',
@@ -1100,7 +1195,8 @@ const gamesData = [
     tags: ["casual", "multiplayer", "animal"],
     description: 'Evolve your animal by eating smaller creatures and avoiding predators in a massive multiplayer ecosystem.'
     },
-    {
+
+{
     id: 'battle-io',
     name: 'Battle.io',
     icon: '⚔️',
@@ -1110,7 +1206,8 @@ const gamesData = [
     tags: ["Action", "Shooter", "Battle Royale"],
     description: 'A fast-paced multiplayer battle arena where players fight with weapons and vehicles to be the last one standing.'
     },
-    {
+
+{
     id: 'zombs-royale-io',
     name: 'ZombsRoyale.io',
     icon: '🪂',
@@ -1120,7 +1217,8 @@ const gamesData = [
     tags: ["Shooter", "Battle Royale", "Action"],
     description: '100-player 2D top-down battle royale. Parachute in, loot weapons, survive the gas, and be the last one standing.'
     },
-    {
+
+{
     id: 'battletabs-io',
     name: 'BattleTabs.io',
     icon: '⚔️',
@@ -1130,7 +1228,8 @@ const gamesData = [
     tags: ["Auto-Battler", "RPG", "Idle"],
     description: 'Collect and upgrade unique characters to automatically battle enemies and conquer realms.'
     },
-    {
+
+{
     id: 'bloxdhop-io',
     name: 'BloxdHop.io',
     icon: '🧱',
@@ -1140,7 +1239,8 @@ const gamesData = [
     tags: ["Platformer", "Parkour", "Arcade"],
     description: 'Jump across blocky platforms and avoid obstacles in this fast-paced parkour game.'
     },
-    {
+
+{
     id: 'brainrots-io',
     name: 'Brainrots.io',
     icon: '🧠',
@@ -1150,7 +1250,8 @@ const gamesData = [
     tags: ["Meme", "Casual", "Arcade"],
     description: 'Absorb smaller meme entities and grow your brainrot collection in a chaotic multiplayer arena.'
     },
-    {
+
+{
     id: 'battleboats-io',
     name: 'Battleboats.io',
     icon: '🚢',
@@ -1160,7 +1261,8 @@ const gamesData = [
     tags: ["Multiplayer", "Strategy", "Naval"],
     description: 'Sink your opponents\' fleets in a real-time multiplayer naval strategy game based on the classic game of Battleship.'
     },
-    {
+
+{
     id: 'adventuremoomoo-io',
     name: 'AdventureMoomoo.io',
     icon: '🐮',
@@ -1170,7 +1272,8 @@ const gamesData = [
     tags: ["Survival", "Crafting", "Multiplayer"],
     description: 'Gather resources, craft weapons, and build villages to survive in a multiplayer animal sandbox world.'
     },
-    {
+
+{
     id: 'badegg-io',
     name: 'Badegg.io',
     icon: '🥚',
@@ -1180,7 +1283,8 @@ const gamesData = [
     tags: ["Physics", "Arena", "Action"],
     description: 'Push other eggs out of the arena using physics-based collisions to be the last egg standing.'
     },
-    {
+
+{
     id: 'battles-io',
     name: 'Battles.io',
     icon: '⚔️',
@@ -1190,7 +1294,8 @@ const gamesData = [
     tags: ["Action", "Multiplayer", "Arena"],
     description: 'Engage in fast-paced multiplayer combat and battle against players worldwide in an arena.'
     },
-    {
+
+{
     id: 'battlefields-io',
     name: 'Battlefields.io',
     icon: '🪖',
@@ -1200,7 +1305,8 @@ const gamesData = [
     tags: ["Action", "Multiplayer", "Strategy"],
     description: 'Engage in intense multiplayer combat, commanding tanks and troops to conquer territories and defeat rival players.'
     },
-    {
+
+{
     id: 'alis-io',
     name: 'Alis.io',
     icon: '🪽',
@@ -1210,7 +1316,8 @@ const gamesData = [
     tags: ["Arcade", "Multiplayer", "Action"],
     description: 'Fly through the sky and battle other players in this fast-paced aerial combat arena.'
     },
-    {
+
+{
     id: 'bladers-io',
     name: 'Bladers.io',
     icon: '🛼',
@@ -1220,7 +1327,8 @@ const gamesData = [
     tags: ["io", "action", "skating"],
     description: 'Skate on ice, perform tricks, and battle other players in a fast-paced multiplayer arena.'
     },
-    {
+
+{
     id: 'antwar-io',
     name: 'AntWar.io',
     icon: '🐜',
@@ -1230,7 +1338,8 @@ const gamesData = [
     tags: ["Strategy", "Multiplayer", "Action"],
     description: 'Build and manage your ant colony while battling other players to control the territory.'
     },
-    {
+
+{
     id: 'bopz-io',
     name: 'BOPZ.io',
     icon: '👊',
@@ -1240,7 +1349,8 @@ const gamesData = [
     tags: ["action", "arena", "multiplayer"],
     description: 'Hit and knock out other players in a fast-paced multiplayer arena to claim the top spot on the leaderboard.'
     },
-    {
+
+{
     id: 'battlegrounds-io',
     name: 'Battlegrounds.io',
     icon: '🎯',
@@ -1250,7 +1360,8 @@ const gamesData = [
     tags: ["battle-royale", "shooter", "multiplayer"],
     description: 'A fast-paced multiplayer battle royale where players scavenge for weapons and fight to be the last one standing.'
     },
-    {
+
+{
     id: 'bighero-io',
     name: 'BigHero.io',
     icon: '🦸',
@@ -1260,7 +1371,8 @@ const gamesData = [
     tags: ["action", "superhero", "arena"],
     description: 'Battle other players in a superhero arena using unique abilities and power-ups to become the ultimate hero.'
     },
-    {
+
+{
     id: 'airwings-io',
     name: 'AirWings.io',
     icon: '✈️',
@@ -1270,7 +1382,8 @@ const gamesData = [
     tags: ["action", "shooter", "multiplayer"],
     description: 'Engage in intense aerial dogfights and dominate the skies in this fast-paced multiplayer combat game.'
     },
-    {
+
+{
     id: 'bombhopper-io',
     name: 'BombHopper.io',
     icon: '💣',
@@ -1280,7 +1393,8 @@ const gamesData = [
     tags: ["Physics", "Platformer", "Action"],
     description: 'Use the recoil from exploding bombs to blast yourself through physics-based platforming levels and reach the goal.'
     },
-    {
+
+{
     id: 'armedforces-io',
     name: 'ArmedForces.io',
     icon: '🪖',
@@ -1290,7 +1404,8 @@ const gamesData = [
     tags: ["Shooter", "Multiplayer", "Action"],
     description: 'A team-based military shooter where you select your class and battle against other players in fast-paced arenas.'
     },
-    {
+
+{
     id: 'beetles-io',
     name: 'Beetles.io',
     icon: '🪲',
@@ -1300,7 +1415,8 @@ const gamesData = [
     tags: ["Action", "Survival", "Multiplayer"],
     description: 'Control a beetle, eat to grow, and defeat other players in a competitive insect survival arena.'
     },
-    {
+
+{
     id: 'carfight-io',
     name: 'CarFight.io',
     icon: '🏎️',
@@ -1310,7 +1426,8 @@ const gamesData = [
     tags: ["action", "combat", "multiplayer"],
     description: 'Battle other players in explosive vehicular combat arenas to destroy opponents and dominate the battlefield.'
     },
-    {
+
+{
     id: 'bist-io',
     name: 'Bist.io',
     icon: '🎖️',
@@ -1320,7 +1437,8 @@ const gamesData = [
     tags: ["Tank", "Action", "Multiplayer"],
     description: 'Drive your tank, collect stars, and dominate the multiplayer battle arena.'
     },
-    {
+
+{
     id: 'cavegame-io',
     name: 'Cavegame.io',
     icon: '⛰️',
@@ -1330,7 +1448,8 @@ const gamesData = [
     tags: ["Survival", "Crafting", "Multiplayer"],
     description: 'A 2D multiplayer survival game inspired by Minecraft where players mine resources, craft weapons, build bases, and engage in PvP combat.'
     },
-    {
+
+{
     id: 'bubbleman-io',
     name: 'Bubbleman.io',
     icon: '🫧',
@@ -1340,7 +1459,8 @@ const gamesData = [
     tags: ["Action", "IO", "Arcade"],
     description: 'Players drag left and right to control their character, punching colorful enemies to score points and gain time within 30-second rounds, while collecting orbs to grow bigger.'
     },
-    {
+
+{
     id: 'anguis-io',
     name: 'Anguis.io',
     icon: '🐍',
@@ -1350,7 +1470,8 @@ const gamesData = [
     tags: ["snake", "multiplayer", "io"],
     description: 'A competitive multiplayer snake game where you control a growing snake in a shared arena, collecting orbs to get bigger while avoiding collisions with other players.'
     },
-    {
+
+{
     id: 'astrodud-io',
     name: 'Astrodud.io',
     icon: '🧑‍🚀',
@@ -1360,7 +1481,8 @@ const gamesData = [
     tags: ["obstacle-course", "multiplayer", "racing"],
     description: 'Control a tiny astronaut in a chaotic multiplayer obstacle course survival race, navigating hazards like pitfalls and swinging bats to be the last one standing.'
     },
-    {
+
+{
     id: 'cellcraft-io',
     name: 'Cellcraft.io',
     icon: '🦠',
@@ -1370,7 +1492,8 @@ const gamesData = [
     tags: ["io", "multiplayer", "arcade"],
     description: 'Control a blob to consume food and other players to grow, earn XP, and collect coins to craft powerful upgrades in a competitive arena.'
     },
-    {
+
+{
     id: 'candy-io',
     name: 'Candy.io',
     icon: '🍬',
@@ -1380,7 +1503,8 @@ const gamesData = [
     tags: ["io", "casual"],
     description: 'The search results provided are empty, and there is no widely documented .io game specifically titled \'Candy.io\' with verifiable mechanics, so the actual core gameplay cannot be described without guessing.'
     },
-    {
+
+{
     id: 'bball-io',
     name: 'BBall.io',
     icon: '🏀',
@@ -1390,6 +1514,165 @@ const gamesData = [
     tags: ["Sports", "Multiplayer", "Basketball"],
     description: 'A fast-paced 3D multiplayer basketball game where you control a single player to sprint, dribble, pass, and dunk against live opponents on a small-sided court.'
     },
+
+{
+    id: 'castlesiege-io',
+    name: 'Castlesiege.io',
+    icon: '🏰',
+    iconColor: '#f59e0b',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["multiplayer", "strategy", "action"],
+    description: 'Play Castlesiege.io online - a multiplayer browser strategy game.'
+    },
+
+{
+    id: 'chompers-io',
+    name: 'Chompers.io',
+    icon: '🦖',
+    iconColor: '#FFC107',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["io", "battle", "strategy"],
+    description: 'Lead a magical creature to eat treats, fight other players with various weapons, and grow to become the largest in a competitive multiplayer arena.'
+    },
+
+{
+    id: 'colonist-io',
+    name: 'Colonist.io',
+    icon: '🏝️',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Board Game", "Strategy", "Multiplayer"],
+    description: 'Inspired by Catan, this online board game has players collect resources, trade, and build settlements and cities on a hexagonal map to be the first to reach 10 victory points.'
+    },
+
+{
+    id: 'catac-io',
+    name: 'Catac.io',
+    icon: '🐱',
+    iconColor: '#FF4B4B',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["IO", "Action", "Multiplayer"],
+    description: 'Battle as an astronaut cat in a space arena, using melee weapons to eliminate others, collect coins, and upgrade your gear in this fast-paced multiplayer survival game.'
+    },
+
+{
+    id: 'browser-minecraft-clone-io',
+    name: 'Mine-Craft.io',
+    icon: '⛏️',
+    iconColor: '#7CB342',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Sandbox", "Crafting", "Multiplayer"],
+    description: 'Mine-Craft.io is a free-to-play multiplayer browser game that brings a Minecraft-like building and crafting experience directly to your web browser.'
+    },
+
+{
+    id: 'arenapoxel-io',
+    name: 'Poxel.io',
+    icon: '🔫',
+    iconColor: '#FF5733',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ["FPS", "Shooter", "Multiplayer"],
+    description: 'Poxel.io is a fast-paced, skill-driven 3D voxel first-person shooter featuring intense arena combat with modes like Free-For-All, Team Deathmatch, and Domination.'
+    },
+
+{
+    id: 'cryzen-io',
+    name: 'Cryzen.io',
+    icon: '🔫',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["FPS", "Shooter", "Multiplayer"],
+    description: 'A fast-paced multiplayer first-person shooter where players engage in Deathmatch and Team Deathmatch battles using precise aiming and tactical movement to survive and dominate the arena.'
+    },
+
+{
+    id: 'browser-minecraft-modes-io',
+    name: 'Vectaria.io',
+    icon: '⛏️',
+    iconColor: '#5D9E5A',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Action", "Adventure", "Multiplayer"],
+    description: 'A 3D multiplayer .io game where players mine resources, craft items, build structures, and fight others across Survival, Creative, and PvP modes.'
+    },
+
+{
+    id: 'craftnite-io',
+    name: 'Craftnite.io',
+    icon: '🧱',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["FPS", "Battle Royale", "Crafting"],
+    description: 'A browser-based FPS battle royale where players gather resources, craft weapons, and build structures to survive a shrinking map and defeat opponents.'
+    },
+
+{
+    id: 'arcadestarblast-io',
+    name: 'Starblast.io',
+    icon: '🚀',
+    iconColor: '#0F172A',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["io", "space", "shooter"],
+    description: 'Mine asteroids to collect gems, upgrade your spaceship\'s abilities, and battle other players in a multiplayer space arena.'
+    },
+
+{
+    id: 'colorwars-io',
+    name: 'ColorWars.io',
+    icon: '🎨',
+    iconColor: '#FF6B6B',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["IO", "Strategy", "Multiplayer"],
+    description: 'Players control a colorful tank to shoot pixel trails and capture territory in a Paper.io-style arena, while managing a gold economy to deploy defenses and eliminate rivals by targeting their trails.'
+    },
+
+{
+    id: 'conquer-io',
+    name: 'Conquer.io',
+    icon: '🟩',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Territory", "Strategy", ".io"],
+    description: 'Control a cube to draw paths and expand your territory on a shared board while defending your zones and eliminating opponents by cutting their trails.'
+    },
+
+{
+    id: 'evoworld-io',
+    name: 'Evoworld.io',
+    icon: '🦅',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Survival", "Multiplayer", ".io"],
+    description: 'Start as a tiny fly and eat to evolve through dozens of animal stages in a multiplayer survival world where you must hunt smaller creatures while avoiding larger predators.'
+    },
+
+{
+    id: 'brutes-io',
+    name: 'Brutal.io',
+    icon: '⛓️',
+    iconColor: '#39FF14',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Action", "Multiplayer", "Physics"],
+    description: 'Note: The search results describe \'Brutal.io\' rather than \'Brutes.io\'. In this game, you control a vehicle dragging a spiky flail on a chain, consuming energy and green monsters to grow your weapon and destroy other players in a physics-based neon arena.'
+    }
+
+];
+
+const guidesData = [
+
 {
     id: 'tetr-io-guide',
     title: 'TETR.IO Guide: Master Competitive Online Tetris & Ranked Play',
@@ -1400,7 +1683,8 @@ const gamesData = [
     image: 'tetr-io',
     description: 'Complete guide to TETR.IO: T-spins, combos, B2B chains, Tetra League ranked strategies, and all game modes explained.'
 },
-    {
+
+{
     id: 'curve-fever-pro-guide',
     title: 'Curve Fever Pro Guide: Master Trail Combat & Powers',
     game: 'Curve Fever Pro',
@@ -1414,7 +1698,8 @@ const gamesData = [
     category: 'Arcade',
     tags: ['arcade', 'multiplayer', 'powers', 'trail', 'strategy']
     },
-    {
+
+{
         id: 'deadshot-io-guide',
         title: 'DeadShot.io Guide: Master Movement, Weapons & Dominate Every Match',
         game: 'DeadShot.io',
@@ -1428,7 +1713,8 @@ const gamesData = [
         category: 'FPS',
         tags: ['fps', 'shooter', 'browser', 'deadshot', 'movement']
     },
-        {
+
+{
         id: 'hexanaut-io-guide',
         title: 'Hexanaut.io Guide: Master Territory Capture & King Strategy',
         game: 'Hexanaut.io',
@@ -1442,6 +1728,7 @@ const gamesData = [
         category: 'Territory Strategy',
         tags: ['territory', 'strategy', 'multiplayer', 'hexagon', '3D']
     },
+
 {
         id: '1v1-lol-guide',
         title: '1v1.LOL Guide: Master Building & Shooting in Fortnite-Style Browser Game',
@@ -1455,7 +1742,8 @@ const gamesData = [
         difficulty: 3,
         tags: ['shooter', 'building', 'fps', 'fortnite']
     },
-    {
+
+{
         id: 'splix-io-guide',
         title: 'Splix.io Guide: Master Territory Capture & Dominate the Grid',
         game: 'Splix.io',
@@ -1465,7 +1753,8 @@ const gamesData = [
         excerpt: 'Master Splix.io territory capture strategies, trail protection tactics, and leaderboard climbing tips to dominate the grid.',
         difficulty: 3
     },
-    {
+
+{
         id: 'superhex-io-guide',
         title: 'Superhex.io Guide: Claim Territory & Defend Your Hex',
         game: 'Superhex.io',
@@ -1475,7 +1764,8 @@ const gamesData = [
         excerpt: 'Master Superhex.io territory control strategies, hex claiming mechanics, and defense tactics to dominate the map.',
         difficulty: 3
     },
-    {
+
+{
         id: 'voxelim-io-guide',
         title: 'Voxelim.io Guide: Build & Battle in a Voxel World',
         game: 'Voxelim.io',
@@ -1485,7 +1775,8 @@ const gamesData = [
         excerpt: 'Master Voxelim.io voxel building mechanics, combat strategies, and resource gathering for battlefield domination.',
         difficulty: 3
     },
-    {
+
+{
         id: 'warden-io-guide',
         title: 'Warden.io Guide: Dungeon Crawler Strategy & Boss Tips',
         game: 'Warden.io',
@@ -1495,7 +1786,8 @@ const gamesData = [
         excerpt: 'Master Warden.io dungeon crawling strategies, boss fight tactics, and class builds for the mystical arena.',
         difficulty: 3
     },
-    {
+
+{
         id: 'wormate-io-guide',
         title: 'Wormate.io Guide: Sweet Treats & Giant Worms',
         game: 'Wormate.io',
@@ -1505,7 +1797,8 @@ const gamesData = [
         excerpt: 'Master Wormate.io sweet food collection, worm upgrades, and arena tactics for growth and survival.',
         difficulty: 1
     },
-    {
+
+{
         id: 'wormax-io-guide',
         title: 'Wormax.io Guide: Slither Smart & Grow Massive',
         game: 'Wormax.io',
@@ -1515,7 +1808,8 @@ const gamesData = [
         excerpt: 'Master Wormax.io smart slithering, boost mastery, and strategies to become the biggest worm on the server.',
         difficulty: 1
     },
-    {
+
+{
         id: 'zapper-io-guide',
         title: 'Zapper.io Guide: Lightning-Fast Combat Tips',
         game: 'Zapper.io',
@@ -1525,7 +1819,8 @@ const gamesData = [
         excerpt: 'Master Zapper.io lightning combat tactics, movement strategies, and weapon upgrades to dominate the arena.',
         difficulty: 3
     },
-    {
+
+{
         id: 'bonk-io-guide',
         title: 'Bonk.io Guide: Master Physics Combat & Knockouts',
         game: 'Bonk.io',
@@ -1535,7 +1830,8 @@ const gamesData = [
         excerpt: 'Master Bonk.io with our complete guide. Learn physics mechanics, heavy mode timing, map strategies, and pro tips to knock every opponent off.',
         difficulty: 3
     },
-    {
+
+{
         id: 'nobrakes-io-guide',
         title: 'NoBrakes.io Guide: Drift, Boost & Race to First',
         game: 'NoBrakes.io',
@@ -1545,7 +1841,8 @@ const gamesData = [
         excerpt: 'Master NoBrakes.io with our complete guide. Learn drift mechanics, boost timing, track shortcuts, and racing strategies to leave your opponents in the dust.',
         difficulty: 1
     },
-    {
+
+{
         id: 'liquid-swarm-guide',
         title: 'Liquid Swarm Guide: Master the Ultimate Consuming Force',
         game: 'Liquid Swarm',
@@ -1555,7 +1852,8 @@ const gamesData = [
         excerpt: 'Master Liquid Swarm with this complete guide. Learn the surround mechanic, power-up strategies, and pro tips to become the ultimate consuming force.',
         difficulty: 1
     },
-    {
+
+{
         id: 'venge-io-guide',
         title: 'Venge.io Guide: Master FPS Arena Combat',
         game: 'Venge.io',
@@ -1565,7 +1863,8 @@ const gamesData = [
         excerpt: 'Master Venge.io with this complete guide. Covers controls, hero abilities, game modes, and top strategies to dominate the arena.',
         difficulty: 1
     },
-    {
+
+{
         id: 'zombsroyale-io-guide',
         title: 'ZombsRoyale.io Complete Guide: Battle Royale Tactics',
         game: 'ZombsRoyale.io',
@@ -1575,7 +1874,8 @@ const gamesData = [
         excerpt: 'Master battle royale tactics in ZombsRoyale.io. Learn landing strategies, weapon selection, combat tips, and circle control to become the last survivor.',
         difficulty: 1
     },
-    {
+
+{
         id: 'evowars-io-guide',
         title: 'EvoWars.io Complete Guide 2024: Master Evolution \u0026 Combat',
         game: 'EvoWars.io',
@@ -1585,7 +1885,8 @@ const gamesData = [
         excerpt: 'Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.',
         difficulty: 1
     },
-    {
+
+{
         id: 'lordz-io-guide',
         title: 'Lordz.io Guide: Build Your Medieval Empire and Conquer the Battlefield',
         game: 'Lordz.io',
@@ -1596,7 +1897,8 @@ const gamesData = [
         difficulty: 3,
         badge: '🏰'
     },
-    {
+
+{
         id: 'hordes-io-guide',
         title: 'Hordes.io Guide: Master 4 Classes & PvP Combat',
         game: 'Hordes.io',
@@ -1607,7 +1909,8 @@ const gamesData = [
         difficulty: 3,
         badge: '⚔️'
     },
-    {
+
+{
         id: 'skribbl-io-guide',
         title: 'Skribbl.io Complete Guide: Master Drawing \u0026 Guessing Tips',
         game: 'Skribbl.io',
@@ -1617,7 +1920,8 @@ const gamesData = [
         excerpt: 'Master the art of drawing and guessing! Learn pro drawing techniques, guessing strategies, custom room settings, and become the ultimate Skribbl champion.',
         difficulty: 1
     },
-    {
+
+{
         id: 'taming-io-guide',
         title: 'Taming.io Guide: Master Pet Taming & Base Building',
         game: 'Taming.io',
@@ -1627,7 +1931,8 @@ const gamesData = [
         excerpt: 'Build your ultimate pet army! Learn pet taming mechanics, base defense, elemental combat, and climb the leaderboard.',
         difficulty: 1
     },
-    {
+
+{
         id: 'stickman-hook-guide',
         title: 'Stickman Hook Guide: Master the Swing & Conquer Every Level',
         game: 'Stickman Hook',
@@ -1637,7 +1942,8 @@ const gamesData = [
         excerpt: 'Master swinging mechanics, release timing, level strategies, and pro tips to dominate every stage in Stickman Hook.',
         difficulty: 1
     },
-    {
+
+{
         id: 'krunker-io-guide',
         title: 'Krunker.io Guide: Master FPS Combat & Movement',
         game: 'Krunker.io',
@@ -1647,7 +1953,8 @@ const gamesData = [
         excerpt: 'Master FPS combat tactics, movement strategies, class selection, weapon tips, and dominate the battlefield in Krunker.io.',
         difficulty: 3
     },
-    {
+
+{
         id: 'diep-io-guide',
         title: 'Diep.io Complete Guide: Master Tank Combat & Upgrades',
         game: 'Diep.io',
@@ -1657,7 +1964,8 @@ const gamesData = [
         excerpt: 'Master tank combat, upgrade paths, best builds for every class, and dominate the battlefield in Diep.io.',
         difficulty: 3
     },
-    {
+
+{
         id: 'defly-io-guide',
         title: 'Defly.io Guide: Build, Defend & Conquer',
         game: 'Defly.io',
@@ -1667,7 +1975,8 @@ const gamesData = [
         excerpt: 'Master territory control, helicopter combat, defensive building, and top strategies to dominate the leaderboard.',
         difficulty: 1
     },
-        {
+
+{
         id: 'brutalmania-io-guide',
         title: 'BrutalMania.io Guide: Arena Combat Tips & Weapon Strategy',
         game: 'BrutalMania.io',
@@ -1677,7 +1986,8 @@ const gamesData = [
         excerpt: 'Master arena combat tactics, weapon selection, movement strategies, and dominate the battleground.',
         difficulty: 1
     },
-    {
+
+{
         id: 'swordz-io-guide',
         title: 'Swordz.io Complete Guide: Master Medieval Combat',
         game: 'Swordz.io',
@@ -1687,7 +1997,8 @@ const gamesData = [
         excerpt: 'Master sword combat, dash mechanics, positioning, and climbing the leaderboard.',
         difficulty: 1
     },
-    {
+
+{
         id: 'medieval-io-guide',
         title: 'Medieval.io Complete Guide: Battle Strategies & Hero Guide',
         game: 'Medieval.io',
@@ -1697,7 +2008,8 @@ const gamesData = [
         excerpt: 'Dominate the 8-player arena with hero selection, army management, and advanced tactics.',
         difficulty: 1
     },
-    {
+
+{
         id: 'agar-io-advanced-guide',
         title: 'Agar.io Advanced Guide: Pro Split Tricks & Late Game Strategy',
         game: 'Agar.io',
@@ -1707,7 +2019,8 @@ const gamesData = [
         excerpt: 'Master pro split tricks, micro-techniques, late game dominance, and high-level strategies.',
         difficulty: 5
     },
-    {
+
+{
         id: 'smashkarts-io-guide',
         title: 'SmashKarts.io Guide: Master Kart Combat',
         game: 'SmashKarts.io',
@@ -1717,7 +2030,8 @@ const gamesData = [
         excerpt: 'Learn weapon strategies, map control, driving tips, and pro tactics to dominate the leaderboard.',
         difficulty: 3
     },
-    {
+
+{
         id: 'surviv-io-guide',
         title: 'Surviv.io Complete Guide: Master 2D Battle Royale',
         game: 'Surviv.io',
@@ -1727,7 +2041,8 @@ const gamesData = [
         excerpt: 'Learn weapons, map strategies, and survival tactics to become the last survivor.',
         difficulty: 3
     },
-    {
+
+{
         id: 'bloxd-io-guide',
         title: 'Bloxd.io Complete Guide: Bedwars, Parkour & PvP',
         game: 'Bloxd.io',
@@ -1737,7 +2052,8 @@ const gamesData = [
         excerpt: 'Master all game modes including Bedwars strategies, building mechanics, and PvP combat.',
         difficulty: 3
     },
-    {
+
+{
         id: 'crazysteve-io-guide',
         title: 'CrazySteve.io Guide: Block-Building Battle Royale',
         game: 'CrazySteve.io',
@@ -1747,7 +2063,8 @@ const gamesData = [
         excerpt: 'Master block-building combat strategies and battle royale survival tactics in CrazySteve.io.',
         difficulty: 1
     },
-    {
+
+{
         id: 'curser-io-guide',
         title: 'Curser.io Guide: Navigate & Survive the Cursor Wars',
         game: 'Curser.io',
@@ -1757,7 +2074,8 @@ const gamesData = [
         excerpt: 'Master cursor movement, survival tactics, and browser battlefield navigation in Curser.io.',
         difficulty: 1
     },
-    {
+
+{
         id: 'blumgi-rocket-guide',
         title: 'Blumgi Rocket Guide: Launch, Fly & Land Perfectly',
         game: 'Blumgi Rocket',
@@ -1767,7 +2085,8 @@ const gamesData = [
         excerpt: 'Master rocket launch mechanics, trajectory prediction, and precision landing in Blumgi Rocket.',
         difficulty: 3
     },
-    {
+
+{
         id: 'shell-shockers-guide',
         title: 'Shell Shockers Complete Guide: Best Classes & Weapons',
         game: 'Shell Shockers',
@@ -1777,7 +2096,8 @@ const gamesData = [
         excerpt: 'Learn class selection, weapon comparisons, and map strategies for egg combat.',
         difficulty: 3
     },
-    {
+
+{
         id: 'mope-io-guide',
         title: 'Mope.io Complete Guide: Animal Evolution & Survival',
         game: 'Mope.io',
@@ -1787,7 +2107,8 @@ const gamesData = [
         excerpt: 'Master animal evolution routes, food chain strategies, and survival tips.',
         difficulty: 1
     },
-    {
+
+{
         id: 'gartic-io-guide',
         title: 'Gartic.io Complete Guide: Drawing & Guessing Tips',
         game: 'Gartic.io',
@@ -1797,7 +2118,8 @@ const gamesData = [
         excerpt: 'Master drawing techniques, guessing strategies, and room settings.',
         difficulty: 1
     },
-    {
+
+{
         id: 'wings-io-guide',
         title: 'Wings.io: 6 Fatal Mistakes Killing Your Dogfights (And How to Fix Them)',
         game: 'Wings.io',
@@ -1807,7 +2129,8 @@ const gamesData = [
         excerpt: 'Stop dying early in Wings.io. A competitive veteran breaks down the 6 fatal mistakes ruining your aerial runs and exactly how to fix each one.',
         difficulty: 3
     },
-    {
+
+{
         id: 'moomoo-io-guide',
         title: 'MooMoo.io Complete Guide: Base Building & Survival',
         game: 'MooMoo.io',
@@ -1817,7 +2140,8 @@ const gamesData = [
         excerpt: 'Master base designs, resource management, and PvP defense strategies.',
         difficulty: 3
     },
-    {
+
+{
         id: 'slither-io-boosting',
         title: 'Mastering Boost in Slither.io: Timing and Tactics',
         game: 'Slither.io',
@@ -1827,7 +2151,8 @@ const gamesData = [
         excerpt: 'The complete guide to using boost strategically without crashing.',
         difficulty: 3
     },
-    {
+
+{
         id: 'diep-io-tanks',
         title: 'Diep.io Tank Builds Tier List 2024',
         game: 'Diep.io',
@@ -1837,7 +2162,8 @@ const gamesData = [
         excerpt: 'Discover the best tank builds and upgrades for domination.',
         difficulty: 5
     },
-    {
+
+{
         id: 'defend-io-guide',
         title: 'Defend.io Guide: Tower Defense Strategy & Tips',
         game: 'Defend.io',
@@ -1847,7 +2173,8 @@ const gamesData = [
         excerpt: 'Master tower placement, upgrade strategies, and wave defense tactics in Defend.io.',
         difficulty: 1
     },
-    {
+
+{
         id: 'hole-io-guide',
         title: 'Hole.io Guide: Grow, Swallow & Dominate the City',
         game: 'Hole.io',
@@ -1857,7 +2184,8 @@ const gamesData = [
         excerpt: 'Master city swallowing, vehicle chasing, map control, and absorbing smaller holes in Hole.io.',
         difficulty: 1
     },
-    {
+
+{
         id: 'paper-io-guide',
         title: 'Paper.io Guide: Claim Territory & Defend Your Zone',
         game: 'Paper.io',
@@ -1867,7 +2195,8 @@ const gamesData = [
         excerpt: 'Master territory claiming, zone defense, and trail-cutting strategies in Paper.io.',
         difficulty: 1
     },
-    {
+
+{
         id: 'dogod-io-guide',
         title: 'Dogod.io Guide: Evolve & Dominate the Food Chain',
         game: 'Dogod.io',
@@ -1877,7 +2206,8 @@ const gamesData = [
         excerpt: 'Master evolution mechanics, food chain strategies, and predator-prey tactics to become the apex predator.',
         difficulty: 1
     },
-    {
+
+{
         id: 'angry-worms-io-guide',
         title: 'Angry Worms.io Guide: Master the Slither-Style Arena',
         game: 'Angry Worms.io',
@@ -1887,7 +2217,8 @@ const gamesData = [
         excerpt: 'Proven strategies to grow your worm and dominate the Angry Worms.io arena. From basic controls to advanced traps.',
         difficulty: 1
     },
-    {
+
+{
         id: 'repuls-io-guide',
         title: 'Repuls.io Guide: FPS Combat & Map Control',
         game: 'Repuls.io',
@@ -1897,7 +2228,8 @@ const gamesData = [
         excerpt: 'Master the unique repulsion launcher mechanics, weapon loadouts, and tactical movement in this fast-paced FPS arena shooter.',
         difficulty: 3
     },
-    {
+
+{
         id: 'spawner-io-guide',
         title: 'Spawner.io Guide: Build Defenses & Survive',
         game: 'Spawner.io',
@@ -1907,7 +2239,8 @@ const gamesData = [
         excerpt: 'Master block spawning, defense building, and survival tactics in this unique tower defense .io game.',
         difficulty: 1
     },
-    {
+
+{
         id: 'gulper-io-guide',
         title: 'Gulper.io Guide: Grow Big & Dominate the Arena',
         game: 'Gulper.io',
@@ -1917,7 +2250,8 @@ const gamesData = [
         excerpt: 'Master the gulper mechanics, grow your creature, eat opponents, and climb the leaderboard with proven strategies.',
         difficulty: 3
     },
-    {
+
+{
         id: 'spinner-io-guide',
         title: 'Spinner.io Guide: Spin to Win in the Arena',
         game: 'Spinner.io',
@@ -1927,7 +2261,8 @@ const gamesData = [
         excerpt: 'Master spinning combat tactics, grow your spinner by defeating opponents, and dominate the arena with proven strategies.',
         difficulty: 3
     },
-    {
+
+{
         id: 'starblast-io-guide',
         title: 'Starblast.io Guide: Mine, Upgrade & Survive in Space',
         game: 'Starblast.io',
@@ -1937,7 +2272,8 @@ const gamesData = [
         excerpt: 'Master spaceship upgrades, mining strategies, combat tactics, and survival tips in deep space battles.',
         difficulty: 3
     },
-    {
+
+{
         id: 'yohoho-io-guide',
         title: 'Yohoho.io Guide: Master Pirate Battle Royale',
         game: 'Yohoho.io',
@@ -1947,7 +2283,8 @@ const gamesData = [
         excerpt: 'Master pirate combat, collect coins, upgrade your ship, and become the ultimate pirate in Yohoho.io battle royale.',
         difficulty: 1
     },
-    {
+
+{
         id: 'snowball-io-guide',
         title: 'Snowball.io Guide: Roll, Throw & Knock Out',
         game: 'Snowball.io',
@@ -1957,7 +2294,8 @@ const gamesData = [
         excerpt: 'Master snowball mechanics, push opponents off platforms, and dominate winter battles with proven strategies.',
         difficulty: 1
     },
-    {
+
+{
         id: 'goons-io-guide',
         title: 'Goons.io Guide: Sword Combat & Survival Tips',
         game: 'Goons.io',
@@ -1967,7 +2305,8 @@ const gamesData = [
         excerpt: 'Master sword combat tactics, block and dodge attacks, and survive medieval arena battles with proven strategies.',
         difficulty: 1
     },
-    {
+
+{
         id: 'littlebigsnake-io-guide',
         title: 'LittleBigSnake.io Guide: Fly, Grow & Dominate',
         game: 'LittleBigSnake.io',
@@ -1977,7 +2316,8 @@ const gamesData = [
         excerpt: 'Master snake growth mechanics, evolve into flying dragonfly form, and dominate the food chain with proven strategies.',
         difficulty: 1
     },
-    {
+
+{
         id: 'sandboxels-guide',
         title: 'Sandboxels Guide: Master Physics Simulations',
         game: 'Sandboxels',
@@ -1987,7 +2327,8 @@ const gamesData = [
         excerpt: 'Master element interactions, create amazing physics simulations, and explore 500+ elements in this creative sandbox game.',
         difficulty: 1
     },
-    {
+
+{
         id: 'poxel-io-guide',
         title: 'Poxel.io Guide: Master Weapons, Game Modes & Pixel FPS Tactics',
         game: 'Poxel.io',
@@ -1998,7 +2339,8 @@ const gamesData = [
         difficulty: 3,
         badge: '🔫'
     },
-    {
+
+{
         id: 'war-brokers-guide',
         title: 'War Brokers Guide: Master Vehicles, Weapons & Game Modes',
         game: 'War Brokers',
@@ -2009,7 +2351,8 @@ const gamesData = [
         difficulty: 5,
         badge: '🎖️'
     },
-    {
+
+{
         id: 'starve-io-guide',
         title: 'Starve.io Guide: Survival, Crafting & Biome Mastery',
         game: 'Starve.io',
@@ -2020,7 +2363,8 @@ const gamesData = [
         difficulty: 5,
         badge: '⚒️'
     },
-    {
+
+{
         id: 'deeeep-io-guide',
         title: 'Deeeep.io Guide: Master Ocean Evolution & Survival',
         game: 'Deeeep.io',
@@ -2031,7 +2375,8 @@ const gamesData = [
         difficulty: 3,
         badge: '🐟'
     },
-    {
+
+{
         id: 'kirka-io-guide',
         title: 'Kirka.io Guide: Master Voxel FPS Combat & Weapons',
         game: 'Kirka.io',
@@ -2042,7 +2387,8 @@ const gamesData = [
         difficulty: 3,
         badge: '🧱'
     },
-    {
+
+{
         id: 'kour-io-guide',
         title: 'Kour.io Guide: Master 13 Classes, Parkour & Gun Game',
         game: 'Kour.io',
@@ -2053,14 +2399,18 @@ const gamesData = [
         difficulty: 5,
         badge: '🏃'
     },
-    {id:"ninja-io-guide",gameId:"ninja-io",name:"Ninja.io",title:"Ninja.io Guide: Master Weapons, Movement & Game Modes",date:"2026-06-21",difficulty: 5,readTime:11,url:"https://iogameguide.com/guides/ninja-io-guide",image:"https://iogameguide.com/images/games/ninja-io/hero.jpg"},
-    {id:"arrow-arena-guide",gameId:"arrow-arena",name:"Arrow Arena",title:"Arrow Arena Guide: Master Archery Combat",date:"2026-06-21",difficulty:2,readTime:8,url:"https://iogameguide.com/guides/arrow-arena-guide",image:"https://iogameguide.com/images/games/arrow-arena/hero.jpg"},
-    
-    {id:"ev-io-guide",gameId:"ev-io",name:"Ev.io",title:"Ev.io Guide: Master Weapons, Abilities & Arena Combat",date:"2026-06-22",difficulty:3,readTime:8,url:"https://iogameguide.com/guides/ev-io-guide",image:"https://iogameguide.com/images/games/ev-io/hero.jpg"},
-    {id:"schoolbreak-io-guide",gameId:"schoolbreak-io",name:"SchoolBreak.io",title:"SchoolBreak.io Guide: Master Chaos & Discipline",date:"2026-06-22",difficulty:2,readTime:8,url:"https://iogameguide.com/guides/schoolbreak-io-guide",image:"https://iogameguide.com/images/games/schoolbreak-io/hero.jpg"},
-    {id:"florr-io-guide",gameId:"florr-io",name:"Florr.io",title:"Florr.io Guide: Master Petals, Crafting & Biome Combat",date:"2026-06-22",difficulty:4,readTime:12,url:"https://iogameguide.com/guides/florr-io-guide",image:"https://iogameguide.com/images/games/florr-io/hero.jpg"},
 
-    {
+{id:"ninja-io-guide",gameId:"ninja-io",name:"Ninja.io",title:"Ninja.io Guide: Master Weapons, Movement & Game Modes",date:"2026-06-21",difficulty: 5,readTime:11,url:"https://iogameguide.com/guides/ninja-io-guide",image:"https://iogameguide.com/images/games/ninja-io/hero.jpg"},
+
+{id:"arrow-arena-guide",gameId:"arrow-arena",name:"Arrow Arena",title:"Arrow Arena Guide: Master Archery Combat",date:"2026-06-21",difficulty:2,readTime:8,url:"https://iogameguide.com/guides/arrow-arena-guide",image:"https://iogameguide.com/images/games/arrow-arena/hero.jpg"},
+
+{id:"ev-io-guide",gameId:"ev-io",name:"Ev.io",title:"Ev.io Guide: Master Weapons, Abilities & Arena Combat",date:"2026-06-22",difficulty:3,readTime:8,url:"https://iogameguide.com/guides/ev-io-guide",image:"https://iogameguide.com/images/games/ev-io/hero.jpg"},
+
+{id:"schoolbreak-io-guide",gameId:"schoolbreak-io",name:"SchoolBreak.io",title:"SchoolBreak.io Guide: Master Chaos & Discipline",date:"2026-06-22",difficulty:2,readTime:8,url:"https://iogameguide.com/guides/schoolbreak-io-guide",image:"https://iogameguide.com/images/games/schoolbreak-io/hero.jpg"},
+
+{id:"florr-io-guide",gameId:"florr-io",name:"Florr.io",title:"Florr.io Guide: Master Petals, Crafting & Biome Combat",date:"2026-06-22",difficulty:4,readTime:12,url:"https://iogameguide.com/guides/florr-io-guide",image:"https://iogameguide.com/images/games/florr-io/hero.jpg"},
+
+{
         id: 'devast-io-guide',
         gameId: 'devast-io',
         name: 'Devast.io',
@@ -2071,7 +2421,8 @@ const gamesData = [
         url: 'https://iogameguide.com/guides/devast-io-guide',
         image: 'https://iogameguide.com/images/games/devast-io/hero.jpg'
     },
-    {
+
+{
         id: 'snake-io-guide',
         title: 'Snake.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Snake.io',
@@ -2083,7 +2434,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Snake.io is a real-time multiplayer snake battle game that transforms the classic Nokia-era snake game into an intense o...'
     },
-    {
+
+{
         id: 'flyordie-io-guide',
         title: 'FlyOrDie.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'FlyOrDie.io',
@@ -2095,7 +2447,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'FlyOrDie.io, now known as EvoWorld.io, is a browser‑based multiplayer survival game where you begin as a tiny fly and cl...'
     },
-    {
+
+{
         id: 'limax-io-guide',
         title: 'Limax.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Limax.io',
@@ -2107,7 +2460,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Limax.io is a multiplayer arena game where players control glowing neon worm‑like snakes in a constantly moving battlefi...'
     },
-    {
+
+{
         id: 'a-slithery-snake-and-snowball-io-guide',
         title: 'A Slithery Snake and Snowball.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'A Slithery Snake and Snowball.io',
@@ -2119,7 +2473,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'A Slithery Snake and Snowball.io is a winter-themed multiplayer arena game where you control a colorful snake sliding ac...'
     },
-    {
+
+{
         id: 'aipaperanimals-io-guide',
         title: 'AIPaperAnimals.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'AIPaperAnimals.io',
@@ -2131,7 +2486,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'AIPaperAnimals.io is a competitive multiplayer arena game where players control adorable AI-powered paper animals in a v...'
     },
-    {
+
+{
         id: 'arras-io-guide',
         title: 'Arras.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Arras.io',
@@ -2143,7 +2499,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Arras.io is a top‑down, multiplayer tank arena game that pits you against other players and AI‑controlled polygons. Deve...'
     },
-    {
+
+{
         id: 'amogus-io-guide',
         title: 'Amogus.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Amogus.io',
@@ -2155,7 +2512,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Amogus.io is a browser‑based multiplayer arena that fuses the social deduction chaos of Among Us with the territory‑capt...'
     },
-    {
+
+{
         id: 'agma-io-guide',
         title: 'Agma.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Agma.io',
@@ -2167,7 +2525,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Agma.io is a browser‑based multiplayer arena where players control microscopic cells or organisms in a constantly evolvi...'
     },
-    {
+
+{
         id: 'aquapark-io-guide',
         title: 'AquaPark.io Guide: Tips, Strategies & How to Win Every Race',
         game: 'AquaPark.io',
@@ -2177,9 +2536,9 @@ const gamesData = [
         image: 'aquapark-io',
         readTime: '6 min',
         excerpt: 'Master AquaPark.io with shortcut jumps, bumping tactics, power-up strategies, and race-winning tips.'
-    }
-,
-    {
+    },
+
+{
         id: 'arena-io-guide',
         title: 'Arena.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Arena.io',
@@ -2191,7 +2550,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Arena.io is a fast-paced multiplayer online arena game where players battle against each other in intense combat scenari...'
     },
-    {
+
+{
         id: 'brutal-io-guide',
         title: 'Brutal.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Brutal.io',
@@ -2203,7 +2563,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Brutal.io is a fast‑paced, physics‑driven arena brawler where players pilot neon‑lit cars and swing massive spiked flail...'
     },
-    {
+
+{
         id: 'battledudes-io-guide',
         title: 'BattleDudes.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BattleDudes.io',
@@ -2216,8 +2577,7 @@ const gamesData = [
         excerpt: 'BattleDudes.io is an action-packed 2D multiplayer .io battle game where chaos and strategy collide on the battlefield. R...'
     },
 
-    
-    {
+{
         id: 'archers-io-guide',
         title: 'Archers.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Archers.io',
@@ -2229,7 +2589,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Archers.io is a fast‑paced multiplayer arena game where you control a lone archer and gradually build an entire army of ...'
     },
-    {
+
+{
         id: 'basketball-io-guide',
         title: 'Basketball.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Basketball.io',
@@ -2241,7 +2602,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Basketball.io is a free, browser‑based multiplayer basketball arena where you jump into quick 3‑on‑3 matches, pick a cus...'
     },
-    {
+
+{
         id: 'boxer-io-guide',
         title: 'Boxer.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Boxer.io',
@@ -2253,7 +2615,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Boxer.io is a fast‑paced multiplayer boxing game where stick‑style fighters clash in a vibrant arena. Unlike traditional...'
     },
-    {
+
+{
         id: 'axes-io-guide',
         title: 'AXES.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'AXES.io',
@@ -2265,7 +2628,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'AXES.io is a fast-paced mobile battle royale where players compete in arena combat by throwing axes at opponents to beco...'
     },
-    {
+
+{
         id: 'axe-io-guide',
         title: 'Axe.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Axe.io',
@@ -2277,7 +2641,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Axe.io is a fast‑paced multiplayer .io arena where each player wields a single throwing axe and battles to dominate the ...'
     },
-    {
+
+{
         id: 'bighole-io-guide',
         title: 'BigHole.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BigHole.io',
@@ -2289,7 +2654,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BigHole.io is a competitive multiplayer game where you control a growing black hole that devours objects, buildings, and...'
     },
-    {
+
+{
         id: 'bruh-io-guide',
         title: 'Bruh.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Bruh.io',
@@ -2301,7 +2667,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Bruh.io is a fast‑paced, browser‑based multiplayer battle royale where you drop onto a shrinking arena, scavenge weapons...'
     },
-    {
+
+{
         id: 'brosswordz-io-guide',
         title: 'BrosSwordz.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BrosSwordz.io',
@@ -2313,7 +2680,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BrosSwordz.io is a fast‑paced, browser‑based multiplayer sword battle arena where players choose from a roster of swords...'
     },
-    {
+
+{
         id: 'basketbros-io-guide',
         title: 'BasketBros.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BasketBros.io',
@@ -2325,7 +2693,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BasketBros.io is a fast-paced, browser-based arcade basketball game developed by Blue Wizard Digital LP that strips away...'
     },
-    {
+
+{
         id: 'buildroyale-io-guide',
         title: 'BuildRoyale.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BuildRoyale.io',
@@ -2337,7 +2706,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BuildRoyale.io is a fast-paced, browser-based battle royale game where building and shooting seamlessly blend. Unlike tr...'
     },
-    {
+
+{
         id: 'copter-io-guide',
         title: 'Copter.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Copter.io',
@@ -2349,7 +2719,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Copter.io is a thrilling multiplayer .io game that drops you into an intense aerial battlefield as the pilot of a custom...'
     },
-    {
+
+{
         id: 'battlepoint-io-guide',
         title: 'Battlepoint.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Battlepoint.io',
@@ -2361,7 +2732,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Battlepoint.io is a fast-paced, multiplayer top-down shooter that drops you into an explosive, shrinking arena. Unlike t...'
     },
-    {
+
+{
         id: 'braains-io-guide',
         title: 'Braains.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Braains.io',
@@ -2373,7 +2745,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Braains.io is a thrilling multiplayer zombie survival arena where players choose their destiny: fight for survival as a ...'
     },
-    {
+
+{
         id: 'aquar-io-guide',
         title: 'Aquar.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Aquar.io',
@@ -2385,7 +2758,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Aquar.io is the highly anticipated sequel to Oceanar.io, offering a fascinating multiplayer underwater ecosystem where y...'
     },
-    {
+
+{
         id: 'babyshark-io-guide',
         title: 'BabyShark.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BabyShark.io',
@@ -2397,7 +2771,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BabyShark.io is a vibrant, browser-based multiplayer survival game that puts a playful twist on the classic eat-and-grow...'
     },
-    {
+
+{
         id: 'bombom-io-guide',
         title: 'BomBom.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BomBom.io',
@@ -2409,7 +2784,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BomBom.io is a fast-paced, explosive multiplayer arena game that puts a thrilling spin on the classic bomberman formula....'
     },
-    {
+
+{
         id: 'block-io-guide',
         title: 'Block.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Block.io',
@@ -2421,7 +2797,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Block.io is a thrilling free-to-play multiplayer browser game that combines the addictive nature of classic IO titles wi...'
     },
-    {
+
+{
         id: 'animal-io-guide',
         title: 'Animal.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Animal.io',
@@ -2433,7 +2810,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Animal.io is a chaotic multiplayer arena game where players evolve their animals by consuming food and knocking opponent...'
     },
-    {
+
+{
         id: 'battle-io-guide',
         title: 'Battle.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Battle.io',
@@ -2445,7 +2823,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Battle.io is a thrilling, fast-paced multiplayer battle arena that drops you into a chaotic top-down battlefield where o...'
     },
-    {
+
+{
         id: 'zombs-royale-io-guide',
         title: 'ZombsRoyale.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'ZombsRoyale.io',
@@ -2457,7 +2836,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'ZombsRoyale.io is a fast-paced 2D top-down battle royale dropping 100 players onto an island. Loot weapons, survive the gas...'
     },
-    {
+
+{
         id: 'battletabs-io-guide',
         title: 'BattleTabs.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BattleTabs.io',
@@ -2469,7 +2849,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BattleTabs.io reimagines classic Battleship as a fast, asynchronous PvP naval combat game. Instead of waiting for oppone...'
     },
-    {
+
+{
         id: 'bloxdhop-io-guide',
         title: 'BloxdHop.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BloxdHop.io',
@@ -2481,7 +2862,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BloxdHop.io is a captivating, Minecraft-inspired multiplayer parkour game that challenges players to navigate treacherou...'
     },
-    {
+
+{
         id: 'brainrots-io-guide',
         title: 'Brainrots.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Brainrots.io',
@@ -2493,7 +2875,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Brainrots.io is a chaotic multiplayer arena game that blends classic .io snake mechanics with the absurd, viral humor of...'
     },
-    {
+
+{
         id: 'battleboats-io-guide',
         title: 'Battleboats.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Battleboats.io',
@@ -2505,7 +2888,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Battleboats.io is a thrilling real-time multiplayer naval strategy game that reinvents the classic Battleship experience...'
     },
-    {
+
+{
         id: 'adventuremoomoo-io-guide',
         title: 'AdventureMoomoo.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'AdventureMoomoo.io',
@@ -2517,7 +2901,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'AdventureMoomoo.io is a thrilling multiplayer animal sandbox survival game where players gather resources, craft powerfu...'
     },
-    {
+
+{
         id: 'badegg-io-guide',
         title: 'Badegg.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Badegg.io',
@@ -2529,7 +2914,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Badegg.io is a chaotic, physics-based multiplayer arena game where your ultimate goal is to be the last egg standing. Un...'
     },
-    {
+
+{
         id: 'battles-io-guide',
         title: 'Battles.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Battles.io',
@@ -2541,7 +2927,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Battles.io is a fast-paced, browser-based multiplayer strategy game where quick thinking meets fierce competition. Unlik...'
     },
-    {
+
+{
         id: 'battlefields-io-guide',
         title: 'Battlefields.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Battlefields.io',
@@ -2553,7 +2940,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Battlefields.io is a fast-paced, multiplayer browser strategy game where you step into the boots of a battle-hardened lo...'
     },
-    {
+
+{
         id: 'alis-io-guide',
         title: 'Alis.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Alis.io',
@@ -2565,7 +2953,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Alis.io is a thrilling multiplayer online arena game that combines the classic cell-eating mechanics of Agar.io with fas...'
     },
-    {
+
+{
         id: 'bladers-io-guide',
         title: 'Bladers.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Bladers.io',
@@ -2577,7 +2966,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Bladers.io is an exhilarating online multiplayer arena game where players control high-speed spinning tops in intense ba...'
     },
-    {
+
+{
         id: 'antwar-io-guide',
         title: 'AntWar.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'AntWar.io',
@@ -2589,7 +2979,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'AntWar.io is a highly strategic multiplayer browser game where you build, manage, and defend your ant colony while battl...'
     },
-    {
+
+{
         id: 'bopz-io-guide',
         title: 'BOPZ.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BOPZ.io',
@@ -2601,7 +2992,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BOPZ.io is a highly competitive, top-down 2D tactical shooter engineered by End Game Interactive, the creators of ZombsR...'
     },
-    {
+
+{
         id: 'battlegrounds-io-guide',
         title: 'Battlegrounds.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Battlegrounds.io',
@@ -2613,7 +3005,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Battlegrounds.io is a fast-paced, pixel-art multiplayer battle royale that drops you into a shrinking arena where only o...'
     },
-    {
+
+{
         id: 'bighero-io-guide',
         title: 'BigHero.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BigHero.io',
@@ -2625,7 +3018,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BigHero.io is a fast-paced multiplayer superhero arena game where players battle to become the ultimate hero. What makes...'
     },
-    {
+
+{
         id: 'airwings-io-guide',
         title: 'AirWings.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'AirWings.io',
@@ -2637,7 +3031,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'AirWings.io is a thrilling, fast-paced multiplayer aerial combat game that drops you right into the cockpit of a fighter...'
     },
-    {
+
+{
         id: 'bombhopper-io-guide',
         title: 'BombHopper.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BombHopper.io',
@@ -2649,7 +3044,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BombHopper.io is a brilliant physics-based platformer that completely reimagines movement. Developed by Julien Mourer, t...'
     },
-    {
+
+{
         id: 'armedforces-io-guide',
         title: 'ArmedForces.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'ArmedForces.io',
@@ -2661,7 +3057,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'ArmedForces.io is a fast-paced, browser-based military first-person shooter that drops you directly into intense, team-b...'
     },
-    {
+
+{
         id: 'beetles-io-guide',
         title: 'Beetles.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Beetles.io',
@@ -2673,7 +3070,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Beetles.io is a fast-paced multiplayer survival arena where you control a baby beetle, eat to grow, and battle other ins...'
     },
-    {
+
+{
         id: 'carfight-io-guide',
         title: 'CarFight.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'CarFight.io',
@@ -2685,7 +3083,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep plummeting off the roof. I see you out there, driving straight into the center of a 2v1 and wondering why your ...'
     },
-    {
+
+{
         id: 'bist-io-guide',
         title: 'Bist.io: 6 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Bist.io',
@@ -2697,7 +3096,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep dying in the first five minutes. You spawn, run blindly into the desert, get roasted by a tier 3 predator, and ...'
     },
-    {
+
+{
         id: 'cavegame-io-guide',
         title: 'Cavegame.io: 6 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Cavegame.io',
@@ -2709,7 +3109,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep dying in the caves. You spawn, you mine, you get jumped by a guy with diamond gear, and you lose everything. St...'
     },
-    {
+
+{
         id: 'bubbleman-io-guide',
         title: 'Bubbleman.io: Every Play Style Ranking Ranked — Which One Actually Wins?',
         game: 'Bubbleman.io',
@@ -2721,7 +3122,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'What is up, .io fans! Everyone in the Bubbleman.io community is arguing about the best way to dominate those chaotic 30-...'
     },
-    {
+
+{
         id: 'anguis-io-guide',
         title: 'Anguis.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Anguis.io',
@@ -2733,7 +3135,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Anguis.io is a highly competitive multiplayer snake game that challenges you to slither your way to supremacy in a vibra...'
     },
-    {
+
+{
         id: 'astrodud-io-guide',
         title: 'Astrodud.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Astrodud.io',
@@ -2745,7 +3148,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep dying in the first thirty seconds. I see you. You spawn in, panic, and immediately faceplant into a pit trap or...'
     },
-    {
+
+{
         id: 'cellcraft-io-guide',
         title: 'Cellcraft.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Cellcraft.io',
@@ -2757,7 +3161,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep dying in the first five minutes, don\'t you? You spawn, you eat a few pellets, and then some veteran turns you i...'
     },
-    {
+
+{
         id: 'candy-io-guide',
         title: 'Candy.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Candy.io',
@@ -2769,7 +3174,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Candy.io is a vibrant, slithering survival game set in a colorful candy-themed world. Unlike standard io games, it immer...'
     },
-    {
+
+{
         id: 'bball-io-guide',
         title: 'BBall.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'BBall.io',
@@ -2781,7 +3187,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'BBall.io is a fast-paced, 3D multiplayer basketball game that brings the thrill of the court directly to your browser. U...'
     },
-    {
+
+{
         id: 'basketballmoomoo-io-guide',
         title: 'BasketballMoomoo.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'BasketballMoomoo.io',
@@ -2793,17 +3200,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep getting robbed blind and watching your score flatline because you play like a total casual. I have over two tho...'
     },
-    {
-    id: 'castlesiege-io',
-    name: 'Castlesiege.io',
-    icon: '🏰',
-    iconColor: '#f59e0b',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["multiplayer", "strategy", "action"],
-    description: 'Play Castlesiege.io online - a multiplayer browser strategy game.'
-    },
-    {
+
+{
         id: 'castlesiege-io-guide',
         title: 'Castlesiege.io: Every Upgrade Build Strategies Ranked — Which One Actually Wins?',
         game: 'Castlesiege.io',
@@ -2815,17 +3213,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Everyone in the Castlesiege.io community argues about the best way to spend your hard-earned upgrade points. Some say yo...'
     },
-    {
-    id: 'chompers-io',
-    name: 'Chompers.io',
-    icon: '🦖',
-    iconColor: '#FFC107',
-    guideCount: 1,
-    difficulty: 2,
-    tags: ["io", "battle", "strategy"],
-    description: 'Lead a magical creature to eat treats, fight other players with various weapons, and grow to become the largest in a competitive multiplayer arena.'
-    },
-    {
+
+{
         id: 'chompers-io-guide',
         title: 'Chompers.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Chompers.io',
@@ -2837,17 +3226,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Chompers.io is an intense, evolution-based multiplayer arena game where you control a magical creature competing to beco...'
     },
-    {
-    id: 'colonist-io',
-    name: 'Colonist.io',
-    icon: '🏝️',
-    iconColor: '#4CAF50',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["Board Game", "Strategy", "Multiplayer"],
-    description: 'Inspired by Catan, this online board game has players collect resources, trade, and build settlements and cities on a hexagonal map to be the first to reach 10 victory points.'
-    },
-    {
+
+{
         id: 'colonist-io-guide',
         title: 'Colonist.io: 6 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Colonist.io',
@@ -2859,17 +3239,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep losing because you play like a tourist. I have over two thousand hours in Colonist.io. I have watched you throw...'
     },
-    {
-    id: 'catac-io',
-    name: 'Catac.io',
-    icon: '🐱',
-    iconColor: '#FF4B4B',
-    guideCount: 1,
-    difficulty: 2,
-    tags: ["IO", "Action", "Multiplayer"],
-    description: 'Battle as an astronaut cat in a space arena, using melee weapons to eliminate others, collect coins, and upgrade your gear in this fast-paced multiplayer survival game.'
-    },
-    {
+
+{
         id: 'catac-io-guide',
         title: 'Catac.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Catac.io',
@@ -2881,17 +3252,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Catac.io is a fast-paced multiplayer .io action game where you battle as an astronaut cat in a space arena. Inspired by ...'
     },
-    {
-    id: 'browser-minecraft-clone-io',
-    name: 'Mine-Craft.io',
-    icon: '⛏️',
-    iconColor: '#7CB342',
-    guideCount: 1,
-    difficulty: 2,
-    tags: ["Sandbox", "Crafting", "Multiplayer"],
-    description: 'Mine-Craft.io is a free-to-play multiplayer browser game that brings a Minecraft-like building and crafting experience directly to your web browser.'
-    },
-    {
+
+{
         id: 'browser-minecraft-clone-io-guide',
         title: 'Mine-Craft.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Mine-Craft.io',
@@ -2903,17 +3265,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Mine-Craft.io is a free-to-play multiplayer browser game that delivers a comprehensive Minecraft-like building and craft...'
     },
-    {
-    id: 'arenapoxel-io',
-    name: 'Poxel.io',
-    icon: '🔫',
-    iconColor: '#FF5733',
-    guideCount: 1,
-    difficulty: 4,
-    tags: ["FPS", "Shooter", "Multiplayer"],
-    description: 'Poxel.io is a fast-paced, skill-driven 3D voxel first-person shooter featuring intense arena combat with modes like Free-For-All, Team Deathmatch, and Domination.'
-    },
-    {
+
+{
         id: 'arenapoxel-io-guide',
         title: 'Poxel.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Poxel.io',
@@ -2925,17 +3278,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep spawning, dying, and staring at the leaderboard at the bottom. It is embarrassing. I have over 2000 hours in Po...'
     },
-    {
-    id: 'cryzen-io',
-    name: 'Cryzen.io',
-    icon: '🔫',
-    iconColor: '#FF4500',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["FPS", "Shooter", "Multiplayer"],
-    description: 'A fast-paced multiplayer first-person shooter where players engage in Deathmatch and Team Deathmatch battles using precise aiming and tactical movement to survive and dominate the arena.'
-    },
-    {
+
+{
         id: 'cryzen-io-guide',
         title: 'Cryzen.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Cryzen.io',
@@ -2947,17 +3291,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep dying in the spawn hallway. Again. I have over 2000 hours in Cryzen.io, and I watch new players make the exact ...'
     },
-    {
-    id: 'browser-minecraft-modes-io',
-    name: 'Vectaria.io',
-    icon: '⛏️',
-    iconColor: '#5D9E5A',
-    guideCount: 1,
-    difficulty: 2,
-    tags: ["Action", "Adventure", "Multiplayer"],
-    description: 'A 3D multiplayer .io game where players mine resources, craft items, build structures, and fight others across Survival, Creative, and PvP modes.'
-    },
-    {
+
+{
         id: 'browser-minecraft-modes-io-guide',
         title: 'Vectaria.io: Every Vectaria Play Styles Ranked — Which One Actually Wins?',
         game: 'Vectaria.io',
@@ -2969,17 +3304,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'What’s up, guys! Today we’re diving deep into Vectaria.io. Everyone argues about the \'best\' way to play this game. Do yo...'
     },
-    {
-    id: 'craftnite-io',
-    name: 'Craftnite.io',
-    icon: '🧱',
-    iconColor: '#4CAF50',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["FPS", "Battle Royale", "Crafting"],
-    description: 'A browser-based FPS battle royale where players gather resources, craft weapons, and build structures to survive a shrinking map and defeat opponents.'
-    },
-    {
+
+{
         id: 'craftnite-io-guide',
         title: 'Craftnite.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Craftnite.io',
@@ -2991,17 +3317,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Craftnite.io is an exciting browser-based FPS battle royale that combines fast-paced shooting with deep survival and bui...'
     },
-    {
-    id: 'arcadestarblast-io',
-    name: 'Starblast.io',
-    icon: '🚀',
-    iconColor: '#0F172A',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["io", "space", "shooter"],
-    description: 'Mine asteroids to collect gems, upgrade your spaceship\'s abilities, and battle other players in a multiplayer space arena.'
-    },
-    {
+
+{
         id: 'arcadestarblast-io-guide',
         title: 'Starblast.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Starblast.io',
@@ -3013,17 +3330,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Starblast.io is a high-octane multiplayer arcade space shooter developed by Neuronality that seamlessly blends survival ...'
     },
-    {
-    id: 'colorwars-io',
-    name: 'ColorWars.io',
-    icon: '🎨',
-    iconColor: '#FF6B6B',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["IO", "Strategy", "Multiplayer"],
-    description: 'Players control a colorful tank to shoot pixel trails and capture territory in a Paper.io-style arena, while managing a gold economy to deploy defenses and eliminate rivals by targeting their trails.'
-    },
-    {
+
+{
         id: 'colorwars-io-guide',
         title: 'ColorWars.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'ColorWars.io',
@@ -3035,17 +3343,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'ColorWars.io is a fast-paced, competitive multiplayer territory-control game published by Kepler Yazilim that blends Pap...'
     },
-    {
-    id: 'conquer-io',
-    name: 'Conquer.io',
-    icon: '🟩',
-    iconColor: '#4CAF50',
-    guideCount: 1,
-    difficulty: 2,
-    tags: ["Territory", "Strategy", ".io"],
-    description: 'Control a cube to draw paths and expand your territory on a shared board while defending your zones and eliminating opponents by cutting their trails.'
-    },
-    {
+
+{
         id: 'conquer-io-guide',
         title: 'Conquer.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Conquer.io',
@@ -3057,17 +3356,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You keep dying in the first two minutes. You stare at the screen, watching your cube get wiped out for the tenth time, b...'
     },
-    {
-    id: 'evoworld-io',
-    name: 'Evoworld.io',
-    icon: '🦅',
-    iconColor: '#4CAF50',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["Survival", "Multiplayer", ".io"],
-    description: 'Start as a tiny fly and eat to evolve through dozens of animal stages in a multiplayer survival world where you must hunt smaller creatures while avoiding larger predators.'
-    },
-    {
+
+{
         id: 'evoworld-io-guide',
         title: 'Evoworld.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
         game: 'Evoworld.io',
@@ -3079,17 +3369,8 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'You think you are ready to dominate the skies just because you clicked a few green pixels. You are completely wrong. I h...'
     },
-    {
-    id: 'brutes-io',
-    name: 'Brutal.io',
-    icon: '⛓️',
-    iconColor: '#39FF14',
-    guideCount: 1,
-    difficulty: 3,
-    tags: ["Action", "Multiplayer", "Physics"],
-    description: 'Note: The search results describe \'Brutal.io\' rather than \'Brutes.io\'. In this game, you control a vehicle dragging a spiky flail on a chain, consuming energy and green monsters to grow your weapon and destroy other players in a physics-based neon arena.'
-    },
-    {
+
+{
         id: 'brutes-io-guide',
         title: 'Brutal.io Guide: Tips, Strategies & Advanced Techniques',
         game: 'Brutal.io',
@@ -3101,7 +3382,9 @@ const gamesData = [
         readTime: '8 min',
         excerpt: 'Brutal.io is a fast-paced, physics-based multiplayer arena game where you control a neon vehicle dragging a massive, spi...'
     }
+
 ];
+
 
 /* ========================================
    渲染游戏卡片
@@ -3171,3 +3454,4 @@ window.iogameguide = {
 
 
 // CDN cache bust 2026-07-01 11:04
+
