@@ -1668,7 +1668,17 @@ const gamesData = [
     tags: ["Action", "Multiplayer", "Physics"],
     description: 'Note: The search results describe \'Brutal.io\' rather than \'Brutes.io\'. In this game, you control a vehicle dragging a spiky flail on a chain, consuming energy and green monsters to grow your weapon and destroy other players in a physics-based neon arena.'
     }
-
+,
+    {
+    id: 'digdig-io',
+    name: 'Digdig.io',
+    icon: '⛏️',
+    iconColor: '#8B4513',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["io", "mining", "arcade"],
+    description: 'Dig underground to collect minerals and soil to grow in size while avoiding lava and eating smaller players.'
+    }
 ];
 
 const guidesData = [
@@ -3382,7 +3392,19 @@ const guidesData = [
         readTime: '8 min',
         excerpt: 'Brutal.io is a fast-paced, physics-based multiplayer arena game where you control a neon vehicle dragging a massive, spi...'
     }
-
+,
+    {
+        id: 'digdig-io-guide',
+        title: 'Digdig.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Digdig.io',
+        gameId: 'digdig-io',
+        date: '2026-09-09',
+        url: 'digdig-io-guide',
+        image: 'digdig-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Digdig.io is an addictive multiplayer .io game created by Matheus Valadares that plunges players into an intense undergr...'
+    }
 ];
 
 
