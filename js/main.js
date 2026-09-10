@@ -1678,6 +1678,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["io", "mining", "arcade"],
     description: 'Dig underground to collect minerals and soil to grow in size while avoiding lava and eating smaller players.'
+    },
+    {
+    id: 'cardgames-io',
+    name: 'CardGames.io',
+    icon: '🃏',
+    iconColor: '#2E7D32',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["card-games", "multiplayer", "browser"],
+    description: 'A collection of browser-based card games including Thirteen (a shedding game where players play combinations like singles, pairs, and sequences) and Lockup (a trick-taking game where players must avoid taking tricks with clubs).'
     }
 ];
 
@@ -3404,6 +3414,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Digdig.io is an addictive multiplayer .io game created by Matheus Valadares that plunges players into an intense undergr...'
+    },
+    {
+        id: 'cardgames-io-guide',
+        title: 'CardGames.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'CardGames.io',
+        gameId: 'cardgames-io',
+        date: '2026-09-10',
+        url: 'cardgames-io-guide',
+        image: 'cardgames-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'CardGames.io is a premier browser-based platform offering a curated collection of classic card games, including Thirteen...'
     }
 ];
 
