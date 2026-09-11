@@ -1,6 +1,11 @@
-self.options = {
-    "domain": "3nbf4.com",
-    "zoneId": 11429977
-}
-self.lary = ""
-importScripts('https://3nbf4.com/act/files/service-worker.min.js?r=sw')
+// Service Worker - decommissioned (was Monetag push component, removed 2026-09-11)
+// Self-unregisters and clears caches on returning visitors.
+self.addEventListener('install', function () { self.skipWaiting(); });
+self.addEventListener('activate', function (event) {
+    event.waitUntil(
+        caches.keys()
+            .then(function (keys) { return Promise.all(keys.map(function (k) { return caches.delete(k); })); })
+            .then(function () { return self.registration.unregister(); })
+            .then(function () { return self.clients.claim(); })
+    );
+});
