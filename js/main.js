@@ -1688,6 +1688,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["card-games", "multiplayer", "browser"],
     description: 'A collection of browser-based card games including Thirteen (a shedding game where players play combinations like singles, pairs, and sequences) and Lockup (a trick-taking game where players must avoid taking tricks with clubs).'
+    },
+    {
+    id: 'bikebrainrots-io',
+    name: 'BikeBrainrots.io',
+    icon: '🚲',
+    iconColor: '#FF5722',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Obby", "Multiplayer", "Physics"],
+    description: 'Players select from nine different vehicles to navigate randomly generated physics-based obstacle courses, avoiding traps and collecting \'Brainrots\' while competing against others.'
     }
 ];
 
@@ -3426,6 +3436,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'CardGames.io is a premier browser-based platform offering a curated collection of classic card games, including Thirteen...'
+    },
+    {
+        id: 'bikebrainrots-io-guide',
+        title: 'BikeBrainrots.io: Every Vehicle Class Tier Ranked — Which One Actually Wins?',
+        game: 'BikeBrainrots.io',
+        gameId: 'bikebrainrots-io',
+        date: '2026-09-13',
+        url: 'bikebrainrots-io-guide',
+        image: 'bikebrainrots-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'What is up, Brainrot racers! Today we’re diving deep into BikeBrainrots.io. Everyone in the comments keeps arguing about...'
     }
 ];
 
