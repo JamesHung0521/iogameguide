@@ -26,8 +26,10 @@ if (!guidesMatch) {
     process.exit(1);
 }
 
-const games = eval(gamesMatch[1]);
-const guides = eval(guidesMatch[1]);
+// Use Function constructor instead of eval for safer parsing
+// This prevents access to local scope variables
+const games = (new Function('return ' + gamesMatch[1]))();
+const guides = (new Function('return ' + guidesMatch[1]))();
 
 const errors = [];
 const warnings = [];
