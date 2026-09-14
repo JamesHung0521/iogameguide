@@ -1,14 +1,33 @@
 #!/usr/bin/env python3
-"""Auto-generate sitemap.xml from actual guide files + static pages."""
+"""Auto-generate sitemap.xml from actual guide files + static pages.
+Uses git log to get real lastmod dates for each file."""
 import os
 import glob
+import subprocess
 from datetime import datetime
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GUIDES_DIR = os.path.join(BASE_DIR, "guides")
 SITEMAP_PATH = os.path.join(BASE_DIR, "sitemap.xml")
 SITE_URL = "https://iogameguide.com"
-TODAY = datetime.now().strftime("%Y-%m-%d")
+
+def get_git_lastmod(filepath):
+    """Get the last git commit date for a file."""
+    try:
+        result = subprocess.run(
+            ['git', 'log', '-1', '--format=%ci', '--', filepath],
+            capture_output=True, text=True, cwd=BASE_DIR
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            dt = datetime.strptime(result.stdout.strip()[:10], '%Y-%m-%d')
+            return dt.strftime('%Y-%m-%d')
+    except Exception:
+        pass
+    return datetime.now().strftime('%Y-%m-%d')
+
+def get_git_lastmod_static(filepath):
+    """Get the last git commit date for static pages."""
+    return get_git_lastmod(os.path.join(BASE_DIR, filepath) if filepath else '')
 
 # Static pages: (path, changefreq, priority)
 STATIC_PAGES = [
@@ -26,9 +45,10 @@ lines = ['<?xml version="1.0" encoding="UTF-8"?>',
 # Static pages
 for path, freq, pri in STATIC_PAGES:
     loc = f"{SITE_URL}/{path}" if path else SITE_URL
+    lastmod = get_git_lastmod_static(path) if path else get_git_lastmod('index.html')
     lines.append(f'''  <url>
     <loc>{loc}</loc>
-    <lastmod>{TODAY}</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>{freq}</changefreq>
     <priority>{pri}</priority>
   </url>''')
@@ -37,9 +57,10 @@ for path, freq, pri in STATIC_PAGES:
 guide_files = sorted(glob.glob(os.path.join(GUIDES_DIR, "*.html")))
 for gf in guide_files:
     name = os.path.basename(gf)
+    lastmod = get_git_lastmod(gf)
     lines.append(f'''  <url>
     <loc>{SITE_URL}/guides/{name}</loc>
-    <lastmod>{TODAY}</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>''')
