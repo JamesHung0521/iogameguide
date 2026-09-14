@@ -1698,6 +1698,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Obby", "Multiplayer", "Physics"],
     description: 'Players select from nine different vehicles to navigate randomly generated physics-based obstacle courses, avoiding traps and collecting \'Brainrots\' while competing against others.'
+    },
+    {
+    id: 'brain-twister-io',
+    name: 'Brain Twister',
+    icon: '🧩',
+    iconColor: '#2196F3',
+    guideCount: 1,
+    difficulty: 4,
+    tags: ["puzzle", "logic", "3d"],
+    description: 'A 3D logic puzzle game that mixes a Rubik\'s Cube with a jigsaw puzzle, requiring players to rotate interconnected geared cubes to reconstruct a scrambled image in the fewest moves possible.'
     }
 ];
 
@@ -3448,6 +3458,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'What is up, Brainrot racers! Today we’re diving deep into BikeBrainrots.io. Everyone in the comments keeps arguing about...'
+    },
+    {
+        id: 'brain-twister-io-guide',
+        title: 'Brain Twister Guide: Tips, Strategies & Advanced Techniques',
+        game: 'Brain Twister',
+        gameId: 'brain-twister-io',
+        date: '2026-09-14',
+        url: 'brain-twister-io-guide',
+        image: 'brain-twister-io',
+        difficulty: 4,
+        readTime: '8 min',
+        excerpt: 'Brain Twister is an innovative 3D logic puzzle game that brilliantly combines the spatial mechanics of a Rubik\'s Cube wi...'
     }
 ];
 
