@@ -35,6 +35,8 @@ const TierList = {
 
   // Get anonymous user ID (stored in localStorage for dedup)
   getUserId: function() {
+    const user = tierListAuth.currentUser;
+    if (user) return user.uid;
     let uid = localStorage.getItem('tierlist_uid');
     if (!uid) {
       uid = 'anon_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
