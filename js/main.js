@@ -1708,6 +1708,16 @@ const gamesData = [
     difficulty: 4,
     tags: ["puzzle", "logic", "3d"],
     description: 'A 3D logic puzzle game that mixes a Rubik\'s Cube with a jigsaw puzzle, requiring players to rotate interconnected geared cubes to reconstruct a scrambled image in the fewest moves possible.'
+    },
+    {
+    id: 'frontwars-io',
+    name: 'FrontWars.io',
+    icon: '🗺️',
+    iconColor: '#556B2F',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Strategy", "Multiplayer", "Territory"],
+    description: 'Expand your territory by clicking adjacent areas to send a percentage of your troops, balancing aggressive expansion with home defense while managing workers and gold to conquer the map.'
     }
 ];
 
@@ -3470,6 +3480,18 @@ const guidesData = [
         difficulty: 4,
         readTime: '8 min',
         excerpt: 'Brain Twister is an innovative 3D logic puzzle game that brilliantly combines the spatial mechanics of a Rubik\'s Cube wi...'
+    },
+    {
+        id: 'frontwars-io-guide',
+        title: 'FrontWars.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'FrontWars.io',
+        gameId: 'frontwars-io',
+        date: '2026-09-15',
+        url: 'frontwars-io-guide',
+        image: 'frontwars-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'You think you are good at FrontWars.io because you won a few lobby games. You are not. You are just lucky your opponents...'
     }
 ];
 
