@@ -1718,6 +1718,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Strategy", "Multiplayer", "Territory"],
     description: 'Expand your territory by clicking adjacent areas to send a percentage of your troops, balancing aggressive expansion with home defense while managing workers and gold to conquer the map.'
+    },
+    {
+    id: 'carsdrift-io',
+    name: 'CarsDrift.io',
+    icon: '🏎️',
+    iconColor: '#FF5722',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Racing", "Drift", "Power-ups"],
+    description: 'Earn points by performing smooth drifts on dynamic tracks while competing against other players in various modes, including battles with rockets and lasers.'
     }
 ];
 
@@ -3492,6 +3502,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'You think you are good at FrontWars.io because you won a few lobby games. You are not. You are just lucky your opponents...'
+    },
+    {
+        id: 'carsdrift-io-guide',
+        title: 'CarsDrift.io Guide: Tips, Strategies & Advanced Techniques',
+        game: 'CarsDrift.io',
+        gameId: 'carsdrift-io',
+        date: '2026-09-16',
+        url: 'carsdrift-io-guide',
+        image: 'carsdrift-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'CarsDrift.io, also known as Drift IO, is a thrilling multiplayer browser racer that transforms traditional driving into ...'
     }
 ];
 
