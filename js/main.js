@@ -1728,6 +1728,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Racing", "Drift", "Power-ups"],
     description: 'Earn points by performing smooth drifts on dynamic tracks while competing against other players in various modes, including battles with rockets and lasers.'
+    },
+    {
+    id: 'blockscape-io',
+    name: 'Blockscape.io',
+    icon: '⛏️',
+    iconColor: '#B87333',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["MMO", "Mining", "Voxel"],
+    description: 'Mine tiered ores, socket rare gems into your gear for permanent stat bonuses, and battle monsters in this free browser-based voxel MMO.'
     }
 ];
 
@@ -3514,6 +3524,18 @@ const guidesData = [
         difficulty: 3,
         readTime: '8 min',
         excerpt: 'CarsDrift.io, also known as Drift IO, is a thrilling multiplayer browser racer that transforms traditional driving into ...'
+    },
+    {
+        id: 'blockscape-io-guide',
+        title: 'Blockscape.io: Every Weapon Types Ranked Ranked — Which One Actually Wins?',
+        game: 'Blockscape.io',
+        gameId: 'blockscape-io',
+        date: '2026-09-20',
+        url: 'blockscape-io-guide',
+        image: 'blockscape-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Everyone in the Blockscape.io community argues about which weapon type actually dominates the PVP Arena and high-level c...'
     }
 ];
 
