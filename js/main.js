@@ -1738,6 +1738,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["MMO", "Mining", "Voxel"],
     description: 'Mine tiered ores, socket rare gems into your gear for permanent stat bonuses, and battle monsters in this free browser-based voxel MMO.'
+    },
+    {
+    id: 'creatur-io',
+    name: 'Creatur.io',
+    icon: '🦎',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["io", "evolution", "battle"],
+    description: 'Start as a tiny creature and consume berries and orbs to gain XP, evolving into a larger predator with unique skills to hunt smaller opponents.'
     }
 ];
 
@@ -3536,6 +3546,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Everyone in the Blockscape.io community argues about which weapon type actually dominates the PVP Arena and high-level c...'
+    },
+    {
+        id: 'creatur-io-guide',
+        title: 'Creatur.io: 5 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Creatur.io',
+        gameId: 'creatur-io',
+        date: '2026-09-22',
+        url: 'creatur-io-guide',
+        image: 'creatur-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'Listen up. You think you are good at Creatur.io because you survived your first ten matches. You are not good. You are j...'
     }
 ];
 
