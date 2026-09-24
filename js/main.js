@@ -1748,6 +1748,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["io", "evolution", "battle"],
     description: 'Start as a tiny creature and consume berries and orbs to gain XP, evolving into a larger predator with unique skills to hunt smaller opponents.'
+    },
+    {
+    id: 'battleagar-io',
+    name: 'BattleAgar.io',
+    icon: '🦠',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Multiplayer", "Casual", "Action"],
+    description: 'Players control a cell in a petri dish-like arena, consuming smaller cells and pellets to grow larger while avoiding being eaten by bigger cells.'
     }
 ];
 
@@ -3558,6 +3568,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'Listen up. You think you are good at Creatur.io because you survived your first ten matches. You are not good. You are j...'
+    },
+    {
+    id: 'battleagar-io-guide',
+    title: 'BattleAgar.io Guide: Tips, Strategies & Advanced Techniques',
+    game: 'BattleAgar.io',
+    gameId: 'battleagar-io',
+    date: '2026-09-24',
+    url: 'battleagar-io-guide',
+    image: 'battleagar-io',
+    difficulty: 2,
+    readTime: '8 min',
+    excerpt: 'BattleAgar.io is a massively popular multiplayer .io game where players control a single cell in a giant petri dish aren...'
     }
 ];
 
