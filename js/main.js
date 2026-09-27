@@ -1758,6 +1758,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Multiplayer", "Casual", "Action"],
     description: 'Players control a cell in a petri dish-like arena, consuming smaller cells and pellets to grow larger while avoiding being eaten by bigger cells.'
+    },
+    {
+    id: 'ball-io',
+    name: 'Ball.io',
+    icon: '🔵',
+    iconColor: '#007BFF',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Puzzle", "Hyper-casual", "Action"],
+    description: 'Depending on the specific version, core gameplay involves either removing obstacles to guide a rolling ball to a finish line or shooting and surviving in a multiplayer bullet-hell arena.'
     }
 ];
 
@@ -3580,6 +3590,18 @@ const guidesData = [
     difficulty: 2,
     readTime: '8 min',
     excerpt: 'BattleAgar.io is a massively popular multiplayer .io game where players control a single cell in a giant petri dish aren...'
+    },
+    {
+        id: 'ball-io-guide',
+        title: 'Ball.io: Every Navigation Play Style Ranked — Which One Actually Wins?',
+        game: 'Ball.io',
+        gameId: 'ball-io',
+        date: '2026-09-27',
+        url: 'ball-io-guide',
+        image: 'ball-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'What’s up guys! Today we’re diving deep into Ball.io. Everyone argues about the best way to dominate the obstacle course...'
     }
 ];
 
