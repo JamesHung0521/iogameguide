@@ -1768,6 +1768,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Puzzle", "Hyper-casual", "Action"],
     description: 'Depending on the specific version, core gameplay involves either removing obstacles to guide a rolling ball to a finish line or shooting and surviving in a multiplayer bullet-hell arena.'
+    },
+    {
+    id: 'argar-io',
+    name: 'Agar.io',
+    icon: '🦠',
+    iconColor: '#4CAF50',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["multiplayer", "io-game", "casual"],
+    description: 'Players control a cell in a petri dish environment, consuming smaller cells and agar pellets to grow larger while avoiding being eaten by bigger cells.'
     }
 ];
 
@@ -3602,6 +3612,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'What’s up guys! Today we’re diving deep into Ball.io. Everyone argues about the best way to dominate the obstacle course...'
+    },
+    {
+        id: 'argar-io-guide',
+        title: 'Agar.io: Every Core Play Styles Ranked — Which One Actually Wins?',
+        game: 'Agar.io',
+        gameId: 'argar-io',
+        date: '2026-10-04',
+        url: 'argar-io-guide',
+        image: 'argar-io',
+        difficulty: 2,
+        readTime: '8 min',
+        excerpt: 'What is up, guys! Welcome back to the channel. Today, we are diving into the ultimate Agar.io debate. Everyone in the co...'
     }
 ];
 
