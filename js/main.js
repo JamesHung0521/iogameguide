@@ -1778,6 +1778,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["multiplayer", "io-game", "casual"],
     description: 'Players control a cell in a petri dish environment, consuming smaller cells and agar pellets to grow larger while avoiding being eaten by bigger cells.'
+    },
+    {
+    id: 'battlehex-io',
+    name: 'BattleHex.io',
+    icon: '♟️',
+    iconColor: '#3498DB',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Strategy", "Turn-Based", "Multiplayer"],
+    description: 'A local two-player hex board game where players take turns moving pawns to eliminate enemies or find a hidden chest of gold.'
     }
 ];
 
@@ -3624,6 +3634,18 @@ const guidesData = [
         difficulty: 2,
         readTime: '8 min',
         excerpt: 'What is up, guys! Welcome back to the channel. Today, we are diving into the ultimate Agar.io debate. Everyone in the co...'
+    },
+    {
+    id: 'battlehex-io-guide',
+    title: 'BattleHex.io Guide: Tips, Strategies & Advanced Techniques',
+    game: 'BattleHex.io',
+    gameId: 'battlehex-io',
+    date: '2026-10-05',
+    url: 'battlehex-io-guide',
+    image: 'battlehex-io',
+    difficulty: 3,
+    readTime: '8 min',
+    excerpt: 'BattleHex.io is a strategic local two-player hex board game that strips away the chaos of real-time action to focus on p...'
     }
 ];
 
