@@ -113,22 +113,23 @@ const TierList = {
   },
 
   // Get all games vote data once (for Top 10)
+  // 读取改用 https(REST) 并带 5 秒超时：某些网络会阻断 Firebase 实时
+  // WebSocket，导致 once() 一直挂起、榜单停在 Loading。REST 走普通 443，
+  // 不依赖 WebSocket，保证任何网络下榜单都会渲染（失败则用默认数据）。
   getAllGamesRanking: function(callback) {
-    tierListDB.ref('votes').once('value').then((snapshot) => {
-      const allData = snapshot.val();
+    const buildRankings = (allData) => {
       const rankings = [];
-
       if (window.iogameguide && window.iogameguide.games) {
         window.iogameguide.games.forEach(game => {
           const gameVotes = allData && allData[game.id] ? Object.values(allData[game.id]) : [];
           const totalVotes = gameVotes.length;
-          const totalScore = gameVotes.reduce((sum, v) => sum + v.score, 0);
+          const totalScore = gameVotes.reduce((sum, v) => sum + (Number(v && v.score) || 0), 0);
           const avgScore = totalVotes > 0 ? totalScore / totalVotes : 0;
-          
+
           // Default score based on difficulty (inverted: easier = higher default)
           const defaultScore = 6 - (game.difficulty || 3);
           const finalScore = totalVotes > 0 ? avgScore : defaultScore * 0.6; // Lower weight for defaults
-          
+
           rankings.push({
             id: game.id,
             name: game.name,
@@ -140,30 +141,32 @@ const TierList = {
           });
         });
       }
+      rankings.sort((a, b) => b.avgScore - a.avgScore);
+      return rankings;
+    };
 
-      // Sort by score descending
-      rankings.sort((a, b) => b.avgScore - a.avgScore);
-      callback(rankings);
-    }).catch(err => {
-      console.warn('Failed to load rankings, using defaults:', err);
-      // Fallback: use difficulty-based defaults
-      const rankings = [];
-      if (window.iogameguide && window.iogameguide.games) {
-        window.iogameguide.games.forEach(game => {
-          rankings.push({
-            id: game.id,
-            name: game.name,
-            icon: game.icon,
-            iconColor: game.iconColor,
-            avgScore: 6 - (game.difficulty || 3),
-            totalVotes: 0,
-            tier: this.scoreToTier(6 - (game.difficulty || 3))
-          });
-        });
-      }
-      rankings.sort((a, b) => b.avgScore - a.avgScore);
-      callback(rankings);
-    });
+    const votesUrl =
+      (typeof firebaseConfig !== 'undefined' && firebaseConfig.databaseURL
+        ? firebaseConfig.databaseURL
+        : 'https://iogameguide-default-rtdb.asia-southeast1.firebasedatabase.app') +
+      '/votes.json';
+
+    const timeout = new Promise((_, reject) =>
+      setTimeout(() => reject(new Error('rankings request timed out')), 5000)
+    );
+
+    Promise.race([
+      fetch(votesUrl, { method: 'GET', cache: 'no-store' }).then(res => {
+        if (!res.ok) throw new Error('rankings request failed: ' + res.status);
+        return res.json();
+      }),
+      timeout
+    ])
+      .then(allData => callback(buildRankings(allData)))
+      .catch(err => {
+        console.warn('Failed to load rankings, using defaults:', err);
+        callback(buildRankings(null));
+      });
   },
 
   // Render Top 10 widget
