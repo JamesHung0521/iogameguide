@@ -1788,6 +1788,16 @@ const gamesData = [
     difficulty: 3,
     tags: ["Strategy", "Turn-Based", "Multiplayer"],
     description: 'A local two-player hex board game where players take turns moving pawns to eliminate enemies or find a hidden chest of gold.'
+    },
+    {
+    id: 'aquapark-surfer-race-io',
+    name: 'Aquapark Surfer Race.io',
+    icon: '🏄',
+    iconColor: '#00BFFF',
+    guideCount: 1,
+    difficulty: 2,
+    tags: ["Racing", "Arcade", ".io"],
+    description: 'Players race down massive water slides and ocean waves on skimboards, jet skis, and inflatable rings, executing ramp stunts and hitting boosters to reach the finish line first.'
     }
 ];
 
@@ -3646,6 +3656,18 @@ const guidesData = [
     difficulty: 3,
     readTime: '8 min',
     excerpt: 'BattleHex.io is a strategic local two-player hex board game that strips away the chaos of real-time action to focus on p...'
+    },
+    {
+    id: 'aquapark-surfer-race-io-guide',
+    title: 'Aquapark Surfer Race.io Guide: Tips, Strategies & Advanced Techniques',
+    game: 'Aquapark Surfer Race.io',
+    gameId: 'aquapark-surfer-race-io',
+    date: '2026-10-08',
+    url: 'aquapark-surfer-race-io-guide',
+    image: 'aquapark-surfer-race-io',
+    difficulty: 2,
+    readTime: '8 min',
+    excerpt: 'Aquapark Surfer Race.io is a high-speed aquatic racing game where players careen down massive water slides and ocean wav...'
     }
 ];
 
