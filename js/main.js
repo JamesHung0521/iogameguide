@@ -1798,6 +1798,16 @@ const gamesData = [
     difficulty: 2,
     tags: ["Racing", "Arcade", ".io"],
     description: 'Players race down massive water slides and ocean waves on skimboards, jet skis, and inflatable rings, executing ramp stunts and hitting boosters to reach the finish line first.'
+    },
+    {
+    id: 'gats-io',
+    name: 'Gats.io',
+    icon: '🔫',
+    iconColor: '#FF4500',
+    guideCount: 1,
+    difficulty: 3,
+    tags: ["Shooter", "Arena", "Multiplayer"],
+    description: 'Gats.io is a tactical arena-based shooter where players select weapons and armor to defeat opponents, using earned points to unlock from over 21,600 class and perk combinations.'
     }
 ];
 
@@ -3668,6 +3678,18 @@ const guidesData = [
     difficulty: 2,
     readTime: '8 min',
     excerpt: 'Aquapark Surfer Race.io is a high-speed aquatic racing game where players careen down massive water slides and ocean wav...'
+    },
+    {
+        id: 'gats-io-guide',
+        title: 'Gats.io: 6 Fatal Mistakes Killing Your Runs (And How to Fix Them)',
+        game: 'Gats.io',
+        gameId: 'gats-io',
+        date: '2026-11-24',
+        url: 'gats-io-guide',
+        image: 'gats-io',
+        difficulty: 3,
+        readTime: '8 min',
+        excerpt: 'Listen up. You think throwing darts at the 21,600 class and perk combinations makes you a Gats.io god? You are wrong. I ...'
     }
 ];
 
